@@ -63,7 +63,7 @@ void main() {
     return container;
   }
 
-  testWidgets('English takes over the whole screen at once and is stored', (tester) async {
+  testWidgets('English and Arabic take over the whole screen at once and are stored', (tester) async {
     SharedPreferences.setMockInitialValues({});
     await pump(tester);
     expect(find.text('ctx 取消'), findsOneWidget);
@@ -79,10 +79,12 @@ void main() {
     final prefs = await SharedPreferences.getInstance();
     expect(prefs.getString(AppLanguageController.prefsKey), 'en');
 
-    await tester.tap(find.text('简体中文'));
+    await tester.tap(find.text('العربية'));
     await tester.pumpAndSettle();
-    expect(find.text('plain 取消'), findsOneWidget);
-    expect(AppLocale.current, AppLocale.zhCN);
+    expect(AppLocale.current, AppLocale.ar);
+    expect(Localizations.localeOf(tester.element(find.byType(_Page))), AppLocale.ar);
+    final arabicPrefs = await SharedPreferences.getInstance();
+    expect(arabicPrefs.getString(AppLanguageController.prefsKey), 'ar');
   });
 
   testWidgets('a stored choice is there from the first frame', (tester) async {
