@@ -1,0 +1,13 @@
+{
+  "setupAppearanceTitle": "اختر المظهر",
+  "setupAppearanceMessage": "يمكنك تغيير ذلك في أي وقت من الإعدادات",
+  "setupLightMode": "الوضع الخفيف",
+  "setupCapsulePreparing": "جارٍ تجهيز بيئة التشغيل",
+  "setupCapsuleProgress": "تجهيز بيئة التشغيل: {percent}٪",
+  "setupCapsuleProgressSemantics": "جارٍ تجهيز بيئة التشغيل، اكتمل {percent}٪",
+  "setupCapsuleReady": "بيئة التشغيل جاهزة",
+  "setupCapsuleFailed": "فشل التثبيت",
+  "setupWaitingBody": "سيُتابع تلقائيًا عند الجاهزية",
+  "setupNotifyWhenDone": "سنُعلمك عند الانتهاء",
+  "setupAwaitSignIn": "ستُفتح صفحة تسجيل الدخول إلى DeepSeek عند الجاهزية"
+}
