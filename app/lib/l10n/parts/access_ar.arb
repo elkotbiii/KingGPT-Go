@@ -1,0 +1,139 @@
+{
+  "@@locale": "ar",
+  "accessPickTitle": "كيف تريد أن يساعدك DSH Go؟",
+  "accessPickMessage": "اختر ما تريده، ثم فعّل كل خيار",
+  "accessPickConfirm": "تفعيل المحدد",
+  "accessSkip": "تخطي",
+  "accessFeatureFiles": "قراءة ملفات الهاتف وكتابتها",
+  "accessFeatureFilesNeeds": "يتطلب الوصول إلى الملفات",
+  "accessFeaturePet": "إظهار الحيوان الأليف فوق التطبيقات الأخرى",
+  "accessFeaturePetNeeds": "يتطلب السماح بالظهور فوق التطبيقات الأخرى",
+  "accessFeaturePhone": "التحكم بالهاتف",
+  "accessFeaturePhoneNeeds": "يتطلب إذن إمكانية الوصول والإشعارات",
+  "accessFeatureBackground": "الإبقاء على التطبيق قيد التشغيل في الخلفية",
+  "accessFeatureBackgroundNeeds": "يُعلمك عند اكتمال المهام؛ ويتطلب الإشعارات والسماح بالعمل في الخلفية",
+  "accessFeatureVoice": "الإدخال الصوتي",
+  "accessFeatureVoiceNeeds": "يتطلب إذن الميكروفون",
+  "accessFeatureAlerts": "تنبيهات الردود",
+  "accessFeatureAlertsNeeds": "يتطلب إذن الإشعارات",
+  "accessVoiceModel": "يعمل دون اتصال؛ يتطلب تنزيل نموذج صوتي بحجم يقارب {size} ميغابايت",
+  "@accessVoiceModel": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "accessVoiceMetered": "أنت تستخدم بيانات الهاتف؛ وسيُجرى التنزيل عبرها",
+  "accessFilesRiskBody": "يمكن للذكاء الاصطناعي قراءة صورك وتنزيلاتك ومستنداتك وتعديلها.",
+  "accessStepCount": "{index} / {total}",
+  "@accessStepCount": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "accessTurnOn": "تفعيل",
+  "accessOpenSettings": "فتح الإعدادات",
+  "accessItsSet": "تم الإعداد",
+  "accessOpenAgain": "فتح مرة أخرى",
+  "accessIsOn": "مفعّل",
+  "accessNotOnYet": "لم يُفعّل بعد",
+  "accessDidYouSet": "هل فعّلته من هناك؟",
+  "accessWhere": "الموقع: {path}",
+  "@accessWhere": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "accessOpenFailed": "تعذّر فتح إعدادات النظام",
+  "accessMicTitle": "السماح باستخدام الميكروفون",
+  "accessMicWhy": "لاستخدام الإدخال الصوتي",
+  "accessStorageTitle": "السماح بالوصول إلى الملفات",
+  "accessStorageWhy": "يتيح للذكاء الاصطناعي قراءة الصور والتنزيلات والمستندات وكتابتها",
+  "accessNotifyTitle": "السماح بالإشعارات",
+  "accessNotifyWhy": "لإعلامك عند اكتمال المهمة أو عندما تحتاج إلى تدخلك",
+  "accessBatteryTitle": "السماح بالعمل في الخلفية",
+  "accessBatteryWhy": "تستمر المهام في العمل عند الانتقال إلى تطبيق آخر",
+  "accessVendorBackgroundWhy": "يمنع النظام من إيقاف المهام أثناء عملها في الخلفية",
+  "accessAutostartTitle": "السماح بالتشغيل التلقائي",
+  "accessAutostartWhy": "يتيح لـ DSH Go إعادة التشغيل بعد أن يوقفه النظام",
+  "accessVivoAutostartPath": "إدارة الأذونات › التشغيل التلقائي › {app}",
+  "@accessVivoAutostartPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessXiaomiAutostartPath": "إدارة التطبيقات › {app} › التشغيل التلقائي",
+  "@accessXiaomiAutostartPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessA11yTitle": "تفعيل إمكانية الوصول",
+  "accessA11yWhy": "تتيح ميزة التحكم بالهاتف قراءة الشاشة والنقر على عناصرها",
+  "accessPopupTitle": "السماح بالنوافذ المنبثقة في الخلفية",
+  "accessPopupWhy": "يعيدك إلى DSH Go بعد انتهاء التحكم بالهاتف",
+  "accessVivoPopupPath": "إدارة الأذونات › {app} › عرض النوافذ المنبثقة في الخلفية",
+  "@accessVivoPopupPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessXiaomiPopupPath": "إدارة التطبيقات › {app} › أذونات أخرى › عرض النوافذ المنبثقة أثناء التشغيل في الخلفية",
+  "@accessXiaomiPopupPath": {
+    "placeholders": {
+      "app": {
+        "type": "String"
+      }
+    }
+  },
+  "accessOverlayTitle": "السماح بالظهور فوق التطبيقات الأخرى",
+  "accessOverlayWhy": "يتيح لحيوانك الأليف الظهور فوق التطبيقات الأخرى",
+  "accessOverlayGreyed": "هل مفتاح التبديل غير متاح؟",
+  "accessRestrictedTitle": "اسمح بالإعدادات المقيّدة أولاً",
+  "accessRestrictedTap": "في صفحة إمكانية الوصول، اضغط على “DSH Phone Control”؛ وعندما يظهر خيار “الإعداد المقيّد”، اضغط على موافق",
+  "accessRestrictedMenu": "في معلومات التطبيق، اضغط على النقاط الثلاث أعلى اليمين واختر “السماح بالإعدادات المقيّدة”",
+  "accessRestrictedAdvanced": "في معلومات التطبيق، افتح “الإعدادات المتقدمة” وفعّل “السماح بالإعدادات المقيّدة”",
+  "accessRestrictedBack": "ارجع إلى صفحة إمكانية الوصول وفعّل “DSH Phone Control”",
+  "accessRestrictedHelp": "عرض الطريقة",
+  "accessOpenA11y": "فتح إعدادات إمكانية الوصول",
+  "accessOpenAppInfo": "فتح معلومات التطبيق",
+  "accessStateOn": "مفعّل",
+  "accessStateOff": "متوقف",
+  "accessStateVisited": "تمت الزيارة",
+  "accessStateUnknown": "إعداد",
+  "accessSummaryAllSet": "كل شيء جاهز",
+  "accessSummaryLeft": "{count, plural, =1{إذن واحد لا يزال متوقفًا} other{{count} أذونات لا تزال متوقفة}}",
+  "@accessSummaryLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "accessSummaryMessage": "يمكنك تفعيل بقية الأذونات في أي وقت من الإعدادات › عام › أذونات النظام",
+  "accessFinishFailed": "تعذّر إكمال الإعداد",
+  "accessVoiceDownload": "سيبدأ تنزيل النموذج الصوتي (بحجم يقارب {size} ميغابايت) عند جاهزية المحرك. يمكنك متابعة التنزيل من الإعدادات › عام › الإدخال الصوتي.",
+  "@accessVoiceDownload": {
+    "placeholders": {
+      "size": {
+        "type": "int"
+      }
+    }
+  },
+  "accessPageTitle": "أذونات النظام",
+  "accessPageSubtitle": "الأذونات التي تحتاج إليها كل ميزة في Android"
+}
