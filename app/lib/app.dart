@@ -259,8 +259,10 @@ class _DshAppState extends ConsumerState<DshApp> with WidgetsBindingObserver {
       // the launch screen of a cold start (启动画面).
       builder: (context, child) {
         final media = MediaQuery.of(context);
-        return MediaQuery(
-          key: _layers,
+        return Directionality(
+          textDirection: TextDirection.ltr,
+          child: MediaQuery(
+            key: _layers,
           data: media.copyWith(disableAnimations: media.disableAnimations || performance.reduceMotion),
           child: AppMotionScope(
             fluid: fluid,
@@ -276,6 +278,7 @@ class _DshAppState extends ConsumerState<DshApp> with WidgetsBindingObserver {
                   const LaunchLayer(),
                 ],
               ),
+            ),
             ),
           ),
         );
