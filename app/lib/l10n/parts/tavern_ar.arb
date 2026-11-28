@@ -1712,5 +1712,121 @@
   },
   "tavernToolMemoryAccept": "تذكّر",
   "tavernToolMemoryReject": "لا",
-  "tavernToolMemoryStaged": "تم اتخاذ القرار؛ سيُكتب عند اكتمال هذا الدور"
+  "tavernToolMemoryStaged": "تم اتخاذ القرار؛ سيُكتب عند اكتمال هذا الدور",
+  "tavernToolMemoryIneligible": "لا يمكن اتخاذ القرار الآن: {reason}",
+  "@tavernToolMemoryIneligible": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryAccepted": "تم التذكّر",
+  "tavernToolMemoryAuto": "تم التذكّر وفق الإعداد التلقائي",
+  "tavernToolMemoryRejected": "لم يتم التذكّر",
+  "tavernToolMemoryInactive": "لم يكتمل هذا الدور بشكل طبيعي؛ لم يتم التذكّر",
+  "tavernToolMemoryWaiting": "لم يُنفّذ قرارك الأخير بعد",
+  "tavernToolMemoryNotApplied": "لم يتم التذكّر: {reason}",
+  "@tavernToolMemoryNotApplied": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryFailed": "لم ينجح التنفيذ: {detail}",
+  "@tavernToolMemoryFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolReasonRevision": "لقد تغيّر؛ حدّث الصفحة واتخذ القرار مجددًا",
+  "tavernToolReasonResolved": "تم اتخاذ القرار بالفعل",
+  "tavernToolReasonContext": "تغيّرت المحادثة",
+  "tavernToolReasonDeleted": "تم حذف ذلك الرد",
+  "tavernToolReasonChanged": "تم تعديل ذلك الرد",
+  "tavernToolReasonBranch": "ليس ضمن الفرع الحالي",
+  "tavernToolReasonInactive": "لم يعد نشطًا",
+  "tavernToolReasonUnknown": "السبب غير معروف",
+  "tavernToolPolicy": "الأدوات",
+  "tavernToolPolicyRoll": "السماح للشخصيات برمي النرد",
+  "tavernToolPolicyRollSubtitle": "عندما يحتاج الرد إلى رمية، يرميها Tavern ويحتفظ بالنتيجة",
+  "tavernToolPolicyRemember": "السماح للشخصيات بالاحتفاظ بالملاحظات",
+  "tavernToolPolicyRememberSubtitle": "ما تراه الشخصية جديرًا بالتذكّر يُضاف إلى الذاكرة وفق الإعداد أدناه",
+  "tavernToolPolicyMode": "الاحتفاظ بالملاحظات",
+  "tavernToolPolicyModeAsk": "اسألني أولًا",
+  "tavernToolPolicyModeAuto": "تلقائيًا",
+  "tavernToolPolicyDiagnostics": "تعذّرت قراءة جزء من هذا الإعداد؛ الأداة المرتبطة به متوقفة مؤقتًا",
+  "tavernToolPolicyNote": "تستخدم الردود هذه الأدوات مع DeepSeek فقط وعند إيقاف التفكير؛ ويسري التغيير ابتداءً من الدور التالي، ويمكن لبطاقة الشخصية تعطيلها",
+  "tavernToolPolicyFailed": "لم يتغير: {detail}",
+  "@tavernToolPolicyFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChatTools": "الأدوات في هذه المحادثة",
+  "tavernChatToolFollow": "كما هو محدد",
+  "tavernChatToolOn": "مفعّل",
+  "tavernChatToolOff": "متوقف",
+  "tavernChatToolNow": "في هذه المحادثة: النرد {roll}، والذكريات {remember}",
+  "@tavernChatToolNow": {
+    "placeholders": {
+      "roll": {
+        "type": "String"
+      },
+      "remember": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChatToolHeld": "ما أوقفته إعدادات Tavern يظل متوقفًا حتى لو فُعّل هنا",
+  "tavernInspectRequests": "{count} طلبات",
+  "@tavernInspectRequests": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectUsageTotals": "إدخال {prompt} (المخبأ {hit}) · إخراج {completion}",
+  "@tavernInspectUsageTotals": {
+    "placeholders": {
+      "prompt": {
+        "type": "String"
+      },
+      "hit": {
+        "type": "String"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsagePrompt": "إدخال",
+  "tavernReqUsageCache": "مخبأ",
+  "tavernReqUsageCompletion": "إخراج",
+  "tavernReqUsageLine": "{field}: {parts}",
+  "@tavernReqUsageLine": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      },
+      "parts": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsageJoin": "، ",
+  "tavernReqUsageKnown": "{known} معروف",
+  "@tavernReqUsageKnown": {
+    "placeholders": {
+      "known": {
+        "type": "String"
+      }
+    }
+  }
 }
