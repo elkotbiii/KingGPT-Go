@@ -241,13 +241,13 @@ def main(argv):
                 errors.append(f'{area}: key "{k}" already defined in {owner[k]}')
             owner.setdefault(k, area)
         for lang in langs[1:]:
-            for k in zkeys:
+            for k in arkeys:
                 if k not in data[lang]:
                     errors.append(f'{area}: "{k}" has ar but no {lang}')
             for k in data[lang]:
                 if not k.startswith('@') and k not in ar:
                     errors.append(f'{area}: "{k}" has {lang} but no ar')
-        for k in zkeys:
+        for k in arkeys:
             source_names = None
             for lang in langs:
                 if k not in data[lang]:
