@@ -87,5 +87,73 @@
   "workshopInstallCancelled": "تم الإلغاء. لم يتغير شيء على هذا الهاتف.",
   "workshopInstallBusy": "لا تزال عملية تثبيت أو إزالة أخرى قيد التنفيذ. حاول مجددًا عند انتهائها.",
   "workshopReplaceTitle": "هل تريد استبدال ما هو موجود على هذا الهاتف؟",
-  "workshopReplaceMessage": "يوجد بالفعل على هذا الهاتف عنصر بالاسم نفسه، لكنه ليس من إدخال الورشة هذا. سيؤدي المتابعة إلى استبداله بـ «{title}»، ولن يمكن استعادة العنصر القديم."
+  "workshopReplaceMessage": "يوجد بالفعل على هذا الهاتف عنصر بالاسم نفسه، لكنه ليس من إدخال الورشة هذا. سيؤدي المتابعة إلى استبداله بـ «{title}»، ولن يمكن استعادة العنصر القديم.",
+  "@workshopReplaceMessage": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "@workshopErrorWithCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "@workshopErrorPackage": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopReplaceConfirm": "استبدال",
+  "workshopReport": "إبلاغ",
+  "workshopErrorNetwork": "لا يوجد اتصال. حاول مجددًا لاحقًا.",
+  "workshopErrorTimeout": "لم يصل رد في الوقت المحدد. حاول مجددًا لاحقًا.",
+  "workshopErrorServer": "تواجه خدمة الورشة مشكلة الآن. حاول مجددًا لاحقًا.",
+  "workshopErrorRateLimited": "طلبات كثيرة جدًا. حاول مجددًا بعد قليل.",
+  "workshopErrorBadData": "أرسلت الورشة بيانات غير متوقعة، لذا لم تُستخدم. حاول مجددًا لاحقًا.",
+  "workshopErrorCatalogChanged": "تغيّر هذا العنصر للتو. حدّث الصفحة وألقِ نظرة مجددًا.",
+  "workshopErrorNotFound": "تعذّر العثور على هذا العنصر. ربما أُزيل.",
+  "workshopErrorWithdrawn": "تم سحب هذا الإصدار ولا يمكن تثبيته.",
+  "workshopErrorMinApp": "هذا التطبيق قديم جدًا. حدّثه لتثبيت هذا العنصر.",
+  "workshopErrorUnsupported": "هذا الإصدار من التطبيق لا يتعرّف على هذا النوع من العناصر.",
+  "workshopErrorCompanionOff": "عناصر الرفقاء متوقفة مؤقتًا.",
+  "workshopErrorUploadOff": "الورشة لا تقبل التحميلات حاليًا.",
+  "workshopErrorNoSpace": "مساحة التخزين على هذا الهاتف غير كافية. أفرغ بعض المساحة وحاول مجددًا.",
+  "workshopErrorStorage": "تعذّرت قراءة الملفات أو كتابتها على هذا الهاتف.",
+  "workshopErrorIntegrity": "لم يتطابق التنزيل مع البيانات المسجلة، لذا تم تجاهله. حاول مجددًا.",
+  "workshopErrorDowngrade": "الإصدار الموجود على هذا الهاتف أحدث، ولن يُستبدل بإصدار أقدم.",
+  "workshopErrorRuntimeMissing": "ادعُ شخصية إلى غرفة الرفقاء أولًا. بعد ذلك يمكن تثبيت رفقاء آخرين.",
+  "workshopErrorReadersBusy": "إنها قيد الاستخدام. غادر غرفة الرفقاء أو أغلق النافذة العائمة، ثم حاول مجددًا.",
+  "workshopErrorInstallRecord": "سجل التثبيت على هذا الهاتف غير متطابق، لذا لم يتغير شيء.",
+  "workshopErrorOtherOrigin": "تم تثبيت هذا العنصر من ورشة مختلفة.",
+  "workshopErrorSignIn": "سجّل الدخول باستخدام GitHub أولًا.",
+  "workshopErrorConsent": "وافق أولًا على السماح للورشة بالتحقق من تسجيل دخولك.",
+  "workshopErrorAccountMismatch": "الحساب الذي سجلت الدخول به ليس من النوع الذي تستخدمه هذه الورشة. سجّل الدخول مجددًا.",
+  "workshopErrorAccountDown": "تعذّر التحقق من هويتك عبر GitHub الآن. حاول مجددًا لاحقًا.",
+  "workshopErrorPreferences": "تعذّر حفظ السجل على هذا الهاتف، لذا لم تستمر هذه الخطوة.",
+  "workshopErrorBusy": "لا تزال الخطوة السابقة قيد التنفيذ. لحظة من فضلك.",
+  "workshopErrorCancelled": "تم الإلغاء.",
+  "workshopErrorUnknownResult": "ليس واضحًا ما إذا كانت العملية قد تمت. حدّث الصفحة وتحقق قبل المحاولة مجددًا.",
+  "workshopErrorGeneric": "لم تنجح العملية. حاول مجددًا لاحقًا.",
+  "workshopErrorWithCode": "لم تنجح العملية. حاول مجددًا لاحقًا. ({code})",
+  "workshopErrorPackage": "أحد ملفات هذه الحزمة لا يستوفي المتطلبات، لذا لا يمكن تحميلها ({code}).",
+  "workshopDisclosureTitle": "السماح للورشة بتأكيد هويتك عبر GitHub",
+  "workshopDisclosureLead": "لإرسال مشاركاتك أو إدارتها أو الإبلاغ عن شيء، تحتاج الورشة إلى معرفة هويتك. لمعرفة ذلك، يُرسل اعتماد تسجيل دخولك إلى GitHub إلى خدمة الورشة أدناه، التي تسأل GitHub عن الحساب المرتبط به.",
+  "workshopDisclosureWorker": "الورشة التي تستقبل بيانات الاعتماد",
+  "workshopDisclosureAccount": "خدمة الحساب التي تؤكد هويتك",
+  "workshopDisclosureUse": "تُرسل عند تقديم مشاركاتك أو عرضها أو سحبها، أو عند الإبلاغ عن شيء. لا تستخدمها الورشة إلا لتأكيد هويتك لدى GitHub ولا تحتفظ بها.",
+  "workshopDisclosureKept": "يبقى الاعتماد على هذا الهاتف، الذي يتذكر أيضًا موافقتك على هذين العنوانين. إذا تغيّر أي منهما، فسيُطلب منك التأكيد مجددًا.",
+  "workshopDisclosureStale": "تغيّرت العناوين للتو. يرجى تأكيد العناوين المعروضة الآن.",
+  "workshopDisclosureAccept": "موافقة ومتابعة",
+  "workshopDisclosureDecline": "ليس الآن",
+  "workshopDisclosureUnsaved": "تُحتسب موافقتك الآن، لكن تعذّر حفظها على هذا الهاتف. قد يُطلب منك الموافقة مجددًا.",
+  "workshopSignInTitle": "تسجيل الدخول باستخدام GitHub",
+  "workshopSignInLead": "تتعرف الورشة على المؤلفين من خلال حساب GitHub. لا يستطيع هذا تسجيل الدخول قراءة سوى ملفك الشخصي العام (اسم المستخدم ورقم الحساب)، وليس مستودعاتك.",
+  "workshopSignInPreparing": "جارٍ الحصول على رمز من GitHub…",
+  "workshopSignInSteps": "أدخل هذا الرمز في صفحة التحقق لدى GitHub وامنح الإذن، ثم عُد إلى هنا."
 }
