@@ -4,13 +4,6 @@
   "liveJuggling": "الوكلاء الفرعيون يعملون",
   "liveSweeping": "ترتيب السياق",
   "liveRunsCount": "{count, plural, =1{محادثة واحدة قيد التشغيل} other{{count} محادثات قيد التشغيل}}",
-  "@liveRunsCount": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "liveChipThinking": "يفكر",
   "liveChipWorking": "يعمل",
   "liveChipJuggling": "مساعدون",
