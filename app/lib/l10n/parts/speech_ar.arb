@@ -41,6 +41,13 @@
   "speechCallSpeakerHint": "تكون الأولوية دائمًا لسماعات الرأس عند توصيلها",
   "speechCallHint": "(هذه مكالمة صوتية؛ يصل كلامي عبر التعرف على الكلام. يُرجى الرد بإيجاز وبأسلوب حواري، دون Markdown أو قوائم أو جداول أو كتل تعليمات برمجية.)",
   "speechCallCutNote": "(قاطعتك عند “{heard}”؛ لم أسمع بقية الكلام.)",
+  "@speechCallCutNote": {
+    "placeholders": {
+      "heard": {
+        "type": "String"
+      }
+    }
+  },
   "speechCallCutEarly": "(قاطعتك قبل أن تقول أي شيء؛ لم أسمع تلك الإجابة.)",
   "speechCallCue": "صوت التفكير",
   "speechCallCueHint": "نغمة رقيقة عندما يتأخر بدء الإجابة",
