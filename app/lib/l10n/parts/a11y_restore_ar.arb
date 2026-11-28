@@ -1,0 +1,18 @@
+{
+  "a11yRestoreTitle": "استعادة إمكانية الوصول تلقائيًا",
+  "searchKwA11yRestore": "إمكانية الوصول، استعادة، إعادة الاتصال، الاسترداد التلقائي، الإذن، ADB، Shizuku، Sui، root",
+  "a11yRestoreNeedsGrant": "يلزم التفويض",
+  "a11yRestoreNotice": "بعد التفويض، ستتم إعادة تشغيل خدمة إمكانية الوصول إذا تم إيقافها من إعدادات النظام. لإيقاف التحكم بالهاتف، عطّله من DSH Go.",
+  "a11yRestoreForceStop": "بعد فرض إيقاف التطبيق، أعد فتح DSH Go لاستعادة الخدمة.",
+  "a11yRestoreGrant": "تفويض وتفعيل",
+  "a11yRestoreGrantShizuku": "منح الإذن عبر Shizuku",
+  "a11yRestoreGrantShizukuPermission": "فوّض Shizuku، ثم امنحه الإذن",
+  "a11yRestoreGrantAdb": "منح الإذن عبر ADB المباشر",
+  "a11yRestoreRootNote": "يستخدم اتصال root المصرّح به لمنح هذا الإذن وحده.",
+  "a11yRestoreSetup": "إعداد Shizuku أو تصحيح الأخطاء لاسلكيًا",
+  "a11yRestoreWaiting": "اسمح بالطلب في Shizuku",
+  "a11yRestoreWaitingSui": "اسمح بالطلب في Sui",
+  "a11yRestoreComputer": "أو اتصل بحاسوب ونفّذ الأمر مرة واحدة:",
+  "a11yRestoreCopy": "نسخ الأمر",
+  "a11yRestoreCopied": "تم نسخ الأمر"
+}
