@@ -98,5 +98,31 @@
   "searchKwPermissionCurrent": "السماح لهذه المحادثة،هذه المحادثة",
   "searchKwPermissionDefault": "الإذن الافتراضي،للقراءة فقط،مساحة العمل،وصول كامل،تشغيل تلقائي للأوامر،لا تسأل",
   "searchSettingsHint": "البحث في الإعدادات",
-  "searchSuggestDark": "الوضع الداكن"
+  "searchSuggestDark": "الوضع الداكن",
+  "searchSuggestBackground": "الخلفية",
+  "searchSuggestPermission": "الأذونات",
+  "searchSuggestTextSize": "حجم النص",
+  "searchCommon": "شائع",
+  "searchRecent": "الأخيرة",
+  "searchFeatures": "الميزات",
+  "searchNoResults": "لا توجد إعدادات مطابقة",
+  "searchAskAi": "اسأل الذكاء الاصطناعي: “{query}”",
+  "searchKwPersonalization": "التخصيص،التفضيلات،النمط",
+  "searchKwInterface": "أصلي،ويب،وضع الويب،تطبيق ويب،عام",
+  "@searchAskAi": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "searchKwPrivacy": "الخصوصية،البيانات،السجلات،المشاركة،الإحصاءات",
+  "searchKwAbout": "حول،الإصدار،التحديث،التراخيص",
+  "searchKwPhoneConfirmEntry": "التأكيد،التحكم بالهاتف،لا تسأل",
+  "searchKwWebCodingView": "عرض البرمجة،عرض العمل،ويب",
+  "searchKwWebCollapse": "خطوات العمل،طي،ويب",
+  "searchKwWebBusySend": "إرسال،قائمة انتظار،أثناء عمل الذكاء الاصطناعي",
+  "searchKwPluginsMarket": "سوق الإضافات،تثبيت الإضافات،متجر الإضافات",
+  "searchKwUsageStats": "إحصاءات،بيانات الاستخدام،تحليلات،قياس الاستخدام،مجهول،خصوصية،بيانات",
+  "searchKwQuickPanel": "سحب،سحب لليسار،اختصارات،إيماءة،لوحة سريعة،وصول سريع"
 }
