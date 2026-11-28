@@ -1608,5 +1608,109 @@
   "tavernGroupListOrderNote": "ينتقل كل دور إلى الاسم التالي في القائمة من الأعلى (ويتم تخطي المكتومين).",
   "tavernGroupRandomNote": "يُختار في كل دور مشارك لم يتحدث منذ آخر رسالة لك.",
   "tavernGroupManualNote": "لا يتحدث أحد تلقائيًا؛ اضغط على اسم فوق حقل الكتابة ليبدأ بالكلام.",
-  "tavernGroupDirectorNote": "يختار المخرج المتحدث التالي وفقًا لسير القصة."
+  "tavernGroupDirectorNote": "يختار المخرج المتحدث التالي وفقًا لسير القصة.",
+  "tavernGroupPickTwo": "اختر مشاركين اثنين على الأقل",
+  "tavernGroupCreate": "إنشاء ({count})",
+  "@tavernGroupCreate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernGroupCreateFailed": "تعذّر إنشاء المجموعة: {reason}",
+  "@tavernGroupCreateFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupTag": "مجموعة",
+  "tavernGroupMemberCount": "{count} أعضاء",
+  "@tavernGroupMemberCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernGroupSettings": "إعدادات المجموعة",
+  "tavernGroupMaxSpeakers": "الحد الأقصى في كل دور",
+  "tavernGroupSelfResponses": "السماح بالرد على النفس",
+  "tavernGroupSelfResponsesNote": "يمكن لمن تحدث أخيرًا أن يتحدث مجددًا في هذا الدور.",
+  "tavernGroupHostNote": "المضيف هو {name}: وتُحفظ الحالة المشتركة للقصة في بطاقته.",
+  "@tavernGroupHostNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupMuted": "مكتوم",
+  "tavernGroupMutedNote": "لن يتحدث تلقائيًا؛ لكنه سيظل يتحدث عند ذكر اسمه.",
+  "tavernGroupTalkativeness": "مدى حب الكلام",
+  "tavernGroupTalkativenessNote": "في التناوب الطبيعي، كلما ارتفعت القيمة زاد احتمال التحدث.",
+  "tavernGroupHelperModel": "النموذج المساعد",
+  "tavernGroupHelperModelNote": "يتحدث باستخدام النموذج المساعد (تلقائي: Flash دون التفكير على DeepSeek، والنموذج الرئيسي في غير ذلك): للشخصيات الثانوية.",
+  "tavernGroupMoveUp": "نقل لأعلى",
+  "tavernGroupMoveDown": "نقل لأسفل",
+  "tavernGroupRemove": "إزالة من المجموعة",
+  "tavernGroupAdd": "إضافة شخصية",
+  "tavernGroupNoOthers": "جميع الشخصيات الموجودة على الرف ضمن المجموعة",
+  "tavernGroupUnavailable": "البطاقة غير موجودة",
+  "tavernGroupSaveFailed": "تعذّر الحفظ: {reason}",
+  "tavernGroupErrorNotGroup": "لم تعد هذه محادثة جماعية",
+  "tavernGroupErrorCharacterNotFound": "بطاقة هذه الشخصية لم تعد موجودة",
+  "tavernGroupErrorMemberExists": "هذه الشخصية موجودة بالفعل في المجموعة",
+  "tavernGroupErrorMemberNotFound": "لم تعد هذه الشخصية ضمن المجموعة",
+  "tavernGroupErrorInvalidMembers": "لا يمكن تكرار الأعضاء، ويجب أن تضم المجموعة شخصية واحدة على الأقل",
+  "tavernGroupErrorInvalidTalkativeness": "تتراوح قيمة حب الكلام بين 0 و1",
+  "tavernGroupErrorInvalidLimit": "يجب أن يتحدث عضو واحد على الأقل في كل جولة",
+  "tavernGroupErrorInvalidOrder": "لا يتطابق هذا الترتيب مع الأعضاء؛ افتح القائمة مجددًا وأعد الترتيب",
+  "tavernGroupErrorHostInUse": "تستضيف هذه الشخصية محادثة جماعية؛ احذف تلك المحادثة أولًا",
+  "tavernGroupErrorInvalidTitle": "لا يمكن أن يكون اسم المحادثة الجماعية فارغًا",
+  "tavernToolRollUnsettled": "🎲 {dice}: لم يتم تأكيد النتيجة بعد",
+  "@tavernToolRollUnsettled": {
+    "placeholders": {
+      "dice": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolRollNotDone": "🎲 {dice}: لم يتم الرمي",
+  "@tavernToolRollNotDone": {
+    "placeholders": {
+      "dice": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolRollPass": "الهدف {target}، نجاح",
+  "@tavernToolRollPass": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolRollFail": "الهدف {target}، إخفاق",
+  "@tavernToolRollFail": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolMemory": "يريد تذكّر: «{text}»",
+  "@tavernToolMemory": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryAccept": "تذكّر",
+  "tavernToolMemoryReject": "لا",
+  "tavernToolMemoryStaged": "تم اتخاذ القرار؛ سيُكتب عند اكتمال هذا الدور"
 }
