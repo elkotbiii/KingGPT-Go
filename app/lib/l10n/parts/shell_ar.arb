@@ -248,5 +248,39 @@
   "shellSkillInstallConfirm": "4. أخبرني عند اكتمال التثبيت.",
   "shellSkillInstallFile": "الملف `{path}`:",
   "shellFromUiJson": "من ui.json",
-  "shellViewSource": "عرض المصدر"
+  "shellViewSource": "عرض المصدر",
+  "shellSourcePosition": "الموضع",
+  "shellRestoreDefaults": "إعادة الضبط إلى الافتراضي",
+  "shellConfigNotApplied": "لم يُطبّق",
+  "shellConfigDroppedCount": "{count, plural, =1{مشكلة واحدة لم تُطبّق} other{{count} مشكلات لم تُطبّق}}",
+  "shellConfigAppliedCount": "{count, plural, =1{تم تطبيق عنصر واحد} other{تم تطبيق {count} عناصر}}",
+  "shellInterfaceConfig": "إعدادات الواجهة",
+  "shellSkillNotInstalled": "المهارة غير مثبتة",
+  "shellInstallInterfaceSkill": "تثبيت مهارة الواجهة",
+  "shellInstallInterfaceSkillMessage": "بعد التثبيت، يمكن للذكاء الاصطناعي تعديل واجهة التطبيق وفق طلبك",
+  "shellNoUiJson": "لا يوجد ui.json",
+  "shellConfigUsingPrevious": "لم يُطبّق، وما زال الإعداد السابق مستخدمًا",
+  "shellConfigDroppedHeading": "لم يُطبّق",
+  "shellConfigNotesHeading": "تحذيرات",
+  "shellConfigAppliedHeading": "تم التطبيق",
+  "shellConfigValueOptions": "{noun} غير مدعوم “{value}”، الخيارات: {options}",
+  "shellListSeparator": "، ",
+  "shellSkillInstallCheck": "3. شغّل {command} بعد كتابة الملفات. إذا عمل، يكون التثبيت قد اكتمل (ظهور رسالة تفيد بعدم وجود ui.json بعد أمر طبيعي).",
+  "shellSemanticsSeparator": "، ",
+  "shellChatsArchivedPartial": "{count, plural, =1{تمت أرشفة محادثة واحدة} other{تمت أرشفة {count} محادثات}}؛ {failed, plural, =1{تعذّرت أرشفة محادثة واحدة} other{تعذّرت أرشفة {failed} محادثات}}",
+  "shellPanelOverview": "معلومات",
+  "shellPanelWorkspace": "مساحة العمل",
+  "shellPanelModel": "النموذج",
+  "shellPanelHost": "المضيف",
+  "shellPanelOpenFull": "فتح الصفحة الكاملة",
+  "shellPanelNoPlugins": "لا توجد لوحات إضافات لهذه المحادثة بعد",
+  "shellQuickPanel": "اختصارات",
+  "shellQuickPanelHint": "غيّر هذه الإعدادات في {path}",
+  "@shellQuickPanelHint": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  }
 }
