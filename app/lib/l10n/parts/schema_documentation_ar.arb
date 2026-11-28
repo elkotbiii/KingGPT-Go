@@ -1,0 +1,21 @@
+{
+  "schemaDocumentationTitle": "أوصاف الحقول",
+  "schemaDocumentationOverview": "نظرة عامة",
+  "schemaDocumentationEach": "كل عنصر",
+  "schemaDocumentationPosition": "العنصر {position}",
+  "@schemaDocumentationPosition": {
+    "placeholders": {
+      "position": {
+        "type": "int"
+      }
+    }
+  },
+  "schemaDocumentationOption": "الخيار {option}",
+  "@schemaDocumentationOption": {
+    "placeholders": {
+      "option": {
+        "type": "int"
+      }
+    }
+  }
+}
