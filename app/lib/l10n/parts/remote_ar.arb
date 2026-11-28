@@ -264,6 +264,13 @@
   "remoteReconnectReason": "جارٍ إعادة الاتصال · {reason}",
   "remoteConnectedEncrypted": "متصل · مشفّر من طرف إلى طرف",
   "remoteConnectedVia": "متصل · {path} · مشفّر من طرف إلى طرف",
+  "@remoteConnectedVia": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
   "remotePathDirect": "مباشر",
   "remotePathTurn": "TURN",
   "remotePathRelay": "ترحيل",
@@ -271,6 +278,13 @@
   "remoteErrRefreshHosts": "تعذّر تحديث قائمة المضيفين",
   "remoteSwitchWarning": "يتصل بمضيف واحد في كل مرة. يؤدي التبديل إلى قطع اتصال المضيف السابق.",
   "remoteHostOfflineHint": "«{name}» غير متصل. افتح DSH على ذلك الكمبيوتر وحاول مجدداً.",
+  "@remoteHostOfflineHint": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "remoteRefreshHosts": "تحديث المضيفين",
   "remoteSignOut": "تسجيل الخروج",
   "remoteErrHostsRetry": "تعذّر تحميل المضيفين · انقر لإعادة المحاولة",
@@ -282,6 +296,13 @@
   "remoteRelaySignInHelp": "لا حاجة إلى إعداد الشبكة. اتصال مشفّر من طرف إلى طرف.",
   "remoteBrowserSignIn": "تسجيل الدخول في المتصفح",
   "remoteSignInWithProvider": "المتابعة باستخدام {provider}",
+  "@remoteSignInWithProvider": {
+    "placeholders": {
+      "provider": {
+        "type": "String"
+      }
+    }
+  },
   "remoteComingSoon": "قريباً",
   "remoteSelfHostedEmailSignIn": "خادم مستضاف ذاتياً · تسجيل الدخول بالبريد الإلكتروني",
   "remoteBrowserSignInPending": "أكمل تسجيل الدخول في المتصفح…",
