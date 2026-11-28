@@ -14,6 +14,8 @@ env:
   FLUTTER_VERSION: 3.47.7
   GRADLE_VERSION: 9.3.1
   ANDROID_NDK_VERSION: 28.2.13676358
+  ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
+  ANDROID_HOME: /usr/local/lib/android/sdk
   TZ: Asia/Shanghai
 
 jobs:
@@ -54,17 +56,17 @@ jobs:
             command -v "$tool" >/dev/null || { echo "Missing required build tool: $tool" >&2; exit 1; }
           done
 
-      # Install Android command-line tools and expose sdkmanager on PATH.
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
+      # Use the Android SDK preinstalled on the Ubuntu 24.04 hosted runner.
+      # Avoid setup-android, which downloads/reconfigures the SDK during the job.
       # tawcroot is compiled by tooling/build-apk.sh and requires this exact NDK.
       - name: Install pinned Android NDK
         run: |
-          yes | sdkmanager --licenses
-          sdkmanager --install "ndk;${ANDROID_NDK_VERSION}"
-          echo "ANDROID_NDK_HOME=${ANDROID_HOME}/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
-          test -x "${ANDROID_HOME}/ndk/${ANDROID_NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+          sdkmanager="${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager"
+          test -x "$sdkmanager" || { echo "sdkmanager not found at $sdkmanager" >&2; exit 1; }
+          yes | "$sdkmanager" --licenses
+          "$sdkmanager" --install "ndk;${ANDROID_NDK_VERSION}"
+          echo "ANDROID_NDK_HOME=${ANDROID_SDK_ROOT}/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
+          test -x "${ANDROID_SDK_ROOT}/ndk/${ANDROID_NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
 
       # The repository does not track gradlew; provide the pinned Gradle version on PATH.
       - name: Set up Gradle
