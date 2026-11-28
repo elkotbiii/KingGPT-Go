@@ -348,5 +348,31 @@
   "engineFieldResultCount": "{count, plural, =1{نتيجة واحدة} other{{count} نتائج}}",
   "engineFieldMinCharactersDecimal": "{bound} أحرف على الأقل",
   "engineFieldMaxCharactersDecimal": "{bound} أحرف كحد أقصى",
-  "engineLayerValue": "{value} مستويات"
+  "engineLayerValue": "{value} مستويات",
+  "engineFieldEnterPositiveRange": "أدخل رقمًا أكبر من 0 ولا يتجاوز {max}",
+  "engineFieldEnterBoundedRange": "أدخل رقمًا من {min} إلى {max}",
+  "engineModelTokenLimits": "حدود الرموز",
+  "engineModelContextLength": "طول السياق",
+  "engineModelContextOverrideHint": "استخدم قيمة الفهرس عند ترك الحقل فارغًا. أما القيمة الأكبر فهي ما يعتمده المحرك عند حساب ضغط السياق والاختصار.",
+  "engineModelMaxOutput": "أقصى مخرجات",
+  "engineModelDefaultSize": "القيمة الافتراضية {size}",
+  "@engineModelDefaultSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "engineModelCapabilities": "الإمكانات",
+  "engineModelInputType": "الإدخال",
+  "engineModelInputText": "نص",
+  "engineModelInputTextImage": "نص + صورة",
+  "engineModelThinking": "التفكير",
+  "engineModelVision": "الرؤية",
+  "engineModelLevels": "المستويات المتاحة",
+  "engineModelNeedLevel": "اختر مستوى واحدًا على الأقل",
+  "engineFieldEditOnWeb": "تعديل هذا العنصر على الويب",
+  "engineSettingsHostChanged": "تغيّر المضيف. أعد فتح هذه الإعدادات للتعديل.",
+  "engineSecretTargetChanged": "تغيّر هذا الحقل. أعد فتحه للتعديل.",
+  "engineSettingsGroupCount": "{count, plural, =1{إعداد واحد} other{{count} إعدادات}}"
 }
