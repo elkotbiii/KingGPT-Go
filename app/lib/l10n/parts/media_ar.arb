@@ -1,0 +1,131 @@
+{
+  "mediaGenerateTile": "إنشاء",
+  "mediaAiGenerated": "مُنشأ بالذكاء الاصطناعي",
+  "mediaCostEstimate": "حوالي {amount}",
+  "@mediaCostEstimate": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaSavedCount": "تم حفظ {count} في الصور",
+  "@mediaSavedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaRegenerate": "إعادة الإنشاء",
+  "mediaCopyPrompt": "نسخ الوصف",
+  "mediaFileGone": "الملف غير موجود",
+  "mediaKindImage": "صورة",
+  "mediaKindVideo": "فيديو",
+  "mediaTitleImage": "صورة جديدة",
+  "mediaTitleVideo": "فيديو جديد",
+  "mediaOpenElsewhere": "فتح في تطبيق آخر",
+  "mediaShowInFiles": "إظهار في الملفات",
+  "mediaGenerating": "جارٍ الإنشاء",
+  "mediaGeneratingProgress": "جارٍ الإنشاء · {progress}",
+  "@mediaGeneratingProgress": {
+    "placeholders": {
+      "progress": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaCancelled": "تم الإلغاء",
+  "mediaNotGenerated": "لم يتم الإنشاء",
+  "mediaPartial": "{done} من {total}",
+  "@mediaPartial": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaCount": "{count, plural, =1{صورة واحدة} other{{count} صورة}}",
+  "@mediaCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaSeconds": "{seconds} ث",
+  "@mediaSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaImageOf": "الصورة {index} من {count}",
+  "@mediaImageOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaPageOf": "{index} / {count}",
+  "@mediaPageOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaErrorPolicyInput": "لم يجتز الوصف مراجعة المحتوى",
+  "mediaErrorPolicyOutput": "لم تجتز النتيجة مراجعة المحتوى",
+  "mediaErrorAuth": "الخدمة غير مصرّح بها",
+  "mediaErrorBalance": "الرصيد غير كافٍ",
+  "mediaErrorQuota": "تم استهلاك حد اليوم",
+  "mediaErrorUnavailable": "الخدمة غير متاحة حاليًا",
+  "mediaErrorExpired": "انتهت صلاحية النتيجة",
+  "mediaErrorGeneric": "تعذّر إنشاؤه",
+  "mediaVary": "تنويع",
+  "mediaEdit": "تعديل",
+  "mediaRevise": "مراجعة",
+  "mediaUpscale": "تحسين الدقة",
+  "mediaMakeVideo": "إنشاء فيديو",
+  "mediaDetailModel": "النموذج",
+  "mediaDetailSize": "الحجم",
+  "mediaDetailCost": "التكلفة",
+  "mediaDetailProvenance": "المصدر",
+  "mediaDetailFile": "الملف",
+  "mediaOriginalPrompt": "الأصل: {text}",
+  "@mediaOriginalPrompt": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaProvenanceC2pa": "C2PA",
+  "mediaProvenanceImplicit": "مضمّن",
+  "mediaProvenanceVisible": "علامة مرئية",
+  "mediaModeExit": "مغادرة وضع الإنشاء",
+  "mediaModeLabel": "إعدادات الإنشاء: {summary}",
+  "@mediaModeLabel": {
+    "placeholders": {
+      "summary": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaParamModel": "النموذج",
+  "mediaParamAspect": "نسبة العرض إلى الارتفاع",
+  "mediaParamCount": "العدد",
+  "mediaParamQuality": "الجودة"
+}
