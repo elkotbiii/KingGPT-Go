@@ -1,0 +1,106 @@
+{
+  "tavernPacks": "حزم أسلوب اللعب",
+  "tavernPacksSubtitle": "تُطبّق الحزمة بمجرد إضافتها على المستوى العام أو إلى شخصية أو محادثة.",
+  "tavernPacksEmpty": "لا توجد حزم أسلوب لعب بعد",
+  "tavernPacksEmptyNote": "استورد ملف ‎.dshpack. الاستيراد يحفظه فقط؛ ولا يفعّل أي شيء أو ينشئ شخصية.",
+  "tavernPackImport": "استيراد حزمة",
+  "tavernPackInstalled": "تم استيراد {title} {version}",
+  "@tavernPackInstalled": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackAlreadyInstalled": "{title} {version} مثبتة بالفعل بالمحتوى نفسه",
+  "@tavernPackAlreadyInstalled": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackVersionCount": "{n} إصدارات",
+  "@tavernPackVersionCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackWithdrawnShort": "{version} (مسحوبة)",
+  "@tavernPackWithdrawnShort": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackWithdrawnLabel": "مسحوبة",
+  "tavernPackShowWithdrawn": "إظهار الإصدارات المسحوبة",
+  "tavernPackScopeGlobal": "مفعّلة في كل مكان",
+  "tavernPackScopeCharacter": "حزم هذه الشخصية",
+  "tavernPackScopeChat": "حزم هذه المحادثة",
+  "tavernPackForCardSubtitle": "تُستخدم في كل محادثة تتضمن هذه البطاقة",
+  "tavernPackBindingsSubtitle": "تسري التغييرات عند الحفظ؛ اعرض المعاينة لمعرفة النتيجة المركّبة",
+  "tavernPackOrderNote": "تُركّب من الأعلى إلى الأسفل؛ وتوضح المعاينة الحزمة التي تسود في كل حقل. اضغط على صف لتغيير الإصدار أو الترتيب أو الشخصيات.",
+  "tavernPackAdd": "إضافة حزمة",
+  "tavernPackUnsaved": "لم يُحفظ",
+  "tavernPackResetPending": "ستُعاد تهيئة الحالة ذات الاستخدام الواحد عند الحفظ",
+  "tavernPackCastMappedCount": "تم ربط {n} شخصيات",
+  "@tavernPackCastMappedCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPackRemovedBindings": "تمت الإزالة",
+  "tavernPackPickVersion": "تغيير الإصدار",
+  "tavernPackMoveUp": "نقل لأعلى",
+  "tavernPackMoveDown": "نقل لأسفل",
+  "tavernPackResetOnce": "إعادة تعيين حالة الاستخدام الواحد",
+  "tavernPackRestore": "استعادة",
+  "tavernPackRemoveBinding": "إزالة",
+  "tavernPackSaved": "تم الحفظ",
+  "tavernPackUnanswered": "لا توجد إجابة: {reason}. سيؤدي الحفظ مجددًا إلى إعادة المحاولة للعملية نفسها",
+  "@tavernPackUnanswered": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackVersion": "الإصدار",
+  "tavernPackAddGlobal": "تفعيل في كل مكان",
+  "tavernPackAddNote": "لشخصية أو محادثة واحدة: أضفها من صفحة الشخصية أو لوحة المشهد",
+  "tavernPackCast": "الشخصيات",
+  "tavernPackCastNote": "ينشئ الاستيراد شخصية جديدة؛ ولا تتأثر البطاقة الأصلية.",
+  "tavernPackCastFromCard": "بطاقة شخصية كاملة",
+  "tavernPackCastImportAction": "استيراد كشخصية",
+  "tavernPackCastImportTitle": "هل تريد استيراد {name} كشخصية جديدة؟",
+  "@tavernPackCastImportTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackCastImportNote": "تُضاف الشخصية الجديدة إلى المكتبة. ولن يؤدي تغيير إصدار هذه الحزمة لاحقًا إلى استبدالها.",
+  "tavernPackCastImported": "تم استيراد {name}",
+  "@tavernPackCastImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPackCastNotAdopted": "لم يتم إنشاء أي شخصية هذه المرة",
+  "tavernPackCastUnknown": "لم يتأكد الأمر بعد ({state})؛ تحقّق من المكتبة بعد قليل"
+}
