@@ -1,0 +1,91 @@
+{
+  "tavernTitle": "Tavern",
+  "tavernImport": "استيراد",
+  "tavernEmptyTitle": "لا توجد شخصيات بعد",
+  "tavernEmptyMessage": "انقل محادثة من DeepSeek أو استورد بطاقة شخصية",
+  "tavernContinue": "متابعة",
+  "tavernCharacters": "الشخصيات",
+  "tavernImported": "تم استيراد «{name}»",
+  "@tavernImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportLorebook": "هذا كتاب معلومات، وليس بطاقة شخصية",
+  "tavernImportFailed": "تعذّرت قراءة هذه البطاقة",
+  "tavernCharacterGone": "لم تعد هذه الشخصية موجودة",
+  "tavernDeleteCharacter": "حذف الشخصية",
+  "tavernDeleteCharacterTitle": "هل تريد حذف «{name}»؟",
+  "@tavernDeleteCharacterTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDeleteCharacterMessage": "ستُحذف محادثاتها أيضًا.",
+  "tavernGreeting": "التحية",
+  "tavernGreetingOf": "التحية {index}/{count}",
+  "@tavernGreetingOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStart": "بدء",
+  "tavernContinueLast": "المتابعة من حيث توقفت",
+  "tavernStartNew": "بدء محادثة جديدة من هذه التحية",
+  "tavernChats": "المحادثات",
+  "tavernMessageCount": "{count, plural, =1{رسالة واحدة} other{{count} رسائل}}",
+  "@tavernMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernCreatorNotes": "ملاحظات المنشئ",
+  "tavernDefinition": "التعريف",
+  "tavernComposerHint": "قل شيئًا لـ {name}…",
+  "@tavernComposerHint": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReplying": "جارٍ الرد…",
+  "tavernReady": "جاهز",
+  "tavernPreviewStatus": "معاينة · ردود تجريبية",
+  "tavernRegenerate": "إعادة التوليد",
+  "tavernContinueReply": "متابعة الكتابة",
+  "tavernDeleteFrom": "حذف هذه الرسالة وكل ما بعدها",
+  "tavernPrevious": "الرد السابق",
+  "tavernNext": "الرد التالي",
+  "tavernErrorNoKey": "أضف مفتاح DeepSeek API من الإعدادات أولًا",
+  "tavernKeyMissing": "لا يوجد مفتاح DeepSeek API بعد",
+  "tavernKeyMissingAction": "إضافة مفتاح",
+  "tavernErrorBadKey": "تم رفض مفتاح API؛ تحقّق منه في الإعدادات",
+  "tavernErrorBusy": "النموذج مشغول؛ حاول مجددًا بعد قليل",
+  "tavernErrorNetwork": "تعذّر الاتصال؛ تحقّق من الشبكة وأعد المحاولة",
+  "tavernErrorTooLong": "المحادثة أطول من سعة سياق النموذج",
+  "tavernCutShort": "وصل الرد إلى الحد الأقصى لطوله. تابعه، أو ارفع الحد في الإعداد المسبق المستخدم لهذه المحادثة.",
+  "tavernFiltered": "أوقف مرشح المحتوى جزءًا من هذا الرد.",
+  "tavernErrorBalance": "رصيد DeepSeek لديك منخفض جدًا. أضف رصيدًا ثم حاول مجددًا",
+  "tavernErrorParameters": "لم يقبل النموذج معلمات هذا الطلب",
+  "tavernErrorParametersDetail": "لم يقبل النموذج معلمات هذا الطلب: {detail}",
+  "@tavernErrorParametersDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernErrorDetail": "حدث خطأ ما: {detail}"
+}
