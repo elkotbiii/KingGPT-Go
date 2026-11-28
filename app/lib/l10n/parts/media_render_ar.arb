@@ -1,0 +1,14 @@
+{
+  "mediaImageLoading": "جارٍ تحميل الصورة",
+  "mediaImageReload": "إعادة تحميل الصورة",
+  "mediaImageReloadHint": "يعيد قراءة الملف؛ ولا يعيد إنشاءه أو يفرض رسوم توليد",
+  "mediaVideoNoPoster": "اضغط لتشغيل الفيديو",
+  "mediaSavedFilesCount": "تم حفظ {count} ملفات في المعرض",
+  "@mediaSavedFilesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
