@@ -1926,5 +1926,97 @@
   "tavernChannelDeepSeekApi": "الإرسال باستخدام API الخاص بـ DeepSeek",
   "tavernChannelDeepSeekApiNote": "يستخدم آلية متابعة DeepSeek ومفتاح التفكير. فعّله فقط مع DeepSeek نفسه أو وسيط يمرره كما هو.",
   "tavernChannelDelete": "حذف القناة",
-  "tavernChannelDeleteTitle": "هل تريد حذف «{name}»؟"
+  "tavernChannelDeleteTitle": "هل تريد حذف «{name}»؟",
+  "@tavernChannelDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannelDeleteMessage": "سيُحذف مفتاحها أيضًا. وإذا كانت قيد الاستخدام، فسيحل DeepSeek محلها.",
+  "tavernChannelCopyFromApp": "النسخ من قنوات التطبيق",
+  "tavernModelName": "اسم النموذج",
+  "tavernNumberCustom": "مخصص",
+  "tavernNumberType": "أدخل رقمًا",
+  "tavernNumberRange": "أدخل رقمًا من {min} إلى {max}",
+  "@tavernNumberRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernNumberRangeWhole": "أدخل عددًا صحيحًا من {min} إلى {max}",
+  "@tavernNumberRangeWhole": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernTopP": "Top P",
+  "tavernPresencePenalty": "عقوبة التواجد",
+  "tavernFrequencyPenalty": "عقوبة التكرار",
+  "tavernPresetSampling": "أخذ العينات",
+  "tavernChannelHeaders": "ترويسات الطلب (اختياري)",
+  "tavernChannelHeadersNote": "سطر واحد لكل ترويسة، بالشكل «الاسم: القيمة». تُحفظ في التخزين الآمن لهذا الهاتف مثل المفتاح.",
+  "tavernChannelHeadersInvalid": "اكتب كل سطر بالشكل «الاسم: القيمة»",
+  "tavernAuxiliary": "النموذج المساعد",
+  "tavernAuxiliaryNote": "يُستخدم للمخرج واختيار المتحدث في المجموعة والأسرار",
+  "tavernAuxiliaryAuto": "تلقائي",
+  "tavernAuxiliaryAutoNote": "يتبع القناة الرئيسية: Flash على DeepSeek، والنموذج نفسه في غير ذلك",
+  "tavernAuxiliaryDeepSeek": "DeepSeek Flash",
+  "tavernChannelKeyClear": "مسح",
+  "tavernChannelKeyCleared": "سيُمسح المفتاح عند الحفظ",
+  "tavernDrafts": "المسودات",
+  "tavernDraftsSubtitle": "تبقى التغييرات في مسودة حتى تختار ما تريد تطبيقه على النسخة الفعلية",
+  "tavernDraftsForCard": "تغيير هذه البطاقة باستخدام الذكاء الاصطناعي",
+  "tavernDraftsEmpty": "لا توجد مسودات بعد",
+  "tavernDraftsEmptyOwn": "أنشئ مسودة وأخبر الذكاء الاصطناعي بكيفية تغيير هذه البطاقة.",
+  "tavernDraftsEmptyAll": "أنشئ واحدة من صفحة شخصية أو من ملف؛ ستبقى مسودة ولن يتم استيراد شيء.",
+  "tavernDraftNew": "مسودة جديدة",
+  "tavernDraftFromFile": "مسودة من ملف",
+  "tavernDraftSeedUnsupported": "{name} ليست بطاقة أو كتاب معلومات",
+  "@tavernDraftSeedUnsupported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraft": "مسودة",
+  "tavernDraftSubtitle": "لا يوجد شيء هنا ضمن النسخة الفعلية بعد",
+  "tavernDraftGone": "لم تعد هذه المسودة موجودة",
+  "tavernDraftKindCharacter": "بطاقة",
+  "tavernDraftKindPreset": "إعداد مسبق",
+  "tavernDraftNewSource": "{name} (لم تُحفظ بعد)",
+  "@tavernDraftNewSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftGreetings": "تحيات أخرى",
+  "tavernDraftEntry": "الإدخال {n}",
+  "@tavernDraftEntry": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftNoChanges": "لا توجد تغييرات بعد",
+  "tavernDraftNoChangesHint": "أخبر الذكاء الاصطناعي أدناه بما تريد تغييره",
+  "tavernDraftBefore": "قبل",
+  "tavernDraftAfter": "بعد",
+  "tavernDraftAbsent": "(لا شيء)",
+  "tavernDraftRemoved": "تمت الإزالة"
 }
