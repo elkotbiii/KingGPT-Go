@@ -27,13 +27,6 @@
   "engineReopenFailed": "يحتاج المحرك إلى إعادة فتح التطبيق قبل أن يبدأ مجددًا. يُرجى إعادة فتحه.",
   "engineCapShell": "سطر الأوامر",
   "engineCapShellBuiltin": "{count} أمر مدمج",
-  "@engineCapShellBuiltin": {
-    "placeholders": {
-      "count": {
-        "type": "int"
-      }
-    }
-  },
   "engineCapShellSystem": "النظام",
   "engineCapNodeScripts": "برامج Node النصية",
   "engineCapMarket": "إضافات السوق",
