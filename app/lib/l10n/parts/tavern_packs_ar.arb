@@ -185,5 +185,14 @@
   "tavernPackInstallMade": "تثبيت هنا",
   "tavernPackCommitted": "دخل التغيير حيز التنفيذ، لكن تعذّر عرض إشعار لاحق",
   "tavernPackVersionConflict": "يوجد معرّف الحزمة والإصدار نفسيهما بمحتوى مختلف؛ استخدم اسم إصدار جديدًا",
-  "tavernPackRevisionConflict": "تم التغيير في مكان آخر. جرى التحديث؛ يُرجى تنفيذ هذا التغيير مجددًا"
+  "tavernPackRevisionConflict": "تم التغيير في مكان آخر. جرى التحديث؛ يُرجى تنفيذ هذا التغيير مجددًا",
+  "tavernPackOperationConflict": "استُخدم معرّف هذه العملية من قبل؛ يُرجى تنفيذها مجددًا",
+  "tavernPackVersionNotFound": "لم يتم العثور على الإصدار",
+  "tavernPackVersionRemoved": "هذا الإصدار مسحوب ولا يمكن اختياره مجددًا",
+  "tavernPackTimerConflict": "يغيّر هذا التحديث إعدادات التثبيت أو التهدئة: أعد تعيين حالة الاستخدام الواحد معه أو أضف نسخة جديدة",
+  "tavernPackTargetGone": "الشخصية أو المحادثة أو الربط لم يعد موجودًا",
+  "tavernPackAuthorityConflict": "تغيّر مصدر الشخصية؛ حدّث الصفحة وأكّد مجددًا",
+  "tavernPackCastUnproven": "تعذّر التأكد من استيراد هذه الشخصية من هذه الحزمة",
+  "tavernPackCastOtherVersion": "الشخصية المرتبطة مصدرها إصدار آخر من هذه الحزمة",
+  "tavernPackExportChanged": "تغيّرت مصادر التصدير أو خياراته؛ اعرض المعاينة مجددًا"
 }
