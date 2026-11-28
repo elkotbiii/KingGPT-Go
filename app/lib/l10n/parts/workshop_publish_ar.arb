@@ -104,5 +104,38 @@
   "workshopPublishCoverChosen": "غلاف المشاركة",
   "workshopPublishCoverReplace": "استبدال",
   "workshopPublishCoverRemove": "إزالة",
-  "workshopPublishCoverBadSize": "الصورة فارغة أو يتجاوز حجمها 32 MB. جرّب صورة أخرى."
+  "workshopPublishCoverBadSize": "الصورة فارغة أو يتجاوز حجمها 32 MB. جرّب صورة أخرى.",
+  "@workshopPublishLetGoAccount": {
+    "placeholders": {
+      "worker": {
+        "type": "String"
+      }
+    }
+  },
+  "@workshopPublishLetGoAll": {
+    "placeholders": {
+      "worker": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopPublishCoverBadPng": "الصورة تالفة أو بتنسيق غير مدعوم. جرّب صورة أخرى.",
+  "workshopPublishCoverBadDimensions": "تحتوي الصورة على عدد كبير جدًا من البكسلات. قلّص حجمها واخترها مجددًا.",
+  "workshopPublishCoverUnreadable": "تعذّرت قراءة هذه الصورة. جرّب صورة أخرى.",
+  "workshopPublishReviewPreviewIdle": "أول إطار خمول",
+  "workshopPublishReviewPreviewNone": "لا توجد معاينة",
+  "workshopPublishErrorPreviewPet": "إطار هذا الحيوان الأليف أكبر من 512 px، لذا لا يمكن إنشاء معاينة له. أوقف المعاينة للإرسال بالطريقة المعتادة.",
+  "workshopPublishErrorPreviewConflict": "تحتوي حزمة الرفيق بالفعل على preview.png، لذا لا يمكن إضافة الغلاف. أزل الغلاف للإرسال بالطريقة المعتادة.",
+  "workshopPublishErrorPreviewMissing": "لم يتم العثور على المعاينة المطلوبة. اخترها مجددًا أو أرسل دونها.",
+  "workshopPublishErrorPreviewUnsupported": "هذه الورشة لا تقبل المعاينات حاليًا. أرسل دون معاينة بالطريقة المعتادة.",
+  "workshopPublishLetGo": "التخلّي عن هذا السجل",
+  "workshopPublishLetGoTitle": "هل تريد التخلّي عن سجل هذا الهاتف؟",
+  "workshopPublishLetGoAccount": "ستتم إزالة سجل المشاركة غير المكتملة لهذا الهاتف فقط، الخاص بحساب GitHub هذا لدى الورشة {worker}.",
+  "workshopPublishLetGoAll": "تعذّرت قراءة سجلات المشاركات على هذا الهاتف ككل. يؤدي التخلّي إلى إزالة سجلات المشاركات غير المكتملة لجميع الحسابات على هذا الهاتف، وليس فقط حساب GitHub هذا لدى الورشة {worker}.",
+  "workshopPublishLetGoFacts": "لن يتم إبلاغ الورشة بالإلغاء: إذا كانت قد استلمت هذه المشاركة بالفعل فستظل هناك وستظهر ضمن «تحميلاتي». وإذا لم تستلمها، فستحتاج إلى إرسالها مجددًا؛ وإذا اتضح أنها وصلت لاحقًا فستوجد نسختان.",
+  "workshopPublishLetGoFactsKnown": "لن يتم إبلاغ الورشة بالإلغاء: ستظل النتيجة كما هي، وستبقى هذه المشاركة ضمن «تحميلاتي».",
+  "workshopPublishLetGoConfirm": "تخلٍّ",
+  "workshopPublishLetGoDone": "تم التخلّي عن سجل هذا الهاتف",
+  "workshopPublishLetGoStale": "تغيّر السجل للتو. اضغط مجددًا لتأكيده من جديد.",
+  "workshopPublishLetGoUnsupported": "لا يمكن لهذا الإصدار التخلّي عن السجل هنا."
 }
