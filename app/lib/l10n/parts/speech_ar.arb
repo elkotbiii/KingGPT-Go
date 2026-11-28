@@ -119,5 +119,13 @@
   "speechBackdropImagePick": "اختيار صورة",
   "speechBackdropCompanion": "الرفيق",
   "speechBackdropHint": "تُخفّف الصور وتُعتّم حتى تظل التسميات التوضيحية مقروءة. ومع الرفيق، تتحدث بالتزامن مع الصوت.",
-  "speechBackdropHintChange": "اضغط على «صورتي» مرة أخرى لتغييرها. ومع الرفيق، تتحدث بالتزامن مع الصوت."
+  "speechBackdropHintChange": "اضغط على «صورتي» مرة أخرى لتغييرها. ومع الرفيق، تتحدث بالتزامن مع الصوت.",
+  "speechBackdropNoCompanion": "جهّزها في غرفة الرفيق أولًا لإضافتها إلى المكالمات.",
+  "speechBackdropReplace": "تغيير الصورة",
+  "speechBackdropPickFailed": "لا يمكن استخدام هذه الصورة. جرّب صورة أخرى",
+  "speechCallVisual": "الضوء",
+  "speechCallVisualRing": "حلقة",
+  "speechCallVisualMono": "خط",
+  "speechCallVisualGlass": "كرة",
+  "speechInsecure": "عنوان هذه الخدمة ليس https؛ لا يمكن إرسال المفتاح بهذه الطريقة"
 }
