@@ -87,5 +87,94 @@
       }
     }
   },
-  "tavernErrorDetail": "حدث خطأ ما: {detail}"
+  "tavernErrorDetail": "حدث خطأ ما: {detail}",
+  "@tavernErrorDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSettings": "إعدادات Tavern",
+  "tavernSettingsModel": "النموذج",
+  "tavernModelFlash": "Flash",
+  "tavernModelPro": "V4 Pro",
+  "tavernThinking": "التفكير",
+  "tavernThinkingSubtitle": "فكّر قبل الرد",
+  "tavernApiKey": "مفتاح DeepSeek API",
+  "tavernApiKeySet": "مُعيّن",
+  "tavernApiKeyMissing": "غير مُعيّن",
+  "tavernDeleteChat": "حذف المحادثة",
+  "tavernDeleteChatTitle": "هل تريد حذف هذه المحادثة؟",
+  "tavernDeleteChatMessage": "لا يمكن استعادتها.",
+  "tavernDeleteFromTitle": "{count, plural, =1{هل تريد حذف هذه الرسالة؟} other{هل تريد حذف هذه الرسائل وعددها {count}؟}}",
+  "@tavernDeleteFromTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteFromMessage": "من هذه الرسالة حتى الأحدث، مع ردودها البديلة وفروعها. لا يمكن استعادتها.",
+  "tavernSwitchedBranch": "تم التبديل إلى فرع آخر",
+  "tavernUndo": "تراجع",
+  "tavernSettingsDisplay": "العرض",
+  "tavernPresets": "الإعدادات المسبقة",
+  "tavernPresetImport": "استيراد إعداد مسبق",
+  "tavernPresetStDefault": "الإعداد الافتراضي لـ SillyTavern",
+  "tavernPresetStDefaultNote": "يُستخدم عند عدم اختيار إعداد مسبق",
+  "tavernPresetDefault": "الافتراضي",
+  "tavernPresetSetDefault": "تعيينه كافتراضي",
+  "tavernPresetUnsetDefault": "إلغاء استخدامه كافتراضي",
+  "tavernPresetExport": "تصدير الإعداد المسبق",
+  "tavernPresetDelete": "حذف الإعداد المسبق",
+  "tavernPresetDeleteTitle": "هل تريد حذف الإعداد المسبق «{name}»؟",
+  "@tavernPresetDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetDeleteMessage": "ستنتقل المحادثات التي تستخدمه إلى الإعداد الافتراضي. لا يمكن استعادته.",
+  "tavernPresetImported": "تم استيراد «{name}»",
+  "@tavernPresetImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetImportedWithIssues": "تم استيراد «{name}» مع {count} ملاحظات",
+  "@tavernPresetImportedWithIssues": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPresetImportFailed": "تعذّر الاستيراد: {reason}",
+  "@tavernPresetImportFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetNotText": "هذا الملف ليس نصيًا",
+  "tavernPresetsEmptyMessage": "يمكن استيراد الإعدادات المسبقة المُصدّرة من SillyTavern بصيغة JSON، وكذلك حزم المشاركة من dsh-preset-enhance.",
+  "tavernPresetEnvelope": "حزمة مشاركة",
+  "tavernPresetCount": "{count}",
+  "tavernRegex": "التعبيرات النمطية",
+  "tavernRegexImport": "استيراد تعبير نمطي",
+  "tavernRegexOn": "مفعّل",
+  "tavernRegexOff": "متوقف",
+  "tavernRegexEnable": "تفعيل",
+  "tavernRegexDisable": "تعطيل",
+  "tavernRegexExport": "تصدير التعبير النمطي",
+  "tavernRegexDelete": "حذف التعبير النمطي",
+  "tavernRegexDeleteTitle": "هل تريد حذف التعبير النمطي «{name}»؟"
 }
