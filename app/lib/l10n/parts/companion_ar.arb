@@ -485,5 +485,73 @@
   "companionLookupNoTitle": "بلا عنوان",
   "companionLookupCancel": "لا تبحث عن ذلك",
   "companionLookupSaveFailed": "لم ينجح ذلك. هل تحاول مجددًا بعد قليل؟",
-  "companionLookupCancelSource": "إلغاء البحث عن {name}"
+  "companionLookupCancelSource": "إلغاء البحث عن {name}",
+  "@companionLookupCancelSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionLookupObservedAt": "تمت القراءة في {time}",
+  "@companionLookupObservedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionLookupViewSources": "عرض مصادر البحث · {name}",
+  "@companionLookupViewSources": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesTitle": "تحويل الملاحظات إلى قائمة مهام",
+  "companionNotesView": "إلقاء نظرة",
+  "companionNotesSyntax": "ملاحظات أي يوم تريد تنظيمها، وهل تريد أن يواصل الحاسوب العمل بعد مغادرتك؟ بعد ذلك يمكنك اختيار المجلد.",
+  "companionNotesDateMissing": "التاريخ أو المنطقة الزمنية أو الموعد النهائي غير واضح بعد. هل تخبرني مجددًا؟",
+  "companionNotesConnect": "صِل الحاسوب الذي يحتوي على ملاحظاتك أولًا، ثم اختر المجلد.",
+  "companionNotesOriginalHost": "هذه المهمة موجودة على الحاسوب الذي استخدمته سابقًا. اتصل به وسأتابعها.",
+  "companionNotesUnavailable": "لا يستطيع هذا الحاسوب تنفيذ هذه المهمة الآن.",
+  "companionNotesNoDirectory": "لم يتم اختيار مجلد بعد، لذا لم أبدأ.",
+  "companionNotesChooseDirectory": "اختيار مجلد الملاحظات",
+  "companionNotesChooseOutput": "اختيار مكان الحفظ",
+  "companionNotesKeepDirectory": "مجلد الملاحظات نفسه",
+  "companionNotesKeepOutput": "مجلد الحفظ نفسه",
+  "companionNotesWhich": "أي واحدة تريد حذفها؟ اضغط عليها في المهام.",
+  "companionNotesQueued": "حسنًا. بانتظار أن يتولى الحاسوب المهمة.",
+  "companionNotesRunning": "قبل الحاسوب هذه المهمة. النتيجة غير جاهزة بعد.",
+  "companionNotesDone": "تم. حُفظت قائمة المهام في ملف جديد. اضغط لقراءتها.",
+  "companionNotesPartial": "توقف العمل في منتصف الطريق. يمكنك الاطلاع على ما أُنجز حتى الآن.",
+  "companionNotesFailed": "لم تنجح هذه المحاولة.",
+  "companionNotesWaiting": "لا يمكن المتابعة بعد. لا يزال الطلب محفوظًا.",
+  "companionNotesUnknown": "لست متأكدة مما يحدث على الحاسوب الآن.",
+  "companionNotesCancelUnknown": "تم حفظ طلب الإيقاف، لكنني لم أتأكد من توقف الحاسوب. ستبقى الملفات التي كتبها بالفعل.",
+  "companionNotesCancelled": "حسنًا، أوقفت العمل. لا تزال الملفات المكتوبة موجودة.",
+  "companionNotesPauseUnavailable": "طلبتَ التوقف عند مغادرتك، لكنني لا أستطيع تحديد ما إذا كنت قد غادرت الآن، لذا لم أبدأ. هل تريد أن يستمر العمل بعد مغادرتك بدلًا من ذلك؟",
+  "companionNotesOpportunityLost": "فاتتني فرصة تسليم المهمة إلى الحاسوب، وكنت قد طلبتَ مني ألا أنتظر حتى يتصل. أخبرني إن كنت لا تزال تريد تنفيذها.",
+  "companionNotesDeadline": "انتهى الموعد النهائي الذي اتفقنا عليه، لذا لن أواصل العمل.",
+  "companionNotesOriginalPending": "تلقى الحاسوب التغيير الذي أجريته. امنحه لحظة ليتابع.",
+  "companionNotesSaveFailed": "لم ينجح ذلك. لا يزال هنا. هل تحاول مجددًا بعد قليل؟",
+  "companionNotesModifiedDay": "سأحوّل الملاحظات التي عُدّلت في هذا المجلد في ذلك اليوم (Markdown والنص العادي) إلى قائمة مهام. ستبقى ملفاتك كما هي.",
+  "companionNotesNoInputs": "لم تُعدّل أي ملاحظات في هذا المجلد في ذلك اليوم، لذا لا توجد قائمة مهام.",
+  "companionNotesOutputExists": "يوجد ملف بهذا الاسم بالفعل، لذا تركته كما هو. اختر اسمًا جديدًا.",
+  "companionNotesFileCountLimit": "هناك أكثر من 20 ملاحظة مطابقة. هذا كثير. جرّب مجلدًا أصغر أو قسّمها؟",
+  "companionNotesFileSizeLimit": "يتجاوز حجم إحدى الملاحظات 64 كيلوبايت، وهذا أطول مما يمكنني التعامل معه. ضيّق نطاق البحث؛ لا أريد قراءة نصفها فقط.",
+  "companionNotesTotalSizeLimit": "يتجاوز مجموع حجم هذه الملاحظات 256 كيلوبايت. ضيّق النطاق أو قسّمها؟",
+  "companionNotesModelLimit": "هذا أكثر مما يمكنني قراءته دفعة واحدة. ضيّق النطاق؛ لا أريد قراءة نصفها فقط.",
+  "companionNotesPause": "التوقف عند مغادرتي",
+  "companionNotesForegroundStart": "المتابعة هنا",
+  "companionNotesForegroundReady": "سأطلب من الحاسوب المتابعة بينما تبقى هنا. وعندما تغادر، سأطلب منه التوقف مؤقتًا؛ وسنتحقق من التقدم عند عودتك.",
+  "companionNotesForegroundUnknown": "لم أتأكد بعد من تقدم الحاسوب. حدّث الصفحة للتحقق.",
+  "companionNotesContinue": "مواصلة العمل بعد مغادرتي",
+  "companionNotesAllowQueue": "إذا كان الحاسوب غير متصل، فانتظر عودته",
+  "companionNotesNoQueue": "إذا كان الحاسوب غير متصل، فلا تنتظره",
+  "companionNotesApproval": "يحتاج الحاسوب إلى موافقتك لمواصلة العمل.",
+  "companionNotesOpenFile": "قراءة قائمة المهام",
+  "companionNotesFileMissing": "لم أعد أستطيع العثور على هذا الملف، ولم أُنشئه مجددًا.",
+  "companionNotesFileChanged": "تم تغيير هذا الملف لاحقًا؛ ولم يعد كما كتبته."
 }
