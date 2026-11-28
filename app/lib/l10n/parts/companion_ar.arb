@@ -63,5 +63,15 @@
   "companionAssistantCalendarAllowed": "الوصول إلى التقويم مفعّل. اضغط لإدارته ضمن أذونات تطبيق Android.",
   "companionAssistantAppPermissions": "فتح أذونات تطبيق Android",
   "companionStop": "اطلب منها التوقف",
-  "companionSend": "إرسال"
+  "companionSend": "إرسال",
+  "companionNotConnected": "لا أستطيع الوصول إلى المحرك الآن. هل يمكنك إخباري مجددًا بعد قليل؟",
+  "companionSendFailed": "لم تصل الرسالة. هل يمكنك قولها مجددًا؟",
+  "companionAgentRetryClosed": "ربما بدأت العمل على ذلك بالفعل، ولا أريد تكراره مرتين. ألقِ نظرة على المهام، ثم أخبرني إن كان عليّ المتابعة؟",
+  "companionPhoneRunStopped": "توقف العمل على الهاتف في منتصف الخطوة، لذا أوقفت التنفيذ بدلًا من تكرارها. تحقق من حالة الهاتف الآن، وأخبرني إن كان عليّ المتابعة.",
+  "companionLogTitle": "السجل",
+  "companionContextUnsupported": "لا يستطيع هذا المضيف استخدام سياقها بعد: لن يصل إليها اسمها وشخصيتها وأحداثها الأخيرة وذكرياتها على هاتفك، بل ما تقوله فقط. حدّث المضيف أو انتقل إلى الوضع الخفيف.",
+  "companionLogEmpty": "لم يُقل شيء بعد.",
+  "companionLogYou": "أنت",
+  "companionLogOpenChat": "فتح في المحادثة",
+  "companionLogOlder": "تحميل الرسائل الأقدم"
 }
