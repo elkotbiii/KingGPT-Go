@@ -49,13 +49,6 @@
   "workshopPublishBadDescription": "بحد أقصى 512 محرفًا",
   "workshopPublishBadTags": "حتى 8 وسوم، طول كل منها 32 محرفًا، دون تكرار",
   "workshopPublishBadRights": "أكّد أولًا أن لديك الحق في مشاركة هذا العنصر",
-  "@workshopPublishReason": {
-    "placeholders": {
-      "reason": {
-        "type": "String"
-      }
-    }
-  },
   "workshopPublishFiles": "الملفات في الحزمة",
   "workshopPublishEdit": "تعديل التفاصيل",
   "workshopPublishRights": "أؤكد أن لدي الحق في مشاركة هذا العنصر",
@@ -73,6 +66,13 @@
   "workshopPublishRejectedTitle": "لم تتم الموافقة على هذه المشاركة",
   "workshopPublishWithdrawnTitle": "تم سحب هذه المشاركة",
   "workshopPublishReason": "السبب: {reason}",
+  "@workshopPublishReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
   "workshopPublishAgain": "إرسال مجددًا",
   "workshopPublishAgainMessage": "أصلح المشكلة ويمكنك إرسالها مجددًا.",
   "workshopPublishRecordKept": "تم تأكيد النتيجة، لكن تعذّر مسح السجل على هذا الهاتف.",
@@ -105,20 +105,6 @@
   "workshopPublishCoverReplace": "استبدال",
   "workshopPublishCoverRemove": "إزالة",
   "workshopPublishCoverBadSize": "الصورة فارغة أو يتجاوز حجمها 32 MB. جرّب صورة أخرى.",
-  "@workshopPublishLetGoAccount": {
-    "placeholders": {
-      "worker": {
-        "type": "String"
-      }
-    }
-  },
-  "@workshopPublishLetGoAll": {
-    "placeholders": {
-      "worker": {
-        "type": "String"
-      }
-    }
-  },
   "workshopPublishCoverBadPng": "الصورة تالفة أو بتنسيق غير مدعوم. جرّب صورة أخرى.",
   "workshopPublishCoverBadDimensions": "تحتوي الصورة على عدد كبير جدًا من البكسلات. قلّص حجمها واخترها مجددًا.",
   "workshopPublishCoverUnreadable": "تعذّرت قراءة هذه الصورة. جرّب صورة أخرى.",
@@ -131,7 +117,21 @@
   "workshopPublishLetGo": "التخلّي عن هذا السجل",
   "workshopPublishLetGoTitle": "هل تريد التخلّي عن سجل هذا الهاتف؟",
   "workshopPublishLetGoAccount": "ستتم إزالة سجل المشاركة غير المكتملة لهذا الهاتف فقط، الخاص بحساب GitHub هذا لدى الورشة {worker}.",
+  "@workshopPublishLetGoAccount": {
+    "placeholders": {
+      "worker": {
+        "type": "String"
+      }
+    }
+  },
   "workshopPublishLetGoAll": "تعذّرت قراءة سجلات المشاركات على هذا الهاتف ككل. يؤدي التخلّي إلى إزالة سجلات المشاركات غير المكتملة لجميع الحسابات على هذا الهاتف، وليس فقط حساب GitHub هذا لدى الورشة {worker}.",
+  "@workshopPublishLetGoAll": {
+    "placeholders": {
+      "worker": {
+        "type": "String"
+      }
+    }
+  },
   "workshopPublishLetGoFacts": "لن يتم إبلاغ الورشة بالإلغاء: إذا كانت قد استلمت هذه المشاركة بالفعل فستظل هناك وستظهر ضمن «تحميلاتي». وإذا لم تستلمها، فستحتاج إلى إرسالها مجددًا؛ وإذا اتضح أنها وصلت لاحقًا فستوجد نسختان.",
   "workshopPublishLetGoFactsKnown": "لن يتم إبلاغ الورشة بالإلغاء: ستظل النتيجة كما هي، وستبقى هذه المشاركة ضمن «تحميلاتي».",
   "workshopPublishLetGoConfirm": "تخلٍّ",
