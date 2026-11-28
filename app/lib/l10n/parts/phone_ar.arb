@@ -519,5 +519,165 @@
   "phoneSelfCheckTechnicalDetails": "تفاصيل تقنية",
   "phoneLocalOcrSummary": "تعمل ميزة التعرّف على الجهاز؛ وقد تُرسل النتائج إلى نموذجك. تجمع حزمة SDK إحصاءات الاستخدام.",
   "phoneLocalOcrPrivacyDetails": "تفاصيل الخصوصية",
-  "phoneSelfCheckPartial": "فحص جزئي — النتائج متاحة للعناصر التي تمت ملاحظتها فقط"
+  "phoneSelfCheckPartial": "فحص جزئي — النتائج متاحة للعناصر التي تمت ملاحظتها فقط",
+  "phoneSelfCheckScope": "يستخدم قناة الاتصال المحددة وشاشة عرض مؤقتة. لا يشمل الاختبار تشغيل التطبيقات أو إدخال النصوص أو لقطات الشاشة أو OCR أو اضطراب الشاشة الرئيسية (MAIN). لا يثبت التنظيف وحده أن شاشة قد أُنشئت.",
+  "phoneSelfCheckStart": "بدء الفحص",
+  "phoneSelfCheckCancel": "طلب الإلغاء",
+  "phoneSelfCheckRefresh": "تحديث الحالة",
+  "phoneSelfCheckSave": "حفظ تقرير منقّح",
+  "phoneSelfCheckSaving": "جارٍ الحفظ…",
+  "phoneSelfCheckSaved": "تم حفظ التقرير في Downloads/DSH-Go.",
+  "phoneSelfCheckSaveFailed": "تعذّر حفظ التقرير.",
+  "phoneSelfCheckReportHint": "احفظ التقرير فقط عندما تختار ذلك. يحتوي التقرير المحلي على نتائج ثابتة، ولا يتضمن لقطات شاشة أو نصوصًا متعرّفًا عليها أو سجلات أو بيانات حساب أو معرّف تشغيل.",
+  "phoneSelfCheckRunState": "{state, select, idle{لم يبدأ} running{جارٍ تنفيذ فحص جزئي} cleaning{جارٍ التنظيف؛ لا يؤدي الإلغاء إلى التراجع عن الإدخال المُرسل} done{انتهى الفحص؛ راجع التفاصيل التقنية للاطلاع على النتائج} cancelled{أُلغي؛ تظل الإجراءات التي تمت ملاحظتها مسجلة} other{الحالة غير متاحة}}",
+  "@phoneSelfCheckRunState": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckStepState": "{state, select, not_run{لم يُنفّذ / لا توجد ملاحظة} running{قيد التنفيذ} pass{نجاح تمت ملاحظته} fail{فشل} skipped{تم التخطي} unknown{غير مؤكد} cancelled{أُلغي} other{غير مؤكد}}",
+  "@phoneSelfCheckStepState": {
+    "placeholders": {
+      "state": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckStage": "{stage, select, device{متطلبات الجهاز المسبقة} channel{القناة المحددة} display{شاشة خلفية مؤقتة} input_probe{مستقبل اللمس} launch{تشغيل التطبيق} tree{شجرة إمكانية الوصول} tap{النقر على زر التطبيق} scroll{التمرير داخل التطبيق} back{إجراء الرجوع في التطبيق} text_ascii{إدخال ASCII ثابت} text_zh{إدخال صيني ثابت} capture{التقاط نمط محلي} continuity{تحديث متحكم به محدود} main{ملاحظات محدودة للشاشة الرئيسية} ocr{التعرّف الضوئي المحلي} cleanup{تنظيف صارم} other{عنصر غير معروف}}",
+  "@phoneSelfCheckStage": {
+    "placeholders": {
+      "stage": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckReason": "{reason, select, busy{الهاتف أو القناة مشغولان.} unsupported{هذا الجهاز أو الطرف المقابل لا يدعم هذا الفحص.} cancelled{تم إلغاء هذا الطلب أو إنهاؤه.} disabled{التحكم بالهاتف متوقف.} locked{الجهاز مقفل.} identity{لم تعد هوية التشغيل أو القناة الأصلية متطابقة.} invalid{تعذّر التحقق من الطلب أو النتيجة.} display{تعذّر التحقق من الشاشة المؤقتة.} input{لم يتم التأكد من قبول الإدخال أو تسليمه. لن يُعاد إرسال الإدخال.} cleanup{لم يتم التأكد من تنظيف الموارد. أعد الاتصال بالقناة ثم تحقق مجددًا.} denied{رفض النظام العملية.} timeout{انتهت مهلة العملية؛ وقد يكتمل العمل المُرسل لاحقًا.} unavailable{الحالة المحلية أو القناة المحددة غير متاحة.} target_unavailable{تعذّر التحقق من الهدف الثابت. أكمل التنظيف قبل البدء مجددًا.} target_changed{تغيّر الهدف الأصلي. تابع التنظيف فقط.} target_cleanup{لم يتم التأكد من تنظيف الهدف. أعد الاتصال بالقناة ثم تحقق مجددًا.} target_main{تمت ملاحظة الهدف على الشاشة الرئيسية (MAIN). توقفت الخطوات التالية؛ أكمل التنظيف.} target_readback{لم يتطابق عدد الهدف الثابت أو نصه. لا تكرر الإجراء؛ أكمل التنظيف.} tree_cleanup{لم يتم التأكد من تنظيف اتصال الشجرة. أعد الاتصال بالقناة ثم تحقق مجددًا.} target_launch{تم رفض تشغيل الهدف أو لم يتم التأكد منه. تحقق من الجهاز وأكمل التنظيف.} frame_unavailable{لم تتم ملاحظة إطار نمط محلي صالح للاستخدام. أكمل التنظيف قبل إجراء فحص جديد.} frame_mismatch{لم يتطابق الإطار الفعلي مع هذا الهدف والمرحلة. أكمل التنظيف.} continuity{لم يتم التأكد من تسلسل التحديث المتحكم به المحدود. هذه ليست نتيجة لمعدل الإطارات.} main_changed{تغيّرت عينات MAIN؛ وقد يشمل ذلك إجراءات المستخدم. أكمل التنظيف. لا يثبت هذا سبب التغيير.} main_unchanged{لم يُلاحظ أي تغيير في نقاط أخذ العينات المحدودة هذه. يظل حدوث اضطراب بينها غير معروف.} main_incomplete{عينات MAIN غير مكتملة. لا يمكنها إثبات غياب الاضطراب.} not_installed{لا يتضمن هذا الفحص الذاتي OCR. لم يتم اختبار OCR.} other{تم استلام نتيجة غير معروفة.}}",
+  "@phoneSelfCheckReason": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckTargetScope": "يستخدم شاشة مؤقتة عادية وهدفًا محليًا ثابتًا لتشغيل التطبيق وقراءة الشجرة والنقر على زر واحد. لا يتم اختبار النص أو التمرير أو لقطات الشاشة أو OCR. لا يمكن لـ MAIN تسجيل سوى فشل تمت ملاحظته، وليس نجاحًا. لا يثبت التنظيف وحده أن شاشة قد أُنشئت.",
+  "phoneSelfCheckProfileChoice": "اختر الفحص التالي (لا يغيّر التقرير أدناه)",
+  "phoneSelfCheckProfile": "{profile, select, probe_b{فحص مستقبل الإدخال (B)} target_c1{فحص الهدف الثابت (C1)} target_c2{فحص الإدخال والإطارات الثابتة (C2)} other{ملف تعريف غير معروف}}",
+  "@phoneSelfCheckProfile": {
+    "placeholders": {
+      "profile": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckReportProfile": "{profile, select, probe_b{ملف التقرير: مستقبل الإدخال (B)} target_c1{ملف التقرير: الهدف الثابت (C1)} target_c2{ملف التقرير: الإدخال والإطارات الثابتة (C2)} other{ملف التقرير: غير مؤكد}}",
+  "@phoneSelfCheckReportProfile": {
+    "placeholders": {
+      "profile": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSelfCheckTargetC2Scope": "يستخدم هدفًا محليًا ثابتًا لتشغيل التطبيق وقراءة الشجرة والنقر على زر واحد واستبدال النص باستخدام ACTION_SET_TEXT وقراءته مجددًا باللغتين ASCII والصينية، والتقاط نمط محلي، وإجراء تحديث متحكم به محدود. لا يقيس هذا معدل الإطارات أو السلاسة. لا يمكن لعينات MAIN المحدودة إثبات عدم حدوث اضطراب بينها. لا يتم اختبار OCR أو استقبال اللمس أو التمرير أو الرجوع. لا يثبت التنظيف وحده أن شاشة قد أُنشئت.",
+  "phoneTaskWaiting": "المهمة {taskId} · بانتظار الموارد",
+  "phoneTaskWaitingApp": "بانتظار التطبيق {packageName} · مضت {seconds} ثانية.",
+  "phoneTaskWaitingUnknown": "بانتظار الواجهة (لم يتم تأكيد هوية التطبيق) · مضت {seconds} ثانية.",
+  "phoneTaskWaitingScreen": "بانتظار {screen} · مضت {seconds} ثانية.",
+  "phoneTaskMainResource": "الشاشة الرئيسية",
+  "phoneTaskBackgroundResource": "الشاشة الخلفية",
+  "@phoneTaskWaiting": {
+    "placeholders": {
+      "taskId": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneTaskWaitingApp": {
+    "placeholders": {
+      "packageName": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneTaskWaitingUnknown": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneTaskWaitingScreen": {
+    "placeholders": {
+      "screen": {
+        "type": "String"
+      },
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneInterruptionTitle": "لم يتم التأكد من اكتمال مهام الهاتف السابقة",
+  "phoneInterruptionLoading": "جارٍ قراءة سجلات المهام المنقطعة…",
+  "phoneInterruptionStorageError": "تعذّر حفظ سجلات اكتمال المهام أو قراءتها. أعد المحاولة؛ فهذا لا يعني تحرير موارد الخلفية.",
+  "phoneInterruptionHint": "تمت مقاطعة {count} مهام أو تعذّر حفظ اكتمالها. ربما دخلت الإجراءات حيز التنفيذ بالفعل. تحقق أولًا. لا يؤكد الإقرار سوى أنك رأيت هذا الإشعار؛ ولا يستأنف الإجراءات أو يثبت تحرير موارد الخلفية.",
+  "phoneInterruptionAcknowledge": "تحققت من إشعار المقاطعة",
+  "phoneInterruptionRetry": "إعادة محاولة الحفظ أو القراءة",
+  "phoneInterruptionActionFailed": "لم يتم التأكد من سجلات المهام بعد. يُرجى إعادة المحاولة.",
+  "@phoneInterruptionHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneLocalOcrTitle": "التعرّف على النص",
+  "phoneLocalOcrUnknown": "تعذّرت قراءة هذا الإعداد. حدّث الصفحة وحاول مجددًا.",
+  "phoneLocalOcrDisclosure": "يعمل التعرّف على هذا الجهاز. لا تُرسل لقطات الشاشة والنصوص إلى Google؛ لكن حزمة SDK من Google تجمع إحصاءات الاستخدام مثل طراز الجهاز وإصدار التطبيق ووقت المعالجة.",
+  "phoneLocalOcrDetails": "مفعّل افتراضيًا. عند إيقافه، لا تؤدي طلبات التعرّف على النص إلى تحميل حزمة SDK أو تهيئتها. يؤدي الاقتران عن بُعد إلى تهيئة حزمة SDK المشتركة بشكل منفصل عند فتح الماسح؛ ولا يفعّل التعرّف على النص. قد تُرسل لقطات الشاشة والنصوص المتعرّف عليها إلى النموذج الذي أعددته. يمنع إيقاف هذا الخيار عمليات التعرّف المحلية الجديدة؛ وقد تستمر الأعمال التي بدأت بالفعل حتى تكتمل. ولا يؤدي ذلك إلى إلغاء تثبيت حزمة SDK أو ضمان مسح إحصاءات SDK المتراكمة سابقًا أو إيقاف إرسالها.",
+  "phoneBackgroundParallelTitle": "حد مهام الخلفية",
+  "phoneBackgroundParallelStatus": "المهيأ: {configured} · الحد المتاح: {effective} · المشغول: {held}",
+  "phoneBackgroundParallelDescription": "يُبقي الحد الأقل المهام الحالية كما هي. وستظل المهام الجديدة بانتظار توفر التطبيقات والشاشة الرئيسية.",
+  "phoneBackgroundParallelChoice": "{limit} خانات لمهام الخلفية",
+  "phoneBackgroundParallelOff": "قناة الخلفية متوقفة. لا يؤدي حفظ هذا التفضيل إلى تشغيلها.",
+  "phoneBackgroundParallelUnsupported": "تشغيل المهام في الخلفية غير متاح على هذا الجهاز.",
+  "phoneBackgroundParallelConnection": "يلزم الاتصال قبل بدء مهمة خلفية جديدة.",
+  "phoneBackgroundParallelBusy": "يجري إعداد قناة الخلفية أو صيانتها. لا يمكن بدء مهام جديدة بعد.",
+  "phoneGateRetest": "فحص هذه القناة مجددًا",
+  "phoneBackgroundParallelSerial": "يدعم هذا الاتصال خانة خلفية واحدة. تم الاحتفاظ بتفضيلك.",
+  "@phoneBackgroundParallelStatus": {
+    "placeholders": {
+      "configured": {
+        "type": "int"
+      },
+      "effective": {
+        "type": "int"
+      },
+      "held": {
+        "type": "int"
+      }
+    }
+  },
+  "@phoneBackgroundParallelChoice": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneSkillBundlePublishedUnverified": "تم نشر الملفات، لكن لم ينجح التحقق الكامل. لا تحفظها مرة أخرى.",
+  "phoneSkillBundleUnknown": "لم يتم تأكيد نتيجة الحفظ. ربما كُتبت الملفات بالفعل. لا تحفظها مرة أخرى.",
+  "phoneSkillBundleRevision": "مراجعة المسار: {revision}",
+  "@phoneSkillBundleRevision": {
+    "placeholders": {
+      "revision": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneSkillReplayReview": "مراجعة مسار الهاتف",
+  "phoneSkillReplaySourceChanged": "تغيّرت الجلسة المحلية أو الاتصال. اختر المسار مجددًا من المحادثة المحلية الحالية."
 }
