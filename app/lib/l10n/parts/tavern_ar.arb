@@ -958,5 +958,115 @@
   "tavernRestoreSubtitle": "استبدال Tavern الحالي بنسخة احتياطية",
   "tavernRestoreTitle": "هل تريد استبدال Tavern الحالي بهذه النسخة الاحتياطية؟",
   "tavernRestoreMessage": "ستُستبدل جميع البطاقات والمحادثات والإعدادات المسبقة والإعدادات هنا بمحتويات النسخة الاحتياطية. للاحتفاظ بالمحتوى الحالي، أنشئ نسخة احتياطية منه أولًا. لن تؤثر النسخة الاحتياطية الخاطئة أو التالفة في أي شيء.",
-  "tavernRestoreAction": "استعادة"
+  "tavernRestoreAction": "استعادة",
+  "tavernRestoring": "جارٍ الاستعادة…",
+  "tavernRestored": "تمت الاستعادة: {count} ملفات",
+  "@tavernRestored": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRestoreFailed": "تعذّرت الاستعادة؛ لم يتغير أي شيء هنا: {error}",
+  "@tavernRestoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreTest": "تجربة",
+  "tavernLoreTestTitle": "جرّب كتاب المعلومات",
+  "tavernLoreTestInput": "اكتب شيئًا",
+  "tavernLoreTestHint": "سطر تتوقع أن يؤدي إلى إظهار إدخال",
+  "tavernLoreTestNote": "هذا السطر وحده، بالإضافة إلى الإدخالات الدائمة؛ لا تُحتسب الرسائل السابقة أو التثبيت أو فترة التهدئة. لن يتم استدعاء أي نموذج.",
+  "tavernLoreTestHits": "يُضاف إلى المطالبة ({count})",
+  "@tavernLoreTestHits": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLoreTestNone": "لا يؤدي هذا السطر إلى إظهار أي إدخال.",
+  "tavernLoreTestOverflow": "تجاوز ميزانية كتاب المعلومات؛ تم استبعاد الإدخالات اللاحقة.",
+  "tavernLoreTestFailed": "تعذّرت التجربة: {error}",
+  "@tavernLoreTestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreReasonKeys": "الكلمة المفتاحية {keys}",
+  "@tavernLoreReasonKeys": {
+    "placeholders": {
+      "keys": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreReasonSticky": "مثبّت، وما زال مفعّلًا",
+  "tavernLoreReasonDecorator": "مُزيّن",
+  "tavernLoreAtDepth": "عند العمق {depth}",
+  "@tavernLoreAtDepth": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLoreNearNote": "بجوار ملاحظة المؤلف",
+  "tavernLoreNearExamples": "بجوار الحوار النموذجي",
+  "tavernLoreOutlet": "المخرج",
+  "tavernLoreOrder": "الترتيب {order}",
+  "@tavernLoreOrder": {
+    "placeholders": {
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranches": "الفروع",
+  "tavernBranchesNote": "يمثل كل صف مسارًا متصلًا بلا تفرع. والصف المزاح إلى الداخل يمثل مسارًا بديلًا من نهاية الصف الذي يعلوه. اضغط على صف للتبديل إليه أو تسميته؛ ويمكن أيضًا حذف الفروع التي لا تتبعها القصة حاليًا.",
+  "tavernBranchesEmpty": "لا توجد رسائل في هذه المحادثة بعد.",
+  "tavernBranchCount": "{count} رسائل",
+  "@tavernBranchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernBranchUntil": "حتى «{text}»",
+  "@tavernBranchUntil": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranchCurrent": "الحالي",
+  "tavernBranchSwitch": "التبديل إلى هذا الفرع",
+  "tavernBranchSwitchSubtitle": "تستكمل القصة من حيث توقفت آخر مرة",
+  "tavernBranchName": "تسمية هذا الفرع",
+  "tavernBranchRename": "إعادة التسمية",
+  "tavernBranchNameHint": "مثال: مسار القبو",
+  "tavernBranchNameCaption": "مخصص لك للعثور عليه لاحقًا؛ اتركه فارغًا لإزالة الاسم.",
+  "tavernBranchSwitched": "تم التبديل إلى هذا الفرع",
+  "tavernBranchFailed": "تعذّر تنفيذ ذلك: {error}",
+  "@tavernBranchFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernCardTheme": "استخدام مظهر البطاقة الخاص",
+  "tavernCardThemeSubtitle": "لون التمييز وألوان الاسم والتخطيط والخلفية التي تحددها البطاقة؛ عند إيقافه، تتحكم هذه الصفحة في المظهر",
+  "tavernShelfSort": "ترتيب حسب",
+  "tavernShelfOrderRecent": "الأحدث استخدامًا",
+  "tavernShelfOrderName": "الاسم",
+  "tavernShelfOrderImported": "الأحدث استيرادًا"
 }
