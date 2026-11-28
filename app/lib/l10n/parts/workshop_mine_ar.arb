@@ -1,0 +1,64 @@
+{
+  "workshopMinePublish": "إرسال",
+  "workshopMinePublishHint": "سيظهر في «اكتشف» بعد الموافقة",
+  "workshopMineSignInTitle": "المشاركات مرتبطة بحساب GitHub",
+  "workshopMineSignInMessage": "سجّل الدخول لرؤية ما أرسلته.",
+  "workshopMineConsentTitle": "خطوة أخرى",
+  "workshopMineConsentMessage": "تتحقق الورشة من هويتك باستخدام تسجيل دخول GitHub. وافق على ذلك لرؤية مشاركاتك.",
+  "workshopMineConsentAction": "عرض التفاصيل",
+  "workshopMineEmptyTitle": "لا توجد مشاركات بعد",
+  "workshopMineEmptyMessage": "هل صنعت حيوانًا أليفًا أو رفيقًا؟ أرسله ليستفيد منه الآخرون.",
+  "workshopMineEmptyFiltered": "لا شيء بهذه الحالة",
+  "workshopMineLoadFailed": "تعذّر تحميل مشاركاتك",
+  "workshopMineStale": "تعذّر جلب الأحدث. نعرض ما تم تحميله سابقًا.",
+  "workshopMineLoadMore": "تحميل المزيد",
+  "workshopMineStatusPending": "قيد المراجعة",
+  "workshopMineStatusApproved": "تمت الموافقة",
+  "workshopMineStatusRejected": "مرفوض",
+  "workshopMineStatusWithdrawn": "مسحوب",
+  "workshopMineStatusDraft": "مسودة",
+  "workshopMineDetailTitle": "المشاركة",
+  "workshopMineRefreshOne": "تحديث هذه المشاركة",
+  "workshopMineAboutPending": "تم الإرسال وهي بانتظار المراجعة. ستظهر في «اكتشف» بعد الموافقة.",
+  "workshopMineAboutApproved": "تمت الموافقة. أما ظهورها للعامة حاليًا فيحدده ما تعرضه صفحة «اكتشف».",
+  "workshopMineAboutRejected": "لم تتم الموافقة.",
+  "workshopMineAboutWithdrawn": "تم السحب. لا يمكن التراجع عن ذلك.",
+  "workshopMineAboutDraft": "لم يكتمل تحميل الملف، لذا لم يدخل المراجعة.",
+  "workshopMineReviewReason": "ملاحظة المراجع",
+  "workshopMineWithdrawReason": "سبب السحب",
+  "workshopMineWithdrawReasonHint": "مثال: ملف خاطئ، أريد تغييره أولًا",
+  "workshopMineCreatedAt": "تاريخ الإرسال",
+  "workshopMineUpdatedAt": "آخر تحديث",
+  "workshopMineDetailStale": "تعذّر تحديث هذه المشاركة. نعرض الحالة التي حُمّلت سابقًا.",
+  "workshopMineAccountChanged": "تغيّر الحساب",
+  "workshopMineAccountChangedMessage": "هذه المشاركة تخص الحساب السابق ولم تعد معروضة.",
+  "workshopMineWithdraw": "سحب",
+  "workshopMineWithdrawConfirmTitle": "هل تريد سحب هذه المشاركة؟",
+  "workshopMineWithdrawConfirmMessage": "لا يمكن التراجع عن ذلك. إذا كان «{title}» متاحًا للعامة بالفعل، فلن يتمكن أحد من تنزيل هذا الإصدار، ولن يمكن نشر رقم الإصدار نفسه مجددًا.",
+  "@workshopMineWithdrawConfirmMessage": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopMineWithdrawConfirm": "سحب",
+  "workshopMineWithdrawing": "جارٍ السحب…",
+  "workshopMineWithdrawDone": "تم سحب المشاركة",
+  "workshopMineWithdrawUnknown": "ليس مؤكدًا ما إذا تم السحب. تحقّق من النتيجة أولًا؛ ولا تسحب مجددًا الآن.",
+  "workshopMineWithdrawQuery": "التحقق من النتيجة",
+  "workshopMineWithdrawStill": "لم يتم سحبها. يمكنك سحبها مجددًا إذا كنت لا تزال ترغب في ذلك.",
+  "workshopMineWithdrawReconciled": "تم سحبها الآن.",
+  "workshopMineReasonEmpty": "اكتب سببًا أولًا.",
+  "workshopMineReasonTooLong": "الحد الأقصى {max} محرفًا. النص طويل جدًا.",
+  "@workshopMineReasonTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopMineReasonBadChars": "يحتوي على محارف غير مسموح بها. أزلها وحاول مجددًا.",
+  "workshopMineReasonRejected": "لم يُقبل هذا السبب. غيّره وحاول مجددًا.",
+  "workshopReportTarget": "{title} · {version}"
+}
