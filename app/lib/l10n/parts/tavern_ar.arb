@@ -1288,5 +1288,85 @@
       }
     }
   },
-  "tavernStateNote": "وفقًا للرسالة الحالية. اضغط على متغير لعرضه أو تغييره؛ وتُسجّل التغييرات مع هذه الرسالة."
+  "tavernStateNote": "وفقًا للرسالة الحالية. اضغط على متغير لعرضه أو تغييره؛ وتُسجّل التغييرات مع هذه الرسالة.",
+  "tavernStatePreview": "لم يُحفظ شيء بعد؛ هذه هي القيم الابتدائية.",
+  "tavernStateChanged": "تم التغيير",
+  "tavernStateHidden": "محتوى مخفي · اضغط للعرض",
+  "tavernStateWhole": "الكل",
+  "tavernStateEdit": "تغيير",
+  "tavernStateEditText": "يُحتفظ بالنص كما كُتب",
+  "tavernStateEditJson": "اكتب JSON: رقم أو true / false أو \"نص بين علامتي اقتباس\" أو […] أو {…}",
+  "tavernStateEditBad": "JSON غير صالح؛ لم يتغير شيء",
+  "tavernStateEditSaved": "تم التغيير",
+  "tavernStateEditSame": "كانت هذه هي القيمة بالفعل",
+  "tavernStateEditRefused": "لم يتغير: {reason}",
+  "@tavernStateEditRefused": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDirectorAuto": "يعمل المخرج تلقائيًا",
+  "tavernDirectorAutoNote": "لهذه المحادثة فقط. يُطلب من النموذج التفكير مرة إضافية كل بضعة أدوار، ما يستهلك قدرًا إضافيًا قليلًا.",
+  "tavernDirectorRun": "اطلب من المخرج الآن",
+  "tavernDirectorRunning": "المخرج يفكر…",
+  "tavernDirectorBeat": "الحدث التالي",
+  "tavernDirectorSuggestions": "يمكنك…",
+  "tavernDirectorSuggestionsNote": "اضغط على أحد الاقتراحات لوضعه في حقل الكتابة",
+  "tavernDirectorNotes": "ملاحظات المخرج",
+  "tavernDirectorStale": "تم التفكير فيها لمرحلة سابقة؛ احتُفظ بها للقراءة.",
+  "tavernDirectorFailed": "لم تنجح المحاولة الأخيرة: {reason}",
+  "@tavernDirectorFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDirectorRunFailed": "تعذّر تنفيذ ذلك: {reason}",
+  "@tavernDirectorRunFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranchHere": "إنشاء فرع من هنا",
+  "tavernBranchedHere": "تم الرجوع إلى هذه الرسالة؛ وما جاء بعدها محفوظ في الفروع",
+  "tavernBranchHereFailed": "تعذّر الرجوع إلى هذه الرسالة",
+  "tavernStateItems": "{count} عناصر",
+  "@tavernStateItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStateSearch": "البحث في القيم",
+  "tavernStateNoMatch": "لا توجد نتائج مطابقة",
+  "tavernRuns": "سجل العمليات في الخلفية",
+  "tavernRunsNote": "كل تغيير في الحالة تجريه أنت أو النموذج أو قواعد البطاقة، وكل تشغيل للمخرج وأحداث البطاقة والقصة؛ مرتبة من الأحدث، حتى 100 سجل. اضغط على سجل لعرض بياناته الخام.",
+  "tavernRunsEmpty": "لا شيء بعد",
+  "tavernRunsEmptyMessage": "ستظهر هنا تغييرات الحالة وعمليات تشغيل المخرج.",
+  "tavernRunUser": "أنت",
+  "tavernRunModel": "النموذج",
+  "tavernRunRules": "قواعد البطاقة",
+  "tavernRunStopped": "تم قطع الدور",
+  "tavernRunDirector": "المخرج",
+  "tavernRunDirectorFailed": "فشل المخرج",
+  "tavernRunEvent": "حدث البطاقة",
+  "tavernRunStory": "القصة",
+  "tavernRunSecret": "سر",
+  "tavernRunNotKept": "لم يتم الاحتفاظ به",
+  "tavernRunGone": "لم تعد رسالته موجودة",
+  "tavernRunMore": "و{count} أخرى",
+  "@tavernRunMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCache": "ذاكرة التخزين المؤقت"
 }
