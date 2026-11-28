@@ -770,5 +770,97 @@
   "companionFindSourceUnknown": "لا يمكن فتح هذه المسودة الآن. اتصل بالحاسوب الأصلي وحاول مجددًا.",
   "companionFindDeadline": "انقضى الموعد النهائي المتفق عليه. لن يبدأ بحث جديد، وستبقى النتائج الحالية هنا.",
   "companionFindOriginalPending": "تلقى الحاسوب التغييرات، ولا يزال بحاجة إلى تأكيد البحث الأصلي.",
-  "companionFindUnknown": "لم أتأكد مما إذا كان الحاسوب قد تلقى هذا البحث أو إلى أي مدى وصل."
+  "companionFindUnknown": "لم أتأكد مما إذا كان الحاسوب قد تلقى هذا البحث أو إلى أي مدى وصل.",
+  "companionCompareTitle": "مقارنة مسودتين",
+  "companionCompareA": "أ · المسودة الأقدم",
+  "companionCompareB": "ب · المسودة الأحدث",
+  "companionCompareSyntax": "يرجى اختيار أ بوصفها المسودة الأقدم وب بوصفها الأحدث، واذكر ما إذا كنت تريد انتظار الحاسوب ومواصلة العمل بعد مغادرتك. أضف موعدًا نهائيًا إن كان لديك واحد.",
+  "companionCompareWhich": "أي مقارنة تريد إيقافها؟ افتح تلك المهمة واختر إيقاف.",
+  "companionCompareDeadlineMissing": "الموعد النهائي غير واضح بعد. يرجى تحديد التاريخ والوقت والمنطقة الزمنية.",
+  "companionCompareUnavailable": "لا يستطيع هذا الحاسوب مقارنة مسودتين بعد.",
+  "companionCompareConnect": "اتصل بالحاسوب الأصلي لاختيار أ وب أولًا. لا تتوفر المسودات المحددة سابقًا دون اتصال بعد.",
+  "companionCompareAmbiguousFile": "هناك أكثر من مسودة محددة بهذا الاسم. اتصل بالحاسوب الأصلي لاختيارها مجددًا.",
+  "companionCompareNoInputs": "لم يتم تحديد المسودتين الأصليتين، لذا لم تبدأ هذه المقارنة.",
+  "companionCompareOriginalHost": "تم الاحتفاظ بالاتفاق وأي نتيجة موجودة. اتصل بالحاسوب الأصلي للتحقق مجددًا.",
+  "companionCompareSaveFailed": "تعذّر تأكيد المقارنة بعد. يرجى التحقق من هذه المهمة لاحقًا.",
+  "companionCompareSaved": "اختيار {side} سبق تحديدها",
+  "@companionCompareSaved": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareChooseDirectory": "اختيار المجلد الذي يحتوي على {side}",
+  "@companionCompareChooseDirectory": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareFilename": "أدخل اسم الملف الخاص بـ {side}",
+  "@companionCompareFilename": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareFileLimit": "أدخل الاسم الدقيق داخل المجلد المحدد. تُدعم ملفات Markdown وtxt حتى 64 كيلوبايت لكل ملف. لن تتغير الملفات الأصلية.",
+  "companionCompareFilenameMissing": "أدخل اسم ملف.",
+  "companionCompareQueued": "تم حفظ المسودتين، وبانتظار الحاسوب.",
+  "companionCompareRunning": "قبل الحاسوب هذه المهمة. المقارنة غير جاهزة بعد.",
+  "companionCompareDone": "أصبحت مقارنة المسودتين جاهزة.",
+  "companionComparePartial": "اكتملت هذه المقارنة جزئيًا فقط. تظهر أدناه التغييرات التي تم التحقق منها والنواقص المتبقية.",
+  "companionCompareCancelled": "توقفت المقارنة الإضافية. تم الاحتفاظ بأي مقارنة سابقة.",
+  "companionCompareCancelUnknown": "تم حفظ طلب الإيقاف، لكن الحاسوب لم يؤكده بعد. تم الاحتفاظ بالنتائج الحالية.",
+  "companionCompareWaiting": "لا يمكن متابعة هذه المقارنة بعد. تم الاحتفاظ بالاختيارات والاتفاق الأصليين.",
+  "companionCompareUnknown": "تقدم الحاسوب غير واضح بعد. لن تُعاد المقارنة تلقائيًا.",
+  "companionCompareFailed": "تعذّر إكمال المقارنة. لم تعدّل هذه المهمة الملفات الأصلية.",
+  "companionCompareDeadline": "انقضى الموعد النهائي الأصلي. لن تُنقل هذه المقارنة إلى موعد لاحق.",
+  "companionCompareOriginalPending": "تم حفظ التغيير، لكن لا يزال يلزم إرسال اتفاق المقارنة الأصلي.",
+  "companionCompareReport": "هذه المقارنة",
+  "companionCompareUnfinishedReport": "مقارنة غير مكتملة",
+  "companionComparePreviousReport": "المقارنة السابقة",
+  "companionCompareUnread": "لم تتم قراءة هذه المسودة بالكامل.",
+  "companionCompareChanged": "قُرئت هذه المسودة، لكن تعذّر تأكيد نسختها الأصلية عند إعداد النتيجة.",
+  "companionCompareIncomplete": "لا تزال بعض الأجزاء غير مكتملة. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
+  "companionCompareIdentical": "لا تتضمن المسودتان المقروءتان لهذه المقارنة أي تغييرات نصية.",
+  "companionCompareCoverage": "عثرت هذه المقارنة على {total} مجموعات من التغييرات النصية، وتعرض {shown} منها.",
+  "@companionCompareCoverage": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareSourceOrder": "تتبع التغييرات التي تم التحقق منها أدناه ترتيبها في النص. لم يتم ترتيب أولويات التدريب.",
+  "companionCompareDifference": "التغيير النصي {number}",
+  "@companionCompareDifference": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareNoExcerpt": "لا يوجد مقتطف قصير من المصدر لعرضه في هذا الجانب.",
+  "companionCompareSuggestions": "اقتراحات التدريب",
+  "companionComparePractice": "التغيير {number}: {practice}",
+  "@companionComparePractice": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      },
+      "practice": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareSuggestionsUnknown": "لم يتم تأكيد اقتراحات التدريب بعد. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
+  "companionCompareSuggestionsMissing": "اقتراحات التدريب غير جاهزة. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
+  "companionCompareParagraph": "الفقرة {range}"
 }
