@@ -1100,5 +1100,84 @@
   "companionScreenVisionUnavailable": "لا يستطيع هذا الاتصال أو النموذج استقبال الصور، لذا تعتمد مشاهدة الشاشة على النص",
   "companionScreenFrequency": "مدى تكرار تحدثها",
   "companionScreenQuiet": "هادئة",
-  "companionScreenQuietHint": "نادرًا، وعندما يكون الأمر مهمًا فقط"
+  "companionScreenQuietHint": "نادرًا، وعندما يكون الأمر مهمًا فقط",
+  "companionScreenNormal": "عادي",
+  "companionScreenNormalHint": "تعليق عندما يلفت شيء انتباهها",
+  "companionScreenChatty": "ثرثارة",
+  "companionScreenChattyHint": "تتحدث معك بوتيرة أكبر",
+  "companionScreenLive": "مباشر",
+  "@companionScreenLive": {
+    "description": "أعلى وتيرة لمشاهدة الشاشة: تواصل المشاهدة وقد تتحدث عدة مرات في الدقيقة."
+  },
+  "companionScreenLiveHint": "تواصل المشاهدة ويمكنها التعليق عدة مرات في الدقيقة",
+  "@companionScreenLiveHint": {
+    "description": "عنوان فرعي لخيار وتيرة المشاهدة المباشرة."
+  },
+  "companionScreenPerHour": "أقصى عدد من العبارات في الساعة",
+  "@companionScreenPerHour": {
+    "description": "عنوان فوق خيارات عدد المرات التي يمكنها التحدث فيها في الساعة أثناء مشاهدة الشاشة؛ وتُحتسب التعليقات القصيرة أيضًا."
+  },
+  "companionScreenPerHourNone": "بلا حد",
+  "@companionScreenPerHourNone": {
+    "description": "الخيار الافتراضي: لا يوجد حد بالساعة لما تقوله أثناء مشاهدة الشاشة."
+  },
+  "companionScreenUsageAccess": "دعها تعرف التطبيق الذي تستخدمه",
+  "companionScreenCost": "حوالي ¥{amount} اليوم",
+  "@companionScreenCost": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotices": "تتابع إشعاراتك",
+  "companionNoticesHint": "عندما يتلقى تطبيق تختاره إشعارًا، تلقي نظرة ولا تتحدث إلا إذا كان الأمر مهمًا",
+  "companionNoticesNeedsAccess": "خطوة أخرى: اسمح لـ DSH Go بقراءة الإشعارات",
+  "companionNoticesAllow": "سماح",
+  "companionNoticesApps": "التطبيقات التي تتابعها",
+  "companionNoticesAppsEmpty": "عند تفعيل هذا الخيار، ستظهر هنا التطبيقات التي ترسل إليك إشعارات",
+  "companionNoticesAppCount": "{count, plural, =1{مرة واحدة خلال آخر 7 أيام} other{{count} مرات خلال آخر 7 أيام}}",
+  "@companionNoticesAppCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "companionNoticesQuiet": "لا توجد إشعارات مؤخرًا",
+  "companionNoticesToday": "وصل {received} اليوم · وتحدثت {said, plural, =1{مرة واحدة} other{{said} مرات}}",
+  "@companionNoticesToday": {
+    "placeholders": {
+      "received": {
+        "type": "int"
+      },
+      "said": {
+        "type": "int"
+      }
+    }
+  },
+  "companionNoticesFooter": "تُرسل الإشعارات إلى النموذج الذي أعددته لها (DeepSeek حاليًا)، ومن التطبيقات التي تختارها فقط. لا يُحتفظ بنص الإشعار نفسه، بل بالملاحظات القليلة التي تدوّنها، ويمكنك رؤيتها وحذفها في صفحة الذاكرة؛ كما يحتفظ هذا الهاتف بالأعداد والاستخدام والعلامات التي تمنع التكرار. لا تطّلع على الإشعارات عندما يكون الهاتف مقفلًا.",
+  "companionNoticesFailed": "لم ينجح ذلك؛ حاول مجددًا",
+  "companionNoticeLevelOff": "متوقف",
+  "companionNoticeLevelOffHint": "لا تقرأ إشعارات هذا التطبيق",
+  "companionNoticeLevelGlance": "إلقاء نظرة",
+  "companionNoticeLevelGlanceHint": "لتقرر فقط ما إذا كانت ستخبرك؛ ثم تنساه فورًا",
+  "companionNoticeLevelRemember": "تذكّر",
+  "companionNoticeLevelRememberHint": "تدوّن الأخبار الجديرة بالاحتفاظ بها",
+  "companionMemoryAll": "الكل",
+  "companionMemoryFromNotices": "من الإشعارات",
+  "companionMemoryNoticesClear": "مسح الكل",
+  "companionMemoryNoticesClearTitle": "هل تريد منها نسيان ما رأته في الإشعارات؟",
+  "companionMemoryNoticesClearBody": "ستُحذف كل ملاحظة دوّنتها من الإشعارات، ولن تُدوّن الأشياء نفسها مجددًا.",
+  "companionPanelCompany": "الرفقة",
+  "companionPanelHer": "هي",
+  "companionPanelTalk": "المحادثة",
+  "companionPanelMore": "المزيد",
+  "companionDrawerHere": "موجودة دائمًا هنا",
+  "companionDrawerRoom": "غرفة الرفيقة",
+  "companionTabRoom": "الغرفة",
+  "companionTabMemory": "الذكريات",
+  "companionTabTasks": "المهام",
+  "companionTabHer": "هي",
+  "companionDrawerReminderToday": "تذكير عند {time}"
 }
