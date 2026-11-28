@@ -1,0 +1,23 @@
+{
+  "nearbyThisChat": "هذه المحادثة",
+  "nearbyPermissionTitle": "أذونات هذه المحادثة",
+  "nearbyNewChatDefault": "المحادثات الجديدة: {name}",
+  "@nearbyNewChatDefault": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nearbySetAsDefault": "استخدام للمحادثات الجديدة",
+  "nearbyManageModels": "إدارة النماذج",
+  "nearbyPermissionPill": "أذونات هذه المحادثة: {name}",
+  "@nearbyPermissionPill": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nearbyChange": "تغيير"
+}
