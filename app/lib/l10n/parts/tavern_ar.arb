@@ -875,5 +875,88 @@
     }
   },
   "tavernSearchChat": "البحث في هذه المحادثة",
-  "tavernSearchChatHint": "سطر أو كلمة"
+  "tavernSearchChatHint": "سطر أو كلمة",
+  "tavernSearchChatIdle": "يبحث في كل فروع هذه المحادثة، بما فيها الرسائل المخفية، لكن ليس في التفكير. اضغط على نتيجة لقراءتها كاملة.",
+  "tavernSearchChatNone": "لم يُعثر على شيء يطابق «{query}»",
+  "@tavernSearchChatNone": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSearchChatFound": "{count, plural, =1{تم العثور على نتيجة واحدة} other{تم العثور على {count} نتائج، من الأحدث إلى الأقدم}}",
+  "@tavernSearchChatFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteOne": "حذف هذه الرسالة فقط",
+  "tavernDeleteOneTitle": "هل تريد حذف هذه الرسالة فقط؟",
+  "tavernDeleteOneMessage": "ستبقى الرسائل التي تليها، وستتصل بالرسالة السابقة لها. لا يمكن التراجع عن ذلك.",
+  "tavernLorebookAdd": "إضافة إدخال",
+  "tavernLorebookStart": "لا تملك هذه البطاقة كتاب معلومات خاصًا بها. أضف إدخالًا: عندما تذكر المحادثة أحد مفاتيحه، يُضاف نصه إلى المطالبة.",
+  "tavernLorebookEntryNew": "إدخال جديد",
+  "tavernLorebookEntryEdit": "تعديل الإدخال",
+  "tavernLorebookFieldName": "اسم الإدخال",
+  "tavernLorebookFieldNameHelp": "مخصص لك فقط للعثور عليه؛ ولا يُرسل إلى النموذج.",
+  "tavernLorebookFieldKeys": "المفاتيح",
+  "tavernLorebookFieldKeysHelp": "عندما تذكر المحادثة أيًا منها، يُضاف النص إلى المطالبة. افصل بينها بفواصل.",
+  "tavernLorebookFieldSecondary": "المفاتيح الثانوية",
+  "tavernLorebookFieldSecondaryHelp": "إذا أُضيفت، فسيُفحص الإدخال أيضًا بمطابقتها وفق الإعداد أدناه.",
+  "tavernLorebookFieldContent": "النص",
+  "tavernLorebookFieldConstantSubtitle": "يُضمّن دائمًا، سواء وُجدت المفاتيح أم لا",
+  "tavernLorebookFieldEnabled": "مفعّل",
+  "tavernLorebookFieldPosition": "موضع الإدراج",
+  "tavernLorebookBeforeChar": "قبل الشخصية",
+  "tavernLorebookAfterChar": "بعد الشخصية",
+  "tavernLorebookFieldOrder": "الترتيب",
+  "tavernLorebookFieldOrderHelp": "تأتي الأرقام الأعلى أولًا، وتُدرج أولًا.",
+  "tavernLorebookEntryDelete": "حذف هذا الإدخال",
+  "tavernLorebookEntryDeleteTitle": "هل تريد حذف الإدخال «{name}»؟",
+  "@tavernLorebookEntryDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookEntryDeleteMessage": "سيُحذف نهائيًا من البطاقة.",
+  "tavernNarrator": "الراوي",
+  "tavernSendOptions": "طرق إرسال أخرى",
+  "tavernSendOnly": "إرسال دون رد",
+  "tavernNarrate": "الإرسال كسرد",
+  "tavernSendFailed": "تعذّر الإرسال",
+  "tavernStateVariables": "المتغيرات",
+  "tavernStateVariablesNote": "المتغيرات التي تحفظها وحدات الماكرو مثل {{setvar}}، وفقًا للرسالة الحالية. اضغط على متغير لعرضه أو تغييره.",
+  "tavernData": "البيانات",
+  "tavernBackup": "نسخ Tavern احتياطيًا بالكامل",
+  "tavernBackupSubtitle": "البطاقات والمحادثات والإعدادات المسبقة وكتب المعلومات والشخصيات والإعدادات في ملف ZIP واحد",
+  "tavernBackingUp": "جارٍ إنشاء النسخة الاحتياطية…",
+  "tavernBackedUp": "تم إنشاء النسخة الاحتياطية: {count} ملفات، {size}",
+  "@tavernBackedUp": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBackupFailed": "تعذّر إنشاء النسخة الاحتياطية: {error}",
+  "@tavernBackupFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRestore": "الاستعادة من نسخة احتياطية",
+  "tavernRestoreSubtitle": "استبدال Tavern الحالي بنسخة احتياطية",
+  "tavernRestoreTitle": "هل تريد استبدال Tavern الحالي بهذه النسخة الاحتياطية؟",
+  "tavernRestoreMessage": "ستُستبدل جميع البطاقات والمحادثات والإعدادات المسبقة والإعدادات هنا بمحتويات النسخة الاحتياطية. للاحتفاظ بالمحتوى الحالي، أنشئ نسخة احتياطية منه أولًا. لن تؤثر النسخة الاحتياطية الخاطئة أو التالفة في أي شيء.",
+  "tavernRestoreAction": "استعادة"
 }
