@@ -1,0 +1,67 @@
+{
+  "linuxTitle": "بيئة Linux",
+  "linuxSubtitle": "شغّل gh وPython وgit وأدوات سطر الأوامر الأخرى على هذا الهاتف",
+  "linuxSwitch": "تشغيل Linux",
+  "linuxStatus": "الحالة",
+  "linuxFirstHint": "في المرة الأولى، يُنزّل نظامًا أساسيًا بحجم 3.5 ميغابايت ويثبّته، ويستغرق ذلك دقيقة أو دقيقتين. بعد ذلك يبدأ خلال ثوانٍ.",
+  "linuxMemoryNote": "أثناء تشغيل Linux، يستهلك التطبيق نحو 100 ميغابايت إضافية من الذاكرة. أوقفه لاستعادة هذه المساحة؛ وعند تشغيله مجددًا ستحتاج إلى إعادة فتح التطبيق.",
+  "linuxStateOn": "قيد التشغيل",
+  "linuxStateOff": "متوقف",
+  "linuxStateInstalling": "جارٍ التجهيز",
+  "linuxStateStopping": "جارٍ الإيقاف",
+  "linuxStateFailed": "فشل",
+  "linuxStateUnavailable": "غير متاح",
+  "linuxStageDownload": "تنزيل النظام الأساسي",
+  "linuxStageDisk": "إعداد الأقراص",
+  "linuxStageBoot": "بدء التشغيل",
+  "linuxStageTools": "تثبيت الأدوات",
+  "linuxEngineOffline": "المحرك الموجود على الجهاز لا يعمل. شغّله، ثم شغّل Linux.",
+  "linuxRequestFailed": "تعذّر الاتصال بالمحرك. حاول مجددًا بعد قليل.",
+  "linuxRestartRequired": "توقف Linux. أعد فتح التطبيق لتشغيله مجددًا.",
+  "linuxReopenApp": "إعادة فتح التطبيق",
+  "linuxReopenFailed": "تعذّرت إعادة فتح التطبيق. أغلقه ثم افتحه مجددًا.",
+  "linuxErrorWithCode": "تعذّر التشغيل: {code}",
+  "@linuxErrorWithCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linuxReinstall": "إعادة تثبيت Linux",
+  "linuxReinstallHint": "يحذف كل ما بداخل Linux؛ وسيؤدي تشغيله مجددًا إلى تثبيت نسخة جديدة",
+  "linuxReinstallAfterRestart": "بدأ Linux بالفعل خلال جلسة تشغيل التطبيق الحالية. أغلق التطبيق وأعد فتحه لإعادة التثبيت",
+  "linuxReinstallTitle": "هل تريد إعادة تثبيت Linux؟",
+  "linuxReinstallBody": "سيؤدي هذا إلى حذف كل ما بداخل Linux: البرامج وحزم Python المثبتة، والملفات الموجودة داخله فقط، والحسابات المسجّل الدخول إليها (مثل gh). لن تتأثر الملفات الموجودة في مساحات عمل المحادثات.\n\nسيظل المفتاح متوقفًا؛ وعند تشغيله بعد ذلك، سيُنزل Linux ويُثبّت مجددًا.",
+  "linuxRetainedRefused": "لم يعد بالإمكان استخدام بيانات Linux الحالية (غالبًا بعد تحديث التطبيق)، ولن يستبدلها التطبيق تلقائيًا. اضغط على «إعادة تثبيت Linux» لحذفها، ثم شغّل Linux لتثبيت نسخة جديدة. ({code})",
+  "@linuxRetainedRefused": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linuxReinstallRestart": "بدأ Linux بالفعل خلال جلسة تشغيل التطبيق الحالية، لذا قد تكون بياناته قيد الاستخدام. أغلق التطبيق وأعد فتحه، ثم اضغط على «إعادة تثبيت Linux».",
+  "linuxReinstallFailed": "تعذّرت إعادة التثبيت: {code}",
+  "@linuxReinstallFailed": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "linuxProxyTitle": "وكيل الشبكة",
+  "linuxProxyFooter": "ينطبق هذا على الأوامر داخل Linux فقط. تتصل مرايا Gitee وHuawei Cloud وغيرها في الصين مباشرةً دائمًا.",
+  "linuxProxyMode": "الوضع",
+  "linuxProxyInherit": "مثل التطبيق",
+  "linuxProxyDirect": "بلا وكيل",
+  "linuxProxyManual": "يدوي",
+  "linuxProxyHttp": "وكيل HTTP",
+  "linuxProxyHttps": "وكيل HTTPS",
+  "linuxProxyNoProxy": "تجاوز الوكيل عن",
+  "linuxProxyUnset": "غير محدد",
+  "linuxProxySameAsHttp": "مثل HTTP",
+  "linuxProxyLoopbackNote": "يشير 127.0.0.1 إلى هذا الهاتف، وليس إلى حاسوبك.",
+  "linuxProxyUrlInvalid": "أدخل عنوانًا يبدأ بـ http:// أو https://، مثل http://127.0.0.1:7890",
+  "searchKwLinux": "Linux، طرفية، سطر الأوامر، آلة افتراضية، gh، واجهة GitHub CLI، Python، pip، وكيل"
+}
