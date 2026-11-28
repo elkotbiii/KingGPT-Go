@@ -1,0 +1,67 @@
+{
+  "companionPhoneConnectionReplaced": "استحوذ اتصال أحدث بالهاتف على هذه الجلسة. عُد إلى جلسة الرفيقة الحالية وحاول مجددًا.",
+  "@companionPhoneConnectionReplaced": {
+    "description": "A newer callback owner replaced this pending phone connection."
+  },
+  "companionPhoneSessionUnavailable": "لا يستطيع المضيف العثور على جلسة الرفيقة هذه، أو أن إعدادها المسبق قد تغيّر. أعد فتح غرفة الرفيقة.",
+  "@companionPhoneSessionUnavailable": {
+    "description": "The current session no longer resolves to the selected companion."
+  },
+  "companionPhoneToolsConflict": "تعذّر على المضيف توصيل أدوات الهاتف لهذا الدور. أعد فتح جلسة الرفيقة الحالية وحاول مجددًا.",
+  "@companionPhoneToolsConflict": {
+    "description": "An older host rejected the companion phone connection without a specific reason code."
+  },
+  "companionHostSelectionChanged": "تغيّر تحديد جلسة المضيف. تحقق من الجلسة الحالية قبل الإرسال مجددًا.",
+  "@companionHostSelectionChanged": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionLocalDisconnected": "المحرك الموجود على الجهاز غير متصل. تحقق من أنه يعمل.",
+  "@companionLocalDisconnected": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionLocalUnavailable": "لا يستطيع المحرك الموجود على الجهاز فتح جلسة الرفيقة. تحقق من المحرك وإعداد الرفيقة المسبق.",
+  "@companionLocalUnavailable": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionLocalModelUnavailable": "لا يستطيع المحرك الموجود على الجهاز استخدام النموذج الذي سبق اختياره لهذه الرفيقة. تحقق من إعدادات النموذج.",
+  "@companionLocalModelUnavailable": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionContinuedOnPhone": "لم يتلقَّ المضيف هذه الرسالة. سيُنفّذ هذا الدور بالوضع الخفيف.",
+  "@companionContinuedOnPhone": {
+    "description": "One-turn phone fallback after confirming the host prompt was never dispatched."
+  },
+  "companionLogOnDevice": "السجل على الجهاز",
+  "@companionLogOnDevice": {
+    "description": "Open this companion's local SQLite and earlier phone conversations."
+  },
+  "companionSessionUsingTool": "يستخدم {tool}",
+  "@companionSessionUsingTool": {
+    "description": "Current tool activity in a companion session, shown on a floating or notification surface.",
+    "placeholders": {
+      "tool": {
+        "type": "String"
+      }
+    }
+  },
+  "companionTitle": "غرفة الرفيقة",
+  "companionEntrySubtitle": "اقضِ بعض الوقت معها",
+  "companionDefaultName": "هي",
+  "companionInputHint": "قل شيئًا لـ {name}",
+  "companionMenu": "المزيد",
+  "companionVoice": "الصوت",
+  "companionSystemAssistant": "المساعد الرقمي للنظام",
+  "companionAssistantChoose": "اختيار المساعد الافتراضي",
+  "companionAssistantChooseHint": "اختر DSH Go Companion من إعدادات Android، ثم استخدم إيماءة المساعد أو زرّه على هاتفك.",
+  "companionAssistantSelected": "الرفيقة هي المساعد الافتراضي. افتح إعدادات Android هنا لتبديل المساعدين.",
+  "companionAssistantSettingsMissing": "أداة اختيار المساعد غير متاحة. ابحث عن المساعد الرقمي الافتراضي في إعدادات Android.",
+  "companionAssistantSharePage": "إرفاق نص الصفحة عند التنبيه",
+  "companionAssistantSharePageHint": "أرسل النص الذي يتيحه Android إلى نموذج الرفيقة مع هذا الدور. يمكنك إزالته قبل الإرسال.",
+  "companionAssistantPageAttached": "تم إرفاق نص الصفحة",
+  "companionAssistantCalendarAccess": "السماح بالوصول إلى التقويم",
+  "companionAssistantCalendarHint": "اسمح للرفيقة وأدوات الهاتف بقراءة الأحداث الظاهرة. تُرسل النتائج إلى النموذج النشط.",
+  "companionAssistantCalendarAllowed": "الوصول إلى التقويم مفعّل. اضغط لإدارته ضمن أذونات تطبيق Android.",
+  "companionAssistantAppPermissions": "فتح أذونات تطبيق Android",
+  "companionStop": "اطلب منها التوقف",
+  "companionSend": "إرسال"
+}
