@@ -107,8 +107,6 @@
   "searchFeatures": "الميزات",
   "searchNoResults": "لا توجد إعدادات مطابقة",
   "searchAskAi": "اسأل الذكاء الاصطناعي: “{query}”",
-  "searchKwPersonalization": "التخصيص،التفضيلات،النمط",
-  "searchKwInterface": "أصلي،ويب،وضع الويب،تطبيق ويب،عام",
   "@searchAskAi": {
     "placeholders": {
       "query": {
@@ -116,6 +114,8 @@
       }
     }
   },
+  "searchKwPersonalization": "التخصيص،التفضيلات،النمط",
+  "searchKwInterface": "أصلي،ويب،وضع الويب،تطبيق ويب،عام",
   "searchKwPrivacy": "الخصوصية،البيانات،السجلات،المشاركة،الإحصاءات",
   "searchKwAbout": "حول،الإصدار،التحديث،التراخيص",
   "searchKwPhoneConfirmEntry": "التأكيد،التحكم بالهاتف،لا تسأل",
