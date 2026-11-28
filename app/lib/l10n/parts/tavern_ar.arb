@@ -2125,5 +2125,109 @@
       }
     }
   },
-  "tavernDraftRestoreBody": "سيُحفظ كإصدار جديد."
+  "tavernDraftRestoreBody": "سيُحفظ كإصدار جديد.",
+  "tavernDraftRestored": "العودة إلى الإصدار {n}",
+  "@tavernDraftRestored": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRestoreMoved": "تغيّر في هذه الأثناء؛ حاول مجددًا",
+  "tavernDraftPrompt": "المطالبة باستخدام المسودة",
+  "tavernDraftPromptSubtitle": "ما سيرسله الدور التالي مع التغييرات المحددة؛ لن يتم إرسال شيء",
+  "tavernDraftPromptFrom": "بعد أي محادثة",
+  "tavernDraftPromptFirst": "محادثة جديدة",
+  "tavernDraftPromptText": "السطر التالي (اختياري)",
+  "tavernDraftPromptTextHint": "ما الذي ستقوله",
+  "tavernDraftPromptShow": "عرض المطالبة",
+  "tavernDraftPromptComplete": "المطالبة",
+  "tavernDraftPromptUnsupported": "لا يمكن تركيب جزء من هذه البطاقة بأمانة في المعاينة",
+  "tavernDraftPromptNote": "لا تعمل سكربتات البطاقة في المعاينة.",
+  "tavernDraftUsagePartial": "المُبلّغ عنه: إدخال {prompt} · إخراج {completion} (لم تُبلغ بعض الطلبات عن شيء)",
+  "@tavernDraftUsagePartial": {
+    "placeholders": {
+      "prompt": {
+        "type": "String"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftTrial": "تجربة",
+  "tavernDraftTrialSubtitle": "جرّب بضعة أسطر مع المسودة في محادثة مستقلة؛ لن تتأثر المحادثات الفعلية",
+  "tavernDraftTrialNote": "سيُرسل الطلب فعليًا إلى النموذج وستُحتسب تكلفته؛ بحد أقصى أربعة أسطر.",
+  "tavernDraftTrialLine": "السطر {n}",
+  "@tavernDraftTrialLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftTrialMore": "إضافة سطر",
+  "tavernDraftTrialPlay": "بدء",
+  "tavernDraftTrialRunning": "جارٍ التشغيل…",
+  "tavernDraftTrialDone": "اكتمل",
+  "tavernDraftTrialUnsupported": "لا يمكن تجربة هذه المسودة بعد",
+  "tavernImportFromDeepSeek": "نقل المحادثات من DeepSeek",
+  "tavernImportFromDeepSeekSubtitle": "اختر ملف ZIP الذي صدّرته من إعدادات DeepSeek",
+  "tavernDeepSeekTitle": "نقل المحادثات من DeepSeek",
+  "tavernDeepSeekFound": "تم العثور على {count} محادثات. حدّد المحادثات التي تريد متابعتها.",
+  "@tavernDeepSeekFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekMessages": "{count} رسائل",
+  "@tavernDeepSeekMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekUntitled": "محادثة بلا عنوان",
+  "tavernDeepSeekAlready": "موجودة هنا بالفعل؛ اضغط لفتحها",
+  "tavernDeepSeekMore": "عرض المزيد (المتبقي {count})",
+  "@tavernDeepSeekMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekTake": "نقل ({count})",
+  "@tavernDeepSeekTake": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekTaking": "جارٍ النقل…",
+  "tavernDeepSeekNotExport": "هذا ليس ملف تصدير محادثات DeepSeek",
+  "tavernDeepSeekNotExportMessage": "اختر ملف ZIP الذي يوفره DeepSeek عند تصدير جميع المحادثات",
+  "tavernDeepSeekFailed": "تعذّر نقلها؛ حاول مجددًا",
+  "tavernDeepSeekTaken": "تم نقل {count} محادثات؛ والبقية موجودة في قائمة المحادثات",
+  "@tavernDeepSeekTaken": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernIslandStoryWaiting": "جارٍ تحميل بيانات هذه الرسالة…",
+  "tavernIslandStoryFailed": "تعذّرت قراءة بيانات هذه الرسالة: {reason}",
+  "@tavernIslandStoryFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  }
 }
