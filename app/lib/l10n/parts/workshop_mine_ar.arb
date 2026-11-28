@@ -61,6 +61,16 @@
   "workshopMineReasonBadChars": "يحتوي على محارف غير مسموح بها. أزلها وحاول مجددًا.",
   "workshopMineReasonRejected": "لم يُقبل هذا السبب. غيّره وحاول مجددًا.",
   "workshopReportTarget": "{title} · {version}",
+  "@workshopReportTarget": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
   "workshopReportReason": "السبب",
   "workshopReportReasonHint": "ما المشكلة فيه؟ مثل انتهاك الحقوق أو محتوى غير ملائم",
   "workshopReportNote": "سيراجع أحد المراجعين هذا البلاغ. الإبلاغ لا يزيل العنصر تلقائيًا.",
@@ -73,17 +83,6 @@
   "workshopReportUnknownTitle": "ليس مؤكدًا وصول البلاغ",
   "workshopReportUnknownMessage": "قد يكون البلاغ الأخير قد وصل أو لم يصل، ولا توجد طريقة للتحقق. قد يؤدي الإرسال مجددًا إلى إنشاء بلاغ مكرر.",
   "workshopReportUnknownOther": "كان ذلك البلاغ عن {id} {version}.",
-  "workshopReportUnknownAgain": "أفهم ذلك، أعد كتابته",
-  "@workshopReportTarget": {
-    "placeholders": {
-      "title": {
-        "type": "String"
-      },
-      "version": {
-        "type": "String"
-      }
-    }
-  },
   "@workshopReportUnknownOther": {
     "placeholders": {
       "id": {
@@ -93,5 +92,6 @@
         "type": "String"
       }
     }
-  }
+  },
+  "workshopReportUnknownAgain": "أفهم ذلك، أعد كتابته"
 }
