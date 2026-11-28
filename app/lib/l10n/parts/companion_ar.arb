@@ -553,5 +553,109 @@
   "companionNotesApproval": "يحتاج الحاسوب إلى موافقتك لمواصلة العمل.",
   "companionNotesOpenFile": "قراءة قائمة المهام",
   "companionNotesFileMissing": "لم أعد أستطيع العثور على هذا الملف، ولم أُنشئه مجددًا.",
-  "companionNotesFileChanged": "تم تغيير هذا الملف لاحقًا؛ ولم يعد كما كتبته."
+  "companionNotesFileChanged": "تم تغيير هذا الملف لاحقًا؛ ولم يعد كما كتبته.",
+  "companionNotesFileUnknown": "لا أستطيع فتح هذا الملف الآن.",
+  "companionNotesCancel": "عدم التنفيذ",
+  "companionNotesEdit": "تغييره",
+  "companionNotesDate": "ملاحظات أي يوم",
+  "companionNotesFilename": "اسم الملف الجديد (.md أو .txt)",
+  "companionNotesDeadlineField": "الموعد النهائي الجديد (اتركه فارغًا للاحتفاظ بالحالي)",
+  "companionNotesClearDeadline": "دون موعد نهائي",
+  "companionNotesKeepDeadline": "الموعد النهائي نفسه",
+  "companionNotesSourceDirectory": "الملاحظات في: {path}",
+  "@companionNotesSourceDirectory": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesOutputDirectory": "تم الحفظ في: {path}",
+  "@companionNotesOutputDirectory": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesDue": "موعد الإنجاز {time}",
+  "@companionNotesDue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesCancelSource": "إلغاء مهمة الملاحظات الخاصة بـ «{name}»",
+  "@companionNotesCancelSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesAmendSource": "تغيير مهمة الملاحظات: ملاحظات {date}، الحفظ باسم «{name}»، الموعد النهائي: {deadline}؛ {afterExit}؛ {queue}؛ {source}؛ {output}.",
+  "@companionNotesAmendSource": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      },
+      "deadline": {
+        "type": "String"
+      },
+      "afterExit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      },
+      "output": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesRetry": "دع الحاسوب يواصل العمل",
+  "companionNotesSubmitSaved": "تسليمها إلى الحاسوب الآن",
+  "companionNotesResendOriginal": "تسليمها إلى الحاسوب مجددًا",
+  "companionNotesResendCancel": "اطلب من الحاسوب التوقف مجددًا",
+  "companionNotesResendAmend": "إرسال التغيير إلى الحاسوب مجددًا",
+  "companionMapChoose": "أي تطبيق خرائط تريد استخدامه؟",
+  "companionMapSystemChoice": "دعني أختار من النظام",
+  "companionMapDone": "تم إرسال العنوان إلى تطبيق الخرائط.",
+  "companionMapUnknown": "لا أستطيع التأكد بعد مما إذا كانت الخريطة قد فُتحت. لن أفتحها مجددًا تلقائيًا.",
+  "companionMapCancelled": "تم إلغاء عملية الفتح هذه. إذا كانت الخريطة مفتوحة بالفعل، فستبقى مفتوحة.",
+  "companionMapUnavailable": "الخرائط غير متاحة الآن. لا يزال بإمكانك نسخ العنوان.",
+  "companionMapNotHere": "هذا السجل قديم. يمكنك نسخ العنوان أو فتحه مجددًا إذا احتجت إليه الآن.",
+  "companionMapFailed": "لم تُفتح الخريطة. العنوان هنا لنسخه.",
+  "companionMapChoiceWaiting": "فُتحت شاشة اختيار التطبيق. لا أستطيع التأكد بعد من تطبيق الخرائط الذي تلقى العنوان.",
+  "companionMapWaiting": "لم تُفتح الخريطة هذه المرة. تم حفظ العنوان.",
+  "companionMapQueued": "تم حفظ العنوان. لم تُفتح الخريطة بعد.",
+  "companionMapSyntax": "أعطني عنوانًا كاملًا واحدًا، مثل: «افتح في الخرائط، شارع النخيل 18، المدخل الشرقي». اختر واحدًا إذا كانت هناك عدة عناوين.",
+  "companionMapWhich": "أي عنوان تريد تغييره أو فتحه مجددًا؟ يمكنك تحديده في مهامك.",
+  "companionMapNoTarget": "لم يتم تحديد خريطة، لذا لم يُفتح شيء.",
+  "companionMapSaveFailed": "لم أتمكن من التأكد مما إذا كانت الخريطة قد فُتحت. لن أعيد المحاولة تلقائيًا.",
+  "companionMapTarget": "الخريطة المحددة: {label}",
+  "@companionMapTarget": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "companionMapCopy": "نسخ العنوان الأصلي",
+  "companionMapView": "عرض العنوان",
+  "companionMapReopen": "فتح مجددًا",
+  "companionMapCancel": "إلغاء عملية الفتح هذه",
+  "companionMapReopenSource": "فتح هذا العنوان مجددًا في تطبيق خرائط",
+  "companionMapCancelSource": "إلغاء فتح هذا العنوان في تطبيق خرائط",
+  "companionFindTitle": "العثور على المسودات",
+  "companionFindSyntax": "أخبرني بالمجلد الذي تريد البحث فيه ضمن هذا المستوى، وموعد تعديل المسودات، وما إذا كنت تريد المتابعة بعد مغادرتك. أضف موعدًا نهائيًا إن كان لديك واحد.",
+  "companionFindWhich": "أي عملية بحث تريد إيقافها؟ يمكنك تحديدها في مهامك.",
+  "companionFindConnect": "لم يتم تحديد مجلد على هذا الحاسوب بعد. اتصل به واختر مجلدًا أولًا."
 }
