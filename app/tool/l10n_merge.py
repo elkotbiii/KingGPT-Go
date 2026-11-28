@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Merges the per-area ARB parts and regenerates the L10n class.
 
-  lib/l10n/parts/<area>_zh.arb  +  lib/l10n/parts/<area>_en.arb
-      -> lib/l10n/app_zh.arb (template) + lib/l10n/app_en.arb
+  lib/l10n/parts/<area>_ar.arb  +  lib/l10n/parts/<area>_en.arb
+      -> lib/l10n/app_ar.arb (template) + lib/l10n/app_en.arb
       -> flutter gen-l10n -> lib/l10n/gen/
 
 Checks, all fatal (exit 1, nothing written):
   - every part is a JSON object with no duplicate keys, identifiers are lowerCamel;
   - a key appears in only one part, and in both languages of that part;
-  - the placeholders of a key are the same in zh and en, and match its
+  - the placeholders of a key are the same in ar and en, and match its
     "@key" metadata when placeholders are declared (including an empty map);
   - plural / select blocks have unique cases and an `other` case;
   - plural categories are valid, and no exact selector shares a block with its
@@ -21,7 +21,7 @@ Usage: tool/l10n_merge.py [--check] [--no-gen] [--part AREA] [--locale LOCALE ..
   --part AREA  validate only AREA in every selected locale (implies --check);
                keys clashing with other parts are still reported
   --locale    opt in to an additional complete static locale, e.g. --locale ru;
-               repeat for more locales. zh/en are always required.
+               repeat for more locales. ar/en are always required.
 
 Unselected locale fragments are not loaded. Partial drafts never become a
 supported language by file discovery. Extra root-directory *.arb files are refused
@@ -41,7 +41,7 @@ from collections import OrderedDict
 APP = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 L10N = os.path.join(APP, 'lib', 'l10n')
 PARTS = os.path.join(L10N, 'parts')
-LANGS = ('zh', 'en')
+LANGS = ('ar', 'en')
 KEY_RE = re.compile(r'^[a-z][a-zA-Z0-9]*$')
 IDENT = re.compile(r'[A-Za-z_][A-Za-z0-9_]*')
 PLURAL_CASES = frozenset(('zero', 'one', 'two', 'few', 'many', 'other'))
@@ -190,7 +190,7 @@ def main(argv):
         if not LOCALE_RE.fullmatch(locale):
             parser.error(f'invalid locale {locale!r}; use canonical ARB form, e.g. ru, es_MX, zh_Hant')
         if locale in LANGS or args.locale.count(locale) > 1:
-            parser.error(f'locale {locale!r} is already selected (zh/en are always included)')
+            parser.error(f'locale {locale!r} is already selected (ar/en are always included)')
     langs = LANGS + tuple(sorted(args.locale))
     for locale in args.locale:
         base_locale = locale.split('_', 1)[0]
@@ -232,9 +232,9 @@ def main(argv):
             errors += [f'{area}: {e}' for e in metadata_errors(data[lang], lang)]
             if '@@locale' in data[lang] and data[lang]['@@locale'] != lang:
                 errors.append(f'{area}: {lang}: @@locale must equal "{lang}"')
-        zh = data['zh']
-        zkeys = [k for k in zh if not k.startswith('@')]
-        for k in zkeys:
+        ar = data['ar']
+        arkeys = [k for k in ar if not k.startswith('@')]
+        for k in arkeys:
             if not KEY_RE.fullmatch(k):
                 errors.append(f'{area}: bad key "{k}" (lowerCamel identifiers only)')
             if k in owner:
@@ -243,10 +243,10 @@ def main(argv):
         for lang in langs[1:]:
             for k in zkeys:
                 if k not in data[lang]:
-                    errors.append(f'{area}: "{k}" has zh but no {lang}')
+                    errors.append(f'{area}: "{k}" has ar but no {lang}')
             for k in data[lang]:
-                if not k.startswith('@') and k not in zh:
-                    errors.append(f'{area}: "{k}" has {lang} but no zh')
+                if not k.startswith('@') and k not in ar:
+                    errors.append(f'{area}: "{k}" has {lang} but no ar')
         for k in zkeys:
             source_names = None
             for lang in langs:
@@ -260,16 +260,16 @@ def main(argv):
                     errors.append(f'{area}: "{k}" {lang} is empty')
                 names, message_errors = parse_message(value)
                 errors += [f'{area}: "{k}" {lang}: {e}' for e in message_errors]
-                if lang == 'zh':
+                if lang == 'ar':
                     source_names = names
                 elif source_names is not None and names != source_names:
-                    errors.append(f'{area}: "{k}" placeholders differ: zh {sorted(source_names)} '
+                    errors.append(f'{area}: "{k}" placeholders differ: ar {sorted(source_names)} '
                                   f'{lang} {sorted(names)}')
                 merged[lang][k] = value
-                if lang == 'zh':
-                    meta = zh.get('@' + k) or {}
+                if lang == 'ar':
+                    meta = ar.get('@' + k) or {}
                     if meta:
-                        merged['zh']['@' + k] = meta
+                        merged['ar']['@' + k] = meta
     if only is not None:
         errors = [e for e in errors if e.startswith(only + ':')]
     else:
