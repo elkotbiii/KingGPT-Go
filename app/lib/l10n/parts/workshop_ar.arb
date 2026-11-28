@@ -1,0 +1,91 @@
+{
+  "workshopTitle": "الورشة",
+  "workshopSubtitle": "سمات وحيوانات أليفة ورفقاء صنعهم الآخرون. ثبّت ما يعجبك",
+  "workshopEntrySubtitle": "اعثر على حيوانات أليفة ورفقاء صنعهم الآخرون",
+  "workshopTabBrowse": "تصفّح",
+  "workshopTabMine": "تحميلاتي",
+  "workshopKindAll": "الكل",
+  "workshopKindPet": "حيوانات أليفة بكسلية",
+  "workshopKindCompanion": "رفقاء",
+  "workshopSearchHint": "ابحث بالاسم أو المؤلف",
+  "workshopGet": "الحصول",
+  "workshopRefresh": "تحديث",
+  "workshopByAuthor": "بواسطة {author}",
+  "@workshopByAuthor": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopEmptyTitle": "لا يوجد شيء هنا بعد",
+  "workshopEmptyMessage": "لم يحمّل أحد أي شيء. إذا صنعت حيوانًا أليفًا أو رفيقًا، فقد يكون عملك الأول.",
+  "workshopNoMatchTitle": "لا توجد نتائج مطابقة",
+  "workshopNoMatchMessage": "جرّب اسمًا أو مؤلفًا آخر.",
+  "workshopUnavailableTitle": "يتعذّر فتح الورشة الآن",
+  "workshopNotOpenTitle": "الورشة لم تُفتح بعد",
+  "workshopNotOpenMessage": "هذا الإصدار غير متصل بخدمة الورشة.",
+  "workshopShowingOlder": "تعذّر التحديث. نعرض البيانات التي جُلبت {when}.",
+  "@workshopShowingOlder": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopLocalUnknown": "تعذّرت قراءة العناصر المثبّتة على هذا الهاتف، لذا قد تكون علامات «مثبّت» غير صحيحة.",
+  "workshopStatVersion": "الإصدار",
+  "workshopStatSize": "الحجم",
+  "workshopStatLicense": "الترخيص",
+  "workshopAbout": "نبذة",
+  "workshopNoDescription": "لم يكتب المؤلف وصفًا.",
+  "workshopSource": "المصدر",
+  "workshopMinApp": "يتطلب DSH Go {version} أو أحدث.",
+  "@workshopMinApp": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledVersion": "الإصدار المثبّت {version}",
+  "@workshopInstalledVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopUpdateTo": "التحديث إلى {version}",
+  "@workshopUpdateTo": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledWithdrawn": "تم سحب الإصدار الذي ثبّتّه. لا يزال يعمل؛ حدّثه إذا كان هناك إصدار أحدث، وإلا ففكّر في إزالته.",
+  "workshopPhasePreparing": "جارٍ التحضير…",
+  "workshopPhaseDownloading": "جارٍ التنزيل",
+  "workshopPhaseVerifying": "جارٍ التحقق…",
+  "workshopPhaseCancelling": "جارٍ الإلغاء…",
+  "workshopProgressBytes": "{received} / {total}",
+  "@workshopProgressBytes": {
+    "placeholders": {
+      "received": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstallDone": "تم التثبيت",
+  "workshopInstallDonePet": "تم التثبيت. اختره من صفحة الحيوانات الأليفة.",
+  "workshopInstallDoneCompanion": "تم التثبيت. ستجدها في غرفة الرفقاء.",
+  "workshopInstallDoneRefreshIssue": "تم التثبيت، لكن تعذّر تحديث القائمة. افتح هذه الصفحة مجددًا لرؤيته.",
+  "workshopInstallCancelled": "تم الإلغاء. لم يتغير شيء على هذا الهاتف.",
+  "workshopInstallBusy": "لا تزال عملية تثبيت أو إزالة أخرى قيد التنفيذ. حاول مجددًا عند انتهائها.",
+  "workshopReplaceTitle": "هل تريد استبدال ما هو موجود على هذا الهاتف؟",
+  "workshopReplaceMessage": "يوجد بالفعل على هذا الهاتف عنصر بالاسم نفسه، لكنه ليس من إدخال الورشة هذا. سيؤدي المتابعة إلى استبداله بـ «{title}»، ولن يمكن استعادة العنصر القديم."
+}
