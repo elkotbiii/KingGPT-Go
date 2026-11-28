@@ -398,5 +398,17 @@
   "activityQuotaAuthError": "انتهت صلاحية تسجيل الدخول أو تم رفض الوصول. تحقّق من تسجيل الدخول إلى اشتراكك.",
   "activityQuotaNetworkError": "خطأ في الشبكة. حاول مرة أخرى لاحقًا.",
   "activityQuotaRateLimited": "عدد الطلبات كبير جدًا. حاول مرة أخرى لاحقًا.",
-  "activityQuotaLoading": "جارٍ تحميل استخدام الاشتراك…"
+  "activityQuotaLoading": "جارٍ تحميل استخدام الاشتراك…",
+  "activityQuotaUnavailable": "يتعذّر تحميل استخدام الاشتراك الآن. حاول مرة أخرى لاحقًا.",
+  "activityQuotaUnsupported": "هذا المضيف لا يدعم عرض استخدام الاشتراك",
+  "activityQuotaSignedOut": "تم تسجيل الخروج من الاشتراك",
+  "activityQuotaPrimary": "الحد الأساسي",
+  "activityQuotaSecondary": "الحد الثانوي",
+  "activityQuotaFiveHour": "5 ساعات",
+  "activityQuotaSevenDay": "7 أيام",
+  "activityQuotaSevenDaySonnet": "7 أيام · Sonnet",
+  "activityQuotaSevenDayOpus": "7 أيام · Opus",
+  "activityQuotaUsed": "تم استخدام {value}",
+  "activityQuotaReset": "إعادة التعيين: {time}",
+  "activityToolListSeparator": "،  "
 }
