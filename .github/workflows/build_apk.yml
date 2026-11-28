@@ -54,6 +54,10 @@ jobs:
             command -v "$tool" >/dev/null || { echo "Missing required build tool: $tool" >&2; exit 1; }
           done
 
+      # Install Android command-line tools and expose sdkmanager on PATH.
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
       # tawcroot is compiled by tooling/build-apk.sh and requires this exact NDK.
       - name: Install pinned Android NDK
         run: |
