@@ -1,0 +1,11 @@
+{
+  "petActionSending": "جارٍ الإرسال…",
+  "petActionTargetChanged": "تغيّر المضيف. أعد فتح «اسأل بسرعة»؛ سيظل نصك محفوظًا.",
+  "petActionSendFailed": "تعذّر الإرسال. نصك محفوظ؛ حاول مجددًا.",
+  "petActionBusy": "هذه المحادثة مشغولة. اختر «محادثة جديدة».",
+  "petActionVoiceMissing": "نزّل نموذج الصوت غير المتصل بالإنترنت من التطبيق أولًا.",
+  "petActionVoiceTitle": "الصوت لميزة «اسأل بسرعة»",
+  "petActionVoiceReturn": "العودة إلى الحيوان الأليف",
+  "petActionVoiceStop": "إنهاء التسجيل",
+  "petActionVoiceStart": "تسجيل"
+}
