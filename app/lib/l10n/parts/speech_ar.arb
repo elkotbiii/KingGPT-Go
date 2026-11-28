@@ -41,13 +41,6 @@
   "speechCallSpeakerHint": "تكون الأولوية دائمًا لسماعات الرأس عند توصيلها",
   "speechCallHint": "(هذه مكالمة صوتية؛ يصل كلامي عبر التعرف على الكلام. يُرجى الرد بإيجاز وبأسلوب حواري، دون Markdown أو قوائم أو جداول أو كتل تعليمات برمجية.)",
   "speechCallCutNote": "(قاطعتك عند “{heard}”؛ لم أسمع بقية الكلام.)",
-  "@speechCallCutNote": {
-    "placeholders": {
-      "heard": {
-        "type": "String"
-      }
-    }
-  },
   "speechCallCutEarly": "(قاطعتك قبل أن تقول أي شيء؛ لم أسمع تلك الإجابة.)",
   "speechCallCue": "صوت التفكير",
   "speechCallCueHint": "نغمة رقيقة عندما يتأخر بدء الإجابة",
@@ -55,5 +48,76 @@
   "speechLiveName": "نموذج التعرف المتدفق",
   "speechLiveSystemName": "نموذج التعرف على النظام (الصينية المندرينية)",
   "speechLiveSystemReadyNote": "يوفره HarmonyOS، ولا يحتاج إلى تنزيل نموذج؛ تستخدمه المكالمات تلقائيًا",
-  "speechLiveSystemBusy": "قيد الاستخدام"
+  "speechLiveSystemBusy": "قيد الاستخدام",
+  "speechLiveSystemBusyNote": "يستخدمه إدخال الصوت أو عملية تعرّف أخرى؛ اضغط على «إعادة المحاولة» عند انتهائها",
+  "speechLiveSystemFailedNote": "التعرّف على النظام غير متاح على هذا الهاتف حاليًا: {reason}",
+  "@speechLiveSystemFailedNote": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveSystemFooter": "تعمل التسميات التوضيحية واكتشاف المقاطعة على الهاتف عبر أداة التعرف في HarmonyOS؛ ويظل النص المرسل إلى الذكاء الاصطناعي ناتجًا عن أداة التعرف المختارة أعلاه، بينما يؤدي اختيار خدمة سحابية إلى رفع التسجيل.",
+  "speechLiveAbsentNote": "نزّله لتعرض المكالمات كلماتك أثناء التحدث وتتوقف أسرع عند مقاطعتك. الحجم نحو {mb}؛ ويعمل على الهاتف",
+  "@speechLiveAbsentNote": {
+    "placeholders": {
+      "mb": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveReadyNote": "يستخدم {mb}. وتستعمله المكالمات تلقائيًا",
+  "@speechLiveReadyNote": {
+    "placeholders": {
+      "mb": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveBlocked": "متوقف",
+  "speechLiveBlockedNote": "تعطّل على هذا الهاتف، لذا أُوقفت التسميات التوضيحية المباشرة؛ وتعمل المكالمات كما كانت. احذفه ونزّله مجددًا للمحاولة مرة أخرى.",
+  "speechLiveFooter": "تعمل التسميات التوضيحية والمقاطعات على الهاتف؛ ويظل النص المرسل إلى الذكاء الاصطناعي ناتجًا عن أداة التعرف المختارة أعلاه، بينما يرفع التعرف السحابي التسجيل.",
+  "speechLiveDeleteTitle": "هل تريد حذف أداة التعرف المتدفق؟",
+  "speechLiveDeleteBody": "ستتوقف المكالمات عن عرض التسميات التوضيحية المباشرة. يمكنك تنزيلها مجددًا في أي وقت.",
+  "speechCallStarting": "جارٍ الاتصال",
+  "speechCallListening": "يستمع",
+  "speechCallHearing": "أنت تتحدث",
+  "speechCallThinking": "يفكر",
+  "speechCallSpeaking": "يتحدث. اضغط على الضوء للتخطي",
+  "speechCallMuted": "مكتوم",
+  "speechCallEnded": "انتهت المكالمة",
+  "speechCallEndPermission": "لا يوجد إذن لاستخدام الميكروفون",
+  "speechCallEndMicrophone": "الميكروفون مشغول أو يتعذر فتحه",
+  "speechCallEndNoRecognizerSignedIn": "تحتاج المكالمة إلى وسيلة للتعرف على الكلام. لا يمكن لحسابك المسجّل الدفع مقابل خدمة كلام DeepSeek هنا (إصدار DSH الذي تتصل به أقدم، أو أنك تتصل عبر DSH Remote): أضف مفتاح DeepSeek API في الإعدادات، أو نزّل نموذج الصوت من الإعدادات › الصوت",
+  "speechCallEndNoRecognizer": "تحتاج المكالمة إلى أداة تعرّف تقبل التسجيلات: سجّل الدخول إلى DeepSeek أو أضف مفتاح API أو نزّل نموذج الصوت",
+  "speechCallEndBackground": "تنتهي المكالمات عندما ينتقل التطبيق إلى الخلفية",
+  "speechCallEndFailed": "فشل التسجيل؛ انتهت المكالمة",
+  "speechCallSendFailed": "لم يُرسل ذلك. قلها مرة أخرى",
+  "speechCallSkipHint": "تخطي هذه الإجابة",
+  "speechCallTranscript": "التسميات التوضيحية",
+  "speechCallTranscriptHint": "كل ما قيل في هذه المكالمة",
+  "speechCallTranscriptEmpty": "لم يُقل شيء بعد. يُدوّن هنا كل ما تقوله أنت والطرف الآخر، سطرًا بسطر.",
+  "speechCallTranscriptCut": "قاطعت هنا",
+  "speechCallMute": "كتم الصوت",
+  "speechCallUnmute": "إلغاء كتم الصوت",
+  "speechCallHangUp": "إنهاء المكالمة",
+  "speechCallSpeakerOn": "مكبر الصوت",
+  "speechCallEarpiece": "سماعة الأذن",
+  "speechBackdropTitle": "خلفية المكالمة",
+  "speechCallSettings": "إعدادات المكالمة",
+  "speechCallPause": "مهلة قبل أن تجيب",
+  "speechCallPauseQuick": "قصير",
+  "speechCallPauseNormal": "متوسط",
+  "speechCallPausePatient": "طويل",
+  "speechCallPauseHint": "اختر «طويل» إذا كانت تقاطعك أثناء التوقف؛ واختر «قصير» إذا شعرت أن الإجابة تتأخر.",
+  "speechCallSpeechSection": "الصوت والتعرّف",
+  "speechCallVoice": "صوتها",
+  "speechCallSpeechHint": "تُطبّق التغييرات ابتداءً من الجملة التالية.",
+  "speechBackdropSea": "أعماق البحر",
+  "speechBackdropImage": "صورتي",
+  "speechBackdropImagePick": "اختيار صورة",
+  "speechBackdropCompanion": "الرفيق",
+  "speechBackdropHint": "تُخفّف الصور وتُعتّم حتى تظل التسميات التوضيحية مقروءة. ومع الرفيق، تتحدث بالتزامن مع الصوت.",
+  "speechBackdropHintChange": "اضغط على «صورتي» مرة أخرى لتغييرها. ومع الرفيق، تتحدث بالتزامن مع الصوت."
 }
