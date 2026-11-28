@@ -1,0 +1,70 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-apk-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  FLUTTER_VERSION: 3.47.7
+  GRADLE_VERSION: 9.3.1
+  TZ: Asia/Shanghai
+
+jobs:
+  build-apk:
+    name: Build Android arm64 release APK
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Java
+        uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      # The repository does not track gradlew; provide the pinned Gradle version on PATH.
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@8da46b539cd8fe6ab27ca75128919a18d757604c # v6.4.1
+        with:
+          gradle-version: ${{ env.GRADLE_VERSION }}
+
+      - name: Install Flutter dependencies
+        run: flutter pub get --enforce-lockfile
+
+      - name: Merge and validate localization catalogs
+        run: python3 tool/l10n_merge.py --no-gen
+
+      - name: Generate Flutter localization code
+        run: flutter gen-l10n
+
+      - name: Build arm64 release APK
+        run: flutter build apk --release --flavor arm64 --target-platform android-arm64
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: kinggpt-go-arm64-release-${{ github.sha }}
+          path: app/build/app/outputs/flutter-apk/app-arm64-release.apk
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14
