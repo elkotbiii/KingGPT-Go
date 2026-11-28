@@ -1179,5 +1179,88 @@
   "companionTabMemory": "الذكريات",
   "companionTabTasks": "المهام",
   "companionTabHer": "هي",
-  "companionDrawerReminderToday": "تذكير عند {time}"
+  "companionDrawerReminderToday": "تذكير عند {time}",
+  "@companionDrawerReminderToday": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionDrawerReminderTomorrow": "غدًا {time}",
+  "@companionDrawerReminderTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionDrawerReminderLater": "تذكير {date}",
+  "@companionDrawerReminderLater": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "companionRawEraseAsk": "محو الكلمات الأصلية أيضًا — «{quote}»؟ لا يمكن التراجع عن ذلك.",
+  "@companionRawEraseAsk": {
+    "placeholders": {
+      "quote": {
+        "type": "String"
+      }
+    }
+  },
+  "companionRawEraseAskMany": "محو الكلمات الأصلية أيضًا — «{quote}» و{count} أسطر إجمالًا؟ لا يمكن التراجع عن ذلك.",
+  "@companionRawEraseAskMany": {
+    "placeholders": {
+      "quote": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "companionRawEraseYes": "محو",
+  "companionRawEraseNo": "احتفاظ",
+  "companionRawErased": "تم، مُحيت الكلمات الأصلية أيضًا.",
+  "companionRawKept": "حسنًا، ستبقى الكلمات الأصلية.",
+  "companionRawEraseGone": "فات الأوان هذه المرة؛ لا تزال الكلمات الأصلية هنا.",
+  "@companionShakeDizzy": {
+    "description": "ما تقوله عند هز الهاتف، لأي شخصية."
+  },
+  "companionSetupWorkshop": "ابحث عن واحدة في ورشة العمل",
+  "@companionSetupWorkshop": {
+    "description": "في شاشة إعداد الرفيقة: افتح ورشة العمل الخاصة بالرفيقات لتنزيل واحدة."
+  },
+  "companionRosterTitle": "الرفيقات",
+  "companionRosterHere": "في الغرفة",
+  "companionRosterAdd": "إضافة رفيقة",
+  "companionRosterBring": "إحضارها إلى الغرفة",
+  "companionRosterRemove": "إزالتها من هذا الهاتف",
+  "companionRosterRemoveConfirm": "هل تريد إزالة «{name}» من هذا الهاتف؟ ستُحذف ملفاتها، لكن ستبقى الذكريات والتذكيرات.",
+  "@companionRosterTitle": {
+    "description": "قائمة جماعية في صفحتها تعرض كل الرفيقات المثبتات على الهاتف."
+  },
+  "@companionRosterHere": {
+    "description": "تظهر أسفل الرفيقة الموجودة في الغرفة حاليًا."
+  },
+  "@companionRosterAdd": {
+    "description": "صف لإضافة رفيقة أخرى (من ملف أو من ورشة العمل)."
+  },
+  "@companionRosterBring": {
+    "description": "التبديل إلى هذه الرفيقة: تنتقل إلى الغرفة، مع الاحتفاظ بالرفيقة الحالية."
+  },
+  "@companionRosterRemove": {
+    "description": "حذف رفيقة محفوظة (غير نشطة) من الهاتف."
+  },
+  "@companionRosterRemoveConfirm": {
+    "description": "تأكيد قبل حذف رفيقة محفوظة.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
 }
