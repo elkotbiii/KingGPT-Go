@@ -591,5 +591,118 @@
   "tavernDiceRoll": "ارمِ",
   "tavernDiceAgain": "أعد الرمي",
   "tavernDiceUse": "وضعه في حقل الإدخال",
-  "tavernDiceLine": "🎲 رمية {notation} نتيجتها {total}{working}"
+  "tavernDiceLine": "🎲 رمية {notation} نتيجتها {total}{working}",
+  "@tavernDiceLine": {
+    "placeholders": {
+      "notation": {
+        "type": "String"
+      },
+      "total": {
+        "type": "int"
+      },
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceWorking": " ({working})",
+  "@tavernDiceWorking": {
+    "placeholders": {
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybook": "كتاب القصص",
+  "tavernStorybookMenu": "تصدير ككتاب قصصي",
+  "tavernStorybookTitle": "العنوان",
+  "tavernStorybookDefaultTitle": "قصة مع {name}",
+  "@tavernStorybookDefaultTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybookByline": "{character} و{you}",
+  "@tavernStorybookByline": {
+    "placeholders": {
+      "character": {
+        "type": "String"
+      },
+      "you": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybookWhole": "القصة كاملة",
+  "tavernStorybookWholeNote": "{count, plural, =1{سطر واحد} other{{count} أسطر}}؛ تُستبعد الرسائل المخفية.",
+  "@tavernStorybookWholeNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookEpub": "كتاب إلكتروني (EPUB)",
+  "tavernStorybookText": "نص عادي (TXT)",
+  "tavernStorybookImage": "صورة طويلة",
+  "tavernStorybookLatest": "الأحدث",
+  "tavernStorybookLines": "{count, plural, =1{سطر واحد} other{{count} أسطر}}",
+  "@tavernStorybookLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookSave": "حفظ في الصور",
+  "tavernStorybookShare": "مشاركة الصورة",
+  "tavernStorybookEarlier": "تم استبعاد {count, plural, =1{سطر سابق واحد} other{{count} أسطر سابقة}} من الصورة؛ صدّر الكتاب الإلكتروني للحصول على القصة كاملة.",
+  "@tavernStorybookEarlier": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookEarlierShort": "… {count, plural, =1{سطر واحد} other{{count} أسطر}} قبل هذا …",
+  "@tavernStorybookEarlierShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookMadeWith": "كُتب في Tavern ضمن DSH Go",
+  "tavernStorybookContents": "المحتويات",
+  "tavernStorybookChapter": "الفصل {n}",
+  "@tavernStorybookChapter": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookSaved": "تم الحفظ في الصور",
+  "tavernStorybookFailed": "تعذّر تصديره؛ حاول مجددًا",
+  "tavernLive2d": "نموذج Live2D",
+  "tavernLive2dSubtitle": "يحل محل صورة البطاقة في تخطيط الرواية المرئية",
+  "tavernLive2dNone": "بلا",
+  "tavernLive2dSet": "تم الاستيراد",
+  "tavernLive2dImported": "تم الاستيراد. بدّل المحادثة إلى تخطيط الرواية المرئية لمشاهدتها.",
+  "tavernLive2dReplace": "استبداله",
+  "tavernLive2dRemove": "إزالة النموذج",
+  "tavernLive2dNoRuntime": "لا توجد بيئة تشغيل Live2D على هذا الهاتف بعد؛ أعدّ واحدة في غرفة Companion أولًا، أو استورد حزمة كاملة.",
+  "tavernTextSize": "حجم النص",
+  "tavernTextSmall": "ص",
+  "tavernTextMedium": "م",
+  "tavernTextLarge": "ك",
+  "tavernTextHuge": "ك جدًا",
+  "tavernLineHeight": "تباعد الأسطر",
+  "tavernLineTight": "متقارب",
+  "tavernLineNormal": "عادي",
+  "tavernLineLoose": "متباعد",
+  "tavernReadingSample": "*تدفع كوبًا فخاريًا نحوك؛ فيقفز ضوء النار في عينيها.*\n\n«ما زلت على الطريق في هذا الوقت المتأخر؟ لن يتوقف الثلج الليلة. إن كنت مسافرًا، فانتظر حتى الصباح.»",
+  "tavernPalette": "الألوان"
 }
