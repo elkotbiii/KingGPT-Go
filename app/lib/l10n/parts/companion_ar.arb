@@ -657,5 +657,118 @@
   "companionFindTitle": "العثور على المسودات",
   "companionFindSyntax": "أخبرني بالمجلد الذي تريد البحث فيه ضمن هذا المستوى، وموعد تعديل المسودات، وما إذا كنت تريد المتابعة بعد مغادرتك. أضف موعدًا نهائيًا إن كان لديك واحد.",
   "companionFindWhich": "أي عملية بحث تريد إيقافها؟ يمكنك تحديدها في مهامك.",
-  "companionFindConnect": "لم يتم تحديد مجلد على هذا الحاسوب بعد. اتصل به واختر مجلدًا أولًا."
+  "companionFindConnect": "لم يتم تحديد مجلد على هذا الحاسوب بعد. اتصل به واختر مجلدًا أولًا.",
+  "companionFindSavedDirectory": "اختيار مجلد استخدمته من قبل",
+  "companionFindSeven": "هل تقصد السابعة صباحًا أم مساءً؟",
+  "companionFindMorningSeven": "07:00 صباحًا",
+  "companionFindEveningSeven": "19:00 مساءً",
+  "companionFindDeadlineMissing": "لم يُحدّد الموعد النهائي بعد، لذا لم يبدأ البحث.",
+  "companionFindChooseDirectory": "اختيار مجلد «{name}»",
+  "@companionFindChooseDirectory": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindChooseAgain": "اختيار مجلد آخر",
+  "companionFindKeepDirectory": "الاحتفاظ بالمجلد نفسه",
+  "companionFindUnavailable": "لا يستطيع هذا الحاسوب العثور على مسوداتك وفتحها بعد.",
+  "companionFindNoDirectory": "لم يتم تحديد مجلد، لذا لم يبدأ البحث.",
+  "companionFindDone": "اكتمل البحث. النتائج أدناه.",
+  "companionFindPartial": "لم أتمكن من إكمال البحث كله. المسودات التي عُثر عليها والمناطق التي لم يكتمل فحصها مدرجة أدناه.",
+  "companionFindFailed": "تعذّر إكمال هذا البحث. لا يزال السجل السابق هنا.",
+  "companionFindWaiting": "لا يمكن متابعة البحث بعد. يمكنك التحقق مجددًا لاحقًا.",
+  "companionFindCancelled": "توقف البحث. لا تزال النتائج السابقة هنا.",
+  "companionFindCancelUnknown": "تم حفظ طلب الإيقاف، لكنني لم أتأكد من توقف الحاسوب. لا تزال النتائج السابقة موجودة.",
+  "companionFindCancel": "إيقاف البحث",
+  "companionFindCancelSource": "إلغاء البحث عن المسودات",
+  "companionFindAmendSource": "تغيير هذا البحث: ملفات {formats} فقط، عُدّلت في {date} ضمن هذا المستوى. الموعد النهائي: {deadline}؛ {afterExit}؛ {queue}؛ {source}.",
+  "@companionFindAmendSource": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "formats": {
+        "type": "String"
+      },
+      "deadline": {
+        "type": "String"
+      },
+      "afterExit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindDate": "تاريخ تعديل المسودات",
+  "companionFindScope": "ملفات {formats} فقط، عُدّلت في هذا اليوم ضمن هذا المستوى. تبقى الملفات الأصلية دون تغيير.",
+  "@companionFindScope": {
+    "placeholders": {
+      "formats": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindSourceDirectory": "مجلد البحث: {path}",
+  "@companionFindSourceDirectory": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindReport": "المسودات التي عُثر عليها هذه المرة",
+  "companionFindPreviousReport": "نتائج البحث السابقة",
+  "companionFindCoverage": "تم فحص {entries} من الإدخالات، بما فيها {supported} بالتنسيقات المحددة، والعثور على {matches} من المسودات المطابقة للتاريخ.",
+  "@companionFindCoverage": {
+    "placeholders": {
+      "entries": {
+        "type": "String"
+      },
+      "supported": {
+        "type": "String"
+      },
+      "matches": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindEnumerationComplete": "تم التحقق من أسماء الملفات في هذا المستوى. راجع أدناه الملفات التي أمكن فتحها. قد لا تشمل النتائج الملفات التي أُضيفت أثناء البحث.",
+  "companionFindEnumerationPartial": "لم يتم البحث في بعض المناطق بالكامل.",
+  "companionFindEntryLimit": "يفحص هذا البحث حتى 200 إدخال. لم يتم التحقق من الإدخالات المتبقية.",
+  "companionFindCandidateLimit": "هناك أكثر من 20 مسودة تطابق التاريخ. أول 20 مسودة مدرجة هنا.",
+  "companionFindEmpty": "لم يتم العثور في المنطقة التي جرى البحث فيها على أي مسودة بالتنسيقات والتاريخ المحددين.",
+  "companionFindGap": "لا يزال هذا العنصر بحاجة إلى التحقق: {name}",
+  "@companionFindGap": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindModified": "عُدّل: {time}",
+  "@companionFindModified": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindWasOpenable": "كان من الممكن فتح هذه المسودة حينها. سيؤدي فتحها الآن إلى التحقق مما إذا كانت قد تغيّرت.",
+  "companionFindWasUnreadable": "تعذّرت قراءة هذه المسودة حينها.",
+  "companionFindOpenSource": "فتح الملف الأصلي",
+  "companionFindSourceOffline": "لا تزال القائمة هنا. اتصل بالحاسوب الأصلي لفتح مسودة.",
+  "companionFindSourceMissing": "لم يعد من الممكن العثور على هذه المسودة. لا تزال قائمة البحث السابقة هنا.",
+  "companionFindSourceChanged": "تم استبدال هذه المسودة أو تعديلها. لا أستطيع التأكد من أنها لا تزال المسودة نفسها.",
+  "companionFindSourceUnreadable": "تعذّر فتح هذه المسودة بالكامل. ولم تُستبدل بملف مختلف.",
+  "companionFindSourceUnknown": "لا يمكن فتح هذه المسودة الآن. اتصل بالحاسوب الأصلي وحاول مجددًا.",
+  "companionFindDeadline": "انقضى الموعد النهائي المتفق عليه. لن يبدأ بحث جديد، وستبقى النتائج الحالية هنا.",
+  "companionFindOriginalPending": "تلقى الحاسوب التغييرات، ولا يزال بحاجة إلى تأكيد البحث الأصلي.",
+  "companionFindUnknown": "لم أتأكد مما إذا كان الحاسوب قد تلقى هذا البحث أو إلى أي مدى وصل."
 }
