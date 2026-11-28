@@ -407,5 +407,103 @@
   "tavernInspectSummary": "الملخص",
   "tavernInspectKind": "النوع",
   "tavernTurnSend": "إرسال",
-  "tavernTurnImpersonate": "اكتب نيابةً عني"
+  "tavernTurnImpersonate": "اكتب نيابةً عني",
+  "tavernInspectStatus": "النتيجة",
+  "tavernInspectPreparing": "قيد التجهيز",
+  "tavernInspectReady": "تم الإرسال",
+  "tavernInspectCompleted": "مكتمل",
+  "tavernInspectFailed": "فشل",
+  "tavernInspectPrompt": "المطالبة",
+  "tavernTokens": "{count} رمزًا",
+  "@tavernTokens": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernTokensAbout": "نحو {count} رمزًا",
+  "@tavernTokensAbout": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectBudget": "ميزانية السياق المتبقية",
+  "tavernInspectUsage": "الاستخدام الذي أبلغ عنه النموذج",
+  "tavernInspectNoUsage": "لم يتم الإبلاغ عنه",
+  "tavernInspectUsageValue": "الإدخال {prompt} (المخبأ {hit}) · الإخراج {completion}",
+  "@tavernInspectUsageValue": {
+    "placeholders": {
+      "prompt": {
+        "type": "int"
+      },
+      "hit": {
+        "type": "int"
+      },
+      "completion": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCost": "التكلفة المقدّرة",
+  "tavernInspectCostPeak": "وفق أسعار DeepSeek المعلنة، خلال ساعات الذروة",
+  "tavernInspectCostOffPeak": "وفق أسعار DeepSeek المعلنة، خارج الذروة (نصف السعر)",
+  "tavernInspectSegments": "{count, plural, =1{تم إرسال جزء واحد} other{تم إرسال {count} أجزاء}}",
+  "@tavernInspectSegments": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectSegmentsNote": "بحسب ترتيب الإرسال. اضغط لعرض النص كاملًا؛ واضغط مطولًا للنسخ.",
+  "tavernInspectWorld": "{count, plural, =1{تطابق إدخال واحد في كتاب المعلومات} other{تطابق {count} إدخالات في كتاب المعلومات}}",
+  "@tavernInspectWorld": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectWorldKey": "المفتاح «{key}»",
+  "@tavernInspectWorldKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernInspectExcluded": "{count, plural, =1{تم استبعاد جزء واحد} other{تم استبعاد {count} أجزاء}}",
+  "@tavernInspectExcluded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernExcludeDisabled": "معطّل",
+  "tavernExcludeTrigger": "لا يناسب هذا النوع من الأدوار",
+  "tavernExcludeHidden": "مخفي عن النموذج",
+  "tavernExcludeSystem": "رسالة نظام",
+  "tavernExcludeHistoryBudget": "يتجاوز ميزانية السياق",
+  "tavernExcludeExampleBudget": "الأمثلة تتجاوز الميزانية",
+  "tavernRoleSystem": "النظام",
+  "tavernRoleUser": "أنت",
+  "tavernRoleCharacter": "الشخصية",
+  "tavernSourcePreset": "إعداد مسبق",
+  "tavernSourceCard": "بطاقة",
+  "tavernSourceWorld": "كتاب معلومات",
+  "tavernSourcePersona": "الشخصية التي تمثّلك",
+  "tavernSourceHistory": "المحادثة",
+  "tavernSourceControl": "تحكم",
+  "tavernWriteForMe": "اكتبها نيابةً عني",
+  "tavernHide": "إخفاء عن النموذج",
+  "tavernUnhide": "إظهار للنموذج",
+  "tavernHiddenFromModel": "لا يستطيع النموذج رؤية هذا",
+  "tavernTrySample": "جرّب بطاقة العينة",
+  "tavernImportChats": "استيراد المحادثات",
+  "tavernImportChatsSubtitle": "ملفات SillyTavern بصيغة ‎.jsonl، ملف واحد أو عدة ملفات",
+  "tavernOnlyJsonl": "يمكن استيراد ملفات المحادثات ‎.jsonl فقط"
 }
