@@ -1193,5 +1193,100 @@
       }
     }
   },
-  "tavernIslands": "صفحات ويب داخل الرسائل"
+  "tavernIslands": "صفحات ويب داخل الرسائل",
+  "tavernIslandsSubtitle": "يُعرض HTML والتنسيقات التي تكتبها البطاقة في رسائلها (مثل أشرطة الحالة واللوحات) داخل صفحة ويب مستقلة؛ وعند إيقافه تُعرض كنص",
+  "tavernSettingsSafety": "الأمان",
+  "tavernIslandNoScripts": "عدم تشغيل سكربتات البطاقة في تلك الصفحات",
+  "tavernSPresetExternal": "تسمح للإعدادات المسبقة بتحميل SPreset الخاص بها",
+  "tavernSPresetExternalSubtitle": "يعمل SPreset المضمّن افتراضيًا ولا يُحمّل شيء من موقع مؤلف الإعداد المسبق؛ فعّل هذا للسماح للإعداد المسبق بتحميل نسخته الخاصة",
+  "tavernIslandNoScriptsSubtitle": "لا تعمل JavaScript الخاصة بالبطاقة؛ وتظل أشرطة الحالة التي تحتاج إليها ثابتة",
+  "tavernIslandOffline": "إبقاء تلك الصفحات دون اتصال",
+  "tavernIslandOfflineSubtitle": "تُستخدم الصور والخطوط الموجودة داخل البطاقة فقط؛ ولا يُحمّل شيء من الإنترنت",
+  "tavernSessionUsage": "استخدام هذه المحادثة",
+  "tavernSessionUsageNote": "{count, plural, =1{رد واحد في هذا الفرع} other{{count} ردود في هذا الفرع}}، بالمجموع؛ ولا تُحتسب البدائل المستبدلة",
+  "@tavernSessionUsageNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernSessionUsageNone": "لم يُبلغ النموذج عن أي استخدام بعد",
+  "tavernSessionUsageCost": "نحو {usd} وفق أسعار DeepSeek المعلنة، مع التمييز بين ساعات الذروة وخارجها؛ وتُعد العطلات الرسمية في الصين خارج الذروة طوال اليوم، لذا قد تكون القيمة هنا أعلى قليلًا",
+  "@tavernSessionUsageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStageCost": "نحو {usd} وفق أسعار DeepSeek المعلنة",
+  "@tavernStageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSessionUsageUnpriced": "{count, plural, =1{استخدم رد واحد نموذجًا غير مدرج في قائمة الأسعار، لذلك لم تُحتسب تكلفته} other{استخدمت {count} ردود نماذج غير مدرجة في قائمة الأسعار، لذلك لم تُحتسب تكلفتها}}",
+  "@tavernSessionUsageUnpriced": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernComposerNoKey": "أضف مفتاحًا للبدء",
+  "tavernWriteOwn": "إنشاء شخصيتك الخاصة",
+  "tavernWriteOwnSubtitle": "ابدأ ببطاقة فارغة",
+  "tavernNewCharacterName": "شخصية جديدة",
+  "tavernSearchGoTo": "الانتقال إليها في المحادثة",
+  "tavernBookmarks": "الإشارات المرجعية",
+  "tavernBookmarkAdd": "إضافة إشارة مرجعية",
+  "tavernBookmarkRemove": "إزالة الإشارة المرجعية",
+  "tavernBookmarkAdded": "أُضيفت إشارة مرجعية؛ اعثر عليها في المشهد ← هذه المحادثة ← الإشارات المرجعية",
+  "tavernBookmarkRemoved": "تمت إزالة الإشارة المرجعية",
+  "tavernBookmarksEmpty": "لا توجد إشارات مرجعية بعد",
+  "tavernBookmarksEmptyMessage": "اضغط مطولًا على رسالة واختر «إضافة إشارة مرجعية»",
+  "tavernBookmarkGone": "لم يعد هذا السطر موجودًا؛ تمت إزالة إشارته المرجعية",
+  "tavernUsageStats": "الاستخدام",
+  "tavernUsageStatsSubtitle": "عدد الرموز التي استهلكتها كل محادثة والتكلفة التقريبية",
+  "tavernUsageAllNote": "مجموع الردود في السطر الحالي لكل المحادثات؛ ولا تُحتسب البدائل المستبدلة",
+  "tavernUsageChatReplies": "{count} ردود · إخراج {completion}",
+  "@tavernUsageChatReplies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSlashNoReply": "لا يوجد رد يمكن تطبيق ذلك عليه بعد",
+  "tavernRegexTest": "تجربة",
+  "tavernRegexTestFind": "بحث عن",
+  "tavernRegexTestReplace": "استبدال بـ",
+  "tavernRegexTestInput": "نص",
+  "tavernRegexTestHint": "الصق ردًا لتجربة التعبير عليه",
+  "tavernRegexTestNote": "تُطبّق هذه القاعدة وحدها على هذا الجهاز دون استدعاء نموذج؛ وتُنفّذ هنا بغض النظر عما تطابقه أو ما إذا كانت مفعّلة.",
+  "tavernRegexTestMacros": "لا تُستبدل وحدات الماكرو مثل {{char}} هنا؛ بل تُعامل كما كُتبت.",
+  "tavernRegexTestNone": "لا يوجد تطابق؛ سيبقى النص كما هو",
+  "tavernRegexTestResult": "بعد الاستبدال ({count})",
+  "@tavernRegexTestResult": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRegexTestFailed": "تعذّرت التجربة: {reason}",
+  "@tavernRegexTestFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStateNote": "وفقًا للرسالة الحالية. اضغط على متغير لعرضه أو تغييره؛ وتُسجّل التغييرات مع هذه الرسالة."
 }
