@@ -505,5 +505,91 @@
   "tavernTrySample": "جرّب بطاقة العينة",
   "tavernImportChats": "استيراد المحادثات",
   "tavernImportChatsSubtitle": "ملفات SillyTavern بصيغة ‎.jsonl، ملف واحد أو عدة ملفات",
-  "tavernOnlyJsonl": "يمكن استيراد ملفات المحادثات ‎.jsonl فقط"
+  "tavernOnlyJsonl": "يمكن استيراد ملفات المحادثات ‎.jsonl فقط",
+  "tavernImportChatsFailed": "تعذّر الاستيراد: {detail}",
+  "@tavernImportChatsFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportedChats": "{count, plural, =1{تم استيراد محادثة واحدة} other{تم استيراد {count} محادثات}}",
+  "@tavernImportedChats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernImportNoticesTitle": "ملاحظات الاستيراد",
+  "tavernExportChat": "تصدير المحادثة",
+  "tavernExportChatFailed": "تعذّر تصدير هذه المحادثة",
+  "tavernLorebook": "كتاب المعلومات",
+  "tavernLorebookSubtitle": "الإدخالات الخاصة بالبطاقة",
+  "tavernLorebookEntries": "{count, plural, =1{إدخال واحد} other{{count} إدخالات}}",
+  "@tavernLorebookEntries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLorebookNote": "عند ظهور أحد المفاتيح في المحادثة، يُضاف إدخاله إلى المطالبة؛ أما إدخالات «دائمًا» فتُضاف في كل مرة.",
+  "tavernLorebookKeys": "المفاتيح: {keys}",
+  "@tavernLorebookKeys": {
+    "placeholders": {
+      "keys": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookConstant": "دائمًا",
+  "tavernLorebookOff": "إيقاف",
+  "tavernLorebookEmpty": "لا تحتوي هذه البطاقة على كتاب معلومات",
+  "tavernImportFromFile": "من ملف",
+  "tavernImportFromFileSubtitle": "بطاقات وإعدادات مسبقة وكتب معلومات وغيرها، مع التعرّف عليها تلقائيًا",
+  "tavernImportFromLink": "من رابط",
+  "tavernImportFromLinkSubtitle": "Chub أو RisuRealm أو رابط إلى ملف البطاقة",
+  "tavernLinkInvalid": "هذا ليس عنوان ويب",
+  "tavernLinkFailed": "تعذّر تنزيله؛ تحقّق من الاتصال أو الرابط",
+  "tavernLinkStatus": "تعذّر تنزيله (HTTP {status})",
+  "@tavernLinkStatus": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLinkIsPage": "هذا رابط صفحة ويب وليس ملف بطاقة. تعمل صفحات الشخصيات على Chub وRisuRealm كما هي؛ أما في المواقع الأخرى، فابحث عن رابط تنزيل ‎.png أو ‎.json وجرّبه.",
+  "tavernLinkSiteMissing": "لا يحتوي الموقع على هذه الشخصية؛ ربما حُذفت أو أصبحت خاصة",
+  "tavernQuickReplies": "الردود السريعة",
+  "tavernQuickRepliesEmpty": "لا توجد ردود سريعة بعد",
+  "tavernQuickRepliesNote": "تظهر أعلى حقل الإدخال في كل محادثة: اضغط لإرسال الرد، أو اضغط مطولًا لوضعه في الحقل أولًا.",
+  "tavernQuickReplyAdd": "إضافة رد",
+  "tavernQuickReplyHint": "مثال: *ينظر حوله بحثًا عن أي شخص آخر*",
+  "tavernQuickReplyCount": "{count, plural, =1{سطر واحد} other{{count} أسطر}}",
+  "@tavernQuickReplyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernEditMessage": "تعديل الرسالة",
+  "tavernBackground": "صورة الخلفية",
+  "tavernBackgroundNone": "بلا",
+  "tavernBackgroundChange": "تغيير",
+  "tavernBackgroundRemove": "إزالة الصورة",
+  "tavernDice": "رمي النرد",
+  "tavernDiceCount": "النرد",
+  "tavernDiceModifier": "المُعدِّل",
+  "tavernDiceFewer": "نرد أقل بواحد",
+  "tavernDiceMore": "نرد إضافي",
+  "tavernDiceModifierDown": "المُعدِّل −1",
+  "tavernDiceModifierUp": "المُعدِّل +1",
+  "tavernDiceRoll": "ارمِ",
+  "tavernDiceAgain": "أعد الرمي",
+  "tavernDiceUse": "وضعه في حقل الإدخال",
+  "tavernDiceLine": "🎲 رمية {notation} نتيجتها {total}{working}"
 }
