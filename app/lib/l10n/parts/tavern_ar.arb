@@ -754,5 +754,126 @@
   "tavernStageWorldNone": "لم يظهر أي إدخال في هذا الدور",
   "tavernStageInspect": "عرض الفحص الكامل",
   "tavernLorebookNone": "لا شيء",
-  "tavernLorebooksBound": "كتب المعلومات المرتبطة"
+  "tavernLorebooksBound": "كتب المعلومات المرتبطة",
+  "tavernLorebooksBoundCharacter": "تُستخدم في كل محادثة مع هذه الشخصية",
+  "tavernLorebooksBoundPersona": "تُستخدم في كل محادثة تكون فيها بهذه الشخصية",
+  "tavernLorebookForChat": "كتب المعلومات لهذه المحادثة",
+  "tavernLorebookForCharacter": "كتب المعلومات الخاصة بـ {name}",
+  "@tavernLorebookForCharacter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookForPersona": "كتب المعلومات باسم {name}",
+  "@tavernLorebookForPersona": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookChatNote": "لهذه المحادثة فقط. الحزم العامة مفعّلة في كل المحادثات.",
+  "tavernLorebookCharacterNote": "تستخدم كل محادثة مع هذه الشخصية هذه الكتب إلى جانب كتاب المعلومات الخاص بالبطاقة.",
+  "tavernLorebookPersonaNote": "تستخدم كل محادثة تكون فيها بهذه الشخصية هذه الكتب.",
+  "tavernLorebookPickEmpty": "لا توجد كتب معلومات في المكتبة بعد",
+  "tavernLorebookOpenLibrary": "استورد كتابًا من المكتبة",
+  "tavernLorebookMissing": "كتاب معلومات محذوف",
+  "tavernLorebookMissingSubtitle": "لا يزال مرتبطًا وسيتم تخطيه عند الرد؛ عطّله لإلغاء الربط",
+  "tavernPresetOrder": "إعادة الترتيب",
+  "tavernPresetOrderNote": "اسحب المقبض الموجود على اليمين. تُرسل المطالبات إلى النموذج بهذا الترتيب؛ وتبقى العناصر المعطّلة في مواضعها.",
+  "tavernPresetPromptOff": "إيقاف",
+  "tavernPrefill": "التهيئة المسبقة",
+  "tavernPrefillOn": "ابدأ الرد بهذا النص",
+  "tavernPrefillOnSubtitle": "يواصل النموذج الكتابة انطلاقًا منه",
+  "tavernPrefillText": "النص الافتتاحي",
+  "tavernPrefillTextEmpty": "لم يُكتب بعد",
+  "tavernPrefillTarget": "يُضاف إلى",
+  "tavernPrefillContent": "الرد",
+  "tavernPrefillReasoning": "التفكير",
+  "tavernPrefillNote": "في وضع التفكير، يُطبّق فقط عند تفعيل التفكير؛ وإلا فسيُضاف إلى الرد. لا يُستخدم عند متابعة الرد.",
+  "tavernPresetPromptEmpty": "فارغ",
+  "tavernThinkingSeconds": "{seconds} ث",
+  "@tavernThinkingSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeletedCount": "{count, plural, =1{تم حذف رسالة واحدة} other{تم حذف {count} رسائل}}",
+  "@tavernDeletedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteFromUndoable": "من هذه الرسالة حتى الأحدث، مع بدائلها وفروعها. يمكنك التراجع خلال بضع ثوانٍ.",
+  "tavernUndoFailed": "تعذّر التراجع",
+  "tavernShowUsage": "إظهار الاستخدام والتكلفة أسفل كل رد",
+  "tavernShowUsageSubtitle": "رموز الإدخال والإخراج كما يُبلغ عنها النموذج؛ وبالنسبة إلى نماذج DeepSeek، تُعرض التكلفة وفق أسعارها المعلنة مع التمييز بين ساعات الذروة وخارجها",
+  "tavernUsageLine": "إدخال {input} · إخراج {output}",
+  "@tavernUsageLine": {
+    "placeholders": {
+      "input": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "output": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "tavernUsageLineCached": "إدخال {input} (المخبأ {cached}) · إخراج {output}",
+  "@tavernUsageLineCached": {
+    "placeholders": {
+      "input": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "cached": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "output": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "tavernUsageCost": "نحو {usd}",
+  "@tavernUsageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernUsageCostUnder": "أقل من {usd}",
+  "@tavernUsageCostUnder": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernCostAlert": "تذكير تكلفة كل دور",
+  "tavernCostAlertSubtitle": "عندما تتجاوز تكلفة الدور هذا الحد وفق أسعار DeepSeek المعلنة، يظهر تنبيه فوق حقل الكتابة؛ ولا تُقدّر تكلفة النماذج الأخرى",
+  "tavernCostAlertOff": "إيقاف",
+  "tavernCostAlertNotice": "بلغت تكلفة هذا الدور {cost}، متجاوزة حد التذكير البالغ {line}",
+  "@tavernCostAlertNotice": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSearchChat": "البحث في هذه المحادثة",
+  "tavernSearchChatHint": "سطر أو كلمة"
 }
