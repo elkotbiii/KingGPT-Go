@@ -43,11 +43,16 @@ jobs:
           channel: stable
           cache: true
 
-      # The runtime builder verifies Ubuntu package signatures and audits ELF files.
-      - name: Install runtime host dependencies
+      # Keep the host tools required by README.md, build-runtime.sh and build-apk.sh
+      # explicit instead of relying on incidental packages in the hosted runner image.
+      - name: Install runtime and APK build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install --yes file gpgv xz-utils
+          sudo apt-get install --yes \
+            curl file git gpgv python3 tar unzip xz-utils zstd
+          for tool in curl file git gpgv python3 tar unzip xz zstd; do
+            command -v "$tool" >/dev/null || { echo "Missing required build tool: $tool" >&2; exit 1; }
+          done
 
       # tawcroot is compiled by tooling/build-apk.sh and requires this exact NDK.
       - name: Install pinned Android NDK
