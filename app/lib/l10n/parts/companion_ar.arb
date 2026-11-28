@@ -990,5 +990,115 @@
   "companionReceiptDeadline": "انقضى الموعد النهائي المتفق عليه. لن يبدأ عمل جديد، ولا يزال بإمكانك التحقق من النتائج السابقة.",
   "companionReceiptOriginalPending": "لم يتلقَّ الحاسوب الطلب الأصلي كاملًا، ولن يبدأ إعداد المصنف بعد.",
   "companionReceiptReport": "حقول الإيصالات التي تم رصدها",
-  "companionReceiptPreviousReport": "ملاحظات الإيصالات السابقة"
+  "companionReceiptPreviousReport": "ملاحظات الإيصالات السابقة",
+  "companionReceiptCoverage": "في هذه النتيجة، تم التحقق من الحقول في {count} من الإيصالات الأربعة.",
+  "@companionReceiptCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptImageScope": "تمت قراءة طبقة النص في PDF فقط. لا تزال التواريخ والحقول الأخرى الموجودة في الصور غير مؤكدة.",
+  "companionReceiptUnread": "لم تتم قراءة هذا الملف الأصلي بالكامل.",
+  "companionReceiptParseFailed": "تعذّر استخراج النص بالكامل من هذا الملف الأصلي.",
+  "companionReceiptChanged": "تعذّر تأكيد النسخة الأصلية قبل النشر. لا يمكن اعتبار هذا الصف موثوقًا.",
+  "companionReceiptDate": "التاريخ",
+  "companionReceiptItem": "العنصر",
+  "companionReceiptAmount": "المبلغ",
+  "companionReceiptUnverified": "غير متحقق منه: {reason}",
+  "@companionReceiptUnverified": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptFieldUnknown": "النص الأصلي لا يثبت هذا الحقل",
+  "companionReceiptSourcePosition": "الأسطر {from}–{to}",
+  "@companionReceiptSourcePosition": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptPdfPosition": "الصفحة {page}، أسطر النص المستخرج {from}–{to}",
+  "@companionReceiptPdfPosition": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptOpenWorkbook": "فتح {name}",
+  "@companionReceiptOpenWorkbook": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptOpenFailed": "لا يمكن فتح المصنف الأصلي الآن. تم الاحتفاظ بسجل إكماله السابق؛ ولن يُعاد إنشاؤه تلقائيًا.",
+  "companionReceiptChooseAgain": "اختيار الإيصالات الأربعة مجددًا",
+  "companionReceiptKeepInputs": "الاحتفاظ بالإيصالات الأربعة نفسها",
+  "companionReceiptOutputName": "اسم ملف المصنف الجديد (.xlsx)",
+  "companionReceiptCancelSource": "إلغاء مهمة الإيصالات هذه؛ وإيقاف العمل غير المكتمل والاحتفاظ بأي مصنف كُتب بالفعل.",
+  "companionReceiptAmendSource": "تعديل مهمة الإيصالات هذه لإنشاء {name}؛ الموعد النهائي: {deadline}؛ بعد المغادرة: {afterExit}؛ انتظار الحاسوب: {queue}؛ الملفات الأصلية: {inputs}؛ مجلد الإخراج: {output}.",
+  "@companionReceiptAmendSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "deadline": {
+        "type": "String"
+      },
+      "afterExit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "inputs": {
+        "type": "String"
+      },
+      "output": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptNoText": "لم تتم قراءة أي طبقة نص قابلة للاستخدام. لا تزال الحقول الموجودة في الصور غير مؤكدة.",
+  "companionReceiptPassword": "يتطلب الملف الأصلي كلمة مرور، لذا تعذّرت قراءته.",
+  "companionReceiptPdfUnavailable": "لا يستطيع هذا الحاسوب استخراج نص PDF بعد.",
+  "companionReceiptLimit": "يتجاوز الملف حدود الحجم أو الصفحات أو النص لهذه المهمة.",
+  "companionReceiptDateUnknown": "تعذّر التحقق من تاريخ كامل، أو أن التاريخ ملتبس.",
+  "companionReceiptItemUnknown": "تعذّر التحقق من وصف واضح للعنصر.",
+  "companionReceiptAmountUnknown": "تعذّر تأكيد المبلغ أو العملة.",
+  "companionReceiptKeepOutput": "الاحتفاظ بمجلد الإخراج الأصلي",
+  "companionReceiptPriorResult": "تم العثور على المصنف الناتج عن الاتفاق السابق؛ ولم يُنفّذ الاتفاق الجديد.",
+  "companionLegacyConversation": "محادثة سابقة (لم تُسجّل الشخصية)",
+  "companionScreen": "شاهد الشاشة معي",
+  "companionScreenHint": "تشاهد الشاشة معك وتعلّق عندما يلفت شيء انتباهها؛ ولا يتم الاحتفاظ بالشاشة نفسها، بل بآخر تعليقاتها القليلة فقط",
+  "companionScreenNeedsAccess": "فعّل خدمة تسهيل الاستخدام للتحكم بالهاتف أولًا، أو اسمح لها بتسجيل الشاشة",
+  "companionScreenAllowProjection": "السماح بتسجيل الشاشة",
+  "companionScreenVision": "السماح بصور الشاشة",
+  "companionScreenVisionHint": "تُفحص الصور أولًا لحماية الخصوصية باستخدام التعرّف على النصوص على الجهاز (OCR)، لذا يجب تفعيله. الحد الأقصى 512 بكسل للضلع الأطول، ولا تُحفظ الصور مطلقًا",
+  "companionScreenVisionTextOnly": "تقرأ طريقة الالتقاط هذه النص فقط؛ وتتطلب الصور التقاطًا عبر تسهيل الاستخدام مع تفعيل التعرّف على النصوص على الجهاز",
+  "companionScreenVisionModel": "النموذج المستخدم لصور الشاشة",
+  "companionScreenVisionChoose": "اختر نموذجًا يقبل الصور",
+  "companionScreenVisionAvailable": "يستطيع النموذج المحدد رؤية الصور؛ ولا تُرسل إلا عند تفعيل التعرّف على النصوص على الجهاز، ولا تُحفظ مطلقًا",
+  "companionScreenVisionChecking": "جارٍ التحقق من النموذج المحدد؛ النص فقط متاح حاليًا",
+  "companionScreenVisionUnavailable": "لا يستطيع هذا الاتصال أو النموذج استقبال الصور، لذا تعتمد مشاهدة الشاشة على النص",
+  "companionScreenFrequency": "مدى تكرار تحدثها",
+  "companionScreenQuiet": "هادئة",
+  "companionScreenQuietHint": "نادرًا، وعندما يكون الأمر مهمًا فقط"
 }
