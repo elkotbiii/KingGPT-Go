@@ -155,5 +155,24 @@
   "workshopSignInTitle": "تسجيل الدخول باستخدام GitHub",
   "workshopSignInLead": "تتعرف الورشة على المؤلفين من خلال حساب GitHub. لا يستطيع هذا تسجيل الدخول قراءة سوى ملفك الشخصي العام (اسم المستخدم ورقم الحساب)، وليس مستودعاتك.",
   "workshopSignInPreparing": "جارٍ الحصول على رمز من GitHub…",
-  "workshopSignInSteps": "أدخل هذا الرمز في صفحة التحقق لدى GitHub وامنح الإذن، ثم عُد إلى هنا."
+  "workshopSignInSteps": "أدخل هذا الرمز في صفحة التحقق لدى GitHub وامنح الإذن، ثم عُد إلى هنا.",
+  "workshopSignInOpen": "نسخ الرمز وفتح GitHub",
+  "workshopSignInCopied": "تم نسخ الرمز",
+  "workshopSignInWaiting": "بانتظار منحك الإذن على GitHub…",
+  "workshopSignInExpired": "انتهت صلاحية الرمز.",
+  "workshopSignInDenied": "ألغيت التفويض على GitHub.",
+  "workshopSignInNetwork": "يتعذّر الوصول إلى GitHub. تحقّق من الاتصال وحاول مجددًا.",
+  "workshopSignInUnconfigured": "لم تُعدّ هذه الورشة تسجيل الدخول عبر GitHub بعد.",
+  "workshopSignInAgain": "الحصول على رمز جديد",
+  "workshopAccountLine": "حساب GitHub ‏{login}",
+  "workshopAccountSignOut": "تسجيل الخروج",
+  "workshopAccountSignedOut": "تم تسجيل الخروج. لإلغاء التفويض بالكامل، أبطله ضمن «التطبيقات» في إعدادات GitHub.",
+  "workshopAccountSignOutFailed": "تعذّر تسجيل الخروج. حاول مجددًا لاحقًا.",
+  "@workshopAccountLine": {
+    "placeholders": {
+      "login": {
+        "type": "String"
+      }
+    }
+  }
 }
