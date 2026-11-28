@@ -271,5 +271,73 @@
   "tavernReportNoFindings": "لا شيء يستحق المراجعة",
   "tavernPresetForChat": "إعداد هذه المحادثة المسبق",
   "tavernPresetFollow": "الافتراضي",
-  "tavernPresetFollowDefault": "الافتراضي ({name})"
+  "tavernPresetFollowDefault": "الافتراضي ({name})",
+  "@tavernPresetFollowDefault": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetPickerEmpty": "استورد إعدادات مسبقة من المكتبة ← الإعدادات المسبقة لإتاحة خيار آخر لهذه المحادثة.",
+  "@tavernPresetCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernSectionShelf": "الرف",
+  "tavernSectionChats": "المحادثات",
+  "tavernSectionLibrary": "المكتبة",
+  "tavernSectionMe": "أنا",
+  "tavernNoChats": "لا توجد محادثات بعد",
+  "tavernNoChatsMessage": "افتح شخصية من الرف لبدء محادثتك الأولى.",
+  "tavernSettingsGeneration": "التوليد",
+  "tavernMaxContext": "حد السياق",
+  "tavernMaxReply": "حد الرد",
+  "tavernTemperature": "درجة الحرارة",
+  "tavernGenerationNote": "يسمح السياق الأطول بتذكّر المزيد، لكنه يكلّف أكثر في كل دور؛ والأرقام بوحدات الرموز. يغيّر هذا الإعداد المسبق الافتراضي، أما المحادثة التي تستخدم إعدادًا مسبقًا خاصًا بها فستحتفظ به.",
+  "tavernLayout": "التخطيط",
+  "tavernLayoutBubble": "فقاعات",
+  "tavernLayoutNovel": "رواية",
+  "tavernYou": "أنت",
+  "tavernSearchHint": "ابحث عن الشخصيات والمنشئين والوسوم",
+  "tavernAllTags": "الكل",
+  "tavernNoMatch": "لا توجد شخصيات مطابقة",
+  "tavernLayoutVisualNovel": "رواية مرئية",
+  "tavernCharacterDetails": "تفاصيل الشخصية",
+  "tavernChatLayout": "تخطيط هذه المحادثة",
+  "tavernFollowSettings": "اتباع إعدادات Tavern",
+  "tavernLog": "سجل المحادثة",
+  "tavernEditCharacter": "تعديل الشخصية",
+  "tavernNameNeeded": "الاسم مطلوب",
+  "tavernFieldsBasics": "الأساسيات",
+  "tavernFieldNickname": "الاسم المستعار",
+  "tavernFieldNicknameHelp": "إذا عُيّن، فستستخدمه المحادثات عند مناداة الشخصية",
+  "tavernFieldTags": "الوسوم",
+  "tavernFieldTagsHelp": "افصل بينها بفواصل",
+  "tavernFieldCreator": "المنشئ",
+  "tavernFieldVersion": "الإصدار",
+  "tavernFieldDescription": "الوصف",
+  "tavernFieldPersonality": "الشخصية",
+  "tavernFieldScenario": "السيناريو",
+  "tavernGreetingNumber": "التحية {n}",
+  "@tavernGreetingNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernFieldGreetingsNote": "يمكن بدء محادثة جديدة بأي واحدة من هذه التحيات.",
+  "tavernAddGreeting": "إضافة تحية",
+  "tavernMoreFields": "حقول إضافية",
+  "tavernMoreFieldsSubtitle": "حوار نموذجي، ومطالبة النظام، وتعليمات ما بعد سجل المحادثة",
+  "tavernFieldExamples": "حوار نموذجي",
+  "tavernFieldExamplesHelp": "ابدأ كل مثال بسطر <START>",
+  "tavernFieldPrompts": "المطالبات",
+  "tavernFieldPromptsNote": "عند تعيينها، تستبدل الجزء المطابق من الإعداد المسبق؛ اتركها فارغة لاستخدام مطالبات الإعداد المسبق.",
+  "tavernFieldSystemPrompt": "مطالبة النظام",
+  "tavernFieldPostHistory": "تعليمات ما بعد سجل المحادثة"
 }
