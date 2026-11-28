@@ -1,0 +1,163 @@
+{
+  "plugViewInvalid": "حدث خطأ في عرض الإضافة",
+  "plugViewEmpty": "لا توجد بيانات بعد",
+  "plugViewImageUnavailable": "تعذّر عرض الصورة",
+  "plugViewUnavailableList": "تعذّر عرض القائمة",
+  "plugViewUnavailableKeyValue": "تعذّر عرض التفاصيل",
+  "plugViewUnavailableProgress": "تعذّر عرض التقدم",
+  "plugViewUnavailableTable": "تعذّر عرض الجدول",
+  "plugViewUnavailableActions": "تعذّر عرض الأزرار",
+  "plugViewFrom": "من {name}",
+  "@plugViewFrom": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewUnknownTone": "نبرة غير معروفة {value}، تم تجاهلها؛ النبرات المتاحة: good وwarn وbad وinfo وmuted",
+  "@plugViewUnknownTone": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewBadActionId": "معرّف إجراء غير صالح {value}؛ لا يمكن النقر على هذا العنصر",
+  "@plugViewBadActionId": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewBadAction": "يجب أن يكون الإجراء نص معرّف أو {shape}؛ تم التجاهل",
+  "@plugViewBadAction": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewArgsLimit": "تتجاوز وسيطات الإجراء الحد {limit, plural, =1{بايتاً واحداً} other{{limit} بايت}}؛ تم التجاهل",
+  "@plugViewArgsLimit": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewUnknownIcon": "أيقونة غير معروفة {value}؛ سيُستخدم رمز الأيقونة الافتراضي",
+  "@plugViewUnknownIcon": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewExpectedItems": "كان المتوقع مصفوفة من {shape}",
+  "@plugViewExpectedItems": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewSkippedItem": "كان المتوقع {shape}؛ تم تخطي العنصر",
+  "@plugViewSkippedItem": {
+    "placeholders": {
+      "shape": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewBadMax": "يجب أن تكون max رقماً أكبر من 0؛ سيُستخدم 100",
+  "plugViewColumnLimit": "عدد الأعمدة {first, plural, =1{عمود واحد} other{{first} أعمدة}}، ويتجاوز الحد البالغ {second}",
+  "@plugViewColumnLimit": {
+    "placeholders": {
+      "first": {
+        "type": "int"
+      },
+      "second": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewFirstColumns": "يتم عرض أول {limit, plural, =1{عمود واحد فقط} other{{limit} أعمدة فقط}}",
+  "@plugViewFirstColumns": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewFirstRows": "يتم عرض أول {limit, plural, =1{صف واحد فقط} other{{limit} صفوف فقط}}",
+  "@plugViewFirstRows": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewOnePrimary": "لا يمكن أن يحتوي العرض على أكثر من زر أساسي واحد؛ سيُعرض هذا الزر كزر عادي",
+  "plugViewBadImageSource": "تتطلب الصور مورداً تابعاً للإضافة (asset:<path> أو png أو jpg أو webp أو gif)، أو عنوان URL من نوع data:image/…",
+  "plugViewBadAspect": "يجب أن تكون aspect رقماً بين 0.25 و4؛ تم التجاهل",
+  "plugViewImageTooLarge": "تتجاوز صورة data: الحد {limit, plural, =1{بايتاً واحداً} other{{limit} بايت}}",
+  "@plugViewImageTooLarge": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewImageDecode": "تعذّر فك ترميز الصورة (الصيغ المدعومة فقط PNG وJPEG وWebP وGIF)",
+  "plugViewImagePixels": "تتجاوز الصورة حد الحجم: 4096 بكسل لكل جانب، و4 ملايين بكسل إجمالاً",
+  "plugViewTooDeep": "يتجاوز تعشيش JSON العمق {limit, plural, =1{مستوى واحد} other{{limit} مستويات}}",
+  "@plugViewTooDeep": {
+    "placeholders": {
+      "limit": {
+        "type": "int"
+      }
+    }
+  },
+  "plugViewV2Content": "محتوى الإضافة",
+  "plugViewVersionFallback": "إصدار العرض {version} غير مدعوم؛ سيُستخدم العرض المتوافق",
+  "@plugViewVersionFallback": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewStyleInvalid": "نمط غير صالح؛ المتوقع {values}",
+  "@plugViewStyleInvalid": {
+    "placeholders": {
+      "values": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewStyleReserved": "هذا المظهر محجوز للتطبيق؛ تم التجاهل",
+  "plugViewStyleContainerOnly": "هذا النمط متاح فقط للحاويتين stack وrow",
+  "plugViewStyleTextOnly": "هذا النمط متاح فقط للعناصر text وmetric وcallout",
+  "plugViewContrastAdjusted": "{mode}: تم ضبط {before} إلى {after}، والتباين لا يقل عن {minimum}:1",
+  "@plugViewContrastAdjusted": {
+    "placeholders": {
+      "mode": {
+        "type": "String"
+      },
+      "before": {
+        "type": "String"
+      },
+      "after": {
+        "type": "String"
+      },
+      "minimum": {
+        "type": "String"
+      }
+    }
+  },
+  "plugViewRichLimit": "يتجاوز النص المنسق الحد المسموح؛ تم اقتطاعه",
+  "plugViewBadTrend": "تتطلب trend عددين إلى {max} أعداد (يُسمح بالقيم null)؛ تم التجاهل",
+  "plugViewGalleryPicture": "الصورة {index}"
+}
