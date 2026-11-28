@@ -339,5 +339,73 @@
   "tavernFieldPrompts": "المطالبات",
   "tavernFieldPromptsNote": "عند تعيينها، تستبدل الجزء المطابق من الإعداد المسبق؛ اتركها فارغة لاستخدام مطالبات الإعداد المسبق.",
   "tavernFieldSystemPrompt": "مطالبة النظام",
-  "tavernFieldPostHistory": "تعليمات ما بعد سجل المحادثة"
+  "tavernFieldPostHistory": "تعليمات ما بعد سجل المحادثة",
+  "tavernFieldNotesNote": "مخصصة لمن يقرأ البطاقة؛ ولا تُرسل إلى النموذج.",
+  "tavernEditKeeps": "{count, plural, =1{تحتوي هذه البطاقة على عنصر إضافي واحد لا يمكنك تعديله هنا (كتاب معلومات، إضافات…). سيُحتفظ به كما هو عند الحفظ، ولن تتغير المحادثات الحالية.} other{تحتوي هذه البطاقة على {count} عناصر إضافية لا يمكنك تعديلها هنا (كتاب معلومات، إضافات…). سيُحتفظ بها كما هي عند الحفظ، ولن تتغير المحادثات الحالية.}}",
+  "@tavernEditKeeps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernEditKeepsChats": "لا يؤثر الحفظ في المحادثات الحالية.",
+  "tavernPersonas": "الشخصيات التي تمثّلك",
+  "tavernPersona": "شخصية تمثّلك",
+  "tavernPersonaNew": "شخصية تمثّلك جديدة",
+  "tavernPersonasEmpty": "لا توجد شخصيات تمثّلك بعد",
+  "tavernPersonasEmptyMessage": "الشخصية التي تمثّلك هي هويتك في المحادثات: اسم وبعض الأسطر لتعرف الشخصيات من تكون.",
+  "tavernPersonasNote": "اضغط مطولًا لتعيين إحداها افتراضية أو حذفها.",
+  "tavernPersonaUnsetDefault": "إيقاف استخدامها كافتراضية",
+  "tavernPersonaSetDefault": "استخدامها كافتراضية",
+  "tavernPersonaDeleteTitle": "هل تريد حذف «{name}»؟",
+  "@tavernPersonaDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPersonaDeleteMessage": "ستنتقل المحادثات التي تستخدمها إلى الشخصية الافتراضية؛ وسيبقى ما كُتب بالفعل كما هو.",
+  "tavernPersonaEdit": "تعديل الشخصية التي تمثّلك",
+  "tavernPersonaPickAvatar": "تغيير الصورة",
+  "tavernPersonaRemoveAvatar": "إزالة الصورة",
+  "tavernPersonaAvatarFailed": "تعذّر استخدام هذه الصورة",
+  "tavernPersonaNameHint": "الاسم الذي تناديك به الشخصيات",
+  "tavernPersonaDescriptionHelp": "من تكون، وما طباعك، وكيف تعرف الشخصية",
+  "tavernPersonaDescriptionHint": "مثال: طبيب البلدة الجديد؛ هادئ ويحمل دائمًا حقيبة جلدية قديمة.",
+  "tavernPersonaDefaultSubtitle": "تستخدمها المحادثات التي لا تملك شخصية خاصة بها",
+  "tavernPersonaDelete": "حذف الشخصية التي تمثّلك",
+  "tavernPersonaNone": "بلا شخصية تمثّلك",
+  "tavernPersonaAs": "باسم {name}",
+  "@tavernPersonaAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPersonaForChat": "أنت في هذه المحادثة",
+  "tavernPersonaFollowDefault": "استخدام الافتراضية",
+  "tavernPersonasManage": "إدارة الشخصيات التي تمثّلك",
+  "tavernSettingsYou": "أنت",
+  "tavernDefaultPersona": "الشخصية الافتراضية التي تمثّلك",
+  "tavernPersonaNotSet": "غير معيّنة",
+  "tavernLibraryNone": "لا شيء",
+  "tavernFieldName": "الاسم",
+  "tavernOpenFailed": "تعذّر فتح Tavern",
+  "tavernOpenFailedMessage": "تعذّر فتح بيانات الشخصيات والمحادثات. حاول مجددًا؛ وإذا استمر الفشل، فأعد تشغيل التطبيق.",
+  "tavernExportPng": "تصدير البطاقة (PNG)",
+  "tavernExportPngSubtitle": "يمكن لـ SillyTavern وتطبيقات Tavern الأخرى استيرادها",
+  "tavernExportJson": "تصدير بصيغة JSON",
+  "tavernExportFailed": "تعذّر تصدير هذه البطاقة",
+  "tavernInspectTitle": "ما أُرسل في هذا الدور",
+  "tavernInspectMenu": "عرض ما تم إرساله",
+  "tavernInspectLatest": "ما أُرسل في الدور الأخير",
+  "tavernInspectNone": "لا توجد بيانات مسجلة",
+  "tavernInspectNoneMessage": "لا يوجد سجل للتحيات والرسائل السابقة للمحرك والردود التجريبية.",
+  "tavernInspectSummary": "الملخص",
+  "tavernInspectKind": "النوع",
+  "tavernTurnSend": "إرسال",
+  "tavernTurnImpersonate": "اكتب نيابةً عني"
 }
