@@ -455,5 +455,69 @@
   "phoneDirectStopFirst": "أوقف المحرك المحلي قبل تغيير طريقة تشغيله.",
   "phoneDirectSafeHint": "يستخدم الوضع الآمن طريقة التشغيل المتوافقة. يسري هذا الاختيار عند العودة إلى الوضع العادي.",
   "phoneDirectNeedsRuntime": "يتطلب هذا الخيار بيئة تشغيل تدعم التشغيل المباشر.",
-  "phoneDirectChangeFailed": "تعذّر تغيير طريقة التشغيل. أوقف المحرك المحلي وحاول مجددًا."
+  "phoneDirectChangeFailed": "تعذّر تغيير طريقة التشغيل. أوقف المحرك المحلي وحاول مجددًا.",
+  "phoneTawcEngine": "التشغيل السريع باستخدام tawcroot",
+  "phoneTawcHint": "مفعّل افتراضيًا؛ ويسري التغيير عند بدء التشغيل التالي. لا يمكن تفعيل هذا الخيار والتشغيل المباشر معًا. يشغّل المحرك المحلي باستخدام tawcroot بدلًا من طريقة التشغيل المتوافقة؛ فيبدأ أسرع بنحو ثلاثة أضعاف، كما تصبح عمليات تثبيت الحزم واستخدام apt أسرع. إذا تعذّر البدء، يعود التطبيق تلقائيًا إلى طريقة التشغيل المتوافقة. عند أول تشغيل بعد إيقافه، يحوّل أولًا الروابط الثابتة التي أنشأها إلى ملفات عادية، وقد يستغرق ذلك وقتًا أطول قليلًا.",
+  "phoneTawcFailedHint": "لم يبدأ tawcroot على هذا الهاتف، لذا تُستخدم طريقة التشغيل المتوافقة. أوقف المحرك وفعّل هذا الخيار للمحاولة مجددًا.",
+  "phoneTawcUnavailable": "هذا الإصدار لا يتضمن tawcroot، أو أن الهاتف يعمل بإصدار أقدم من Android 10.",
+  "phoneLaunchTawcroot": "tawcroot",
+  "phoneTawcLaunchFailed": "فشل بدء tawcroot",
+  "phoneTawcUnsupported": "إعدادات هذا التشغيل غير مدعومة بعد في tawcroot؛ ستُستخدم طريقة التشغيل المتوافقة حاليًا",
+  "phoneActualLaunchMode": "طريقة التشغيل الحالية",
+  "phoneLaunchNotObserved": "لا يعمل",
+  "phoneLastLaunchSelection": "آخر اختيار للتشغيل",
+  "phoneDirectRejectedReason": "سبب الرجوع إلى البديل",
+  "phoneLaunchFailureReason": "آخر فشل",
+  "phoneReturnCompatible": "استخدام طريقة التشغيل المتوافقة",
+  "phoneLaunchDirect": "التشغيل المباشر",
+  "phoneLaunchCompatible": "التشغيل المتوافق",
+  "phoneDirectIncompatibleFiles": "لم يتم ترتيب ملفات الإضافات بعد؛ ستُستخدم طريقة التشغيل المتوافقة حاليًا",
+  "phoneDirectNotEnoughSpace": "مساحة التخزين غير كافية؛ ستُستخدم طريقة التشغيل المتوافقة حاليًا",
+  "phoneDirectMigrationFailed": "لم يكتمل ترتيب الملفات؛ ستُستخدم طريقة التشغيل المتوافقة حاليًا",
+  "phoneDirectLaunchFailed": "فشل التشغيل المباشر",
+  "phoneLaunchStartFailed": "لم يكتمل بدء التشغيل",
+  "phoneLaunchExited": "رمز الخروج {code}",
+  "@phoneLaunchExited": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneDndManualConnect": "الاتصال باستخدام المنفذ",
+  "phoneDndConnectPortLabel": "منفذ الاتصال",
+  "phoneDndConnectPortHint": "في صفحة إعدادات تصحيح الأخطاء اللاسلكي الرئيسية، اعثر على «عنوان IP والمنفذ» وأدخل المنفذ الذي يأتي بعد النقطتين. لا تستخدم منفذ نافذة رمز الاقتران.",
+  "phonePreviewTitle": "معاينة مباشرة للخلفية",
+  "phonePreviewDescription": "تُقرأ الإطارات فقط أثناء ظهور المعاينة وتظل على هذا الجهاز. المعاينة مخصصة للمشاهدة فقط.",
+  "phonePreviewOpen": "عرض الشاشة الخلفية",
+  "phonePreviewTask": "معاينة المهمة {taskId}",
+  "@phonePreviewTask": {
+    "placeholders": {
+      "taskId": {
+        "type": "String"
+      }
+    }
+  },
+  "phonePreviewInUse": "تتم معاينة مهمة أخرى",
+  "phonePreviewOff": "انتهت المهمة أو أن المعاينة متوقفة",
+  "phonePreviewUnavailable": "المعاينة غير متاحة أو أن الشاشة محمية",
+  "phonePreviewWaiting": "بانتظار إطار خلفية جديد",
+  "phoneViewportTitle": "إطار عرض الخلفية",
+  "phoneViewportDescription": "يسري عند إنشاء الشاشة الخلفية التالية. تظل الشاشة الحالية دون تغيير؛ ويُطبّق الإعداد الجديد عند إعادة إنشائها بعد تسليم التحكم. لا يفرض هذا تدوير التطبيقات.",
+  "phoneViewportPortrait": "عمودي",
+  "phoneViewportLandscape": "أفقي",
+  "phoneResumeTask": "السماح بالتحكم بالهاتف مجددًا",
+  "phoneResumeTaskHint": "السماح بإجراءات الهاتف المستقبلية في هذه المحادثة. لن تُعاد الإجراءات المكتملة.",
+  "phoneResumeTaskFailed": "تعذّرت المتابعة. قد يكون الإجراء السابق لا يزال قيد الإنهاء.",
+  "phoneStoppedTask": "تم إيقاف مهمة الهاتف {task}",
+  "phoneTaskDrainingHint": "بانتظار انتهاء الإجراء السابق وتنظيف الشاشة الخلفية.",
+  "phoneTaskCleanupFailedHint": "تعذّر التأكد من تنظيف الشاشة الخلفية. يظل التحكم بالهاتف محظورًا.",
+  "phoneFinishingTask": "جارٍ إنهاء مهمة الهاتف {task}",
+  "phoneCleanupRetry": "إعادة محاولة التنظيف",
+  "phoneCleanupRetryFailed": "لم يتم التأكد بعد من تحرير الشاشة الخلفية السابقة. لا يزال الوصول إليها محجوزًا.",
+  "phoneSelfCheckTitle": "فحص التحكم بالهاتف",
+  "phoneSelfCheckTechnicalDetails": "تفاصيل تقنية",
+  "phoneLocalOcrSummary": "تعمل ميزة التعرّف على الجهاز؛ وقد تُرسل النتائج إلى نموذجك. تجمع حزمة SDK إحصاءات الاستخدام.",
+  "phoneLocalOcrPrivacyDetails": "تفاصيل الخصوصية",
+  "phoneSelfCheckPartial": "فحص جزئي — النتائج متاحة للعناصر التي تمت ملاحظتها فقط"
 }
