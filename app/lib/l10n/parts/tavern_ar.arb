@@ -1828,5 +1828,103 @@
         "type": "String"
       }
     }
-  }
+  },
+  "tavernReqUsageUnknown": "{count} غير معروف",
+  "@tavernReqUsageUnknown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernReqUsageMissing": "{count} لم يُبلّغ عنه",
+  "@tavernReqUsageMissing": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernReqUsageInvalid": "تم الإبلاغ عن {count} بشكل غير صحيح",
+  "@tavernReqUsageInvalid": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolFailBudget": "استهلك هذا الدور جميع طلبات الأدوات المتاحة، وسيتوقف هنا؛ وتظل رميات النرد التي تمت محسوبة",
+  "tavernToolFailBatch": "طلب النموذج عددًا كبيرًا جدًا من الأدوات دفعة واحدة؛ ولم تُنفّذ تلك الدفعة",
+  "tavernToolFailProtocol": "كان استدعاء الأداة من النموذج غير صالح، ولم يتم تنفيذه",
+  "tavernToolFailSnapshot": "لا يمكن متابعة رد هذا النموذج باستخدام الأدوات، لذا سيتوقف هنا",
+  "tavernToolFailReceipt": "تعذّر حفظ نتيجة إحدى الأدوات؛ تحقّق من هذا الدور مجددًا بعد قليل",
+  "tavernToolFailAnchor": "تغيّرت المحادثة أثناء هذا الدور، لذلك لم يتابع",
+  "tavernToolFail": "حدث خطأ ما في إحدى الأدوات",
+  "tavernToolFailDetail": "حدث خطأ ما في إحدى الأدوات: {detail}",
+  "@tavernToolFailDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceUnsettled": "لم يتم تأكيد النتيجة بعد؛ تحقّق مجددًا",
+  "tavernDicePending": "لم يتم تأكيد رميتك الأخيرة بعد",
+  "tavernDiceRecheck": "التحقق مجددًا",
+  "tavernDiceForget": "تجاهلها",
+  "tavernDiceBusy": "مشغول حاليًا؛ ارمِ النرد بعد اكتمال كتابة هذا الدور",
+  "tavernDiceOff": "رمي النرد متوقف في إعدادات Tavern",
+  "tavernDiceFailed": "لم يتم الرمي: {detail}",
+  "@tavernDiceFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceNotSaved": "لم ينجح التنفيذ: {detail}",
+  "@tavernDiceNotSaved": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "@tavernGroupSaveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannel": "القناة",
+  "tavernChannelDeepSeek": "DeepSeek",
+  "tavernChannelDeepSeekNote": "يستخدم مفتاح DeepSeek الخاص بالتطبيق",
+  "tavernChannelAdd": "إضافة قناة",
+  "tavernChannelEdit": "تعديل القناة",
+  "tavernChannelsNote": "تعمل أي خدمة متوافقة مع OpenAI: وسيط أو OpenRouter أو نموذج يعمل على حاسوبك. تُحفظ المفاتيح في التخزين الآمن لهذا الهاتف. لا تعرف تقديرات التكلفة إلا أسعار DeepSeek؛ أما القنوات الأخرى فتُظهر أعداد الرموز.",
+  "tavernChannelName": "الاسم",
+  "tavernChannelNameHint": "اتركه فارغًا لاستخدام العنوان",
+  "tavernChannelBaseUrlInvalid": "يجب أن يبدأ بـ http:// أو https://",
+  "tavernChannelKeyOptional": "يمكن ترك هذا الحقل فارغًا لخادم محلي لا يتطلب مفتاحًا",
+  "tavernChannelKeyKept": "يوجد مفتاح محفوظ؛ اترك الحقل فارغًا للاحتفاظ به",
+  "tavernChannelFetchModels": "جلب القائمة",
+  "tavernChannelFetching": "جارٍ الجلب…",
+  "tavernChannelFetchFailed": "تعذّر جلب قائمة النماذج ({detail}). يمكنك كتابة اسم النموذج.",
+  "@tavernChannelFetchFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannelNoModels": "لا تعرض هذه الخدمة أي نماذج. اكتب اسم النموذج.",
+  "tavernChannelModelHint": "اسم النموذج الذي يحدده مزود الخدمة",
+  "tavernChannelModelMissing": "أدخل اسم النموذج",
+  "tavernChannelPickModel": "اختيار نموذج",
+  "tavernChannelSearchModels": "البحث عن النماذج",
+  "tavernChannelDeepSeekApi": "الإرسال باستخدام API الخاص بـ DeepSeek",
+  "tavernChannelDeepSeekApiNote": "يستخدم آلية متابعة DeepSeek ومفتاح التفكير. فعّله فقط مع DeepSeek نفسه أو وسيط يمرره كما هو.",
+  "tavernChannelDelete": "حذف القناة",
+  "tavernChannelDeleteTitle": "هل تريد حذف «{name}»؟"
 }
