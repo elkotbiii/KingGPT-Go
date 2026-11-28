@@ -1,0 +1,8 @@
+{
+  "mediaVideoLoading": "جارٍ تحميل الفيديو…",
+  "mediaVideoCannotPlay": "تعذّر تشغيل هذا الفيديو هنا. أعد المحاولة أو افتحه في تطبيق آخر.",
+  "mediaVideoUnsupported": "تشغيل الفيديو داخل التطبيق غير متاح في هذا الإصدار. احفظ الفيديو أو افتحه في تطبيق آخر.",
+  "mediaVideoPlay": "تشغيل",
+  "mediaVideoPause": "إيقاف مؤقت",
+  "mediaVideoSaveFailed": "تعذّر حفظ الفيديو. حاول مجددًا."
+}
