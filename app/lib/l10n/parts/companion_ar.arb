@@ -423,5 +423,67 @@
   "companionReminderUnknown": "لست متأكدة من ضبط هذا التذكير. هل يمكنك التحقق من منبهات النظام؟",
   "companionReminderFailed": "عذرًا، لم أتمكن من ضبط هذا التذكير.",
   "companionReminderCancelled": "حسنًا، لن أذكّرك بهذا.",
-  "companionReminderTextMissing": "بماذا أذكّرك؟"
+  "companionReminderTextMissing": "بماذا أذكّرك؟",
+  "companionReminderDateMissing": "في أي يوم تريد أن أذكّرك؟",
+  "companionReminderTimeMissing": "في أي وقت من ذلك اليوم؟",
+  "companionReminderZoneMissing": "أي منطقة زمنية أستخدم؟",
+  "companionReminderGap": "هذا الوقت غير موجود في ذلك اليوم بسبب التوقيت الصيفي. هل تختار وقتًا آخر؟",
+  "companionReminderOverlap": "يحدث هذا الوقت مرتين في ذلك اليوم. أيهما تقصد؟",
+  "companionReminderFirst": "الأول",
+  "companionReminderSecond": "الثاني",
+  "companionReminderNotificationsMissing": "تم ضبطه، لكن الإشعارات متوقفة، لذا لن أتمكن من الوصول إليك عند حلول الموعد. فعّلها من إعدادات النظام.",
+  "companionReminderChannelMissing": "تم ضبطه، لكن إشعارات التذكير متوقفة، لذا لن أتمكن من الوصول إليك عند حلول الموعد. فعّلها من إعدادات النظام.",
+  "companionReminderGroupMissing": "تم ضبطه، لكن مجموعة إشعارات التذكير متوقفة، لذا لن أتمكن من الوصول إليك عند حلول الموعد. فعّلها من إعدادات النظام.",
+  "companionReminderTimePassed": "لقد مضى ذلك الوقت بالفعل، لذا لم أُصدر التنبيه متأخرًا.",
+  "companionReminderInvalidTime": "لم أفهم الوقت تمامًا. هل تخبرني بالتاريخ والوقت والمنطقة الزمنية مجددًا؟",
+  "companionReminderCancelUnknown": "تم حفظ طلب الإلغاء. لم أتأكد بعد من إزالة هذا التذكير.",
+  "companionReminderWhich": "أيّ واحد تقصد؟ اضغط عليه في المهام.",
+  "companionReminderSyntax": "أخبرني باليوم والوقت، مثل «ذكّرني غدًا الساعة 08:00 بإحضار هويتي».",
+  "companionReminderSaveFailed": "لم يُحفظ ذلك. لا يزال ما كتبته هنا. هل تحاول مجددًا؟",
+  "companionReminderSettings": "فتح إعدادات النظام",
+  "companionReminderCheck": "تحديث",
+  "companionReminderUnknownNotification": "ربما صدر هذا التذكير بالفعل. لست متأكدة.",
+  "companionReminderUnhandled": "لا أستطيع المساعدة في هذا الجزء بعد: {text}",
+  "companionReminderCancelSource": "إلغاء التذكير بشأن {text}",
+  "@companionReminderUnhandled": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "@companionReminderCancelSource": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReminderNotHere": "لم يتم ضبط هذا التذكير على هذا الهاتف، لذا لا أستطيع تغييره أو إلغاءه هنا.",
+  "companionReminderPlatformUnavailable": "لا أستطيع رؤية تذكيرات هاتفك الآن. هل تتحقق مجددًا بعد قليل؟",
+  "companionReminderPastRegistration": "تم ضبطه من قبل.",
+  "companionLookupAccepted": "حسنًا، سأبحث عن ذلك وأضع ما أجده في المهام.",
+  "companionLookupSyntax": "أي متحف أو مكتبة، وفي أي يوم؟ أخبرني بالاسم الكامل والتاريخ.",
+  "companionLookupDateMissing": "أي يوم أتحقق منه؟ أعطني تاريخًا محددًا.",
+  "companionLookupZoneMissing": "ما المنطقة الزمنية؟ أخبرني بالتاريخ والمنطقة الزمنية معًا.",
+  "companionLookupWhich": "أي عملية بحث تريد حذفها؟ اضغط عليها في المهام.",
+  "companionLookupQueued": "جارٍ البحث. لحظة من فضلك.",
+  "companionLookupDone": "وجدتها. ستجد أدناه المكان الذي قرأت فيه المعلومات.",
+  "companionLookupPartial": "وجدت بعض المعلومات، لكنني لا أستطيع الجزم بشأن ذلك اليوم بعد.",
+  "companionLookupFailed": "لم أجد شيئًا موثوقًا هذه المرة، لذا لا أستطيع التأكيد.",
+  "companionLookupUnknown": "لم أحصل على إجابة واضحة هذه المرة. لن أبحث مجددًا الآن.",
+  "companionLookupCancelled": "حسنًا، لن أبحث عن ذلك.",
+  "companionLookupCancelUnknown": "تم حفظ طلب الإيقاف. لم أتأكد بعد من توقف عملية البحث الأصلية.",
+  "companionLookupUnavailable": "لا أستطيع الوصول إلى أي مصدر للبحث الآن، لذا لا توجد إجابة بعد.",
+  "companionLookupDeadline": "انتهى الوقت الذي اتفقنا عليه، لذا توقفت هنا.",
+  "companionLookupInputLimit": "هناك معلومات كثيرة جدًا لقراءتها دفعة واحدة، لذا هذا هو المكان الذي بحثت فيه.",
+  "companionLookupQueryLong": "هذا الاسم طويل بعض الشيء. هل يوجد اسم أقصر لن أخلط بينه وبين غيره؟",
+  "companionLookupAnswerIncomplete": "عثرت على الصفحات لكنني لم أجمع المعلومات بعد. إليك الأماكن التي بحثت فيها.",
+  "companionLookupNotHere": "لم يتم البحث عن هذا على هذا الهاتف، لذا لا يمكنني سوى عرض ما وجدته.",
+  "companionLookupSources": "مصادر البحث",
+  "companionLookupSearchOnly": "اطلعت على مقتطف البحث فقط؛ ولم أفتح الصفحة",
+  "companionLookupNoTitle": "بلا عنوان",
+  "companionLookupCancel": "لا تبحث عن ذلك",
+  "companionLookupSaveFailed": "لم ينجح ذلك. هل تحاول مجددًا بعد قليل؟",
+  "companionLookupCancelSource": "إلغاء البحث عن {name}"
 }
