@@ -176,5 +176,100 @@
   "tavernRegexDisable": "تعطيل",
   "tavernRegexExport": "تصدير التعبير النمطي",
   "tavernRegexDelete": "حذف التعبير النمطي",
-  "tavernRegexDeleteTitle": "هل تريد حذف التعبير النمطي «{name}»؟"
+  "tavernRegexDeleteTitle": "هل تريد حذف التعبير النمطي «{name}»؟",
+  "@tavernRegexDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRegexImported": "تم استيراد {count} سكربتات تعبير نمطي",
+  "@tavernRegexImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRegexIncompatible": "لا يمكن تشغيله هنا؛ تم تخطيه",
+  "tavernRegexEmpty": "لا توجد تعبيرات نمطية عامة بعد",
+  "tavernRegexEmptyMessage": "يمكن استيراد JSON للتعبيرات النمطية المُصدّر من SillyTavern، سواء لسكربت واحد أو لقائمة.",
+  "tavernRegexUnnamed": "بلا عنوان",
+  "tavernRegexCount": "{count}",
+  "tavernLorebooks": "كتب المعلومات",
+  "tavernLorebookImport": "استيراد كتاب معلومات",
+  "tavernLorebookGlobal": "عام",
+  "tavernLorebookBindGlobal": "استخدامه في كل محادثة",
+  "tavernLorebookUnbindGlobal": "إيقاف استخدامه في كل المحادثات",
+  "tavernLorebookExport": "تصدير كتاب المعلومات",
+  "tavernLorebookDelete": "حذف كتاب المعلومات",
+  "tavernLorebookDeleteTitle": "هل تريد حذف كتاب المعلومات «{name}»؟",
+  "@tavernLorebookDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookDeleteMessage": "سيتم تخطيه أينما كان مرتبطًا. لا يمكن استعادته.",
+  "tavernLorebookImported": "تم استيراد «{name}»، بعدد {count} من الإدخالات",
+  "@tavernLorebookImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLorebooksEmpty": "لا توجد كتب معلومات مستقلة بعد",
+  "tavernLorebooksEmptyMessage": "يمكن استيراد JSON لكتب المعلومات المُصدّر من SillyTavern.",
+  "tavernLorebookCount": "{count}",
+  "@tavernLorebookCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@tavernRegexCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPresetEdit": "تعديل الإعداد المسبق",
+  "tavernPresetParams": "الأرقام",
+  "tavernPresetPrompts": "المطالبات، حسب ترتيب إرسالها",
+  "tavernPresetMarker": "عنصر نائب",
+  "tavernPresetPromptsEmpty": "لا يحدد هذا الإعداد المسبق ترتيبًا للمطالبات؛ وسيُستخدم الترتيب الافتراضي لـ SillyTavern.",
+  "tavernReport": "فحص الاستيراد",
+  "tavernVerdictUsable": "يعمل",
+  "tavernVerdictPartial": "يعمل جزئيًا",
+  "tavernVerdictPreserve": "تم الاحتفاظ به دون تشغيل",
+  "tavernReportChecked": "تم الفحص {time}",
+  "@tavernReportChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReportStale": "حدث تغيير منذ هذا الفحص",
+  "tavernReportRecheck": "إعادة الفحص",
+  "tavernReportNone": "لم يتم الفحص بعد",
+  "tavernReportNoneMessage": "تم استيراد هذا قبل توفر الفحوصات؛ افحصه الآن.",
+  "tavernReportCheckNow": "الفحص الآن",
+  "tavernReportRender0": "العرض المقترح: أصلي",
+  "tavernReportRender1": "العرض المقترح: صفحة ويب داخل الرسالة",
+  "tavernReportRender2": "العرض المقترح: مساحة رسم للصفحة بأكملها",
+  "tavernReportCounts": "يحتوي على",
+  "tavernReportFindings": "لم يتم تشغيله، أو يستحق المراجعة",
+  "tavernReportNoFindings": "لا شيء يستحق المراجعة",
+  "tavernPresetForChat": "إعداد هذه المحادثة المسبق",
+  "tavernPresetFollow": "الافتراضي",
+  "tavernPresetFollowDefault": "الافتراضي ({name})"
 }
