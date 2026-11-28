@@ -127,5 +127,76 @@
   "mediaParamModel": "النموذج",
   "mediaParamAspect": "نسبة العرض إلى الارتفاع",
   "mediaParamCount": "العدد",
-  "mediaParamQuality": "الجودة"
+  "mediaParamQuality": "الجودة",
+  "mediaParamDuration": "المدة",
+  "mediaQualityAuto": "تلقائي",
+  "mediaQualityStandard": "قياسي",
+  "mediaQualityHigh": "عالي الدقة",
+  "mediaQuality4k": "4K",
+  "mediaQualityLevelLow": "منخفض",
+  "mediaQualityLevelMedium": "متوسط",
+  "mediaQualityLevelHigh": "مرتفع",
+  "mediaModelPick": "اختيار",
+  "mediaPickModelFirst": "اختر نموذجًا أولًا",
+  "mediaPricePerImage": "{price} / صورة",
+  "@mediaPricePerImage": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaPricePerSecond": "{price} / ث",
+  "@mediaPricePerSecond": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "mediaManageModels": "إدارة",
+  "mediaHintImage": "صِف الصورة…",
+  "mediaHintVideo": "صِف المشهد واللقطة…",
+  "mediaHintEdit": "كيف تريد تغييرها…",
+  "mediaFirstFrame": "الأولى",
+  "mediaLastFrame": "الأخيرة",
+  "mediaNoLastFrame": "هذا النموذج لا يقبل إطارًا أخيرًا",
+  "mediaNoRefs": "هذا النموذج لا يقبل صورًا مرجعية",
+  "mediaRefLimit": "حتى {count} صور مرجعية",
+  "@mediaRefLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "mediaNoDescription": "أضف وصفًا أولًا",
+  "mediaDescriptionTooLong": "الوصف طويل جدًا لإنشاء النتيجة. اختصره",
+  "mediaInstallTitle": "الصور والفيديو",
+  "mediaInstallBody": "لا تتوفر لدى هذا المضيف إضافة للصور والفيديو بعد",
+  "mediaInstallAction": "التثبيت على هذا المضيف",
+  "mediaUnavailableTitle": "وضع الإنشاء غير متاح",
+  "mediaUnavailableBody": "إضافة الصور والفيديو لدى هذا المضيف غير متوافقة. لا يزال بإمكانك وصف ما تريده في المحادثة.",
+  "mediaUnavailableAction": "إدارة الإضافات",
+  "mediaSettingsTitle": "الصور والفيديو",
+  "searchKwMediaGeneration": "توليد الصور، تحويل النص إلى صورة، توليد الفيديو، فن الذكاء الاصطناعي، إنشاء الصور، إنشاء الفيديو",
+  "mediaSettingsDefaults": "الإعدادات الافتراضية",
+  "mediaSettingsLegacyDefault": "الإعداد العام الأقدم",
+  "mediaSettingsLegacyDefaultHint": "إعداد الإصدار 0.2.x؛ يُستخدم عندما لا يكون لنوع المحتوى إعداد افتراضي خاص به",
+  "mediaSettingsLegacyDefaultStale": "الخدمة غير متاحة؛ امسح هذا الإعداد حتى لا يفشل التوليد",
+  "mediaSettingsLegacyDefaultClear": "مسح الإعداد العام الأقدم",
+  "mediaSettingsDefaultModel": "النموذج الافتراضي",
+  "mediaSettingsDefaultFooterLegacy": "تحتوي إحدى الإضافات القديمة على نموذج افتراضي واحد؛ حدّثها لتعيين الصور والفيديو كلٌّ على حدة.",
+  "mediaSettingsDefaultsFooter": "اختر نموذجًا افتراضيًا للصور وآخر للفيديو؛ واترك الخيار على «تلقائي» لاستخدام أول نموذج متاح.",
+  "mediaSettingsNoVideoModels": "لا يحتوي فهرس هذا المضيف على نماذج فيديو بعد",
+  "mediaSettingsServices": "الخدمات",
+  "mediaSettingsAddService": "إضافة خدمة",
+  "mediaSettingsAddServiceHint": "ابدأ بإعداد مسبق لمزوّد؛ ستُملأ نقطة النهاية والبروتوكول والنماذج تلقائيًا",
+  "mediaSettingsServiceLimit": "حتى {count} خدمات",
+  "mediaSettingsNoServices": "لا توجد خدمات بعد. أضف مزوّدًا لبدء إنشاء الصور أو الفيديو.",
+  "mediaSettingsNoModels": "لم يتم تحديد نماذج",
+  "mediaSettingsKeyMissing": "لا يوجد مفتاح API",
+  "mediaSettingsCatalogMissing": "لا توفر الإضافة على هذا المضيف فهرسًا للنماذج. لا يزال بإمكانك تعديل الخدمات الحالية، لكن لا يمكن إضافة خدمات أو اختيار نموذج افتراضي بعد.",
+  "mediaSettingsCatalogBroken": "تعذرت قراءة فهرس النماذج (قد يكون الإصدار غير متوافق). لا يزال بإمكانك تعديل الخدمات الحالية، لكن لا يمكن إضافة خدمات أو اختيار نموذج افتراضي بعد.",
+  "mediaSettingsCatalogEmpty": "لا يحتوي فهرس النماذج على نماذج بعد. لا يزال بإمكانك تعديل الخدمات الحالية، لكن لا يمكن إضافة خدمات أو اختيار نموذج افتراضي بعد."
 }
