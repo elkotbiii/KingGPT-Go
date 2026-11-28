@@ -1,0 +1,1266 @@
+{
+  "companionPhoneConnectionReplaced": "استحوذ اتصال أحدث بالهاتف على هذه الجلسة. عُد إلى جلسة الرفيقة الحالية وحاول مجددًا.",
+  "@companionPhoneConnectionReplaced": {
+    "description": "A newer callback owner replaced this pending phone connection."
+  },
+  "companionPhoneSessionUnavailable": "لا يستطيع المضيف العثور على جلسة الرفيقة هذه، أو أن إعدادها المسبق قد تغيّر. أعد فتح غرفة الرفيقة.",
+  "@companionPhoneSessionUnavailable": {
+    "description": "The current session no longer resolves to the selected companion."
+  },
+  "companionPhoneToolsConflict": "تعذّر على المضيف توصيل أدوات الهاتف لهذا الدور. أعد فتح جلسة الرفيقة الحالية وحاول مجددًا.",
+  "@companionPhoneToolsConflict": {
+    "description": "An older host rejected the companion phone connection without a specific reason code."
+  },
+  "companionHostSelectionChanged": "تغيّر تحديد جلسة المضيف. تحقق من الجلسة الحالية قبل الإرسال مجددًا.",
+  "@companionHostSelectionChanged": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionLocalDisconnected": "المحرك الموجود على الجهاز غير متصل. تحقق من أنه يعمل.",
+  "@companionLocalDisconnected": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionLocalUnavailable": "لا يستطيع المحرك الموجود على الجهاز فتح جلسة الرفيقة. تحقق من المحرك وإعداد الرفيقة المسبق.",
+  "@companionLocalUnavailable": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionLocalModelUnavailable": "لا يستطيع المحرك الموجود على الجهاز استخدام النموذج الذي سبق اختياره لهذه الرفيقة. تحقق من إعدادات النموذج.",
+  "@companionLocalModelUnavailable": {
+    "description": "Companion session status displayed in the room."
+  },
+  "companionContinuedOnPhone": "لم يتلقَّ المضيف هذه الرسالة. سيُنفّذ هذا الدور بالوضع الخفيف.",
+  "@companionContinuedOnPhone": {
+    "description": "One-turn phone fallback after confirming the host prompt was never dispatched."
+  },
+  "companionLogOnDevice": "السجل على الجهاز",
+  "@companionLogOnDevice": {
+    "description": "Open this companion's local SQLite and earlier phone conversations."
+  },
+  "companionSessionUsingTool": "يستخدم {tool}",
+  "@companionSessionUsingTool": {
+    "description": "Current tool activity in a companion session, shown on a floating or notification surface.",
+    "placeholders": {
+      "tool": {
+        "type": "String"
+      }
+    }
+  },
+  "companionTitle": "غرفة الرفيقة",
+  "companionEntrySubtitle": "اقضِ بعض الوقت معها",
+  "companionDefaultName": "هي",
+  "companionInputHint": "قل شيئًا لـ {name}",
+  "companionMenu": "المزيد",
+  "companionVoice": "الصوت",
+  "companionSystemAssistant": "المساعد الرقمي للنظام",
+  "companionAssistantChoose": "اختيار المساعد الافتراضي",
+  "companionAssistantChooseHint": "اختر DSH Go Companion من إعدادات Android، ثم استخدم إيماءة المساعد أو زرّه على هاتفك.",
+  "companionAssistantSelected": "الرفيقة هي المساعد الافتراضي. افتح إعدادات Android هنا لتبديل المساعدين.",
+  "companionAssistantSettingsMissing": "أداة اختيار المساعد غير متاحة. ابحث عن المساعد الرقمي الافتراضي في إعدادات Android.",
+  "companionAssistantSharePage": "إرفاق نص الصفحة عند التنبيه",
+  "companionAssistantSharePageHint": "أرسل النص الذي يتيحه Android إلى نموذج الرفيقة مع هذا الدور. يمكنك إزالته قبل الإرسال.",
+  "companionAssistantPageAttached": "تم إرفاق نص الصفحة",
+  "companionAssistantCalendarAccess": "السماح بالوصول إلى التقويم",
+  "companionAssistantCalendarHint": "اسمح للرفيقة وأدوات الهاتف بقراءة الأحداث الظاهرة. تُرسل النتائج إلى النموذج النشط.",
+  "companionAssistantCalendarAllowed": "الوصول إلى التقويم مفعّل. اضغط لإدارته ضمن أذونات تطبيق Android.",
+  "companionAssistantAppPermissions": "فتح أذونات تطبيق Android",
+  "companionStop": "اطلب منها التوقف",
+  "companionSend": "إرسال",
+  "companionNotConnected": "لا أستطيع الوصول إلى المحرك الآن. هل يمكنك إخباري مجددًا بعد قليل؟",
+  "companionSendFailed": "لم تصل الرسالة. هل يمكنك قولها مجددًا؟",
+  "companionAgentRetryClosed": "ربما بدأت العمل على ذلك بالفعل، ولا أريد تكراره مرتين. ألقِ نظرة على المهام، ثم أخبرني إن كان عليّ المتابعة؟",
+  "companionPhoneRunStopped": "توقف العمل على الهاتف في منتصف الخطوة، لذا أوقفت التنفيذ بدلًا من تكرارها. تحقق من حالة الهاتف الآن، وأخبرني إن كان عليّ المتابعة.",
+  "companionLogTitle": "السجل",
+  "companionContextUnsupported": "لا يستطيع هذا المضيف استخدام سياقها بعد: لن يصل إليها اسمها وشخصيتها وأحداثها الأخيرة وذكرياتها على هاتفك، بل ما تقوله فقط. حدّث المضيف أو انتقل إلى الوضع الخفيف.",
+  "companionLogEmpty": "لم يُقل شيء بعد.",
+  "companionLogYou": "أنت",
+  "companionLogOpenChat": "فتح في المحادثة",
+  "companionLogOlder": "تحميل الرسائل الأقدم",
+  "companionMenuHistory": "عرض سجل المحادثة",
+  "companionMenuRestart": "البدء من جديد",
+  "companionMenuRestartHint": "بدء محادثة جديدة",
+  "companionMenuRestartConfirm": "ستنسى هذه المحادثة. سيبقى السجل القديم على المضيف ولن يُحذف.",
+  "companionMenuRemovePack": "إزالة الأصول",
+  "companionMenuRemoveConfirm": "ستُحذف أصول الشخصية الموجودة على هذا الهاتف. لن تتأثر المحادثات. ستحتاج إلى استيرادها مجددًا في المرة القادمة.",
+  "companionCreditAuthor": "بواسطة {name}",
+  "companionSetupTitle": "أحضرها إلى منزلك",
+  "companionSetupBody": "أصول الشخصية ليست جزءًا من التطبيق، ولا تصل إلى هاتفك إلا عندما ترغب بذلك. استورد حزمة أصول (zip) للتعرّف إليها.",
+  "companionSetupImport": "استيراد حزمة الأصول",
+  "companionFailedTitle": "تعذّر ظهورها",
+  "companionFailedBody": "فشل التحميل على هذا الهاتف ({reason}). يمكنك استيراد حزمة الأصول مجددًا والمحاولة مرة أخرى.",
+  "companionFailedBodyPlain": "تعذّر تحميل رفيقتك الآن. حاول مجددًا أولًا؛ وإذا لم يساعد ذلك، فأعد استيراد حزمة الأصول.",
+  "companionPackBroken": "يتعذّر فتح هذا الملف. قد لا يكون حزمة أصول أو قد يكون تالفًا.",
+  "companionPackRuntimeMismatch": "بيئة التشغيل في هذه الحزمة لا تتوافق مع إصدار التطبيق هذا.",
+  "companionPackNoRuntime": "تحتوي هذه الحزمة على شخصية فقط، ولا توجد بيئة تشغيل على هذا الهاتف بعد. استورد حزمة أصول كاملة أولًا.",
+  "companionPackNoModel": "لم يتم العثور على نموذج Live2D (.model3.json) في الحزمة. اضغط مجلد النموذج بأكمله في ملف ZIP وحاول مجددًا.",
+  "companionPackUnsafe": "تحتوي الحزمة على ملفات أو مسارات غير مسموح بها، لذا لم يتم استيرادها.",
+  "companionPackTooLarge": "حزمة الأصول هذه كبيرة جدًا.",
+  "companionPackStorage": "تعذّرت كتابة الملفات. تحقق من مساحة التخزين الفارغة على هاتفك.",
+  "companionGreetFirst": "مرحبًا، أنا {name}. أعيش هنا الآن، سعيدة بلقائك.",
+  "companionGreetMorning": "صباح الخير! لا تفوّت الإفطار اليوم.",
+  "companionGreetNoon": "حلّ الظهر بالفعل. هل تناولت الطعام؟",
+  "companionGreetAfternoon": "مساء الخير. كنت أحلم في يقظتي للتو.",
+  "companionGreetEvening": "مساء الخير. كيف كان يومك؟",
+  "companionGreetLate": "ما زلت مستيقظًا حتى هذا الوقت المتأخر؟",
+  "companionGreetLong": "مر وقت طويل! ظننت أنك نسيتني.",
+  "companionGreetBack": "همم؟ عدت مجددًا.",
+  "companionWake": "مم... لم أكن نائمة. كنت أريح عينيّ فحسب.",
+  "companionPat1": "هيهي... يمكنك المتابعة قليلًا بعد.",
+  "companionPat2": "ممم، هذا لطيف.",
+  "companionPat3": "أنت تفسد تسريحة شعري.",
+  "companionTapHead1": "ما الأمر؟",
+  "companionTapHead2": "همم؟",
+  "companionTapFace1": "لا تنقر على وجهي.",
+  "companionTapFace2": "واو، يداك باردتان.",
+  "companionTapFace3": "هل هناك شيء على وجهي؟",
+  "companionTapBody1": "أوه! لقد أفزعتني.",
+  "companionTapBody2": "ما الأمر؟",
+  "companionTapBody3": "لقد غسلت هذا المئزر للتو!",
+  "companionTapTail1": "لا تلمس الذيل!",
+  "companionTapTail2": "إيه، هذا يدغدغني.",
+  "companionTapTail3": "هذا ذيل مهم جدًا.",
+  "companionTapLegs1": "هل هناك شيء على الأرض؟",
+  "companionTapLegs2": "إلى أين تنظر؟",
+  "companionTease1": "توقف، أشعر بالدوار.",
+  "companionTease2": "نقرة أخرى وسأتجاهلك!",
+  "companionTease3": "أليس لديك شيء أفضل تفعله؟",
+  "companionShake1": "واو، توقف عن هزي!",
+  "companionShake2": "أشعر بدوار شديد… الماء يتناثر في كل مكان.",
+  "companionShake3": "واصل ذلك وسأبدأ بنفخ الفقاعات!",
+  "companionShakeDizzy": "رأسي يدور…",
+  "companionStatusIdle": "أحلام اليقظة",
+  "companionStatusListening": "يستمع",
+  "companionStatusThinking": "يفكر",
+  "companionStatusSpeaking": "يتحدث",
+  "companionStatusSleeping": "نائم",
+  "companionStatusAway": "بعيد",
+  "companionListening": "جارٍ الاستماع…",
+  "companionTouchHint": "جرّب التربيت على رأسها",
+  "companionArriving": "إنها تسبح نحوك…",
+  "companionPrivacyLine": "تبقى الأصول على هذا الهاتف. وتمر المحادثات عبر المضيف الحالي.",
+  "companionMemoryTitle": "ما تتذكره",
+  "companionMemoryCard": "بطاقة",
+  "companionMemoryPerson": "شخص",
+  "companionMemoryDiary": "مذكرات",
+  "companionMemoryImpression": "انطباعها عنك",
+  "companionMemorySearchTitle": "البحث في الذاكرة",
+  "companionMemorySearchDescription": "نزّل نموذجًا بحجم 24 ميغابايت تقريبًا للعثور على الذكريات ذات الصلة على هذا الهاتف.",
+  "companionMemorySearchDownload": "تنزيل النموذج",
+  "companionMemorySearchReady": "النموذج المحلي جاهز",
+  "companionMemorySearchDownloading": "جارٍ التنزيل…",
+  "companionMemorySearchFailed": "تعذّر إعداد النموذج المحلي. حاول تنزيله مجددًا.",
+  "companionMemorySearchUnavailable": "البحث المحلي في الذاكرة غير متاح على هذا الجهاز.",
+  "companionMemoryScope": "محفوظة على {host} ومشتركة بين الوضعين. يمكنك تعديلها أو نسيانها في أي وقت.",
+  "companionMemoryAdd": "إضافة",
+  "companionMemoryEdit": "تحديث التفاصيل الحالية",
+  "companionMemorySave": "حفظ",
+  "companionMemoryHint": "مثال: أحب الشاي دون سكر ولا أشرب القهوة",
+  "companionMemoryForget": "نسيان",
+  "companionMemoryForgetTitle": "هل تريد منها نسيان هذا؟",
+  "companionMemoryEmpty": "لا توجد معلومات محفوظة بعد",
+  "companionMemoryEmptyHint": "تلتقط من تلقاء نفسها ما تتحدثان عنه. إذا كان هناك شيء تريد منها تذكّره، يمكنك كتابته هنا.",
+  "companionMemoryUnsupported": "لا يستطيع هذا المضيف الاحتفاظ بذكرياتها بعد",
+  "companionMemoryUnsupportedHint": "هذه الميزة غير متاحة عبر Relay الخاص بـ DSH Remote، أو أن جسر dsh-go في هذا المضيف أقدم.",
+  "companionMemoryLoadFailed": "تعذّر التحميل",
+  "companionMemoryRetry": "إعادة المحاولة",
+  "companionMemoryConflict": "تم تغييرها للتو في مكان آخر، لذا تم تحديثها",
+  "companionMemoryFull": "القائمة ممتلئة. احذف بعض العناصر أولًا",
+  "companionMemorySaveFailed": "تعذّر الحفظ. هل تريد المحاولة مجددًا؟",
+  "companionStatusSnacking": "يتناول وجبة خفيفة",
+  "companionStatusPlaying": "يلعب بالفقاعة",
+  "companionStatusResting": "يستريح على الوسادة",
+  "companionSnack1": "مم! لذيذ جدًا!",
+  "companionSnack2": "بنكهة الأعشاب البحرية. شكرًا لك.",
+  "companionSnack3": "مم... هل يمكنني الحصول على واحدة أخرى؟",
+  "companionPlay1": "مرحبًا، أمسكت بها!",
+  "companionPlay2": "الفقاعة لينة جدًا. ممتعة!",
+  "companionPlay3": "عادت تطفو مجددًا.",
+  "companionRest1": "سأستند هنا لبعض الوقت إذن.",
+  "companionRest2": "تابع، أنا أستمع إليك.",
+  "companionTouchHintHome": "اضغط على الصدفة والفقاعة والوسادة، أو اسحب وجبة خفيفة إلى فمها",
+  "companionMenuMode": "كيف تتحدث",
+  "companionModeLight": "خفيف",
+  "companionModeLightHint": "محادثة فقط. يتواصل الهاتف مع النموذج؛ دون محرك",
+  "companionModeFull": "كامل",
+  "companionModeFullHint": "يعمل DSH على المضيف، مع الأدوات والتحكم بالهاتف",
+  "companionLightNoKey": "يحتاج الوضع الخفيف إلى مفتاح DeepSeek API. أضف مفتاحًا في الإعدادات لنتحدث.",
+  "companionLightBadKey": "يبدو أن مفتاح API غير صحيح أو لم يعد صالحًا.",
+  "companionLightBusy": "هناك انشغال في الجهة الأخرى. هل يمكنك إخباري مجددًا بعد قليل؟",
+  "companionNotConnectedTryLight": "لا أستطيع الوصول إلى حاسوبك الآن. تحقق من الاتصال، أو انتقل إلى الوضع الخفيف من إعداد «كيف تتحدث».",
+  "companionHostModelUnavailable": "لا يوجد نموذج جاهز على حاسوبك بعد. اختر نموذجًا لنتحدث، أو انتقل إلى الوضع الخفيف من إعداد «كيف تتحدث».",
+  "companionHostUnavailable": "لا أستطيع بدء هذه المحادثة عبر حاسوبك بعد. تحقق من الاتصال والتحديثات، أو انتقل إلى الوضع الخفيف من إعداد «كيف تتحدث».",
+  "companionMenuRestartLightHint": "ابدأ محادثة جديدة مع الاحتفاظ بالسجلات السابقة",
+  "companionMenuRestartLightConfirm": "ابدأ محادثة جديدة. ستبقى الذكريات وسجلات المحادثات السابقة محفوظة.",
+  "companionInviteRest": "هل ترغب في الاستراحة معي على الوسادة قليلًا؟",
+  "companionInviteAccept": "بالتأكيد",
+  "companionInviteDecline": "ليس الآن",
+  "companionInviteYes1": "هيهي، لفترة قصيرة فقط.",
+  "companionInviteYes2": "سأجلس براحة. استرخِ أنت أيضًا.",
+  "companionMenuPace": "مدى تكرار مبادرتها بالكلام",
+  "companionPaceHint": "لا تبادر بالكلام إلا عندما تجلس معها بهدوء: قد تقترح أن تستريحا معًا أو تذكر محادثة أخرى. لا تفعل ذلك أبدًا في وقت متأخر من الليل، وبحد أقصى دعوة واحدة في كل زيارة.",
+  "companionPaceQuiet": "هادئة",
+  "companionPaceQuietHint": "لا تبادر من تلقاء نفسها؛ تتحدث عندما تتحدث إليها",
+  "companionPaceRare": "من حين لآخر",
+  "companionPaceRareHint": "حتى مرتين يوميًا، بفاصل لا يقل عن 6 ساعات",
+  "companionPaceOften": "غالبًا",
+  "companionPaceOftenHint": "حتى 6 مرات يوميًا، بفاصل لا يقل عن ساعتين",
+  "companionPaceChatty": "ثرثارة",
+  "companionPaceChattyHint": "حتى 12 مرة يوميًا، بفاصل لا يقل عن نصف ساعة",
+  "companionSetupBundled": "أحضرها إلى منزلك",
+  "companionSetupBodyBundled": "تأتي مع التطبيق: نقرة واحدة وستكون هنا، بعد فك حزمها على هذا الهاتف فقط. يمكنك أيضًا استيراد حزمة أصول أخرى، أو ضغط مجلد نموذج Live2D واستيراده.",
+  "companionSetupImportOther": "استيراد حزمة أخرى",
+  "companionMenuRemoveConfirmBundled": "ستُحذف أصول الشخصية التي فُكّت على هذا الهاتف. لن تتأثر المحادثات. يمكنك إعادتها في أي وقت.",
+  "companionHug1": "مم... عناق.",
+  "companionHug2": "أشعر بالأمان هكذا.",
+  "companionHug3": "قليلًا بعد، قليلًا فقط.",
+  "companionBondTitle": "أنتما معًا",
+  "companionBond0": "تعارف للتو",
+  "companionBond1": "معارف",
+  "companionBond2": "أصدقاء",
+  "companionBond3": "مقرّبان",
+  "companionBond4": "مقرّبان جدًا",
+  "companionBond5": "لا يفترق أحدكما عن الآخر",
+  "companionCloser1": "أعتقد... أنني لم أعد متوترة كثيرًا.",
+  "companionCloser2": "أشعر براحة أكبر معك يومًا بعد يوم.",
+  "companionCloser3": "واصل العودة إليّ، اتفقنا؟ سأشتاق إليك.",
+  "companionCloser4": "حتى الجلوس بهدوء يصبح جميلًا بوجودك.",
+  "companionCloser5": "في مرحلة ما، أصبح وجودك هنا جزءًا من يومي.",
+  "companionPatClose": "أحب عندما تربّت على رأسي.",
+  "companionHugClose": "يمكنك أن تعانقني بقوة أكبر، كما تعلم.",
+  "companionTaskDoneUntitled": "انتهت مهمتك هناك.",
+  "companionTaskFailedUntitled": "يبدو أن مهمتك هناك واجهت خطأ. هل تلقي نظرة؟",
+  "companionTaskOpen": "إلقاء نظرة",
+  "companionMenuSignals": "ما الذي تطرحه من مواضيع",
+  "companionAlwaysOn": "ابقَي معي",
+  "companionAlwaysOnHint": "تبقى معك عندما تغادر الغرفة، عبر إشعار يمكنك الرد عليه",
+  "companionAlwaysOnRunning": "إنها معك في الإشعارات",
+  "companionAlwaysOnNoNotify": "الإشعارات متوقفة؛ فعّلها لتتمكن من الرد عليها هناك",
+  "companionAlwaysOnFailed": "لم تستطع البقاء معك هذه المرة؛ حاول تفعيلها مجددًا",
+  "companionSignalsHint": "تُقال هذه العبارات لك وحدك، هنا في غرفتها؛ ولا يُرسل أي شيء منها إلى النموذج. يعتمد تكرارها على إعداد «مدى تكرار مبادرتها بالكلام»، وهو مشترك مع الدعوات، ولا يحدث أبدًا في وقت متأخر من الليل. في الوضع الهادئ لا تقول شيئًا.",
+  "companionSignalState": "متابعة المحادثات الأخرى",
+  "companionSignalStateHint": "تلاحظ عندما تنتهي محادثة أخرى على هذا المضيف أو تفشل",
+  "companionSignalSpeech": "اذكر ذلك",
+  "companionSignalSpeechHint": "تقول عبارة قصيرة عندما تكون هادئًا",
+  "companionSignalVoice": "قلها بصوت مسموع",
+  "companionSignalVoiceHint": "تقرأ العبارة بصوت عالٍ عندما يكون صوتها مفعّلًا",
+  "companionSignalNight": "تذكير بالراحة في وقت متأخر من الليل",
+  "companionSignalNightHint": "بعد قضاء بعض الوقت في غرفتها ليلًا، تذكّرك بلطف مرة واحدة",
+  "companionSignalLateUse": "لقد تأخر الوقت وما زلت هنا معي... ربما يجدر بك أن تستريح قليلًا؟",
+  "companionRecallTitle": "تذكّر الأشياء في الوضع الكامل",
+  "companionRecallHint": "يؤدي تفعيله إلى بدء محادثة جديدة؛ وتغيّر ما تتذكره يؤدي إلى إيقافه",
+  "companionRecallConfirm": "عند تفعيله، تُرسل ذكرياتها المؤكدة (حتى 12 ذكرى) إلى النموذج مع كل رد من ردودها في الوضع الكامل. تبدأ محادثة جديدة، وتبقى المحادثة الحالية في قائمة المحادثات الرئيسية. يؤدي تغيير ذكرياتها إلى إيقاف هذه الميزة، ويمكنك تفعيلها مجددًا.",
+  "companionRecallTurnOn": "تفعيل",
+  "companionRecallOn": "ابتداءً من هذه المحادثة الجديدة، سأحتفظ بما طلبت مني تذكّره.",
+  "companionRecallBusy": "تستخدم محادثة أخرى ميزة التذكّر التلقائي بالفعل. أوقفها هناك أولًا.",
+  "companionRecallUnsupported": "لا يستطيع هذا المضيف تفعيل التذكّر التلقائي الآن",
+  "companionRecallFailed": "تعذّر تفعيل التذكّر التلقائي. حاول مجددًا.",
+  "companionRecallOff": "التذكّر التلقائي متوقف. ستبدأ رسالتك التالية محادثة جديدة.",
+  "companionRecallOffFailed": "تعذّر إيقاف التذكّر التلقائي. حاول مجددًا.",
+  "companionRecallStopped": "توقف التذكّر التلقائي (لأن ما تتذكره قد تغيّر)، لذا بدأت محادثة جديدة. يمكنك تفعيله مجددًا من القائمة.",
+  "companionMenuVoice": "صوتها",
+  "companionMenuVoiceHint": "تقرأ كلماتها بصوت الهاتف نفسه",
+  "companionVoiceHello": "مرحبًا، هذا صوتي. أبقه مفعّلًا إن أعجبك.",
+  "companionVoiceUnavailable": "لا يتوفر على هذا الهاتف صوت صيني يمكن استخدامه. يمكنك إضافة صوت من إعدادات تحويل النص إلى كلام في النظام.",
+  "companionWidgetWaiting": "بانتظارك في الغرفة",
+  "companionVoiceOn": "دعها تتحدث",
+  "companionVoiceOffHint": "عند تفعيله، ستلقي التحية أولًا بالصوت المحدد.",
+  "companionVoiceOff": "إيقاف",
+  "companionVoiceSource": "الصوت",
+  "companionVoiceSystem": "صوت الهاتف نفسه",
+  "companionVoiceSystemHint": "تحويل النص إلى كلام في النظام، ويعمل دون اتصال",
+  "companionVoiceOpenai": "واجهة API متوافقة مع OpenAI",
+  "companionVoiceOpenaiHint": "OpenAI وSiliconFlow ومعظم خوادم GPT-SoVITS وCosyVoice وedge-tts المستضافة ذاتيًا",
+  "companionVoiceCustom": "HTTP مخصص",
+  "companionVoiceCustomHint": "أي خدمة أخرى: صِف الطلب والرد",
+  "companionVoiceApi": "واجهة API",
+  "companionVoiceBase": "العنوان",
+  "companionVoiceBaseHelper": "حتى /v1؛ يضيف التطبيق /audio/speech",
+  "companionVoiceKeyHelper": "يُحفظ في مساحة التخزين الآمنة لهذا الهاتف",
+  "companionVoiceModel": "النموذج",
+  "companionVoiceVoice": "الصوت",
+  "companionVoiceVoiceHelper": "اسم الصوت لدى الخدمة، مثل alloy، أو اسم متحدث على خادمك الخاص",
+  "companionVoiceRequest": "الطلب",
+  "companionVoiceUrl": "عنوان URL للطلب",
+  "companionVoiceUrlHelper": "يمكن استخدام {text} في عنوان URL أيضًا",
+  "companionVoiceMethod": "الطريقة",
+  "companionVoiceHeaders": "الترويسات",
+  "companionVoiceHeadersHelper": "ترويسة واحدة في كل سطر؛ تُحفظ في التخزين الآمن",
+  "companionVoiceBody": "المحتوى",
+  "companionVoiceBodyHelper": "يصبح {text} ما تقوله",
+  "companionVoiceField": "حقل الصوت",
+  "companionVoiceFieldHelper": "إذا كان الرد بصيغة JSON: حدّد موضع الصوت (base64 أو رابط)، مثل data.audio. اتركه فارغًا عندما تُرجع الخدمة ملفًا صوتيًا.",
+  "companionVoicePrivacy": "يُرسل ما تقوله إلى الخدمة التي تُدخلها.",
+  "companionVoicePreview": "معاينة",
+  "companionVoicePreviewing": "جارٍ الطلب…",
+  "companionVoicePreviewOk": "إنه يعمل. هل سمعتها؟",
+  "companionVoicePreviewFailed": "لم ينجح: {reason}",
+  "companionVoiceNotSetUp": "املأ العنوان أعلاه أولًا.",
+  "companionVoiceFallback": "تعذّر الوصول إلى خدمة صوتها، لذا استخدم الهاتف صوته الخاص بدلًا منها",
+  "companionGreetFirstNameless": "مرحبًا، أعيش هنا الآن. سعيدة بلقائك.",
+  "companionRenamed": "«{name}»... حسنًا، هذا اسمي من الآن فصاعدًا.",
+  "companionVoicePreset": "الخدمات الشائعة",
+  "companionVoicePresetHint": "Xiaomi MiMo وOpenAI وSiliconFlow وAlibaba Model Studio: أضف مفتاحًا فقط",
+  "companionVoiceService": "الخدمة",
+  "companionVoiceKeyWhere": "احصل على مفتاح من {site}؛ يُحفظ في التخزين الآمن لهذا الهاتف",
+  "companionVoiceVoiceCustomHelper": "اختر صوتًا أو اكتب معرّف صوت زودتك به الخدمة",
+  "companionVoiceStyle": "أسلوب التحدث",
+  "companionVoiceStyleHelper": "صِف نبرة صوتها وستقرأ الخدمة بها؛ اتركه فارغًا لاستخدام صوت الفتاة اللطيف الافتراضي",
+  "companionVoiceFemale": "أنثى",
+  "companionVoiceMale": "ذكر",
+  "companionClonePreset": "أصوات جاهزة",
+  "companionCloneMine": "استنساخ صوت",
+  "companionVoicePresetVoice": "الصوت الجاهز",
+  "companionCloneRecording": "التسجيل",
+  "companionCloneHelper": "تسجيل لشخص واحد مدته من 5 إلى 30 ثانية دون ضوضاء خلفية، بصيغة mp3 أو wav، وبحجم لا يتجاوز 7 ميغابايت. استخدم صوتك فقط أو صوت شخص وافق مالكه. كل عبارة تنطقها ترسل هذا التسجيل إلى Xiaomi.",
+  "companionCloneNone": "لا يوجد تسجيل بعد",
+  "companionCloneReady": "تم الرفع · {detail}",
+  "companionCloneSeconds": "{n} ث",
+  "companionClonePick": "اختيار تسجيل",
+  "companionCloneReplace": "استبدال",
+  "companionCloneTooLarge": "التسجيل كبير جدًا (الحد الأقصى 7 ميغابايت). قلّصه وحاول مجددًا.",
+  "companionCloneNotAudio": "تُقبل التسجيلات بصيغتي mp3 أو wav فقط.",
+  "companionCloneFailed": "تعذّرت قراءة هذا التسجيل.",
+  "companionMenuPersona": "نبذة عنها",
+  "companionPersonaName": "الاسم",
+  "companionPersonaNameHelper": "اتركه فارغًا لاستخدام اسم الحزمة",
+  "companionPersonaCallMe": "كيف تناديك",
+  "companionPersonaCallMeHint": "مثال: سام",
+  "companionPersonaCallMeHelper": "اتركه فارغًا لعدم استخدام اسم محدد",
+  "companionPersonaText": "الشخصية",
+  "companionPersonaTextLabel": "من تكون وكيف تتحدث",
+  "companionPersonaTextHelper": "شخصيتها ومن تكون وكيف تتحدث وما لن تقوله: يمكنك كتابة كل ذلك أو حذفه. يضيف التطبيق تنسيق علامات التعبير فقط.",
+  "companionPersonaReset": "إعادة ضبط",
+  "companionPersonaFooter": "يستخدم الوضع الخفيف هذه الإعدادات ابتداءً من ردها التالي؛ أما الوضع الكامل فيخبرها بها مع رسالتك التالية.",
+  "companionMenuMoves": "الحركات وتعابير الوجه",
+  "companionMovesHint": "تأتي هذه العناصر مع النموذج. تُعرض العناصر المفعّلة على الذكاء الاصطناعي (حتى 24 تعبيرًا و24 حركة، حسب ترتيب القائمة)، وتستخدمها في ردودها؛ اضغط على الاسم لمنحه اسمًا أوضح، واضغط ▶ لتجربته عليها.",
+  "companionMovesNone": "لا يتضمن هذا النموذج تعابير أو حركات خاصة به؛ لذا تستخدم تعابيرها المدمجة.",
+  "companionMovesRename": "إعادة تسمية",
+  "companionMovesTry": "تجربة",
+  "companionPackLegacyModel": "هذا نموذج Cubism 2 قديم (.moc وmodel.json)؛ وبيئة التشغيل على الهاتف لا تقرأ إلا ملفات .moc3 بدءًا من Cubism 3. افتحه في Cubism Editor وصدّره بصيغة moc3 ثم استورده.",
+  "companionFailedMocVersion": "تم تصدير هذا النموذج بإصدار Cubism أحدث (إصدار moc ‏{version})؛ وتقرأ بيئة التشغيل على الهاتف حتى الإصدار {latest}. صدّره لإصدار أقدم في Cubism Editor ثم استورده.",
+  "companionMenuAdapt": "ملاءمة هذا النموذج",
+  "companionAdaptHint": "يقرأ نموذجك الخاص (مفتاحك، وتُحتسب الرسوم لكل طلب) هذه الشخصية ويضبط مواضع رأسها وعينيها وتعابيرها ومناطق لمسها. تُرسل البيانات التالية: اسم النموذج وقائمة معلماته وأسماء تعابيره وحركاته وأجزائه وما تكتبه أدناه والملاءمة الحالية. لا تُرسل ملفات النموذج أو خاماته مطلقًا.",
+  "companionAdaptOffer": "يحتاج هذا النموذج إلى الملاءمة: يقرأ نموذجك الخاص قائمة معلماته وأسماء تعابيره وحركاته (دون ملفات النموذج مطلقًا)، باستخدام مفتاحك مرة واحدة. ستتم ملاءمة النماذج الجديدة تلقائيًا بعد ذلك؛ ويمكنك إيقاف ذلك من القائمة.",
+  "companionAdaptOfferYes": "ملاءمته",
+  "companionAdaptOfferNo": "ليس الآن",
+  "companionAdaptNote": "ما الذي لا يعمل جيدًا؟ (اختياري)",
+  "companionAdaptNoteHint": "مثال: التربيت على رأسها لا يفعل شيئًا، ويصبح وجهها داكنًا عندما تكون سعيدة",
+  "companionAdaptRun": "دع الذكاء الاصطناعي يلائم النموذج",
+  "companionAdaptUndo": "التراجع عن الملاءمة",
+  "companionAdaptAuto": "ملاءمة النماذج الجديدة عند استيرادها",
+  "companionAdaptStart": "دعني أعتاد هذا الجسد الجديد…",
+  "companionAdaptDone": "ها قد اعتدت هذا الجسد.",
+  "companionAdaptDoneNote": "ها قد اعتدت هذا الجسد. {note}",
+  "companionAdaptUndone": "حسنًا، عدت إلى ما كنت عليه.",
+  "companionAdaptNoKey": "لملاءمتي باستخدام نموذجك، أضف مفتاح API في الإعدادات أولًا.",
+  "companionAdaptFailed": "لم ينجح ذلك ({reason}). يمكنك المحاولة مجددًا من خيار «ملاءمة هذا النموذج» في القائمة.",
+  "companionAdaptUnreadable": "لم يكن رد النموذج مفهومًا",
+  "companionAdaptEmpty": "لم يعثر النموذج على شيء يمكن مطابقته",
+  "companionAdaptNetwork": "لا يوجد اتصال",
+  "companionMemoryMigrationPending": "لم تُنقل بعض الذكريات القديمة بعد. لا تزال النسخ الأصلية محفوظة. يمكنك المحاولة مجددًا لاحقًا.",
+  "companionMemoryWaiting": "استخراج الذكريات قيد الانتظار. كلماتك الأصلية محفوظة على هذا الهاتف.",
+  "companionMemoryWidgetPending": "سيُمسح السطر القديم في الأداة قريبًا.",
+  "companionMemoryConfiguration": "هذه القناة غير جاهزة لحفظ الذكريات الجديدة تلقائيًا. كلماتك محفوظة؛ ولا يزال بإمكانك تعديل الذكريات.",
+  "companionMemoryWording": "تعديل الصياغة فقط",
+  "companionMemoryPin": "تثبيت",
+  "companionMemoryUnpin": "إلغاء التثبيت",
+  "companionMemoryConfirmReality": "هذا صحيح في حياتي الواقعية",
+  "companionMemorySources": "كلماتي الأصلية",
+  "companionMemoryEditSource": "تعديل هذه الكلمات",
+  "companionMemoryDeleteSource": "حذف النسخة الموجودة على الهاتف",
+  "companionMemoryDeleteSourceHint": "احذف هذه الكلمات من الهاتف والذكريات التي تعتمد عليها وحدها. تبقى محادثات المضيف القديمة والنسخ المنفصلة.",
+  "companionMemoryNoSource": "كُتبت هذه العبارة يدويًا، أو لم يعد مصدرها الأصلي متاحًا.",
+  "companionMemoryCleanupUnknown": "لا أستطيع تأكيد حذف جميع الرسائل الأصلية التي ينبغي حذفها. لم يُحذف شيء.",
+  "companionMemoryTooLong": "طويل جدًا بحيث يتعذّر استخراجه تلقائيًا من هذا الإصدار",
+  "companionMemoryNotExtracted": "لم تُحفظ هذه الدفعة كذكريات",
+  "companionMemoryPending": "لم تتم معالجته بعد",
+  "companionMemorySourceKept": "تم الاحتفاظ بالكلمات الأصلية",
+  "companionMemoryDisplayOnly": "سجل قديم، محفوظ للعرض",
+  "companionMemoryCancelled": "تم إلغاء الخطة",
+  "companionMemoryLess": "اذكر هذا بدرجة أقل",
+  "companionMemoryNever": "لا تذكر هذا",
+  "companionMemoryNormal": "يمكنك ذكره مجددًا بشكل طبيعي",
+  "companionMemoryCancelPlan": "إلغاء هذه الخطة",
+  "companionMemoryActions": "خيارات هذه الذكرى",
+  "companionMemoryWhich": "أيّ واحدة تقصد؟",
+  "companionMemoryForgotten": "حسنًا، نسيت ذلك.",
+  "companionMemoryNeverDone": "حسنًا، لن أذكره مجددًا.",
+  "companionMemoryLessDone": "حسنًا، سأذكره بدرجة أقل.",
+  "companionMemoryNormalDone": "بالتأكيد، يمكننا التحدث عنه متى شئت.",
+  "companionMemoryCancelledDone": "حسنًا، لن أنتظر لأسألك عنه.",
+  "companionMemoryCorrected": "أوه، لقد خلطت بين الأمرين.",
+  "companionMemoryHostSourceRemaining": "حُذفت النسخة الموجودة على الهاتف. لا تزال محادثة المضيف القديمة موجودة؛ ويمكنك حذف تلك المحادثة من قائمة الدردشة.",
+  "companionMemoryHostRestarted": "أُعيد تشغيل المضيف. تم حفظ رسالتك؛ اضغط على إرسال مجددًا للمتابعة.",
+  "companionMemoryUsage": "استخدام النموذج",
+  "companionMemoryUsageHint": "سجلات الطلبات الأخيرة. لا يعني المجهول أنه مجاني؛ التكاليف تقديرية وفق الأسعار التي تم التحقق منها، وليست فواتير المزوّد. تغطي سجلات المضيف استدعاءات دردشة الرفيقة التي تم التقاطها فقط.",
+  "companionMemoryUsageUnknown": "غير معروف",
+  "companionMemoryUsageExtract": "استخراج الذكريات",
+  "companionMemoryUsageOrganize": "تنظيم الذكريات",
+  "companionMemoryUsageChat": "المحادثة",
+  "companionMemoryUsageWaiting": "بانتظار سجلات الاستخدام",
+  "companionMemoryUsageIncomplete": "بيانات الاستخدام غير مكتملة؛ تم الاحتفاظ بالسجلات المعروفة",
+  "companionMemoryUsageInput": "إدخال غير مخزّن مؤقتًا",
+  "companionMemoryUsageCacheRead": "قراءة ذاكرة التخزين المؤقت",
+  "companionMemoryUsageCacheWrite": "كتابة ذاكرة التخزين المؤقت",
+  "companionMemoryUsageOutput": "المخرجات",
+  "companionMemoryUsageCost": "التكلفة التقديرية",
+  "companionMemoryUsageNotSent": "لم يُرسل محليًا",
+  "companionMemoryUsageEmpty": "لا يوجد استخدام مسجّل بعد",
+  "companionMemoryHostUnsupported": "هذا المضيف قديم قليلًا، لذا لا يمكنها هنا تذكّر ما تحدثتما عنه. سيؤدي تحديث المضيف إلى حل المشكلة.",
+  "companionMemoryPostponedDone": "حسنًا، لنستأنف الأمر عندما يتوفر لديك موعد جديد.",
+  "companionTasksTitle": "المهام",
+  "companionTasksEmpty": "لم تطلب مني فعل أي شيء بعد.",
+  "companionTasksEarlier": "المهام السابقة",
+  "companionTaskMissing": "لم أعد أستطيع العثور على هذه المهمة.",
+  "companionTaskChanged": "تم تغيير هذا لاحقًا. سأعتمد أحدث نسخة.",
+  "companionReminderEdit": "تغيير التذكير",
+  "companionReminderCancel": "لا تذكّرني",
+  "companionReminderText": "التذكير بشأن",
+  "companionReminderWhen": "التاريخ والوقت",
+  "companionReminderWhenHint": "مثال: 2026-11-21 08:00",
+  "companionReminderZone": "المنطقة الزمنية",
+  "companionReminderZoneHint": "مثال: Asia/Shanghai أو ‎+08:00",
+  "companionReminderQueued": "حسنًا، حفظت طلب التذكير. لم أتأكد بعد من ضبطه.",
+  "companionReminderDone": "تم كل شيء. سأذكّرك في الموعد.",
+  "companionReminderUnknown": "لست متأكدة من ضبط هذا التذكير. هل يمكنك التحقق من منبهات النظام؟",
+  "companionReminderFailed": "عذرًا، لم أتمكن من ضبط هذا التذكير.",
+  "companionReminderCancelled": "حسنًا، لن أذكّرك بهذا.",
+  "companionReminderTextMissing": "بماذا أذكّرك؟",
+  "companionReminderDateMissing": "في أي يوم تريد أن أذكّرك؟",
+  "companionReminderTimeMissing": "في أي وقت من ذلك اليوم؟",
+  "companionReminderZoneMissing": "أي منطقة زمنية أستخدم؟",
+  "companionReminderGap": "هذا الوقت غير موجود في ذلك اليوم بسبب التوقيت الصيفي. هل تختار وقتًا آخر؟",
+  "companionReminderOverlap": "يحدث هذا الوقت مرتين في ذلك اليوم. أيهما تقصد؟",
+  "companionReminderFirst": "الأول",
+  "companionReminderSecond": "الثاني",
+  "companionReminderNotificationsMissing": "تم ضبطه، لكن الإشعارات متوقفة، لذا لن أتمكن من الوصول إليك عند حلول الموعد. فعّلها من إعدادات النظام.",
+  "companionReminderChannelMissing": "تم ضبطه، لكن إشعارات التذكير متوقفة، لذا لن أتمكن من الوصول إليك عند حلول الموعد. فعّلها من إعدادات النظام.",
+  "companionReminderGroupMissing": "تم ضبطه، لكن مجموعة إشعارات التذكير متوقفة، لذا لن أتمكن من الوصول إليك عند حلول الموعد. فعّلها من إعدادات النظام.",
+  "companionReminderTimePassed": "لقد مضى ذلك الوقت بالفعل، لذا لم أُصدر التنبيه متأخرًا.",
+  "companionReminderInvalidTime": "لم أفهم الوقت تمامًا. هل تخبرني بالتاريخ والوقت والمنطقة الزمنية مجددًا؟",
+  "companionReminderCancelUnknown": "تم حفظ طلب الإلغاء. لم أتأكد بعد من إزالة هذا التذكير.",
+  "companionReminderWhich": "أيّ واحد تقصد؟ اضغط عليه في المهام.",
+  "companionReminderSyntax": "أخبرني باليوم والوقت، مثل «ذكّرني غدًا الساعة 08:00 بإحضار هويتي».",
+  "companionReminderSaveFailed": "لم يُحفظ ذلك. لا يزال ما كتبته هنا. هل تحاول مجددًا؟",
+  "companionReminderSettings": "فتح إعدادات النظام",
+  "companionReminderCheck": "تحديث",
+  "companionReminderUnknownNotification": "ربما صدر هذا التذكير بالفعل. لست متأكدة.",
+  "companionReminderUnhandled": "لا أستطيع المساعدة في هذا الجزء بعد: {text}",
+  "companionReminderCancelSource": "إلغاء التذكير بشأن {text}",
+  "@companionReminderUnhandled": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "@companionReminderCancelSource": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReminderNotHere": "لم يتم ضبط هذا التذكير على هذا الهاتف، لذا لا أستطيع تغييره أو إلغاءه هنا.",
+  "companionReminderPlatformUnavailable": "لا أستطيع رؤية تذكيرات هاتفك الآن. هل تتحقق مجددًا بعد قليل؟",
+  "companionReminderPastRegistration": "تم ضبطه من قبل.",
+  "companionLookupAccepted": "حسنًا، سأبحث عن ذلك وأضع ما أجده في المهام.",
+  "companionLookupSyntax": "أي متحف أو مكتبة، وفي أي يوم؟ أخبرني بالاسم الكامل والتاريخ.",
+  "companionLookupDateMissing": "أي يوم أتحقق منه؟ أعطني تاريخًا محددًا.",
+  "companionLookupZoneMissing": "ما المنطقة الزمنية؟ أخبرني بالتاريخ والمنطقة الزمنية معًا.",
+  "companionLookupWhich": "أي عملية بحث تريد حذفها؟ اضغط عليها في المهام.",
+  "companionLookupQueued": "جارٍ البحث. لحظة من فضلك.",
+  "companionLookupDone": "وجدتها. ستجد أدناه المكان الذي قرأت فيه المعلومات.",
+  "companionLookupPartial": "وجدت بعض المعلومات، لكنني لا أستطيع الجزم بشأن ذلك اليوم بعد.",
+  "companionLookupFailed": "لم أجد شيئًا موثوقًا هذه المرة، لذا لا أستطيع التأكيد.",
+  "companionLookupUnknown": "لم أحصل على إجابة واضحة هذه المرة. لن أبحث مجددًا الآن.",
+  "companionLookupCancelled": "حسنًا، لن أبحث عن ذلك.",
+  "companionLookupCancelUnknown": "تم حفظ طلب الإيقاف. لم أتأكد بعد من توقف عملية البحث الأصلية.",
+  "companionLookupUnavailable": "لا أستطيع الوصول إلى أي مصدر للبحث الآن، لذا لا توجد إجابة بعد.",
+  "companionLookupDeadline": "انتهى الوقت الذي اتفقنا عليه، لذا توقفت هنا.",
+  "companionLookupInputLimit": "هناك معلومات كثيرة جدًا لقراءتها دفعة واحدة، لذا هذا هو المكان الذي بحثت فيه.",
+  "companionLookupQueryLong": "هذا الاسم طويل بعض الشيء. هل يوجد اسم أقصر لن أخلط بينه وبين غيره؟",
+  "companionLookupAnswerIncomplete": "عثرت على الصفحات لكنني لم أجمع المعلومات بعد. إليك الأماكن التي بحثت فيها.",
+  "companionLookupNotHere": "لم يتم البحث عن هذا على هذا الهاتف، لذا لا يمكنني سوى عرض ما وجدته.",
+  "companionLookupSources": "مصادر البحث",
+  "companionLookupSearchOnly": "اطلعت على مقتطف البحث فقط؛ ولم أفتح الصفحة",
+  "companionLookupNoTitle": "بلا عنوان",
+  "companionLookupCancel": "لا تبحث عن ذلك",
+  "companionLookupSaveFailed": "لم ينجح ذلك. هل تحاول مجددًا بعد قليل؟",
+  "companionLookupCancelSource": "إلغاء البحث عن {name}",
+  "@companionLookupCancelSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionLookupObservedAt": "تمت القراءة في {time}",
+  "@companionLookupObservedAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionLookupViewSources": "عرض مصادر البحث · {name}",
+  "@companionLookupViewSources": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesTitle": "تحويل الملاحظات إلى قائمة مهام",
+  "companionNotesView": "إلقاء نظرة",
+  "companionNotesSyntax": "ملاحظات أي يوم تريد تنظيمها، وهل تريد أن يواصل الحاسوب العمل بعد مغادرتك؟ بعد ذلك يمكنك اختيار المجلد.",
+  "companionNotesDateMissing": "التاريخ أو المنطقة الزمنية أو الموعد النهائي غير واضح بعد. هل تخبرني مجددًا؟",
+  "companionNotesConnect": "صِل الحاسوب الذي يحتوي على ملاحظاتك أولًا، ثم اختر المجلد.",
+  "companionNotesOriginalHost": "هذه المهمة موجودة على الحاسوب الذي استخدمته سابقًا. اتصل به وسأتابعها.",
+  "companionNotesUnavailable": "لا يستطيع هذا الحاسوب تنفيذ هذه المهمة الآن.",
+  "companionNotesNoDirectory": "لم يتم اختيار مجلد بعد، لذا لم أبدأ.",
+  "companionNotesChooseDirectory": "اختيار مجلد الملاحظات",
+  "companionNotesChooseOutput": "اختيار مكان الحفظ",
+  "companionNotesKeepDirectory": "مجلد الملاحظات نفسه",
+  "companionNotesKeepOutput": "مجلد الحفظ نفسه",
+  "companionNotesWhich": "أي واحدة تريد حذفها؟ اضغط عليها في المهام.",
+  "companionNotesQueued": "حسنًا. بانتظار أن يتولى الحاسوب المهمة.",
+  "companionNotesRunning": "قبل الحاسوب هذه المهمة. النتيجة غير جاهزة بعد.",
+  "companionNotesDone": "تم. حُفظت قائمة المهام في ملف جديد. اضغط لقراءتها.",
+  "companionNotesPartial": "توقف العمل في منتصف الطريق. يمكنك الاطلاع على ما أُنجز حتى الآن.",
+  "companionNotesFailed": "لم تنجح هذه المحاولة.",
+  "companionNotesWaiting": "لا يمكن المتابعة بعد. لا يزال الطلب محفوظًا.",
+  "companionNotesUnknown": "لست متأكدة مما يحدث على الحاسوب الآن.",
+  "companionNotesCancelUnknown": "تم حفظ طلب الإيقاف، لكنني لم أتأكد من توقف الحاسوب. ستبقى الملفات التي كتبها بالفعل.",
+  "companionNotesCancelled": "حسنًا، أوقفت العمل. لا تزال الملفات المكتوبة موجودة.",
+  "companionNotesPauseUnavailable": "طلبتَ التوقف عند مغادرتك، لكنني لا أستطيع تحديد ما إذا كنت قد غادرت الآن، لذا لم أبدأ. هل تريد أن يستمر العمل بعد مغادرتك بدلًا من ذلك؟",
+  "companionNotesOpportunityLost": "فاتتني فرصة تسليم المهمة إلى الحاسوب، وكنت قد طلبتَ مني ألا أنتظر حتى يتصل. أخبرني إن كنت لا تزال تريد تنفيذها.",
+  "companionNotesDeadline": "انتهى الموعد النهائي الذي اتفقنا عليه، لذا لن أواصل العمل.",
+  "companionNotesOriginalPending": "تلقى الحاسوب التغيير الذي أجريته. امنحه لحظة ليتابع.",
+  "companionNotesSaveFailed": "لم ينجح ذلك. لا يزال هنا. هل تحاول مجددًا بعد قليل؟",
+  "companionNotesModifiedDay": "سأحوّل الملاحظات التي عُدّلت في هذا المجلد في ذلك اليوم (Markdown والنص العادي) إلى قائمة مهام. ستبقى ملفاتك كما هي.",
+  "companionNotesNoInputs": "لم تُعدّل أي ملاحظات في هذا المجلد في ذلك اليوم، لذا لا توجد قائمة مهام.",
+  "companionNotesOutputExists": "يوجد ملف بهذا الاسم بالفعل، لذا تركته كما هو. اختر اسمًا جديدًا.",
+  "companionNotesFileCountLimit": "هناك أكثر من 20 ملاحظة مطابقة. هذا كثير. جرّب مجلدًا أصغر أو قسّمها؟",
+  "companionNotesFileSizeLimit": "يتجاوز حجم إحدى الملاحظات 64 كيلوبايت، وهذا أطول مما يمكنني التعامل معه. ضيّق نطاق البحث؛ لا أريد قراءة نصفها فقط.",
+  "companionNotesTotalSizeLimit": "يتجاوز مجموع حجم هذه الملاحظات 256 كيلوبايت. ضيّق النطاق أو قسّمها؟",
+  "companionNotesModelLimit": "هذا أكثر مما يمكنني قراءته دفعة واحدة. ضيّق النطاق؛ لا أريد قراءة نصفها فقط.",
+  "companionNotesPause": "التوقف عند مغادرتي",
+  "companionNotesForegroundStart": "المتابعة هنا",
+  "companionNotesForegroundReady": "سأطلب من الحاسوب المتابعة بينما تبقى هنا. وعندما تغادر، سأطلب منه التوقف مؤقتًا؛ وسنتحقق من التقدم عند عودتك.",
+  "companionNotesForegroundUnknown": "لم أتأكد بعد من تقدم الحاسوب. حدّث الصفحة للتحقق.",
+  "companionNotesContinue": "مواصلة العمل بعد مغادرتي",
+  "companionNotesAllowQueue": "إذا كان الحاسوب غير متصل، فانتظر عودته",
+  "companionNotesNoQueue": "إذا كان الحاسوب غير متصل، فلا تنتظره",
+  "companionNotesApproval": "يحتاج الحاسوب إلى موافقتك لمواصلة العمل.",
+  "companionNotesOpenFile": "قراءة قائمة المهام",
+  "companionNotesFileMissing": "لم أعد أستطيع العثور على هذا الملف، ولم أُنشئه مجددًا.",
+  "companionNotesFileChanged": "تم تغيير هذا الملف لاحقًا؛ ولم يعد كما كتبته.",
+  "companionNotesFileUnknown": "لا أستطيع فتح هذا الملف الآن.",
+  "companionNotesCancel": "عدم التنفيذ",
+  "companionNotesEdit": "تغييره",
+  "companionNotesDate": "ملاحظات أي يوم",
+  "companionNotesFilename": "اسم الملف الجديد (.md أو .txt)",
+  "companionNotesDeadlineField": "الموعد النهائي الجديد (اتركه فارغًا للاحتفاظ بالحالي)",
+  "companionNotesClearDeadline": "دون موعد نهائي",
+  "companionNotesKeepDeadline": "الموعد النهائي نفسه",
+  "companionNotesSourceDirectory": "الملاحظات في: {path}",
+  "@companionNotesSourceDirectory": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesOutputDirectory": "تم الحفظ في: {path}",
+  "@companionNotesOutputDirectory": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesDue": "موعد الإنجاز {time}",
+  "@companionNotesDue": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesCancelSource": "إلغاء مهمة الملاحظات الخاصة بـ «{name}»",
+  "@companionNotesCancelSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesAmendSource": "تغيير مهمة الملاحظات: ملاحظات {date}، الحفظ باسم «{name}»، الموعد النهائي: {deadline}؛ {afterExit}؛ {queue}؛ {source}؛ {output}.",
+  "@companionNotesAmendSource": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      },
+      "deadline": {
+        "type": "String"
+      },
+      "afterExit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      },
+      "output": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotesRetry": "دع الحاسوب يواصل العمل",
+  "companionNotesSubmitSaved": "تسليمها إلى الحاسوب الآن",
+  "companionNotesResendOriginal": "تسليمها إلى الحاسوب مجددًا",
+  "companionNotesResendCancel": "اطلب من الحاسوب التوقف مجددًا",
+  "companionNotesResendAmend": "إرسال التغيير إلى الحاسوب مجددًا",
+  "companionMapChoose": "أي تطبيق خرائط تريد استخدامه؟",
+  "companionMapSystemChoice": "دعني أختار من النظام",
+  "companionMapDone": "تم إرسال العنوان إلى تطبيق الخرائط.",
+  "companionMapUnknown": "لا أستطيع التأكد بعد مما إذا كانت الخريطة قد فُتحت. لن أفتحها مجددًا تلقائيًا.",
+  "companionMapCancelled": "تم إلغاء عملية الفتح هذه. إذا كانت الخريطة مفتوحة بالفعل، فستبقى مفتوحة.",
+  "companionMapUnavailable": "الخرائط غير متاحة الآن. لا يزال بإمكانك نسخ العنوان.",
+  "companionMapNotHere": "هذا السجل قديم. يمكنك نسخ العنوان أو فتحه مجددًا إذا احتجت إليه الآن.",
+  "companionMapFailed": "لم تُفتح الخريطة. العنوان هنا لنسخه.",
+  "companionMapChoiceWaiting": "فُتحت شاشة اختيار التطبيق. لا أستطيع التأكد بعد من تطبيق الخرائط الذي تلقى العنوان.",
+  "companionMapWaiting": "لم تُفتح الخريطة هذه المرة. تم حفظ العنوان.",
+  "companionMapQueued": "تم حفظ العنوان. لم تُفتح الخريطة بعد.",
+  "companionMapSyntax": "أعطني عنوانًا كاملًا واحدًا، مثل: «افتح في الخرائط، شارع النخيل 18، المدخل الشرقي». اختر واحدًا إذا كانت هناك عدة عناوين.",
+  "companionMapWhich": "أي عنوان تريد تغييره أو فتحه مجددًا؟ يمكنك تحديده في مهامك.",
+  "companionMapNoTarget": "لم يتم تحديد خريطة، لذا لم يُفتح شيء.",
+  "companionMapSaveFailed": "لم أتمكن من التأكد مما إذا كانت الخريطة قد فُتحت. لن أعيد المحاولة تلقائيًا.",
+  "companionMapTarget": "الخريطة المحددة: {label}",
+  "@companionMapTarget": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      }
+    }
+  },
+  "companionMapCopy": "نسخ العنوان الأصلي",
+  "companionMapView": "عرض العنوان",
+  "companionMapReopen": "فتح مجددًا",
+  "companionMapCancel": "إلغاء عملية الفتح هذه",
+  "companionMapReopenSource": "فتح هذا العنوان مجددًا في تطبيق خرائط",
+  "companionMapCancelSource": "إلغاء فتح هذا العنوان في تطبيق خرائط",
+  "companionFindTitle": "العثور على المسودات",
+  "companionFindSyntax": "أخبرني بالمجلد الذي تريد البحث فيه ضمن هذا المستوى، وموعد تعديل المسودات، وما إذا كنت تريد المتابعة بعد مغادرتك. أضف موعدًا نهائيًا إن كان لديك واحد.",
+  "companionFindWhich": "أي عملية بحث تريد إيقافها؟ يمكنك تحديدها في مهامك.",
+  "companionFindConnect": "لم يتم تحديد مجلد على هذا الحاسوب بعد. اتصل به واختر مجلدًا أولًا.",
+  "companionFindSavedDirectory": "اختيار مجلد استخدمته من قبل",
+  "companionFindSeven": "هل تقصد السابعة صباحًا أم مساءً؟",
+  "companionFindMorningSeven": "07:00 صباحًا",
+  "companionFindEveningSeven": "19:00 مساءً",
+  "companionFindDeadlineMissing": "لم يُحدّد الموعد النهائي بعد، لذا لم يبدأ البحث.",
+  "companionFindChooseDirectory": "اختيار مجلد «{name}»",
+  "@companionFindChooseDirectory": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindChooseAgain": "اختيار مجلد آخر",
+  "companionFindKeepDirectory": "الاحتفاظ بالمجلد نفسه",
+  "companionFindUnavailable": "لا يستطيع هذا الحاسوب العثور على مسوداتك وفتحها بعد.",
+  "companionFindNoDirectory": "لم يتم تحديد مجلد، لذا لم يبدأ البحث.",
+  "companionFindDone": "اكتمل البحث. النتائج أدناه.",
+  "companionFindPartial": "لم أتمكن من إكمال البحث كله. المسودات التي عُثر عليها والمناطق التي لم يكتمل فحصها مدرجة أدناه.",
+  "companionFindFailed": "تعذّر إكمال هذا البحث. لا يزال السجل السابق هنا.",
+  "companionFindWaiting": "لا يمكن متابعة البحث بعد. يمكنك التحقق مجددًا لاحقًا.",
+  "companionFindCancelled": "توقف البحث. لا تزال النتائج السابقة هنا.",
+  "companionFindCancelUnknown": "تم حفظ طلب الإيقاف، لكنني لم أتأكد من توقف الحاسوب. لا تزال النتائج السابقة موجودة.",
+  "companionFindCancel": "إيقاف البحث",
+  "companionFindCancelSource": "إلغاء البحث عن المسودات",
+  "companionFindAmendSource": "تغيير هذا البحث: ملفات {formats} فقط، عُدّلت في {date} ضمن هذا المستوى. الموعد النهائي: {deadline}؛ {afterExit}؛ {queue}؛ {source}.",
+  "@companionFindAmendSource": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "formats": {
+        "type": "String"
+      },
+      "deadline": {
+        "type": "String"
+      },
+      "afterExit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "source": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindDate": "تاريخ تعديل المسودات",
+  "companionFindScope": "ملفات {formats} فقط، عُدّلت في هذا اليوم ضمن هذا المستوى. تبقى الملفات الأصلية دون تغيير.",
+  "@companionFindScope": {
+    "placeholders": {
+      "formats": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindSourceDirectory": "مجلد البحث: {path}",
+  "@companionFindSourceDirectory": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindReport": "المسودات التي عُثر عليها هذه المرة",
+  "companionFindPreviousReport": "نتائج البحث السابقة",
+  "companionFindCoverage": "تم فحص {entries} من الإدخالات، بما فيها {supported} بالتنسيقات المحددة، والعثور على {matches} من المسودات المطابقة للتاريخ.",
+  "@companionFindCoverage": {
+    "placeholders": {
+      "entries": {
+        "type": "String"
+      },
+      "supported": {
+        "type": "String"
+      },
+      "matches": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindEnumerationComplete": "تم التحقق من أسماء الملفات في هذا المستوى. راجع أدناه الملفات التي أمكن فتحها. قد لا تشمل النتائج الملفات التي أُضيفت أثناء البحث.",
+  "companionFindEnumerationPartial": "لم يتم البحث في بعض المناطق بالكامل.",
+  "companionFindEntryLimit": "يفحص هذا البحث حتى 200 إدخال. لم يتم التحقق من الإدخالات المتبقية.",
+  "companionFindCandidateLimit": "هناك أكثر من 20 مسودة تطابق التاريخ. أول 20 مسودة مدرجة هنا.",
+  "companionFindEmpty": "لم يتم العثور في المنطقة التي جرى البحث فيها على أي مسودة بالتنسيقات والتاريخ المحددين.",
+  "companionFindGap": "لا يزال هذا العنصر بحاجة إلى التحقق: {name}",
+  "@companionFindGap": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindModified": "عُدّل: {time}",
+  "@companionFindModified": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionFindWasOpenable": "كان من الممكن فتح هذه المسودة حينها. سيؤدي فتحها الآن إلى التحقق مما إذا كانت قد تغيّرت.",
+  "companionFindWasUnreadable": "تعذّرت قراءة هذه المسودة حينها.",
+  "companionFindOpenSource": "فتح الملف الأصلي",
+  "companionFindSourceOffline": "لا تزال القائمة هنا. اتصل بالحاسوب الأصلي لفتح مسودة.",
+  "companionFindSourceMissing": "لم يعد من الممكن العثور على هذه المسودة. لا تزال قائمة البحث السابقة هنا.",
+  "companionFindSourceChanged": "تم استبدال هذه المسودة أو تعديلها. لا أستطيع التأكد من أنها لا تزال المسودة نفسها.",
+  "companionFindSourceUnreadable": "تعذّر فتح هذه المسودة بالكامل. ولم تُستبدل بملف مختلف.",
+  "companionFindSourceUnknown": "لا يمكن فتح هذه المسودة الآن. اتصل بالحاسوب الأصلي وحاول مجددًا.",
+  "companionFindDeadline": "انقضى الموعد النهائي المتفق عليه. لن يبدأ بحث جديد، وستبقى النتائج الحالية هنا.",
+  "companionFindOriginalPending": "تلقى الحاسوب التغييرات، ولا يزال بحاجة إلى تأكيد البحث الأصلي.",
+  "companionFindUnknown": "لم أتأكد مما إذا كان الحاسوب قد تلقى هذا البحث أو إلى أي مدى وصل.",
+  "companionCompareTitle": "مقارنة مسودتين",
+  "companionCompareA": "أ · المسودة الأقدم",
+  "companionCompareB": "ب · المسودة الأحدث",
+  "companionCompareSyntax": "يرجى اختيار أ بوصفها المسودة الأقدم وب بوصفها الأحدث، واذكر ما إذا كنت تريد انتظار الحاسوب ومواصلة العمل بعد مغادرتك. أضف موعدًا نهائيًا إن كان لديك واحد.",
+  "companionCompareWhich": "أي مقارنة تريد إيقافها؟ افتح تلك المهمة واختر إيقاف.",
+  "companionCompareDeadlineMissing": "الموعد النهائي غير واضح بعد. يرجى تحديد التاريخ والوقت والمنطقة الزمنية.",
+  "companionCompareUnavailable": "لا يستطيع هذا الحاسوب مقارنة مسودتين بعد.",
+  "companionCompareConnect": "اتصل بالحاسوب الأصلي لاختيار أ وب أولًا. لا تتوفر المسودات المحددة سابقًا دون اتصال بعد.",
+  "companionCompareAmbiguousFile": "هناك أكثر من مسودة محددة بهذا الاسم. اتصل بالحاسوب الأصلي لاختيارها مجددًا.",
+  "companionCompareNoInputs": "لم يتم تحديد المسودتين الأصليتين، لذا لم تبدأ هذه المقارنة.",
+  "companionCompareOriginalHost": "تم الاحتفاظ بالاتفاق وأي نتيجة موجودة. اتصل بالحاسوب الأصلي للتحقق مجددًا.",
+  "companionCompareSaveFailed": "تعذّر تأكيد المقارنة بعد. يرجى التحقق من هذه المهمة لاحقًا.",
+  "companionCompareSaved": "اختيار {side} سبق تحديدها",
+  "@companionCompareSaved": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareChooseDirectory": "اختيار المجلد الذي يحتوي على {side}",
+  "@companionCompareChooseDirectory": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareFilename": "أدخل اسم الملف الخاص بـ {side}",
+  "@companionCompareFilename": {
+    "placeholders": {
+      "side": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareFileLimit": "أدخل الاسم الدقيق داخل المجلد المحدد. تُدعم ملفات Markdown وtxt حتى 64 كيلوبايت لكل ملف. لن تتغير الملفات الأصلية.",
+  "companionCompareFilenameMissing": "أدخل اسم ملف.",
+  "companionCompareQueued": "تم حفظ المسودتين، وبانتظار الحاسوب.",
+  "companionCompareRunning": "قبل الحاسوب هذه المهمة. المقارنة غير جاهزة بعد.",
+  "companionCompareDone": "أصبحت مقارنة المسودتين جاهزة.",
+  "companionComparePartial": "اكتملت هذه المقارنة جزئيًا فقط. تظهر أدناه التغييرات التي تم التحقق منها والنواقص المتبقية.",
+  "companionCompareCancelled": "توقفت المقارنة الإضافية. تم الاحتفاظ بأي مقارنة سابقة.",
+  "companionCompareCancelUnknown": "تم حفظ طلب الإيقاف، لكن الحاسوب لم يؤكده بعد. تم الاحتفاظ بالنتائج الحالية.",
+  "companionCompareWaiting": "لا يمكن متابعة هذه المقارنة بعد. تم الاحتفاظ بالاختيارات والاتفاق الأصليين.",
+  "companionCompareUnknown": "تقدم الحاسوب غير واضح بعد. لن تُعاد المقارنة تلقائيًا.",
+  "companionCompareFailed": "تعذّر إكمال المقارنة. لم تعدّل هذه المهمة الملفات الأصلية.",
+  "companionCompareDeadline": "انقضى الموعد النهائي الأصلي. لن تُنقل هذه المقارنة إلى موعد لاحق.",
+  "companionCompareOriginalPending": "تم حفظ التغيير، لكن لا يزال يلزم إرسال اتفاق المقارنة الأصلي.",
+  "companionCompareReport": "هذه المقارنة",
+  "companionCompareUnfinishedReport": "مقارنة غير مكتملة",
+  "companionComparePreviousReport": "المقارنة السابقة",
+  "companionCompareUnread": "لم تتم قراءة هذه المسودة بالكامل.",
+  "companionCompareChanged": "قُرئت هذه المسودة، لكن تعذّر تأكيد نسختها الأصلية عند إعداد النتيجة.",
+  "companionCompareIncomplete": "لا تزال بعض الأجزاء غير مكتملة. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
+  "companionCompareIdentical": "لا تتضمن المسودتان المقروءتان لهذه المقارنة أي تغييرات نصية.",
+  "companionCompareCoverage": "عثرت هذه المقارنة على {total} مجموعات من التغييرات النصية، وتعرض {shown} منها.",
+  "@companionCompareCoverage": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareSourceOrder": "تتبع التغييرات التي تم التحقق منها أدناه ترتيبها في النص. لم يتم ترتيب أولويات التدريب.",
+  "companionCompareDifference": "التغيير النصي {number}",
+  "@companionCompareDifference": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareNoExcerpt": "لا يوجد مقتطف قصير من المصدر لعرضه في هذا الجانب.",
+  "companionCompareSuggestions": "اقتراحات التدريب",
+  "companionComparePractice": "التغيير {number}: {practice}",
+  "@companionComparePractice": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      },
+      "practice": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareSuggestionsUnknown": "لم يتم تأكيد اقتراحات التدريب بعد. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
+  "companionCompareSuggestionsMissing": "اقتراحات التدريب غير جاهزة. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
+  "companionCompareParagraph": "الفقرة {range}",
+  "@companionCompareParagraph": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareBetween": "بين الفقرتين {before} و{after}",
+  "@companionCompareBetween": {
+    "placeholders": {
+      "before": {
+        "type": "String"
+      },
+      "after": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareAfter": "بعد الفقرة {number}",
+  "@companionCompareAfter": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareBefore": "قبل الفقرة {number}",
+  "@companionCompareBefore": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareLines": "بالقرب من السطر {range}",
+  "@companionCompareLines": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareCancel": "إيقاف المقارنة",
+  "companionCompareCancelSource": "إلغاء هذه المقارنة مع الاحتفاظ بأي نتيجة سبق إرجاعها.",
+  "companionCompareAmendSource": "تغيير هذه المقارنة: {deadline}؛ {exit}؛ {queue}؛ {inputs}. اترك الملفين الأصليين دون تغيير.",
+  "@companionCompareAmendSource": {
+    "placeholders": {
+      "deadline": {
+        "type": "String"
+      },
+      "exit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "inputs": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareChooseAgain": "اختيار أ وب مجددًا",
+  "companionCompareKeepInputs": "الاحتفاظ بالملفين أ وب المحددين أصلًا",
+  "companionCompareNewDeadline": "يستخدم الموعد النهائي الجديد المنطقة الزمنية المحلية لهذا التغيير. اتركه فارغًا للاحتفاظ بالموعد الأصلي.",
+  "companionReceiptTitle": "جدول الإيصالات",
+  "companionReceiptSyntax": "يرجى تحديد أربعة إيصالات واسم جديد للمصنف، وما إذا كنت تريد المتابعة بعد مغادرتك. يمكنني إنشاء ملف جديد، وليس استبدال ملف موجود.",
+  "companionReceiptUnavailable": "لا يستطيع هذا الحاسوب إعداد جدول الإيصالات بعد.",
+  "companionReceiptConnect": "اتصل بالحاسوب الأصلي لاختيار الإيصالات الأربعة ومجلد الإخراج. لا يمكنني تخمين ملفات أصلية لم يسبق تحديدها.",
+  "companionReceiptWhich": "أي جدول تريد إيقافه؟ افتح تلك المهمة وألغها من هناك.",
+  "companionReceiptSaveFailed": "لم يتم تسليم هذا الطلب بنجاح. تم الاحتفاظ بكلماتك لمحاولة أخرى.",
+  "companionReceiptOriginalHost": "أعد الاتصال بالحاسوب الأصلي للمتابعة أو للتحقق من النتيجة.",
+  "companionReceiptNoInputs": "لم يتم اختيار الإيصالات الأربعة ومجلد الإخراج جميعها. لن يتم تسليم أي شيء بعد.",
+  "companionReceiptInput": "الإيصال {index}",
+  "@companionReceiptInput": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptSavedInput": "اختيار إيصال سبق تحديده للموضع {index}",
+  "@companionReceiptSavedInput": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptChooseDirectory": "أي مجلد يحتوي على الإيصال {index}؟",
+  "@companionReceiptChooseDirectory": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptFilename": "اسم ملف الإيصال {index}",
+  "@companionReceiptFilename": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptFormats": "يستطيع هذا الحاسوب قراءة {formats}، حتى 4 ميغابايت لكل ملف. أدخل اسم ملف داخل المجلد المحدد.",
+  "@companionReceiptFormats": {
+    "placeholders": {
+      "formats": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptSavedOutput": "أي مجلد محدد سابقًا تريد حفظ المصنف الجديد فيه؟",
+  "companionReceiptQueued": "تم الحفظ على الهاتف؛ ولم يُسلّم إلى الحاسوب بعد.",
+  "companionReceiptRunning": "قبل الحاسوب الطلب؛ ولا يوجد مصنف جاهز بعد.",
+  "companionReceiptDone": "أصبح المصنف الجديد جاهزًا، وتم التحقق من الحقول المطلوبة.",
+  "companionReceiptPartial": "أصبح المصنف الجديد جاهزًا، مع توضيح الحقول التي لم يتم التحقق منها داخله.",
+  "companionReceiptCancelled": "لن يتم تنفيذ أي عمل إضافي. وسيبقى أي مصنف كُتب بالفعل.",
+  "companionReceiptFailed": "تعذّر تسليم مصنف جديد. الملاحظات التي جُمعت بالفعل محفوظة أدناه.",
+  "companionReceiptWaiting": "تنتظر هذه المهمة ما يلزمها؛ المصنف غير جاهز.",
+  "companionReceiptUnknown": "لم يتضح بعد ما إذا كان المصنف قد كُتب. تحقق من المهمة الأصلية قبل إنشاء مهمة أخرى.",
+  "companionReceiptCancelUnknown": "تم حفظ طلب الإيقاف. لا يزال على الحاسوب الأصلي تأكيد ما إذا كان قد كُتب مصنف بالفعل.",
+  "companionReceiptNoFields": "لا تتوفر حاليًا حقول تم التحقق منها لهذه الإيصالات الأربعة لإدراجها في المصنف، لذا لم يتم إنشاء مصنف فارغ.",
+  "companionReceiptOutputExists": "يوجد ملف بهذا الاسم بالفعل. لم يتم استبداله؛ يمكنك اختيار اسم جديد.",
+  "companionReceiptDeadline": "انقضى الموعد النهائي المتفق عليه. لن يبدأ عمل جديد، ولا يزال بإمكانك التحقق من النتائج السابقة.",
+  "companionReceiptOriginalPending": "لم يتلقَّ الحاسوب الطلب الأصلي كاملًا، ولن يبدأ إعداد المصنف بعد.",
+  "companionReceiptReport": "حقول الإيصالات التي تم رصدها",
+  "companionReceiptPreviousReport": "ملاحظات الإيصالات السابقة",
+  "companionReceiptCoverage": "في هذه النتيجة، تم التحقق من الحقول في {count} من الإيصالات الأربعة.",
+  "@companionReceiptCoverage": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptImageScope": "تمت قراءة طبقة النص في PDF فقط. لا تزال التواريخ والحقول الأخرى الموجودة في الصور غير مؤكدة.",
+  "companionReceiptUnread": "لم تتم قراءة هذا الملف الأصلي بالكامل.",
+  "companionReceiptParseFailed": "تعذّر استخراج النص بالكامل من هذا الملف الأصلي.",
+  "companionReceiptChanged": "تعذّر تأكيد النسخة الأصلية قبل النشر. لا يمكن اعتبار هذا الصف موثوقًا.",
+  "companionReceiptDate": "التاريخ",
+  "companionReceiptItem": "العنصر",
+  "companionReceiptAmount": "المبلغ",
+  "companionReceiptUnverified": "غير متحقق منه: {reason}",
+  "@companionReceiptUnverified": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptFieldUnknown": "النص الأصلي لا يثبت هذا الحقل",
+  "companionReceiptSourcePosition": "الأسطر {from}–{to}",
+  "@companionReceiptSourcePosition": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptPdfPosition": "الصفحة {page}، أسطر النص المستخرج {from}–{to}",
+  "@companionReceiptPdfPosition": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      },
+      "from": {
+        "type": "String"
+      },
+      "to": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptOpenWorkbook": "فتح {name}",
+  "@companionReceiptOpenWorkbook": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptOpenFailed": "لا يمكن فتح المصنف الأصلي الآن. تم الاحتفاظ بسجل إكماله السابق؛ ولن يُعاد إنشاؤه تلقائيًا.",
+  "companionReceiptChooseAgain": "اختيار الإيصالات الأربعة مجددًا",
+  "companionReceiptKeepInputs": "الاحتفاظ بالإيصالات الأربعة نفسها",
+  "companionReceiptOutputName": "اسم ملف المصنف الجديد (.xlsx)",
+  "companionReceiptCancelSource": "إلغاء مهمة الإيصالات هذه؛ وإيقاف العمل غير المكتمل والاحتفاظ بأي مصنف كُتب بالفعل.",
+  "companionReceiptAmendSource": "تعديل مهمة الإيصالات هذه لإنشاء {name}؛ الموعد النهائي: {deadline}؛ بعد المغادرة: {afterExit}؛ انتظار الحاسوب: {queue}؛ الملفات الأصلية: {inputs}؛ مجلد الإخراج: {output}.",
+  "@companionReceiptAmendSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "deadline": {
+        "type": "String"
+      },
+      "afterExit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "inputs": {
+        "type": "String"
+      },
+      "output": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptNoText": "لم تتم قراءة أي طبقة نص قابلة للاستخدام. لا تزال الحقول الموجودة في الصور غير مؤكدة.",
+  "companionReceiptPassword": "يتطلب الملف الأصلي كلمة مرور، لذا تعذّرت قراءته.",
+  "companionReceiptPdfUnavailable": "لا يستطيع هذا الحاسوب استخراج نص PDF بعد.",
+  "companionReceiptLimit": "يتجاوز الملف حدود الحجم أو الصفحات أو النص لهذه المهمة.",
+  "companionReceiptDateUnknown": "تعذّر التحقق من تاريخ كامل، أو أن التاريخ ملتبس.",
+  "companionReceiptItemUnknown": "تعذّر التحقق من وصف واضح للعنصر.",
+  "companionReceiptAmountUnknown": "تعذّر تأكيد المبلغ أو العملة.",
+  "companionReceiptKeepOutput": "الاحتفاظ بمجلد الإخراج الأصلي",
+  "companionReceiptPriorResult": "تم العثور على المصنف الناتج عن الاتفاق السابق؛ ولم يُنفّذ الاتفاق الجديد.",
+  "companionLegacyConversation": "محادثة سابقة (لم تُسجّل الشخصية)",
+  "companionScreen": "شاهد الشاشة معي",
+  "companionScreenHint": "تشاهد الشاشة معك وتعلّق عندما يلفت شيء انتباهها؛ ولا يتم الاحتفاظ بالشاشة نفسها، بل بآخر تعليقاتها القليلة فقط",
+  "companionScreenNeedsAccess": "فعّل خدمة تسهيل الاستخدام للتحكم بالهاتف أولًا، أو اسمح لها بتسجيل الشاشة",
+  "companionScreenAllowProjection": "السماح بتسجيل الشاشة",
+  "companionScreenVision": "السماح بصور الشاشة",
+  "companionScreenVisionHint": "تُفحص الصور أولًا لحماية الخصوصية باستخدام التعرّف على النصوص على الجهاز (OCR)، لذا يجب تفعيله. الحد الأقصى 512 بكسل للضلع الأطول، ولا تُحفظ الصور مطلقًا",
+  "companionScreenVisionTextOnly": "تقرأ طريقة الالتقاط هذه النص فقط؛ وتتطلب الصور التقاطًا عبر تسهيل الاستخدام مع تفعيل التعرّف على النصوص على الجهاز",
+  "companionScreenVisionModel": "النموذج المستخدم لصور الشاشة",
+  "companionScreenVisionChoose": "اختر نموذجًا يقبل الصور",
+  "companionScreenVisionAvailable": "يستطيع النموذج المحدد رؤية الصور؛ ولا تُرسل إلا عند تفعيل التعرّف على النصوص على الجهاز، ولا تُحفظ مطلقًا",
+  "companionScreenVisionChecking": "جارٍ التحقق من النموذج المحدد؛ النص فقط متاح حاليًا",
+  "companionScreenVisionUnavailable": "لا يستطيع هذا الاتصال أو النموذج استقبال الصور، لذا تعتمد مشاهدة الشاشة على النص",
+  "companionScreenFrequency": "مدى تكرار تحدثها",
+  "companionScreenQuiet": "هادئة",
+  "companionScreenQuietHint": "نادرًا، وعندما يكون الأمر مهمًا فقط",
+  "companionScreenNormal": "عادي",
+  "companionScreenNormalHint": "تعليق عندما يلفت شيء انتباهها",
+  "companionScreenChatty": "ثرثارة",
+  "companionScreenChattyHint": "تتحدث معك بوتيرة أكبر",
+  "companionScreenLive": "مباشر",
+  "@companionScreenLive": {
+    "description": "أعلى وتيرة لمشاهدة الشاشة: تواصل المشاهدة وقد تتحدث عدة مرات في الدقيقة."
+  },
+  "companionScreenLiveHint": "تواصل المشاهدة ويمكنها التعليق عدة مرات في الدقيقة",
+  "@companionScreenLiveHint": {
+    "description": "عنوان فرعي لخيار وتيرة المشاهدة المباشرة."
+  },
+  "companionScreenPerHour": "أقصى عدد من العبارات في الساعة",
+  "@companionScreenPerHour": {
+    "description": "عنوان فوق خيارات عدد المرات التي يمكنها التحدث فيها في الساعة أثناء مشاهدة الشاشة؛ وتُحتسب التعليقات القصيرة أيضًا."
+  },
+  "companionScreenPerHourNone": "بلا حد",
+  "@companionScreenPerHourNone": {
+    "description": "الخيار الافتراضي: لا يوجد حد بالساعة لما تقوله أثناء مشاهدة الشاشة."
+  },
+  "companionScreenUsageAccess": "دعها تعرف التطبيق الذي تستخدمه",
+  "companionScreenCost": "حوالي ¥{amount} اليوم",
+  "@companionScreenCost": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "companionNotices": "تتابع إشعاراتك",
+  "companionNoticesHint": "عندما يتلقى تطبيق تختاره إشعارًا، تلقي نظرة ولا تتحدث إلا إذا كان الأمر مهمًا",
+  "companionNoticesNeedsAccess": "خطوة أخرى: اسمح لـ DSH Go بقراءة الإشعارات",
+  "companionNoticesAllow": "سماح",
+  "companionNoticesApps": "التطبيقات التي تتابعها",
+  "companionNoticesAppsEmpty": "عند تفعيل هذا الخيار، ستظهر هنا التطبيقات التي ترسل إليك إشعارات",
+  "companionNoticesAppCount": "{count, plural, =1{مرة واحدة خلال آخر 7 أيام} other{{count} مرات خلال آخر 7 أيام}}",
+  "@companionNoticesAppCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "companionNoticesQuiet": "لا توجد إشعارات مؤخرًا",
+  "companionNoticesToday": "وصل {received} اليوم · وتحدثت {said, plural, =1{مرة واحدة} other{{said} مرات}}",
+  "@companionNoticesToday": {
+    "placeholders": {
+      "received": {
+        "type": "int"
+      },
+      "said": {
+        "type": "int"
+      }
+    }
+  },
+  "companionNoticesFooter": "تُرسل الإشعارات إلى النموذج الذي أعددته لها (DeepSeek حاليًا)، ومن التطبيقات التي تختارها فقط. لا يُحتفظ بنص الإشعار نفسه، بل بالملاحظات القليلة التي تدوّنها، ويمكنك رؤيتها وحذفها في صفحة الذاكرة؛ كما يحتفظ هذا الهاتف بالأعداد والاستخدام والعلامات التي تمنع التكرار. لا تطّلع على الإشعارات عندما يكون الهاتف مقفلًا.",
+  "companionNoticesFailed": "لم ينجح ذلك؛ حاول مجددًا",
+  "companionNoticeLevelOff": "متوقف",
+  "companionNoticeLevelOffHint": "لا تقرأ إشعارات هذا التطبيق",
+  "companionNoticeLevelGlance": "إلقاء نظرة",
+  "companionNoticeLevelGlanceHint": "لتقرر فقط ما إذا كانت ستخبرك؛ ثم تنساه فورًا",
+  "companionNoticeLevelRemember": "تذكّر",
+  "companionNoticeLevelRememberHint": "تدوّن الأخبار الجديرة بالاحتفاظ بها",
+  "companionMemoryAll": "الكل",
+  "companionMemoryFromNotices": "من الإشعارات",
+  "companionMemoryNoticesClear": "مسح الكل",
+  "companionMemoryNoticesClearTitle": "هل تريد منها نسيان ما رأته في الإشعارات؟",
+  "companionMemoryNoticesClearBody": "ستُحذف كل ملاحظة دوّنتها من الإشعارات، ولن تُدوّن الأشياء نفسها مجددًا.",
+  "companionPanelCompany": "الرفقة",
+  "companionPanelHer": "هي",
+  "companionPanelTalk": "المحادثة",
+  "companionPanelMore": "المزيد",
+  "companionDrawerHere": "موجودة دائمًا هنا",
+  "companionDrawerRoom": "غرفة الرفيقة",
+  "companionTabRoom": "الغرفة",
+  "companionTabMemory": "الذكريات",
+  "companionTabTasks": "المهام",
+  "companionTabHer": "هي",
+  "companionDrawerReminderToday": "تذكير عند {time}",
+  "@companionDrawerReminderToday": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionDrawerReminderTomorrow": "غدًا {time}",
+  "@companionDrawerReminderTomorrow": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "companionDrawerReminderLater": "تذكير {date}",
+  "@companionDrawerReminderLater": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "companionRawEraseAsk": "محو الكلمات الأصلية أيضًا — «{quote}»؟ لا يمكن التراجع عن ذلك.",
+  "@companionRawEraseAsk": {
+    "placeholders": {
+      "quote": {
+        "type": "String"
+      }
+    }
+  },
+  "companionRawEraseAskMany": "محو الكلمات الأصلية أيضًا — «{quote}» و{count} أسطر إجمالًا؟ لا يمكن التراجع عن ذلك.",
+  "@companionRawEraseAskMany": {
+    "placeholders": {
+      "quote": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "companionRawEraseYes": "محو",
+  "companionRawEraseNo": "احتفاظ",
+  "companionRawErased": "تم، مُحيت الكلمات الأصلية أيضًا.",
+  "companionRawKept": "حسنًا، ستبقى الكلمات الأصلية.",
+  "companionRawEraseGone": "فات الأوان هذه المرة؛ لا تزال الكلمات الأصلية هنا.",
+  "@companionShakeDizzy": {
+    "description": "ما تقوله عند هز الهاتف، لأي شخصية."
+  },
+  "companionSetupWorkshop": "ابحث عن واحدة في ورشة العمل",
+  "@companionSetupWorkshop": {
+    "description": "في شاشة إعداد الرفيقة: افتح ورشة العمل الخاصة بالرفيقات لتنزيل واحدة."
+  },
+  "companionRosterTitle": "الرفيقات",
+  "companionRosterHere": "في الغرفة",
+  "companionRosterAdd": "إضافة رفيقة",
+  "companionRosterBring": "إحضارها إلى الغرفة",
+  "companionRosterRemove": "إزالتها من هذا الهاتف",
+  "companionRosterRemoveConfirm": "هل تريد إزالة «{name}» من هذا الهاتف؟ ستُحذف ملفاتها، لكن ستبقى الذكريات والتذكيرات.",
+  "@companionRosterTitle": {
+    "description": "قائمة جماعية في صفحتها تعرض كل الرفيقات المثبتات على الهاتف."
+  },
+  "@companionRosterHere": {
+    "description": "تظهر أسفل الرفيقة الموجودة في الغرفة حاليًا."
+  },
+  "@companionRosterAdd": {
+    "description": "صف لإضافة رفيقة أخرى (من ملف أو من ورشة العمل)."
+  },
+  "@companionRosterBring": {
+    "description": "التبديل إلى هذه الرفيقة: تنتقل إلى الغرفة، مع الاحتفاظ بالرفيقة الحالية."
+  },
+  "@companionRosterRemove": {
+    "description": "حذف رفيقة محفوظة (غير نشطة) من الهاتف."
+  },
+  "@companionRosterRemoveConfirm": {
+    "description": "تأكيد قبل حذف رفيقة محفوظة.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  }
+}

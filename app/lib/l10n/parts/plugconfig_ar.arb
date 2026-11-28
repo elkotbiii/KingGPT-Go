@@ -1,0 +1,67 @@
+{
+  "@@locale": "ar",
+  "pluginConfigUnsaved": "غير محفوظ",
+  "pluginConfigSecretSet": "مُعيّن",
+  "pluginConfigAdvanced": "متقدم",
+  "pluginConfigSearchHint": "البحث في الإعدادات",
+  "pluginConfigNoMatch": "لا توجد إعدادات مطابقة",
+  "pluginConfigOpenWeb": "الإعداد عبر الويب",
+  "pluginConfigOpenWebHint": "صفحة الإضافة نفسها",
+  "pluginConfigResetAll": "إعادة تعيين الكل إلى الإعدادات الافتراضية",
+  "pluginConfigResetAllTitle": "هل تريد إعادة تعيين الكل إلى الإعدادات الافتراضية؟",
+  "pluginConfigReset": "إعادة تعيين",
+  "pluginConfigChanges": "{count, plural, =1{تغيير واحد} other{{count} تغييرات}}",
+  "@pluginConfigChanges": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pluginConfigAppliesOnReload": "يؤدي الحفظ إلى إعادة تحميل الإضافة",
+  "pluginConfigSaving": "جارٍ الحفظ…",
+  "pluginConfigReloading": "جارٍ إعادة التحميل…",
+  "pluginConfigApplied": "تم التطبيق",
+  "pluginConfigFailed": "لم يسري التغيير",
+  "pluginConfigRestored": "تمت استعادة الإعدادات السابقة",
+  "pluginConfigStopped": "لم يسري التغيير، وتعذرت استعادة الإعدادات السابقة",
+  "pluginConfigRestore": "استعادة",
+  "pluginConfigDiscard": "تجاهل",
+  "pluginConfigNotStarted": "لم تبدأ الإضافة",
+  "pluginConfigNone": "لا توجد إعدادات مطلوبة",
+  "pluginConfigInvalidOperation": "لا يمكن تطبيق هذا التغيير",
+  "pluginConfigGone": "لم تعد الإضافة قيد التشغيل. تم التحديث.",
+  "pluginConfigUnknown": "فُقد الاتصال. أُعيد تحميل الإعدادات.",
+  "pluginConfigUnsupported": "لا يمكن ضبط هذا الخيار هنا بعد",
+  "pluginConfigSecretUnbound": "يتطلب دعم الإضافة",
+  "pluginConfigListFailed": "تعذرت قراءة قائمة الإضافات. حاول مرة أخرى لاحقًا.",
+  "pluginConfigListUpdating": "يجري تحديث قائمة الإضافات. حاول مجددًا بعد قليل.",
+  "pluginConfigFixed": "محدد في ملف الإعدادات",
+  "pluginConfigFixedNote": "محدد في ملف إعدادات. يمكن عرضه هنا فقط.",
+  "pluginConfigReadOnly": "للقراءة فقط",
+  "pluginConfigEntryTitle": "{bundle} · {entry}",
+  "@pluginConfigEntryTitle": {
+    "placeholders": {
+      "bundle": {
+        "type": "String"
+      },
+      "entry": {
+        "type": "String"
+      }
+    }
+  },
+  "pluginConfigNameSpeechToText": "التعرّف على الكلام",
+  "pluginConfigNameSenseVoice": "التعرّف باستخدام SenseVoice",
+  "pluginConfigNameSpeechApi": "واجهة برمجة تطبيقات تحويل الكلام إلى نص",
+  "pluginConfigNameTranslator": "خدمة الترجمة",
+  "pluginConfigNameSessionIndex": "فهرس الجلسات",
+  "pluginConfigNameSessionSearchTool": "أداة البحث في الجلسات",
+  "pluginConfigNameTerminalService": "خدمة الطرفية",
+  "pluginConfigNameTerminalBash": "طرفية Bash",
+  "pluginConfigNameTerminalPwsh": "طرفية PowerShell",
+  "pluginConfigNameTerminalTools": "أدوات الطرفية",
+  "pluginConfigNameWorktree": "مدير شجرة العمل",
+  "pluginConfigNameWorktreeTools": "أدوات شجرة العمل",
+  "pluginConfigNameRalphWorkflow": "محرك سير العمل",
+  "pluginConfigNameRalphTools": "أدوات Ralph"
+}

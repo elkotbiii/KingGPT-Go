@@ -20,39 +20,53 @@ bool get wordsForIos => !kIsWeb && defaultTargetPlatform == TargetPlatform.iOS;
 /// The language the app shows: what [AppLocale.resolve] picked from the
 /// user's choice and the system languages.
 abstract final class AppLocale {
+  static const ar = Locale('ar');
   static const zhCN = Locale('zh', 'CN');
   static const en = Locale('en');
 
-  /// Locales MaterialApp offers. zh_CN (not bare zh) keeps CJK glyphs
-  /// Chinese on non-Chinese systems (typography.dart「汉字字形」).
-  static const supported = [zhCN, en];
+  /// Arabic is the default UI locale. zh_CN remains temporarily available for
+  /// the existing generated catalog and Chinese-content glyph selection;
+  /// it is not offered in the language picker and is removed in the catalog migration.
+  static const supported = [ar, zhCN, en];
 
-  static Locale _locale = zhCN;
-  static L10n _l10n = lookupL10n(zhCN);
+  static Locale _locale = ar;
+  static L10n _l10n = lookupL10n(ar);
 
-  /// The locale in use (zh_CN until the app resolves one; tests keep it).
+  /// The locale in use (Arabic until the app resolves a saved or system choice).
   static Locale get current => _locale;
 
   static bool get isEnglish => _locale.languageCode == 'en';
 
   static L10n get l10n => _l10n;
 
-  /// Switches [appL10n] to [locale] (zh_CN or en).
+  /// Switches [appL10n] to [locale].
   static void use(Locale locale) {
-    final next = locale.languageCode == 'en' ? en : zhCN;
+    final next = switch (locale.languageCode) {
+      'en' => en,
+      'zh' => zhCN, // Temporary compatibility for existing Chinese catalog users/tests.
+      _ => ar,
+    };
     if (next == _locale) return;
     _locale = next;
     _l10n = lookupL10n(next);
   }
 
-  /// Chinese for any Chinese system language, English for everything else.
+  /// Prefer a supported user choice or system language; otherwise use Arabic.
+  /// Chinese remains recognized only for explicit internal compatibility, not
+  /// as a system-language fallback or a user-selectable app language.
   static Locale resolve(Locale? chosen, List<Locale>? system) {
-    if (chosen != null) return chosen.languageCode == 'en' ? en : zhCN;
+    if (chosen != null) {
+      return switch (chosen.languageCode) {
+        'en' => en,
+        'zh' => zhCN,
+        _ => ar,
+      };
+    }
     for (final l in system ?? const <Locale>[]) {
-      if (l.languageCode == 'zh') return zhCN;
+      if (l.languageCode == 'ar') return ar;
       if (l.languageCode == 'en') return en;
     }
-    return (system == null || system.isEmpty) ? zhCN : en;
+    return ar;
   }
 }
 

@@ -1,0 +1,138 @@
+{
+  "speechReadAloud": "قراءة بصوت عالٍ",
+  "speechReadAloudStop": "إيقاف القراءة",
+  "speechReadSection": "قراءة بصوت عالٍ",
+  "speechReadFooter": "يُستخدم بواسطة زر القراءة بصوت عالٍ أسفل الردود وفي غرفة الرفيق والمكالمات الصوتية.",
+  "speechVoiceTitle": "صوت القراءة",
+  "speechVoiceHello": "مرحبًا، أنا صوت القراءة.",
+  "speechVoiceDeepseek": "DeepSeek",
+  "speechVoiceDeepseekHint": "تتم الفوترة عبر حساب DeepSeek الذي سجلت الدخول به؛ أو باستخدام مفتاح API في الإعدادات عند تسجيل الخروج أو عندما يتعذر على الحساب الدفع مقابل الكلام. لا حاجة إلى إعداد شيء.",
+  "speechVoiceDeepseekFooter": "تُحتسب الفوترة بحسب عدد الأحرف المقروءة؛ راجع منصة DeepSeek لمعرفة الأسعار. تُستثنى كتل التعليمات البرمجية والجداول وعناوين الروابط.",
+  "speechVoiceStella": "Stella (أنثى)",
+  "speechVoiceTide": "Tide (ذكر)",
+  "speechVoiceStellaShort": "Stella",
+  "speechVoiceTideShort": "Tide",
+  "speechVoiceFollow": "مثل القراءة بصوت عالٍ",
+  "speechVoiceFollowHint": "صوت القراءة في الإعدادات › الصوت",
+  "speechNotSetUp": "لم يتم إعداد صوت القراءة بعد. راجع الإعدادات › الصوت",
+  "speechNoCredential": "سجّل الدخول إلى DeepSeek أو أضف مفتاح API في الإعدادات أولًا",
+  "speechAccountUnusable": "لا يمكن لحسابك المسجّل الدفع مقابل خدمة الكلام من DeepSeek هنا: إصدار DSH الذي تتصل به أقدم (وسيحل تحديثه المشكلة)، أو أنك تتصل عبر DSH Remote. أضف مفتاح DeepSeek API في الإعدادات لاستخدامها",
+  "speechSignIn": "لا يمكن لحساب DeepSeek الخاص بك الدفع مقابل الكلام (انتهت صلاحية تسجيل الدخول، أو أن خدمة الكلام تقبل مفتاح API فقط). سجّل الدخول مجددًا أو أضف مفتاح API في الإعدادات",
+  "speechUnauthorized": "تم رفض مفتاح DeepSeek API. تحقق منه في الإعدادات",
+  "speechBalance": "رصيد DeepSeek غير كافٍ",
+  "speechRateLimited": "طلبات كثيرة جدًا. حاول مجددًا بعد قليل",
+  "speechNothingToRead": "لا يحتوي هذا الرد على نص لقراءته",
+  "speechNotHeard": "لم أسمع ذلك. قلها مرة أخرى",
+  "speechTooLong": "هذا التسجيل طويل جدًا. جرّب مقاطع أقصر",
+  "speechBusy": "خدمة الكلام مشغولة. حاول مجددًا بعد قليل",
+  "speechNetwork": "تعذّر الوصول إلى خدمة الكلام. تحقق من الشبكة",
+  "speechReadFailed": "تعذّرت القراءة بصوت عالٍ",
+  "speechListenFailed": "تعذّر التعرّف على الكلام",
+  "speechCloudNotice": "يُرسل صوتك إلى DeepSeek للتعرّف عليه. للتعرّف على الكلام على الهاتف، بدّل إلى نموذج الصوت.",
+  "speechCloudNotSetUp": "لم يتم إعداد خدمة تعرّف سحابية",
+  "speechCallTile": "مكالمة صوتية",
+  "speechCallSection": "المكالمات الصوتية",
+  "speechCallFooter": "أثناء المكالمة، توقف قليلًا بعد التحدث ليتم إرسال كلامك؛ وتُقرأ الإجابة أثناء كتابتها.",
+  "speechCallBargeIn": "المقاطعة بالتحدث",
+  "speechCallBargeInHint": "عندما تتحدث أثناء كلام الذكاء الاصطناعي يصمت؛ تتيح له كلمة «نعم» المتابعة، وأي شيء آخر يوقفه",
+  "speechCallSpoken": "الإجابات المنطوقة",
+  "speechCallSpokenHint": "تطلب الرسالة الأولى في المكالمة إجابات قصيرة وبأسلوب حواري",
+  "speechCallSpeaker": "مكبر الصوت افتراضيًا",
+  "speechCallSpeakerHint": "تكون الأولوية دائمًا لسماعات الرأس عند توصيلها",
+  "speechCallHint": "(هذه مكالمة صوتية؛ يصل كلامي عبر التعرف على الكلام. يُرجى الرد بإيجاز وبأسلوب حواري، دون Markdown أو قوائم أو جداول أو كتل تعليمات برمجية.)",
+  "speechCallCutNote": "(قاطعتك عند “{heard}”؛ لم أسمع بقية الكلام.)",
+  "@speechCallCutNote": {
+    "placeholders": {
+      "heard": {
+        "type": "String"
+      }
+    }
+  },
+  "speechCallCutEarly": "(قاطعتك قبل أن تقول أي شيء؛ لم أسمع تلك الإجابة.)",
+  "speechCallCue": "صوت التفكير",
+  "speechCallCueHint": "نغمة رقيقة عندما يتأخر بدء الإجابة",
+  "speechLiveSection": "التسميات التوضيحية المباشرة",
+  "speechLiveName": "نموذج التعرف المتدفق",
+  "speechLiveSystemName": "نموذج التعرف على النظام (الصينية المندرينية)",
+  "speechLiveSystemReadyNote": "يوفره HarmonyOS، ولا يحتاج إلى تنزيل نموذج؛ تستخدمه المكالمات تلقائيًا",
+  "speechLiveSystemBusy": "قيد الاستخدام",
+  "speechLiveSystemBusyNote": "يستخدمه إدخال الصوت أو عملية تعرّف أخرى؛ اضغط على «إعادة المحاولة» عند انتهائها",
+  "speechLiveSystemFailedNote": "التعرّف على النظام غير متاح على هذا الهاتف حاليًا: {reason}",
+  "@speechLiveSystemFailedNote": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveSystemFooter": "تعمل التسميات التوضيحية واكتشاف المقاطعة على الهاتف عبر أداة التعرف في HarmonyOS؛ ويظل النص المرسل إلى الذكاء الاصطناعي ناتجًا عن أداة التعرف المختارة أعلاه، بينما يؤدي اختيار خدمة سحابية إلى رفع التسجيل.",
+  "speechLiveAbsentNote": "نزّله لتعرض المكالمات كلماتك أثناء التحدث وتتوقف أسرع عند مقاطعتك. الحجم نحو {mb}؛ ويعمل على الهاتف",
+  "@speechLiveAbsentNote": {
+    "placeholders": {
+      "mb": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveReadyNote": "يستخدم {mb}. وتستعمله المكالمات تلقائيًا",
+  "@speechLiveReadyNote": {
+    "placeholders": {
+      "mb": {
+        "type": "String"
+      }
+    }
+  },
+  "speechLiveBlocked": "متوقف",
+  "speechLiveBlockedNote": "تعطّل على هذا الهاتف، لذا أُوقفت التسميات التوضيحية المباشرة؛ وتعمل المكالمات كما كانت. احذفه ونزّله مجددًا للمحاولة مرة أخرى.",
+  "speechLiveFooter": "تعمل التسميات التوضيحية والمقاطعات على الهاتف؛ ويظل النص المرسل إلى الذكاء الاصطناعي ناتجًا عن أداة التعرف المختارة أعلاه، بينما يرفع التعرف السحابي التسجيل.",
+  "speechLiveDeleteTitle": "هل تريد حذف أداة التعرف المتدفق؟",
+  "speechLiveDeleteBody": "ستتوقف المكالمات عن عرض التسميات التوضيحية المباشرة. يمكنك تنزيلها مجددًا في أي وقت.",
+  "speechCallStarting": "جارٍ الاتصال",
+  "speechCallListening": "يستمع",
+  "speechCallHearing": "أنت تتحدث",
+  "speechCallThinking": "يفكر",
+  "speechCallSpeaking": "يتحدث. اضغط على الضوء للتخطي",
+  "speechCallMuted": "مكتوم",
+  "speechCallEnded": "انتهت المكالمة",
+  "speechCallEndPermission": "لا يوجد إذن لاستخدام الميكروفون",
+  "speechCallEndMicrophone": "الميكروفون مشغول أو يتعذر فتحه",
+  "speechCallEndNoRecognizerSignedIn": "تحتاج المكالمة إلى وسيلة للتعرف على الكلام. لا يمكن لحسابك المسجّل الدفع مقابل خدمة كلام DeepSeek هنا (إصدار DSH الذي تتصل به أقدم، أو أنك تتصل عبر DSH Remote): أضف مفتاح DeepSeek API في الإعدادات، أو نزّل نموذج الصوت من الإعدادات › الصوت",
+  "speechCallEndNoRecognizer": "تحتاج المكالمة إلى أداة تعرّف تقبل التسجيلات: سجّل الدخول إلى DeepSeek أو أضف مفتاح API أو نزّل نموذج الصوت",
+  "speechCallEndBackground": "تنتهي المكالمات عندما ينتقل التطبيق إلى الخلفية",
+  "speechCallEndFailed": "فشل التسجيل؛ انتهت المكالمة",
+  "speechCallSendFailed": "لم يُرسل ذلك. قلها مرة أخرى",
+  "speechCallSkipHint": "تخطي هذه الإجابة",
+  "speechCallTranscript": "التسميات التوضيحية",
+  "speechCallTranscriptHint": "كل ما قيل في هذه المكالمة",
+  "speechCallTranscriptEmpty": "لم يُقل شيء بعد. يُدوّن هنا كل ما تقوله أنت والطرف الآخر، سطرًا بسطر.",
+  "speechCallTranscriptCut": "قاطعت هنا",
+  "speechCallMute": "كتم الصوت",
+  "speechCallUnmute": "إلغاء كتم الصوت",
+  "speechCallHangUp": "إنهاء المكالمة",
+  "speechCallSpeakerOn": "مكبر الصوت",
+  "speechCallEarpiece": "سماعة الأذن",
+  "speechBackdropTitle": "خلفية المكالمة",
+  "speechCallSettings": "إعدادات المكالمة",
+  "speechCallPause": "مهلة قبل أن تجيب",
+  "speechCallPauseQuick": "قصير",
+  "speechCallPauseNormal": "متوسط",
+  "speechCallPausePatient": "طويل",
+  "speechCallPauseHint": "اختر «طويل» إذا كانت تقاطعك أثناء التوقف؛ واختر «قصير» إذا شعرت أن الإجابة تتأخر.",
+  "speechCallSpeechSection": "الصوت والتعرّف",
+  "speechCallVoice": "صوتها",
+  "speechCallSpeechHint": "تُطبّق التغييرات ابتداءً من الجملة التالية.",
+  "speechBackdropSea": "أعماق البحر",
+  "speechBackdropImage": "صورتي",
+  "speechBackdropImagePick": "اختيار صورة",
+  "speechBackdropCompanion": "الرفيق",
+  "speechBackdropHint": "تُخفّف الصور وتُعتّم حتى تظل التسميات التوضيحية مقروءة. ومع الرفيق، تتحدث بالتزامن مع الصوت.",
+  "speechBackdropHintChange": "اضغط على «صورتي» مرة أخرى لتغييرها. ومع الرفيق، تتحدث بالتزامن مع الصوت.",
+  "speechBackdropNoCompanion": "جهّزها في غرفة الرفيق أولًا لإضافتها إلى المكالمات.",
+  "speechBackdropReplace": "تغيير الصورة",
+  "speechBackdropPickFailed": "لا يمكن استخدام هذه الصورة. جرّب صورة أخرى",
+  "speechCallVisual": "الضوء",
+  "speechCallVisualRing": "حلقة",
+  "speechCallVisualMono": "خط",
+  "speechCallVisualGlass": "كرة",
+  "speechInsecure": "عنوان هذه الخدمة ليس https؛ لا يمكن إرسال المفتاح بهذه الطريقة"
+}

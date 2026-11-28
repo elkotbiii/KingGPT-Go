@@ -1,0 +1,232 @@
+{
+  "plugslotsSurfaceComposerTools": "أدوات اللوحة الإضافية",
+  "plugslotsSurfaceSessionActions": "إجراءات المحادثة",
+  "plugslotsSurfaceTurnNote": "ملاحظات الجولة",
+  "plugslotsSurfaceComposerActions": "أزرار محرر الرسالة",
+  "plugslotsSurfaceMessageActions": "قائمة الرسالة",
+  "plugslotsSurfaceComposerStrip": "شريط الحالة",
+  "plugslotsSurfacePanel": "اللوحات",
+  "plugslotsNativeUi": "واجهة المستخدم الأصلية",
+  "plugslotsIssueCount": "{count, plural, =1{مشكلة واحدة} other{{count} مشكلات}}",
+  "@plugslotsIssueCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsAllGood": "لا توجد مشكلات",
+  "plugslotsViewSize": "عرض {size}",
+  "@plugslotsViewSize": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsInvokeMs": "{ms} مللي ثانية",
+  "@plugslotsInvokeMs": {
+    "placeholders": {
+      "ms": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsLastView": "آخر عرض",
+  "plugslotsLastInvoke": "آخر استجابة",
+  "plugslotsProblems": "المشكلات",
+  "plugslotsNoProblems": "لا توجد مشكلات",
+  "plugslotsWantsDraft": "تريد الإضافة {plugin} قراءة مسودتك",
+  "@plugslotsWantsDraft": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsWantsClipboard": "تريد الإضافة {plugin} قراءة محتويات الحافظة",
+  "@plugslotsWantsClipboard": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsWantsBoth": "تريد الإضافة {plugin} قراءة مسودتك ومحتويات الحافظة",
+  "@plugslotsWantsBoth": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsWantsWhen": "فقط عندما تنقر عليها",
+  "plugslotsAllow": "سماح",
+  "plugslotsNoResponse": "لم تستجب الإضافة {plugin}",
+  "@plugslotsNoResponse": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsFailed": "واجهت الإضافة {plugin} مشكلة",
+  "@plugslotsFailed": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsNeedsChat": "افتح محادثة أولاً",
+  "plugslotsFromPlugin": "من {plugin}",
+  "@plugslotsFromPlugin": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsPanelOffline": "يتعذّر الوصول إلى الإضافة",
+  "plugslotsIssueTooMany": "حتى {max}؛ تم إخفاء البقية",
+  "@plugslotsIssueTooMany": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsIssueTrimmed": "أكثر من {max} حرفاً؛ تم الاختصار",
+  "@plugslotsIssueTrimmed": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsIssueNeedsApp": "يتطلب DSH Go بالإصدار {version} أو أحدث",
+  "@plugslotsIssueNeedsApp": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueNewerProtocol": "يتطلب إصداراً أحدث من التطبيق",
+  "plugslotsIssueUnknownIcon": "أيقونة غير معروفة؛ سيتم استخدام الأيقونة الافتراضية",
+  "plugslotsIssueUnknownEffect": "تأثير غير مدعوم \"{name}\"",
+  "@plugslotsIssueUnknownEffect": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueLate": "وصلت الاستجابة بعد أكثر من 3 ثوانٍ من النقر؛ تم تجاهلها",
+  "plugslotsIssueHttps": "روابط https فقط",
+  "plugslotsIssueUnknownPage": "لا توجد صفحة باسم \"{page}\"",
+  "@plugslotsIssueUnknownPage": {
+    "placeholders": {
+      "page": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueThrottled": "الإشعارات متكررة جداً؛ تم تخطيها",
+  "plugslotsIssueInvoke": "فشل الاستدعاء: {message}",
+  "@plugslotsIssueInvoke": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueStream": "فشل تدفق البيانات: {message}",
+  "@plugslotsIssueStream": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsIssueMissing": "حقل مطلوب مفقود",
+  "plugslotsIssueDuplicate": "معرّف مكرر؛ تم تخطيه",
+  "plugslotsIssueNoPlacement": "لا يوجد موضع لعرضه",
+  "plugslotsWantsMessage": "تريد الإضافة {plugin} قراءة هذا الرد",
+  "@plugslotsWantsMessage": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsCodeInvalidManifest": "التعريف غير صالح؛ تم تعطيل الأجزاء الأصلية",
+  "plugslotsCodeInvalidField": "تنسيق غير صحيح؛ تم التخطي",
+  "plugslotsCodeUnknownField": "حقل غير معروف؛ تم تجاهله",
+  "plugslotsCodeUnknownSurface": "غير مدعوم هنا بعد؛ تم تجاهله",
+  "plugslotsCodeTooMany": "عدد كبير جداً؛ تم إخفاء العناصر الزائدة",
+  "plugslotsCodeTooLong": "طويل جداً؛ تم اختصاره",
+  "plugslotsCodeNoHandler": "لم تتعامل الإضافة معه بعد؛ تم إخفاؤه",
+  "plugslotsCodeUndeclared": "تم التسجيل دون التصريح به؛ تم تجاهله",
+  "plugslotsCodeViewFile": "تعذّرت قراءة ملف العرض",
+  "plugslotsCodeBadEffect": "إجراء مشوّه؛ تم تخطيه",
+  "plugslotsCodeViolation": "فشل {count, plural, =1{مرة واحدة} other{{count} مرات}}",
+  "@plugslotsCodeViolation": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsCodeDegraded": "أخطاء كثيرة جداً؛ معطّل حتى التشغيل التالي",
+  "plugslotsCodeTimeout": "لم تستجب الإضافة في الوقت المحدد",
+  "plugslotsCodeRateLimited": "تم النقر بسرعة كبيرة",
+  "plugslotsCodeNotFound": "الإضافة معطّلة أو غير موجودة",
+  "plugslotsCodePluginError": "فشلت الإضافة",
+  "plugslotsCodeInvalidView": "العرض غير صالح",
+  "plugslotsCodeLimit": "عدد الاشتراكات كبير جداً",
+  "plugslotsCodeOther": "مشكلة أخرى",
+  "plugslotsCodeUnknownEffect": "إجراء غير مدعوم؛ تم تخطيه",
+  "plugslotsNotDone": "لم يكتمل",
+  "plugslotsWorking": "جارٍ العمل",
+  "plugslotsTapToCancel": "انقر للإلغاء",
+  "plugslotsCodeTooManyPending": "لا تزال عمليتان قيد التشغيل",
+  "plugslotsCodeNoStream": "انقطع الاتصال",
+  "plugslotsVoiceAsk": "هل تسمح لـ {plugin} بسماع صوتك؟",
+  "@plugslotsVoiceAsk": {
+    "placeholders": {
+      "plugin": {
+        "type": "String"
+      }
+    }
+  },
+  "plugslotsVoiceWhen": "يتوقف الاستماع فور بدء تحدثك. تتم معالجة صوتك على هذا الهاتف، ولا يُحفظ أو يُرسل مطلقاً",
+  "plugslotsVoiceDeny": "عدم السماح",
+  "plugslotsVoiceSwitch": "الاستماع إلى صوتك",
+  "plugslotsPickerUnavailable": "اختيار الملفات غير متاح على هذا الجهاز",
+  "plugslotsPickerBusy": "أكمل اختيار الملفات الحالي أولاً",
+  "plugslotsPickerLimit": "حتى {count} ملفات، بحجم 8 MiB لكل ملف و16 MiB إجمالاً",
+  "@plugslotsPickerLimit": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "plugslotsPickerFailed": "تعذّرت مشاركة الملفات مع هذه الإضافة. حاول مجدداً",
+  "plugslotsWebPlacesTitle": "في DSH Web",
+  "plugslotsPlaceBesideComposer": "بجوار محرر الرسالة",
+  "plugslotsPlaceHeader": "رأس المحادثة",
+  "plugslotsPlaceMessages": "داخل الرسائل",
+  "plugslotsPlaceOverlay": "طبقة عائمة",
+  "plugslotsPlaceSidebar": "الشريط الجانبي",
+  "plugslotsPlaceRightbar": "الشريط الجانبي الأيمن",
+  "plugslotsPlaceFiles": "معاينات الملفات",
+  "plugslotsPlaceSettings": "الإعدادات",
+  "plugslotsPlacePlugins": "صفحة الإضافات",
+  "plugslotsPlaceNewChat": "محادثة جديدة",
+  "plugslotsPlaceElsewhere": "في موضع آخر",
+  "plugslotsPlaceUnknown": "واجهة الويب الخاصة بها",
+  "plugslotsChatEntry": "الإضافات",
+  "plugslotsChatWebFrom": "إضافات الويب · {names}"
+}

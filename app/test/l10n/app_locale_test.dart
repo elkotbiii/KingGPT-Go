@@ -13,29 +13,30 @@ void main() {
   group('AppLocale.resolve', () {
     test('a fixed choice wins over the system', () {
       expect(AppLocale.resolve(AppLocale.en, const [Locale('zh', 'CN')]), AppLocale.en);
+      expect(AppLocale.resolve(AppLocale.ar, const [Locale('en', 'US')]), AppLocale.ar);
       expect(AppLocale.resolve(AppLocale.zhCN, const [Locale('en', 'US')]), AppLocale.zhCN);
     });
 
-    test('any Chinese system language is Chinese', () {
-      for (final l in const [
-        Locale('zh'),
-        Locale('zh', 'TW'),
-        Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
-      ]) {
-        expect(AppLocale.resolve(null, [l]), AppLocale.zhCN, reason: '$l');
-      }
+    test('Arabic and English system languages are supported, unknown languages fall back to Arabic', () {
+      expect(AppLocale.resolve(null, const [Locale('ar', 'DZ')]), AppLocale.ar);
+      expect(AppLocale.resolve(null, const [Locale('en', 'US')]), AppLocale.en);
+      expect(AppLocale.resolve(null, const [Locale('zh', 'CN')]), AppLocale.ar);
+      expect(AppLanguage.parse(null), AppLanguage.ar);
+      expect(AppLanguage.parse('zh'), AppLanguage.ar);
     });
 
-    test('the first Chinese or English system language decides; others are English', () {
-      expect(AppLocale.resolve(null, const [Locale('ja'), Locale('zh')]), AppLocale.zhCN);
-      expect(AppLocale.resolve(null, const [Locale('fr'), Locale('en')]), AppLocale.en);
-      expect(AppLocale.resolve(null, const [Locale('ja')]), AppLocale.en);
-      expect(AppLocale.resolve(null, const []), AppLocale.zhCN);
+    test('the first supported system language decides; unsupported-only lists fall back to Arabic', () {
+      expect(AppLocale.resolve(null, const [Locale('ja'), Locale('en')]), AppLocale.en);
+      expect(AppLocale.resolve(null, const [Locale('fr'), Locale('ar')]), AppLocale.ar);
+      expect(AppLocale.resolve(null, const [Locale('ja')]), AppLocale.ar);
+      expect(AppLocale.resolve(null, const []), AppLocale.ar);
     });
   });
 
   test('appL10n follows AppLocale.use', () {
     expect(appL10n.commonCancel, '取消');
+    AppLocale.use(AppLocale.ar);
+    expect(AppLocale.current, AppLocale.ar);
     AppLocale.use(AppLocale.en);
     expect(appL10n.commonCancel, 'Cancel');
     expect(appL10n.commonItemCount(1), '1 item');
@@ -72,9 +73,14 @@ void main() {
       ),
     );
     expect(find.text('语言'), findsOneWidget);
+    expect(find.text('العربية'), findsOneWidget);
+    await tester.tap(find.text('العربية'));
+    await tester.pumpAndSettle();
+    var prefs = await SharedPreferences.getInstance();
+    expect(prefs.getString(AppLanguageController.prefsKey), 'ar');
     await tester.tap(find.text('English'));
     await tester.pumpAndSettle();
-    final prefs = await SharedPreferences.getInstance();
+    prefs = await SharedPreferences.getInstance();
     expect(prefs.getString(AppLanguageController.prefsKey), 'en');
   });
 }

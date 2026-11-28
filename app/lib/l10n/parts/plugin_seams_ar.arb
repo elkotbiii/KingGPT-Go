@@ -1,0 +1,9 @@
+{
+  "@@locale": "ar",
+  "seamsTitle": "واجهة داخل التطبيق",
+  "seamsOverlay": "طبقة فوق المحادثة",
+  "seamsOverlayNote": "تبقى فوق المحادثة وتتراجع عند انخفاض الذاكرة",
+  "seamsSidebarPage": "عنصر في الشريط الجانبي",
+  "seamsSettingsPage": "صفحة إعدادات الإضافة",
+  "seamsDetailPage": "امتداد تفاصيل الإضافة"
+}

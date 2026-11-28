@@ -1,0 +1,51 @@
+{
+  "tavernScripts": "مكتبة السكربتات",
+  "tavernScriptsEmpty": "لا توجد سكربتات عامة بعد",
+  "tavernScriptsEmptyMessage": "استورد ملف JSON لسكربت من Tavern Helper؛ تعمل السكربتات المفعّلة على مساحة الرسم في الصفحة بأكملها.",
+  "tavernScriptsImport": "استيراد السكربتات",
+  "tavernScriptsImported": "{count, plural, =1{أُضيف سكربت واحد إلى المكتبة} other{أُضيفت {count} سكربتات إلى المكتبة}}",
+  "@tavernScriptsImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernScriptsExportAll": "تصدير الكل",
+  "tavernScriptsOrder": "إعادة الترتيب",
+  "tavernScriptsOrderNote": "تعمل من الأعلى إلى الأسفل. اسحب المقبض الموجود على اليمين لنقل أحدها.",
+  "tavernScriptCount": "{count}",
+  "@tavernScriptCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernScriptUnnamed": "سكربت بلا عنوان",
+  "tavernScriptOpenFolder": "فتح المجلد",
+  "tavernScriptExport": "تصدير",
+  "tavernScriptDelete": "حذف",
+  "tavernScriptDeleteTitle": "هل تريد حذف {name}؟",
+  "@tavernScriptDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernScriptDeleteMessage": "ستُحذف متغيراته وأزراره معه، ولا يمكن استعادته.",
+  "tavernChatScripts": "السكربتات",
+  "tavernChatScriptsNote": "بحسب ترتيب تشغيلها",
+  "tavernScriptSourceGlobal": "عام",
+  "tavernScriptSourcePreset": "إعداد مسبق",
+  "tavernScriptSourceCard": "بطاقة",
+  "tavernChatScriptsSkipped": "{count, plural, =1{لم يعمل سكربت واحد} other{لم تعمل {count} سكربتات}}",
+  "@tavernChatScriptsSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}

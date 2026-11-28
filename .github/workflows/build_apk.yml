@@ -1,0 +1,112 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-apk-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  FLUTTER_VERSION: 3.47.7
+  GRADLE_VERSION: 9.3.1
+  ANDROID_NDK_VERSION: 28.2.13676358
+  TZ: Asia/Shanghai
+
+jobs:
+  build-apk:
+    name: Build Android arm64 release APK with runtime
+    runs-on: ubuntu-24.04
+    timeout-minutes: 240
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Set up Java
+        uses: actions/setup-java@b843ebf9b913146b38da2eaa7aeddf76074ae1ad # v6.1.0
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2 # v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      # The runtime builder verifies Ubuntu package signatures and audits ELF files.
+      - name: Install runtime host dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes file gpgv xz-utils
+
+      # tawcroot is compiled by tooling/build-apk.sh and requires this exact NDK.
+      - name: Install pinned Android NDK
+        run: |
+          yes | sdkmanager --licenses
+          sdkmanager --install "ndk;${ANDROID_NDK_VERSION}"
+          echo "ANDROID_NDK_HOME=${ANDROID_HOME}/ndk/${ANDROID_NDK_VERSION}" >> "$GITHUB_ENV"
+          test -x "${ANDROID_HOME}/ndk/${ANDROID_NDK_VERSION}/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+
+      # The repository does not track gradlew; provide the pinned Gradle version on PATH.
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@8da46b539cd8fe6ab27ca75128919a18d757604c # v6.4.1
+        with:
+          gradle-version: ${{ env.GRADLE_VERSION }}
+
+      - name: Install Flutter dependencies
+        run: flutter pub get --enforce-lockfile
+
+      - name: Merge and validate localization catalogs
+        run: python3 tool/l10n_merge.py --no-gen
+
+      - name: Generate Flutter localization code
+        run: flutter gen-l10n
+
+      # Build the complete arm64-v8a runtime bundle before the official APK script
+      # checks runtime/out and packages its assets and native libraries.
+      - name: Build arm64 Android runtime bundle
+        run: bash ../runtime/build-runtime.sh arm64-v8a
+
+      - name: Verify runtime bundle
+        run: python3 -I ../tooling/check_runtime_bundle.py arm64
+
+      # The licensed companion pack is not stored in this repository or CI secrets.
+      # --no-companion keeps the build reproducible while still bundling the full runtime.
+      - name: Build arm64 release APK with project script
+        run: bash ../tooling/build-apk.sh --no-companion
+
+      - name: Verify runtime payload inside APK
+        run: |
+          apk="build/app/outputs/flutter-apk/app-arm64-release.apk"
+          entries="$(mktemp)"
+          unzip -Z1 "$apk" > "$entries"
+          for entry in \
+            assets/runtime/manifest.json \
+            assets/runtime/rootfs-arm64-v8a.tar.xz \
+            lib/arm64-v8a/libproot.so \
+            lib/arm64-v8a/libproot-loader.so \
+            lib/arm64-v8a/libtalloc.so \
+            lib/arm64-v8a/libandroid-shmem.so; do
+            grep -Fxq "$entry" "$entries" || { echo "Missing runtime payload in APK: $entry" >&2; exit 1; }
+          done
+          rm -f "$entries"
+          echo "Verified runtime manifest, rootfs archive, and all required arm64 JNI libraries in APK."
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: kinggpt-go-arm64-release-with-runtime-${{ github.sha }}
+          path: app/build/app/outputs/flutter-apk/app-arm64-release.apk
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 14

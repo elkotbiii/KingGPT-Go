@@ -1,0 +1,54 @@
+{
+  "selfUpdateTransport": "طريقة التثبيت",
+  "selfUpdateSystem": "التثبيت العادي (افتراضي)",
+  "selfUpdateShizuku": "Shizuku",
+  "selfUpdateAdb": "ADB محلي",
+  "selfUpdateSecurityNote": "تظل كل طريقة خاضعة لتوقيعات ملفات APK وسياسات أمان Android والشركة المصنّعة. لا يوجد ضمان لتجاوز عمليات الفحص. صلاحيات Root غير مدعومة، ولا يتم التبديل تلقائيًا بين الطرق بعد الفشل.",
+  "selfUpdateNativeConfirm": "لن يتم تثبيت سوى تحديث تم التحقق من أنه خاص بهذا التطبيق، مع بقاء التأكيد الأصلي مطلوبًا. لا يعني تفويض Shizuku الموافقة على التثبيت. ويمكن أن يظل التحكم بالهاتف وAI Shell متوقفين.",
+  "selfUpdateAuthorize": "طلب تفويض Shizuku للتحديثات",
+  "selfUpdateRefresh": "تحديث حالة وسيلة الاتصال",
+  "selfUpdateShizukuStatus": "Shizuku: {status}",
+  "selfUpdateReady": "تم التفويض",
+  "selfUpdatePermissionRequired": "ثبّت Shizuku وشغّله وامنحه التفويض أولًا",
+  "selfUpdateUnsupportedIdentity": "يُدعم فقط معرّف shell UID 2000؛ صلاحيات Root والمعرّفات الأخرى غير مدعومة",
+  "selfUpdateAdbHint": "استخدم هوية تصحيح الأخطاء اللاسلكي المقترنة بهذا الهاتف؛ لا يبدأ الاتصال إلا عند الضغط على «تثبيت». إذا لم يكن مقترنًا، فافتح صفحة إرشادات الاقتران الحالية في Android Shell دون تفعيل التحكم بالهاتف أو AI Shell. لا يتم حفظ رموز الاقتران أو المنافذ أو تسجيلها.",
+  "selfUpdatePairing": "فتح إرشادات اقتران Android Shell",
+  "selfUpdateAdbPaired": "تم إقران ADB المحلي",
+  "selfUpdateAdbNotPaired": "ADB المحلي غير مقترن",
+  "selfUpdatePendingTitle": "جارٍ التحقق من نتيجة التثبيت",
+  "selfUpdatePendingMessage": "قد يظل التثبيت قيد التنفيذ. لا توجد إعادة محاولة أو عملية تبديل تلقائية للطريقة. تحقّق من مطالبات النظام، ثم اقرأ الحالة الفعلية للتثبيت.",
+  "selfUpdateUnknownTitle": "نتيجة التثبيت غير معروفة",
+  "selfUpdateUnknownMessage": "لا يعني انتهاء المهلة أو انقطاع الاتصال أو خروج العملية أن التثبيت قد فشل. لا توجد إعادة محاولة أو عملية تبديل تلقائية للطريقة. اقرأ الحالة الفعلية للتثبيت أولًا.",
+  "selfUpdateReadResult": "قراءة الحالة الفعلية للتثبيت",
+  "selfUpdateVerifiedTitle": "تم التحقق من الإصدار المثبّت",
+  "selfUpdateVerifiedVersion": "الإصدار الحالي {version} (البنية {code})، تم التحقق منه بواسطة الطبقة الأصلية.",
+  "selfUpdateFailedTitle": "لم يكتمل التثبيت",
+  "selfUpdateFailedMessage": "أفادت الطبقة الأصلية بفشل هذا التثبيت. تحقّق من مطالبات النظام ورمز الخطأ، ثم اختر طريقة التثبيت صراحةً.",
+  "selfUpdateErrorCode": "رمز الخطأ: {code}",
+  "@selfUpdateShizukuStatus": {
+    "placeholders": {
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "@selfUpdateVerifiedVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "code": {
+        "type": "int"
+      }
+    }
+  },
+  "@selfUpdateErrorCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "selfUpdateEndWaiting": "إنهاء هذا الانتظار",
+  "selfUpdateEndWaitingNote": "لا تُنهِ هذا الانتظار إلا بعد التأكد من أن النظام لم يعد يثبّت التطبيق. لا يؤدي مسح السجل إلى إلغاء تثبيت النظام أو إعادة المحاولة أو التبديل بين الطرق. سيظل التأكيد الأصلي مطلوبًا مرة أخرى."
+}

@@ -1,0 +1,84 @@
+{
+  "@@locale": "ar",
+  "phoneModeTitle": "كيفية تأكيد DSH",
+  "phoneModeMessage": "يمكنك تغيير هذا الخيار في الإعدادات في أي وقت",
+  "phoneModeAsk": "اسألني عند الخطوات المهمة",
+  "phoneModeAskHint": "قبل فتح تطبيق جديد أو الإرسال أو الحذف أو الدفع",
+  "phoneModeAuto": "تلقائي بالكامل",
+  "phoneModeAutoHint": "لا يسأل مطلقًا ولا يقاطعك",
+  "phoneModeAutoNoteTitle": "هذه الأمور تبقى تحت سيطرتك",
+  "phoneModeAutoNote": "تظل إعدادات النظام وصفحات الأذونات وكلمات المرور ورموز التحقق وتطبيق DSH Go نفسه تحت سيطرتك. كما أن التطبيقات المصرفية وتطبيقات الدفع محظورة افتراضيًا؛ ويمكنك تغيير ذلك من الإعدادات.",
+  "phoneModeAutoUnlockNote": "للسماح للذكاء الاصطناعي بالتعامل مع إعدادات النظام وكلمات المرور وما شابه، فعّل ذلك من الإعدادات ← التحكم بالهاتف ← رفع القيود.",
+  "phoneModeConfirmAuto": "التفعيل التلقائي بالكامل",
+  "phoneYoursTitle": "هذه الأمور تبقى تحت سيطرتك",
+  "phoneYoursSystem": "إعدادات النظام وصفحات الأذونات",
+  "phoneYoursSecrets": "كلمات المرور ورموز التحقق",
+  "phoneYoursOwnApp": "تطبيق DSH Go نفسه",
+  "phoneYoursDenyList": "التطبيقات المحددة بخيار «عدم التدخل» في قواعد التطبيقات، والتطبيقات المصرفية وتطبيقات الدفع افتراضيًا",
+  "phoneUnlockTitle": "رفع القيود",
+  "phoneUnlockSubtitle": "السماح للذكاء الاصطناعي بتنفيذ ما يبقى تحت سيطرتك افتراضيًا",
+  "phoneUnlockSystem": "إعدادات النظام",
+  "phoneUnlockSystemHint": "الأذونات، ومثبتات التطبيقات، ومركز الأمان، والإشعارات",
+  "phoneUnlockSecrets": "كلمات المرور والرموز",
+  "phoneUnlockSecretsHint": "إدخال كلمات المرور ورموز التحقق والدفع",
+  "phoneUnlockOwnApp": "تطبيق DSH Go نفسه",
+  "phoneUnlockOwnAppHint": "النقر والكتابة داخل DSH Go",
+  "phoneUnlockBusy": "لا يمكن التفعيل أثناء تشغيل مهمة",
+  "phoneUnlockFootnote": "بعد التفعيل، تصبح مسؤولية العواقب عليك. لا تفعّله إلا عند الحاجة، وأوقفه عند الانتهاء.",
+  "phoneUnlockBanks": "التطبيقات المصرفية وتطبيقات الدفع",
+  "phoneUnlockBanksHint": "يمكن تغيير ذلك في قواعد التطبيقات",
+  "phoneUnlockNone": "لا شيء مفعّل",
+  "phoneUnlockCount": "{count, plural, =1{عنصر واحد مفعّل} other{{count} عناصر مفعّلة}}",
+  "@phoneUnlockCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "phoneUnlockedBadge": "تم رفع القيود",
+  "phoneUnlockConfirmSystemTitle": "هل تسمح للذكاء الاصطناعي بالتحكم في إعدادات النظام؟",
+  "phoneUnlockConfirmSecretsTitle": "هل تسمح للذكاء الاصطناعي بإدخال كلمات المرور والرموز؟",
+  "phoneUnlockConfirmOwnAppTitle": "هل تسمح للذكاء الاصطناعي بالتحكم في تطبيق DSH Go نفسه؟",
+  "phoneUnlockCanTitle": "بعد التفعيل، يمكن للذكاء الاصطناعي",
+  "phoneUnlockRiskTitle": "ما المخاطر المحتملة",
+  "phoneUnlockDisclaimerTitle": "إخلاء المسؤولية",
+  "phoneUnlockSystemCan1": "فتح إعدادات النظام وتغييرها، بما في ذلك الأذونات وإمكانية الوصول وخيارات المطوّرين",
+  "phoneUnlockSystemCan2": "تثبيت التطبيقات وتحديثها وإلغاء تثبيتها من خلال أداة التثبيت",
+  "phoneUnlockSystemCan3": "النقر داخل مركز الأمان ولوحة الإشعارات، بما في ذلك أزرار الإشعارات",
+  "phoneUnlockSystemRisk1": "قد تؤدي التعليمات الضارة في صفحة ويب أو رسالة أو ملف إلى دفع الذكاء الاصطناعي لتعطيل وسائل الحماية أو منح أذونات لتطبيقات أخرى أو تثبيت تطبيقات",
+  "phoneUnlockSystemRisk2": "تقع عليك مسؤولية استعادة إعدادات الشبكة أو الحساب أو الأمان التي قد تتغير عن طريق الخطأ",
+  "phoneUnlockSecretsCan1": "الكتابة في حقول كلمات المرور ورموز التحقق ورموز الدفع",
+  "phoneUnlockSecretsCan2": "استخدام الرموز التي يعثر عليها في المحادثات أو الرسائل النصية أو الإشعارات لتسجيل الدخول أو التحقق",
+  "phoneUnlockSecretsCan3": "يعرض سجل الإجراءات الرمز •••• ولا يعرض أبدًا ما تمت كتابته",
+  "phoneUnlockSecretsRisk1": "قد تدفع التعليمات الضارة الذكاء الاصطناعي إلى إدخال رمز في مكان آخر، مما قد يسمح لشخص ما بالدخول إلى حسابك",
+  "phoneUnlockSecretsRisk2": "قد يُكمل عملية دفع أو تحويل لم تقصد إجراءها",
+  "phoneUnlockOwnAppCan1": "النقر والكتابة داخل DSH Go، بما في ذلك تغيير الإعدادات",
+  "phoneUnlockOwnAppCan2": "قراءة المحادثات والإعدادات الظاهرة على شاشات DSH Go",
+  "phoneUnlockOwnAppRisk1": "قد تدفع التعليمات الضارة الذكاء الاصطناعي إلى الموافقة على طلباته بنفسه أو تعطيل طلبات التأكيد",
+  "phoneUnlockOwnAppRisk2": "تُرسل محتويات هذه الشاشات إلى النموذج",
+  "phoneUnlockDisclaimer1": "بعد التفعيل، يمكن للذكاء الاصطناعي تنفيذ ما سبق دون تأكيد من أي شخص.",
+  "phoneUnlockDisclaimer2": "قد تنطلي على الذكاء الاصطناعي تعليمات مضللة واردة في صفحات الويب أو الرسائل أو الملفات.",
+  "phoneUnlockDisclaimer3": "تتحمل وحدك أي خسارة تلحق بحساباتك أو أموالك أو بياناتك أو جهازك نتيجة لذلك. ولا تتحمل DSH Go أو مطوروها أي مسؤولية.",
+  "phoneUnlockDisclaimer4": "لا تفعّله إلا عند الحاجة، وأوقفه عند الانتهاء.",
+  "phoneUnlockDisclaimer5": "ننصح بعدم تفعيله على جهاز يحتوي على بيانات مصرفية أو معلومات دفع.",
+  "phoneUnlockHold": "أفهم المخاطر، فعّل",
+  "phoneUnlockHoldHint": "اضغط باستمرار لمدة 1.5 ثانية تقريبًا",
+  "phoneUnlockOnNotice": "تم تفعيل «{name}»",
+  "@phoneUnlockOnNotice": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneUnlockOffNotice": "تم إيقاف «{name}»",
+  "@phoneUnlockOffNotice": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "searchKwPhoneUnlock": "رفع القيود، فتح القفل، كلمات المرور، الرموز، إعدادات النظام، المخاطر، إخلاء المسؤولية"
+}

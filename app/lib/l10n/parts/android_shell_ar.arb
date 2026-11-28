@@ -1,0 +1,85 @@
+{
+  "androidShellTitle": "طرفية Android",
+  "androidShellEntryHint": "قناة منفصلة لأوامر النظام، متوقفة افتراضيًا",
+  "androidShellSubtitle": "نفّذ أوامر نظام Android على هذا الهاتف عبر Shizuku أو ADB الذاتي، وليس عبر bash داخل Ubuntu.",
+  "androidShellEnable": "السماح بطرفية Android",
+  "androidShellEnableHint": "مفتاح مستقل عن وضع عدم الإزعاج وتأكيد الشاشة. يضيف قناة أوامر Android فقط؛ وتظل أدوات Ubuntu مثل bash وrun_code تعمل، ويمكن استخدام القناتين معًا.",
+  "androidShellConfirmationNote": "يتطلب كل أمر تأكيدًا، وقد يغيّر إعدادات النظام وملفاته.",
+  "androidShellMasterOff": "فعّل التحكم بالهاتف من الصفحة السابقة أولًا.",
+  "androidShellRiskTitle": "السماح بأوامر نظام Android؟",
+  "androidShellRiskBody": "تستخدم الأوامر معرّف UID الفعلي للقناة المحددة، وقد تغيّر التطبيقات وإعدادات النظام والملفات المشتركة. لا تستطيع قواعد تطبيقات الشاشة توفير حماية كاملة منها. يظل كل أمر بحاجة إلى تأكيد أصلي منفصل. لا تسمح إلا بالأوامر التي تفهمها وتثق بها.",
+  "androidShellRiskAction": "السماح بطرفية Android",
+  "androidShellBackend": "طريقة الاتصال",
+  "androidShellDetails": "التفاصيل",
+  "androidShellReady": "متصل",
+  "androidShellShizukuHint": "استخدم Shizuku مثبّتًا وقيد التشغيل مع تفويض صريح. لا يلزم Android 14 أو إمكانية الوصول أو وضع عدم الإزعاج.",
+  "androidShellAdb": "ADB ذاتي",
+  "androidShellAdbHint": "اتصل بتصحيح الأخطاء اللاسلكي لهذا الهاتف باستخدام هوية ADB الخاصة بالتطبيق. لا يتم الاتصال بأجهزة أخرى.",
+  "androidShellInstalled": "Shizuku مثبّت",
+  "androidShellRunning": "Shizuku قيد التشغيل",
+  "androidShellGranted": "تم تفويض Shizuku",
+  "androidShellPaired": "تم إقران ADB",
+  "androidShellConnected": "ADB متصل",
+  "androidShellAuthorize": "طلب تفويض Shizuku",
+  "androidShellAuthorizeHint": "ثبّت Shizuku وشغّله، ثم اضغط هذا الزر لتفويض dsh-Go. فتح هذه الصفحة أو تحديثها لا يطلب الإذن مطلقًا.",
+  "androidShellStatus": "حالة التنفيذ",
+  "androidShellUid": "معرّف UID الفعلي",
+  "androidShellUidUnknown": "لم يتم الإبلاغ عنه بعد",
+  "androidShellRefresh": "تحديث الحالة",
+  "androidShellStop": "إيقاف طرفية Android",
+  "androidShellStopHint": "إلغاء الأوامر الحالية وإيقاف تنفيذ الطرفية المنفصلة دون إيقاف التحكم بالشاشة.",
+  "androidShellPairingGuide": "من خيارات المطوّر، فعّل تصحيح الأخطاء اللاسلكي واختر «إقران جهاز باستخدام رمز الإقران». يُستخدم الرمز لهذا الإقران فقط ولا يتم حفظه أو تسجيله.",
+  "androidShellStartPairing": "فتح إرشادات الإقران",
+  "androidShellPair": "إدخال رمز الإقران",
+  "androidShellPairSubmit": "إقران",
+  "androidShellPairCode": "رمز إقران من ستة أرقام",
+  "androidShellPairPort": "منفذ الإقران (اختياري)",
+  "androidShellPairPortHint": "استخدم المنفذ الظاهر في نافذة الإقران، وليس منفذ الاتصال في صفحة تصحيح الأخطاء اللاسلكي الرئيسية. اتركه فارغًا للبحث التلقائي.",
+  "androidShellConnect": "اتصال ADB",
+  "androidShellConnectChannel": "اتصال بالقناة المحددة",
+  "androidShellConnectPort": "منفذ الاتصال (اختياري)",
+  "androidShellConnectPortHint": "استخدم المنفذ الموجود تحت عنوان IP والمنفذ في صفحة تصحيح الأخطاء اللاسلكي الرئيسية، وليس منفذ الإقران. يتم الاتصال بهذا الهاتف فقط. اتركه فارغًا للبحث التلقائي.",
+  "androidShellErrorCode": "رمز الخطأ: {code}",
+  "@androidShellErrorCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "androidShellLimits": "بحد أقصى {seconds} ثانية و{bytes} بايت من المخرجات لكل أمر",
+  "@androidShellLimits": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      },
+      "bytes": {
+        "type": "int"
+      }
+    }
+  },
+  "androidShellErrorDisabled": "طرفية Android متوقفة.",
+  "androidShellErrorNotConnected": "القناة المحددة غير متصلة.",
+  "androidShellErrorShizukuMissing": "ثبّت Shizuku أولًا.",
+  "androidShellErrorShizukuStopped": "شغّل Shizuku، ثم حدّث الحالة.",
+  "androidShellErrorPermissionRequired": "يلزم منح تفويض صريح في Shizuku.",
+  "androidShellErrorAdbNotPaired": "أقرن هذا الهاتف عبر تصحيح الأخطاء اللاسلكي، ثم اتصل بـ ADB.",
+  "androidShellErrorConnectFailed": "فشل الاتصال. تحقّق من القناة المحددة ومنفذ الاتصال الحالي لتصحيح الأخطاء اللاسلكي، ثم حاول مرة أخرى.",
+  "androidShellErrorIdentityChanged": "تغيّرت هوية القناة. أوقفها، ثم فوّضها أو اتصل بها مجددًا.",
+  "androidShellErrorHelperStartFailed": "تعذّر بدء المكوّن المساعد لطرفية Android. لم يتم تنفيذ الأمر.",
+  "androidShellErrorBusy": "لا تزال هناك عملية أخرى قيد الانتظار. أعد المحاولة لاحقًا أو أوقف طرفية Android أولًا.",
+  "androidShellErrorInvalidArguments": "إدخال غير صالح. استخدم رمز إقران من ستة أرقام ومنفذًا بين 1 و65535.",
+  "androidShellErrorCancelled": "تم إلغاء العملية.",
+  "androidShellErrorTimeout": "انتهت مهلة العملية. تحقّق من نتيجتها أولًا؛ ولا تُعِد تلقائيًا تنفيذ أمر تم إرساله.",
+  "androidShellErrorConfirmationDenied": "لم تتم الموافقة على الأمر.",
+  "androidShellErrorCleanupFailed": "لم تكتمل عملية التنظيف عند الإيقاف. أعد محاولة الإيقاف قبل تشغيل أوامر جديدة.",
+  "androidShellErrorLocked": "الهاتف مقفل. ألغِ قفله وحاول مرة أخرى.",
+  "androidShellErrorConfirmationUnavailable": "يتعذّر عرض التأكيد الأصلي. ارجع إلى التطبيق وتحقّق من إذن الإشعارات.",
+  "androidShellErrorTransportLost": "انقطع اتصال القناة. تحقّق من النتيجة أولًا؛ ولا تُعِد تلقائيًا تنفيذ أمر تم إرساله. أعد الاتصال عند الحاجة.",
+  "androidShellErrorProtocolMismatch": "لا تدعم الوحدة الأصلية بروتوكول Shell هذا. حدّث التطبيق.",
+  "androidShellErrorNativeUnavailable": "وحدة طرفية Android الأصلية غير متاحة في هذا الإصدار.",
+  "androidShellErrorInvalidResponse": "لم يتم استلام حالة أصلية صالحة. حدّث الحالة أو التطبيق.",
+  "androidShellErrorStopped": "انتهت هذه الجولة أو تم إيقافها مؤقتًا. أعد تشغيلها وحاول مرة أخرى.",
+  "androidShellErrorStopFailed": "لم يتم تأكيد الإيقاف. حدّث الحالة وأعد محاولة الإيقاف.",
+  "androidShellErrorUnknown": "تعذّر تأكيد النتيجة. تحقّق منها أولًا؛ ولا تُعِد تلقائيًا تنفيذ أمر تم إرساله."
+}

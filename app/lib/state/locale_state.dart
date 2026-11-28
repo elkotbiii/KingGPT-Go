@@ -10,18 +10,23 @@ import 'notify_state.dart';
 /// 设置 → 语言.
 enum AppLanguage {
   system,
+  ar,
   zh,
   en;
 
   /// The fixed locale, or null to follow the system languages.
   Locale? get locale => switch (this) {
     AppLanguage.system => null,
+    AppLanguage.ar => AppLocale.ar,
     AppLanguage.zh => AppLocale.zhCN,
     AppLanguage.en => AppLocale.en,
   };
 
-  static AppLanguage parse(String? v) =>
-      AppLanguage.values.firstWhere((l) => l.name == v, orElse: () => AppLanguage.system);
+  static AppLanguage parse(String? v) {
+    // Migrate an older saved Chinese choice to the new Arabic default.
+    if (v == 'zh') return AppLanguage.ar;
+    return AppLanguage.values.firstWhere((l) => l.name == v, orElse: () => AppLanguage.ar);
+  }
 }
 
 class AppLanguageController extends Notifier<AppLanguage> {
@@ -30,9 +35,9 @@ class AppLanguageController extends Notifier<AppLanguage> {
   static const prefsKey = 'app_language';
 
   /// What the app starts with: [load] fills it in before runApp so the first
-  /// frame is already in the chosen language. Tests pin zh
-  /// (test/flutter_test_config.dart).
-  static AppLanguage initial = AppLanguage.system;
+  /// frame is already in the chosen language. New installs start in Arabic.
+  /// Tests may override this (test/flutter_test_config.dart).
+  static AppLanguage initial = AppLanguage.ar;
 
   /// Reads the stored choice into [initial].
   static Future<void> load() async {
@@ -40,7 +45,7 @@ class AppLanguageController extends Notifier<AppLanguage> {
       final prefs = await SharedPreferences.getInstance();
       initial = AppLanguage.parse(prefs.getString(prefsKey));
     } catch (_) {
-      // Unreadable prefs: follow the system.
+      // Unreadable prefs: keep the Arabic default.
     }
   }
 

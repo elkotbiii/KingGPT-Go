@@ -1,0 +1,10 @@
+{
+  "fileImageName": "صورة",
+  "fileSharedText": "نص مشترك.txt",
+  "fileChatFallback": "محادثة",
+  "fileUploadToHost": "إرسال الملفات إلى الحاسوب",
+  "fileUploadToHostHint": "إلى مساحة عمل هذه المحادثة على الحاسوب، دون ضغط",
+  "fileUploadProgress": "جارٍ الإرسال {done}/{total}: {name}",
+  "fileUploadDone": "تم الإرسال إلى الحاسوب: {names}",
+  "fileUploadFailed": "تعذّر الإرسال إلى الحاسوب"
+}

@@ -1,0 +1,2233 @@
+{
+  "tavernTitle": "Tavern",
+  "tavernImport": "استيراد",
+  "tavernEmptyTitle": "لا توجد شخصيات بعد",
+  "tavernEmptyMessage": "انقل محادثة من DeepSeek أو استورد بطاقة شخصية",
+  "tavernContinue": "متابعة",
+  "tavernCharacters": "الشخصيات",
+  "tavernImported": "تم استيراد «{name}»",
+  "@tavernImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportLorebook": "هذا كتاب معلومات، وليس بطاقة شخصية",
+  "tavernImportFailed": "تعذّرت قراءة هذه البطاقة",
+  "tavernCharacterGone": "لم تعد هذه الشخصية موجودة",
+  "tavernDeleteCharacter": "حذف الشخصية",
+  "tavernDeleteCharacterTitle": "هل تريد حذف «{name}»؟",
+  "@tavernDeleteCharacterTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDeleteCharacterMessage": "ستُحذف محادثاتها أيضًا.",
+  "tavernGreeting": "التحية",
+  "tavernGreetingOf": "التحية {index}/{count}",
+  "@tavernGreetingOf": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStart": "بدء",
+  "tavernContinueLast": "المتابعة من حيث توقفت",
+  "tavernStartNew": "بدء محادثة جديدة من هذه التحية",
+  "tavernChats": "المحادثات",
+  "tavernMessageCount": "{count, plural, =1{رسالة واحدة} other{{count} رسائل}}",
+  "@tavernMessageCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernCreatorNotes": "ملاحظات المنشئ",
+  "tavernDefinition": "التعريف",
+  "tavernComposerHint": "قل شيئًا لـ {name}…",
+  "@tavernComposerHint": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReplying": "جارٍ الرد…",
+  "tavernReady": "جاهز",
+  "tavernPreviewStatus": "معاينة · ردود تجريبية",
+  "tavernRegenerate": "إعادة التوليد",
+  "tavernContinueReply": "متابعة الكتابة",
+  "tavernDeleteFrom": "حذف هذه الرسالة وكل ما بعدها",
+  "tavernPrevious": "الرد السابق",
+  "tavernNext": "الرد التالي",
+  "tavernErrorNoKey": "أضف مفتاح DeepSeek API من الإعدادات أولًا",
+  "tavernKeyMissing": "لا يوجد مفتاح DeepSeek API بعد",
+  "tavernKeyMissingAction": "إضافة مفتاح",
+  "tavernErrorBadKey": "تم رفض مفتاح API؛ تحقّق منه في الإعدادات",
+  "tavernErrorBusy": "النموذج مشغول؛ حاول مجددًا بعد قليل",
+  "tavernErrorNetwork": "تعذّر الاتصال؛ تحقّق من الشبكة وأعد المحاولة",
+  "tavernErrorTooLong": "المحادثة أطول من سعة سياق النموذج",
+  "tavernCutShort": "وصل الرد إلى الحد الأقصى لطوله. تابعه، أو ارفع الحد في الإعداد المسبق المستخدم لهذه المحادثة.",
+  "tavernFiltered": "أوقف مرشح المحتوى جزءًا من هذا الرد.",
+  "tavernErrorBalance": "رصيد DeepSeek لديك منخفض جدًا. أضف رصيدًا ثم حاول مجددًا",
+  "tavernErrorParameters": "لم يقبل النموذج معلمات هذا الطلب",
+  "tavernErrorParametersDetail": "لم يقبل النموذج معلمات هذا الطلب: {detail}",
+  "@tavernErrorParametersDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernErrorDetail": "حدث خطأ ما: {detail}",
+  "@tavernErrorDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSettings": "إعدادات Tavern",
+  "tavernSettingsModel": "النموذج",
+  "tavernModelFlash": "Flash",
+  "tavernModelPro": "V4 Pro",
+  "tavernThinking": "التفكير",
+  "tavernThinkingSubtitle": "فكّر قبل الرد",
+  "tavernApiKey": "مفتاح DeepSeek API",
+  "tavernApiKeySet": "مُعيّن",
+  "tavernApiKeyMissing": "غير مُعيّن",
+  "tavernDeleteChat": "حذف المحادثة",
+  "tavernDeleteChatTitle": "هل تريد حذف هذه المحادثة؟",
+  "tavernDeleteChatMessage": "لا يمكن استعادتها.",
+  "tavernDeleteFromTitle": "{count, plural, =1{هل تريد حذف هذه الرسالة؟} other{هل تريد حذف هذه الرسائل وعددها {count}؟}}",
+  "@tavernDeleteFromTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteFromMessage": "من هذه الرسالة حتى الأحدث، مع ردودها البديلة وفروعها. لا يمكن استعادتها.",
+  "tavernSwitchedBranch": "تم التبديل إلى فرع آخر",
+  "tavernUndo": "تراجع",
+  "tavernSettingsDisplay": "العرض",
+  "tavernPresets": "الإعدادات المسبقة",
+  "tavernPresetImport": "استيراد إعداد مسبق",
+  "tavernPresetStDefault": "الإعداد الافتراضي لـ SillyTavern",
+  "tavernPresetStDefaultNote": "يُستخدم عند عدم اختيار إعداد مسبق",
+  "tavernPresetDefault": "الافتراضي",
+  "tavernPresetSetDefault": "تعيينه كافتراضي",
+  "tavernPresetUnsetDefault": "إلغاء استخدامه كافتراضي",
+  "tavernPresetExport": "تصدير الإعداد المسبق",
+  "tavernPresetDelete": "حذف الإعداد المسبق",
+  "tavernPresetDeleteTitle": "هل تريد حذف الإعداد المسبق «{name}»؟",
+  "@tavernPresetDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetDeleteMessage": "ستنتقل المحادثات التي تستخدمه إلى الإعداد الافتراضي. لا يمكن استعادته.",
+  "tavernPresetImported": "تم استيراد «{name}»",
+  "@tavernPresetImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetImportedWithIssues": "تم استيراد «{name}» مع {count} ملاحظات",
+  "@tavernPresetImportedWithIssues": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPresetImportFailed": "تعذّر الاستيراد: {reason}",
+  "@tavernPresetImportFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetNotText": "هذا الملف ليس نصيًا",
+  "tavernPresetsEmptyMessage": "يمكن استيراد الإعدادات المسبقة المُصدّرة من SillyTavern بصيغة JSON، وكذلك حزم المشاركة من dsh-preset-enhance.",
+  "tavernPresetEnvelope": "حزمة مشاركة",
+  "tavernPresetCount": "{count}",
+  "tavernRegex": "التعبيرات النمطية",
+  "tavernRegexImport": "استيراد تعبير نمطي",
+  "tavernRegexOn": "مفعّل",
+  "tavernRegexOff": "متوقف",
+  "tavernRegexEnable": "تفعيل",
+  "tavernRegexDisable": "تعطيل",
+  "tavernRegexExport": "تصدير التعبير النمطي",
+  "tavernRegexDelete": "حذف التعبير النمطي",
+  "tavernRegexDeleteTitle": "هل تريد حذف التعبير النمطي «{name}»؟",
+  "@tavernRegexDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRegexImported": "تم استيراد {count} سكربتات تعبير نمطي",
+  "@tavernRegexImported": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRegexIncompatible": "لا يمكن تشغيله هنا؛ تم تخطيه",
+  "tavernRegexEmpty": "لا توجد تعبيرات نمطية عامة بعد",
+  "tavernRegexEmptyMessage": "يمكن استيراد JSON للتعبيرات النمطية المُصدّر من SillyTavern، سواء لسكربت واحد أو لقائمة.",
+  "tavernRegexUnnamed": "بلا عنوان",
+  "tavernRegexCount": "{count}",
+  "tavernLorebooks": "كتب المعلومات",
+  "tavernLorebookImport": "استيراد كتاب معلومات",
+  "tavernLorebookGlobal": "عام",
+  "tavernLorebookBindGlobal": "استخدامه في كل محادثة",
+  "tavernLorebookUnbindGlobal": "إيقاف استخدامه في كل المحادثات",
+  "tavernLorebookExport": "تصدير كتاب المعلومات",
+  "tavernLorebookDelete": "حذف كتاب المعلومات",
+  "tavernLorebookDeleteTitle": "هل تريد حذف كتاب المعلومات «{name}»؟",
+  "@tavernLorebookDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookDeleteMessage": "سيتم تخطيه أينما كان مرتبطًا. لا يمكن استعادته.",
+  "tavernLorebookImported": "تم استيراد «{name}»، بعدد {count} من الإدخالات",
+  "@tavernLorebookImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLorebooksEmpty": "لا توجد كتب معلومات مستقلة بعد",
+  "tavernLorebooksEmptyMessage": "يمكن استيراد JSON لكتب المعلومات المُصدّر من SillyTavern.",
+  "tavernLorebookCount": "{count}",
+  "@tavernLorebookCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "@tavernRegexCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPresetEdit": "تعديل الإعداد المسبق",
+  "tavernPresetParams": "الأرقام",
+  "tavernPresetPrompts": "المطالبات، حسب ترتيب إرسالها",
+  "tavernPresetMarker": "عنصر نائب",
+  "tavernPresetPromptsEmpty": "لا يحدد هذا الإعداد المسبق ترتيبًا للمطالبات؛ وسيُستخدم الترتيب الافتراضي لـ SillyTavern.",
+  "tavernReport": "فحص الاستيراد",
+  "tavernVerdictUsable": "يعمل",
+  "tavernVerdictPartial": "يعمل جزئيًا",
+  "tavernVerdictPreserve": "تم الاحتفاظ به دون تشغيل",
+  "tavernReportChecked": "تم الفحص {time}",
+  "@tavernReportChecked": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReportStale": "حدث تغيير منذ هذا الفحص",
+  "tavernReportRecheck": "إعادة الفحص",
+  "tavernReportNone": "لم يتم الفحص بعد",
+  "tavernReportNoneMessage": "تم استيراد هذا قبل توفر الفحوصات؛ افحصه الآن.",
+  "tavernReportCheckNow": "الفحص الآن",
+  "tavernReportRender0": "العرض المقترح: أصلي",
+  "tavernReportRender1": "العرض المقترح: صفحة ويب داخل الرسالة",
+  "tavernReportRender2": "العرض المقترح: مساحة رسم للصفحة بأكملها",
+  "tavernReportCounts": "يحتوي على",
+  "tavernReportFindings": "لم يتم تشغيله، أو يستحق المراجعة",
+  "tavernReportNoFindings": "لا شيء يستحق المراجعة",
+  "tavernPresetForChat": "إعداد هذه المحادثة المسبق",
+  "tavernPresetFollow": "الافتراضي",
+  "tavernPresetFollowDefault": "الافتراضي ({name})",
+  "@tavernPresetFollowDefault": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPresetPickerEmpty": "استورد إعدادات مسبقة من المكتبة ← الإعدادات المسبقة لإتاحة خيار آخر لهذه المحادثة.",
+  "@tavernPresetCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernSectionShelf": "الرف",
+  "tavernSectionChats": "المحادثات",
+  "tavernSectionLibrary": "المكتبة",
+  "tavernSectionMe": "أنا",
+  "tavernNoChats": "لا توجد محادثات بعد",
+  "tavernNoChatsMessage": "افتح شخصية من الرف لبدء محادثتك الأولى.",
+  "tavernSettingsGeneration": "التوليد",
+  "tavernMaxContext": "حد السياق",
+  "tavernMaxReply": "حد الرد",
+  "tavernTemperature": "درجة الحرارة",
+  "tavernGenerationNote": "يسمح السياق الأطول بتذكّر المزيد، لكنه يكلّف أكثر في كل دور؛ والأرقام بوحدات الرموز. يغيّر هذا الإعداد المسبق الافتراضي، أما المحادثة التي تستخدم إعدادًا مسبقًا خاصًا بها فستحتفظ به.",
+  "tavernLayout": "التخطيط",
+  "tavernLayoutBubble": "فقاعات",
+  "tavernLayoutNovel": "رواية",
+  "tavernYou": "أنت",
+  "tavernSearchHint": "ابحث عن الشخصيات والمنشئين والوسوم",
+  "tavernAllTags": "الكل",
+  "tavernNoMatch": "لا توجد شخصيات مطابقة",
+  "tavernLayoutVisualNovel": "رواية مرئية",
+  "tavernCharacterDetails": "تفاصيل الشخصية",
+  "tavernChatLayout": "تخطيط هذه المحادثة",
+  "tavernFollowSettings": "اتباع إعدادات Tavern",
+  "tavernLog": "سجل المحادثة",
+  "tavernEditCharacter": "تعديل الشخصية",
+  "tavernNameNeeded": "الاسم مطلوب",
+  "tavernFieldsBasics": "الأساسيات",
+  "tavernFieldNickname": "الاسم المستعار",
+  "tavernFieldNicknameHelp": "إذا عُيّن، فستستخدمه المحادثات عند مناداة الشخصية",
+  "tavernFieldTags": "الوسوم",
+  "tavernFieldTagsHelp": "افصل بينها بفواصل",
+  "tavernFieldCreator": "المنشئ",
+  "tavernFieldVersion": "الإصدار",
+  "tavernFieldDescription": "الوصف",
+  "tavernFieldPersonality": "الشخصية",
+  "tavernFieldScenario": "السيناريو",
+  "tavernGreetingNumber": "التحية {n}",
+  "@tavernGreetingNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernFieldGreetingsNote": "يمكن بدء محادثة جديدة بأي واحدة من هذه التحيات.",
+  "tavernAddGreeting": "إضافة تحية",
+  "tavernMoreFields": "حقول إضافية",
+  "tavernMoreFieldsSubtitle": "حوار نموذجي، ومطالبة النظام، وتعليمات ما بعد سجل المحادثة",
+  "tavernFieldExamples": "حوار نموذجي",
+  "tavernFieldExamplesHelp": "ابدأ كل مثال بسطر <START>",
+  "tavernFieldPrompts": "المطالبات",
+  "tavernFieldPromptsNote": "عند تعيينها، تستبدل الجزء المطابق من الإعداد المسبق؛ اتركها فارغة لاستخدام مطالبات الإعداد المسبق.",
+  "tavernFieldSystemPrompt": "مطالبة النظام",
+  "tavernFieldPostHistory": "تعليمات ما بعد سجل المحادثة",
+  "tavernFieldNotesNote": "مخصصة لمن يقرأ البطاقة؛ ولا تُرسل إلى النموذج.",
+  "tavernEditKeeps": "{count, plural, =1{تحتوي هذه البطاقة على عنصر إضافي واحد لا يمكنك تعديله هنا (كتاب معلومات، إضافات…). سيُحتفظ به كما هو عند الحفظ، ولن تتغير المحادثات الحالية.} other{تحتوي هذه البطاقة على {count} عناصر إضافية لا يمكنك تعديلها هنا (كتاب معلومات، إضافات…). سيُحتفظ بها كما هي عند الحفظ، ولن تتغير المحادثات الحالية.}}",
+  "@tavernEditKeeps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernEditKeepsChats": "لا يؤثر الحفظ في المحادثات الحالية.",
+  "tavernPersonas": "الشخصيات التي تمثّلك",
+  "tavernPersona": "شخصية تمثّلك",
+  "tavernPersonaNew": "شخصية تمثّلك جديدة",
+  "tavernPersonasEmpty": "لا توجد شخصيات تمثّلك بعد",
+  "tavernPersonasEmptyMessage": "الشخصية التي تمثّلك هي هويتك في المحادثات: اسم وبعض الأسطر لتعرف الشخصيات من تكون.",
+  "tavernPersonasNote": "اضغط مطولًا لتعيين إحداها افتراضية أو حذفها.",
+  "tavernPersonaUnsetDefault": "إيقاف استخدامها كافتراضية",
+  "tavernPersonaSetDefault": "استخدامها كافتراضية",
+  "tavernPersonaDeleteTitle": "هل تريد حذف «{name}»؟",
+  "@tavernPersonaDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPersonaDeleteMessage": "ستنتقل المحادثات التي تستخدمها إلى الشخصية الافتراضية؛ وسيبقى ما كُتب بالفعل كما هو.",
+  "tavernPersonaEdit": "تعديل الشخصية التي تمثّلك",
+  "tavernPersonaPickAvatar": "تغيير الصورة",
+  "tavernPersonaRemoveAvatar": "إزالة الصورة",
+  "tavernPersonaAvatarFailed": "تعذّر استخدام هذه الصورة",
+  "tavernPersonaNameHint": "الاسم الذي تناديك به الشخصيات",
+  "tavernPersonaDescriptionHelp": "من تكون، وما طباعك، وكيف تعرف الشخصية",
+  "tavernPersonaDescriptionHint": "مثال: طبيب البلدة الجديد؛ هادئ ويحمل دائمًا حقيبة جلدية قديمة.",
+  "tavernPersonaDefaultSubtitle": "تستخدمها المحادثات التي لا تملك شخصية خاصة بها",
+  "tavernPersonaDelete": "حذف الشخصية التي تمثّلك",
+  "tavernPersonaNone": "بلا شخصية تمثّلك",
+  "tavernPersonaAs": "باسم {name}",
+  "@tavernPersonaAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPersonaForChat": "أنت في هذه المحادثة",
+  "tavernPersonaFollowDefault": "استخدام الافتراضية",
+  "tavernPersonasManage": "إدارة الشخصيات التي تمثّلك",
+  "tavernSettingsYou": "أنت",
+  "tavernDefaultPersona": "الشخصية الافتراضية التي تمثّلك",
+  "tavernPersonaNotSet": "غير معيّنة",
+  "tavernLibraryNone": "لا شيء",
+  "tavernFieldName": "الاسم",
+  "tavernOpenFailed": "تعذّر فتح Tavern",
+  "tavernOpenFailedMessage": "تعذّر فتح بيانات الشخصيات والمحادثات. حاول مجددًا؛ وإذا استمر الفشل، فأعد تشغيل التطبيق.",
+  "tavernExportPng": "تصدير البطاقة (PNG)",
+  "tavernExportPngSubtitle": "يمكن لـ SillyTavern وتطبيقات Tavern الأخرى استيرادها",
+  "tavernExportJson": "تصدير بصيغة JSON",
+  "tavernExportFailed": "تعذّر تصدير هذه البطاقة",
+  "tavernInspectTitle": "ما أُرسل في هذا الدور",
+  "tavernInspectMenu": "عرض ما تم إرساله",
+  "tavernInspectLatest": "ما أُرسل في الدور الأخير",
+  "tavernInspectNone": "لا توجد بيانات مسجلة",
+  "tavernInspectNoneMessage": "لا يوجد سجل للتحيات والرسائل السابقة للمحرك والردود التجريبية.",
+  "tavernInspectSummary": "الملخص",
+  "tavernInspectKind": "النوع",
+  "tavernTurnSend": "إرسال",
+  "tavernTurnImpersonate": "اكتب نيابةً عني",
+  "tavernInspectStatus": "النتيجة",
+  "tavernInspectPreparing": "قيد التجهيز",
+  "tavernInspectReady": "تم الإرسال",
+  "tavernInspectCompleted": "مكتمل",
+  "tavernInspectFailed": "فشل",
+  "tavernInspectPrompt": "المطالبة",
+  "tavernTokens": "{count} رمزًا",
+  "@tavernTokens": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernTokensAbout": "نحو {count} رمزًا",
+  "@tavernTokensAbout": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectBudget": "ميزانية السياق المتبقية",
+  "tavernInspectUsage": "الاستخدام الذي أبلغ عنه النموذج",
+  "tavernInspectNoUsage": "لم يتم الإبلاغ عنه",
+  "tavernInspectUsageValue": "الإدخال {prompt} (المخبأ {hit}) · الإخراج {completion}",
+  "@tavernInspectUsageValue": {
+    "placeholders": {
+      "prompt": {
+        "type": "int"
+      },
+      "hit": {
+        "type": "int"
+      },
+      "completion": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCost": "التكلفة المقدّرة",
+  "tavernInspectCostPeak": "وفق أسعار DeepSeek المعلنة، خلال ساعات الذروة",
+  "tavernInspectCostOffPeak": "وفق أسعار DeepSeek المعلنة، خارج الذروة (نصف السعر)",
+  "tavernInspectSegments": "{count, plural, =1{تم إرسال جزء واحد} other{تم إرسال {count} أجزاء}}",
+  "@tavernInspectSegments": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectSegmentsNote": "بحسب ترتيب الإرسال. اضغط لعرض النص كاملًا؛ واضغط مطولًا للنسخ.",
+  "tavernInspectWorld": "{count, plural, =1{تطابق إدخال واحد في كتاب المعلومات} other{تطابق {count} إدخالات في كتاب المعلومات}}",
+  "@tavernInspectWorld": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectWorldKey": "المفتاح «{key}»",
+  "@tavernInspectWorldKey": {
+    "placeholders": {
+      "key": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernInspectExcluded": "{count, plural, =1{تم استبعاد جزء واحد} other{تم استبعاد {count} أجزاء}}",
+  "@tavernInspectExcluded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernExcludeDisabled": "معطّل",
+  "tavernExcludeTrigger": "لا يناسب هذا النوع من الأدوار",
+  "tavernExcludeHidden": "مخفي عن النموذج",
+  "tavernExcludeSystem": "رسالة نظام",
+  "tavernExcludeHistoryBudget": "يتجاوز ميزانية السياق",
+  "tavernExcludeExampleBudget": "الأمثلة تتجاوز الميزانية",
+  "tavernRoleSystem": "النظام",
+  "tavernRoleUser": "أنت",
+  "tavernRoleCharacter": "الشخصية",
+  "tavernSourcePreset": "إعداد مسبق",
+  "tavernSourceCard": "بطاقة",
+  "tavernSourceWorld": "كتاب معلومات",
+  "tavernSourcePersona": "الشخصية التي تمثّلك",
+  "tavernSourceHistory": "المحادثة",
+  "tavernSourceControl": "تحكم",
+  "tavernWriteForMe": "اكتبها نيابةً عني",
+  "tavernHide": "إخفاء عن النموذج",
+  "tavernUnhide": "إظهار للنموذج",
+  "tavernHiddenFromModel": "لا يستطيع النموذج رؤية هذا",
+  "tavernTrySample": "جرّب بطاقة العينة",
+  "tavernImportChats": "استيراد المحادثات",
+  "tavernImportChatsSubtitle": "ملفات SillyTavern بصيغة ‎.jsonl، ملف واحد أو عدة ملفات",
+  "tavernOnlyJsonl": "يمكن استيراد ملفات المحادثات ‎.jsonl فقط",
+  "tavernImportChatsFailed": "تعذّر الاستيراد: {detail}",
+  "@tavernImportChatsFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportedChats": "{count, plural, =1{تم استيراد محادثة واحدة} other{تم استيراد {count} محادثات}}",
+  "@tavernImportedChats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernImportNoticesTitle": "ملاحظات الاستيراد",
+  "tavernExportChat": "تصدير المحادثة",
+  "tavernExportChatFailed": "تعذّر تصدير هذه المحادثة",
+  "tavernLorebook": "كتاب المعلومات",
+  "tavernLorebookSubtitle": "الإدخالات الخاصة بالبطاقة",
+  "tavernLorebookEntries": "{count, plural, =1{إدخال واحد} other{{count} إدخالات}}",
+  "@tavernLorebookEntries": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLorebookNote": "عند ظهور أحد المفاتيح في المحادثة، يُضاف إدخاله إلى المطالبة؛ أما إدخالات «دائمًا» فتُضاف في كل مرة.",
+  "tavernLorebookKeys": "المفاتيح: {keys}",
+  "@tavernLorebookKeys": {
+    "placeholders": {
+      "keys": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookConstant": "دائمًا",
+  "tavernLorebookOff": "إيقاف",
+  "tavernLorebookEmpty": "لا تحتوي هذه البطاقة على كتاب معلومات",
+  "tavernImportFromFile": "من ملف",
+  "tavernImportFromFileSubtitle": "بطاقات وإعدادات مسبقة وكتب معلومات وغيرها، مع التعرّف عليها تلقائيًا",
+  "tavernImportFromLink": "من رابط",
+  "tavernImportFromLinkSubtitle": "Chub أو RisuRealm أو رابط إلى ملف البطاقة",
+  "tavernLinkInvalid": "هذا ليس عنوان ويب",
+  "tavernLinkFailed": "تعذّر تنزيله؛ تحقّق من الاتصال أو الرابط",
+  "tavernLinkStatus": "تعذّر تنزيله (HTTP {status})",
+  "@tavernLinkStatus": {
+    "placeholders": {
+      "status": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLinkIsPage": "هذا رابط صفحة ويب وليس ملف بطاقة. تعمل صفحات الشخصيات على Chub وRisuRealm كما هي؛ أما في المواقع الأخرى، فابحث عن رابط تنزيل ‎.png أو ‎.json وجرّبه.",
+  "tavernLinkSiteMissing": "لا يحتوي الموقع على هذه الشخصية؛ ربما حُذفت أو أصبحت خاصة",
+  "tavernQuickReplies": "الردود السريعة",
+  "tavernQuickRepliesEmpty": "لا توجد ردود سريعة بعد",
+  "tavernQuickRepliesNote": "تظهر أعلى حقل الإدخال في كل محادثة: اضغط لإرسال الرد، أو اضغط مطولًا لوضعه في الحقل أولًا.",
+  "tavernQuickReplyAdd": "إضافة رد",
+  "tavernQuickReplyHint": "مثال: *ينظر حوله بحثًا عن أي شخص آخر*",
+  "tavernQuickReplyCount": "{count, plural, =1{سطر واحد} other{{count} أسطر}}",
+  "@tavernQuickReplyCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernEditMessage": "تعديل الرسالة",
+  "tavernBackground": "صورة الخلفية",
+  "tavernBackgroundNone": "بلا",
+  "tavernBackgroundChange": "تغيير",
+  "tavernBackgroundRemove": "إزالة الصورة",
+  "tavernDice": "رمي النرد",
+  "tavernDiceCount": "النرد",
+  "tavernDiceModifier": "المُعدِّل",
+  "tavernDiceFewer": "نرد أقل بواحد",
+  "tavernDiceMore": "نرد إضافي",
+  "tavernDiceModifierDown": "المُعدِّل −1",
+  "tavernDiceModifierUp": "المُعدِّل +1",
+  "tavernDiceRoll": "ارمِ",
+  "tavernDiceAgain": "أعد الرمي",
+  "tavernDiceUse": "وضعه في حقل الإدخال",
+  "tavernDiceLine": "🎲 رمية {notation} نتيجتها {total}{working}",
+  "@tavernDiceLine": {
+    "placeholders": {
+      "notation": {
+        "type": "String"
+      },
+      "total": {
+        "type": "int"
+      },
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceWorking": " ({working})",
+  "@tavernDiceWorking": {
+    "placeholders": {
+      "working": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybook": "كتاب القصص",
+  "tavernStorybookMenu": "تصدير ككتاب قصصي",
+  "tavernStorybookTitle": "العنوان",
+  "tavernStorybookDefaultTitle": "قصة مع {name}",
+  "@tavernStorybookDefaultTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybookByline": "{character} و{you}",
+  "@tavernStorybookByline": {
+    "placeholders": {
+      "character": {
+        "type": "String"
+      },
+      "you": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorybookWhole": "القصة كاملة",
+  "tavernStorybookWholeNote": "{count, plural, =1{سطر واحد} other{{count} أسطر}}؛ تُستبعد الرسائل المخفية.",
+  "@tavernStorybookWholeNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookEpub": "كتاب إلكتروني (EPUB)",
+  "tavernStorybookText": "نص عادي (TXT)",
+  "tavernStorybookImage": "صورة طويلة",
+  "tavernStorybookLatest": "الأحدث",
+  "tavernStorybookLines": "{count, plural, =1{سطر واحد} other{{count} أسطر}}",
+  "@tavernStorybookLines": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookSave": "حفظ في الصور",
+  "tavernStorybookShare": "مشاركة الصورة",
+  "tavernStorybookEarlier": "تم استبعاد {count, plural, =1{سطر سابق واحد} other{{count} أسطر سابقة}} من الصورة؛ صدّر الكتاب الإلكتروني للحصول على القصة كاملة.",
+  "@tavernStorybookEarlier": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookEarlierShort": "… {count, plural, =1{سطر واحد} other{{count} أسطر}} قبل هذا …",
+  "@tavernStorybookEarlierShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookMadeWith": "كُتب في Tavern ضمن DSH Go",
+  "tavernStorybookContents": "المحتويات",
+  "tavernStorybookChapter": "الفصل {n}",
+  "@tavernStorybookChapter": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStorybookSaved": "تم الحفظ في الصور",
+  "tavernStorybookFailed": "تعذّر تصديره؛ حاول مجددًا",
+  "tavernLive2d": "نموذج Live2D",
+  "tavernLive2dSubtitle": "يحل محل صورة البطاقة في تخطيط الرواية المرئية",
+  "tavernLive2dNone": "بلا",
+  "tavernLive2dSet": "تم الاستيراد",
+  "tavernLive2dImported": "تم الاستيراد. بدّل المحادثة إلى تخطيط الرواية المرئية لمشاهدتها.",
+  "tavernLive2dReplace": "استبداله",
+  "tavernLive2dRemove": "إزالة النموذج",
+  "tavernLive2dNoRuntime": "لا توجد بيئة تشغيل Live2D على هذا الهاتف بعد؛ أعدّ واحدة في غرفة Companion أولًا، أو استورد حزمة كاملة.",
+  "tavernTextSize": "حجم النص",
+  "tavernTextSmall": "ص",
+  "tavernTextMedium": "م",
+  "tavernTextLarge": "ك",
+  "tavernTextHuge": "ك جدًا",
+  "tavernLineHeight": "تباعد الأسطر",
+  "tavernLineTight": "متقارب",
+  "tavernLineNormal": "عادي",
+  "tavernLineLoose": "متباعد",
+  "tavernReadingSample": "*تدفع كوبًا فخاريًا نحوك؛ فيقفز ضوء النار في عينيها.*\n\n«ما زلت على الطريق في هذا الوقت المتأخر؟ لن يتوقف الثلج الليلة. إن كنت مسافرًا، فانتظر حتى الصباح.»",
+  "tavernPalette": "الألوان",
+  "tavernPalettePlain": "بسيط",
+  "tavernPaletteEmber": "دافئ",
+  "tavernPaletteOcean": "بارد",
+  "tavernPaletteRose": "وردي",
+  "tavernTextSpeed": "سرعة النص",
+  "tavernTextSlow": "بطيء",
+  "tavernTextNormal": "متوسط",
+  "tavernTextFast": "سريع",
+  "tavernTextInstant": "فوري",
+  "tavernVnAuto": "تلقائي",
+  "tavernVnSkip": "تخطٍ",
+  "tavernStage": "المشهد",
+  "tavernStageSession": "هذه المحادثة",
+  "tavernSessionUsing": "قيد الاستخدام",
+  "tavernSessionLook": "المظهر",
+  "tavernSessionMore": "المزيد",
+  "tavernAudio": "الموسيقى والصوت",
+  "tavernAudioBgm": "الموسيقى",
+  "tavernAudioAmbient": "المؤثرات الصوتية",
+  "tavernAudioNothing": "لا شيء قيد التشغيل",
+  "tavernAudioPlay": "تشغيل",
+  "tavernAudioPause": "إيقاف مؤقت",
+  "tavernAudioMode": "وضع التشغيل",
+  "tavernAudioModeOne": "واحد",
+  "tavernAudioModeAll": "الكل",
+  "tavernAudioModeShuffle": "عشوائي",
+  "tavernAudioModeOnce": "مرة واحدة",
+  "tavernAudioVolume": "مستوى الصوت",
+  "tavernAudioAllow": "السماح للبطاقة بالتشغيل",
+  "tavernAudioAdd": "إضافة موسيقى خلفية",
+  "tavernAudioAddTitle": "رابط الموسيقى",
+  "tavernAudioAddNote": "عنوان ويب لملف صوتي (mp3 أو ogg…). ستُضاف الموسيقى إلى قائمة هذه المحادثة إلى جانب موسيقى البطاقة.",
+  "tavernAudioAddConfirm": "إضافة",
+  "tavernAudioAddInvalid": "يجب أن يبدأ بـ http:// أو https://",
+  "tavernStageState": "الحالة",
+  "tavernStageDirector": "المخرج",
+  "tavernStageTurn": "هذا الدور",
+  "tavernStageStateEmpty": "لا تحتفظ هذه البطاقة بحالة بعد",
+  "tavernStageStateNote": "عندما تحدد البطاقة حالتها، ستظهر هنا العلاقات والأرقام والممتلكات.",
+  "tavernStageDirectorEmpty": "لا يوجد مخرج بعد",
+  "tavernStageDirectorNote": "يقرأ المخرج القصة، ويترك تلميحًا للدور التالي، ويعرض ثلاثة اقتراحات فوق حقل الإدخال.",
+  "tavernStageTurnNone": "لا يوجد دور لعرضه بعد",
+  "tavernStageTokensIn": "المطالبة",
+  "tavernStageCache": "إصابة ذاكرة التخزين المؤقت",
+  "tavernStageTokensOut": "الرد",
+  "tavernStageWorld": "إدخالات كتاب المعلومات لهذا الدور",
+  "tavernStageWorldNone": "لم يظهر أي إدخال في هذا الدور",
+  "tavernStageInspect": "عرض الفحص الكامل",
+  "tavernLorebookNone": "لا شيء",
+  "tavernLorebooksBound": "كتب المعلومات المرتبطة",
+  "tavernLorebooksBoundCharacter": "تُستخدم في كل محادثة مع هذه الشخصية",
+  "tavernLorebooksBoundPersona": "تُستخدم في كل محادثة تكون فيها بهذه الشخصية",
+  "tavernLorebookForChat": "كتب المعلومات لهذه المحادثة",
+  "tavernLorebookForCharacter": "كتب المعلومات الخاصة بـ {name}",
+  "@tavernLorebookForCharacter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookForPersona": "كتب المعلومات باسم {name}",
+  "@tavernLorebookForPersona": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookChatNote": "لهذه المحادثة فقط. الحزم العامة مفعّلة في كل المحادثات.",
+  "tavernLorebookCharacterNote": "تستخدم كل محادثة مع هذه الشخصية هذه الكتب إلى جانب كتاب المعلومات الخاص بالبطاقة.",
+  "tavernLorebookPersonaNote": "تستخدم كل محادثة تكون فيها بهذه الشخصية هذه الكتب.",
+  "tavernLorebookPickEmpty": "لا توجد كتب معلومات في المكتبة بعد",
+  "tavernLorebookOpenLibrary": "استورد كتابًا من المكتبة",
+  "tavernLorebookMissing": "كتاب معلومات محذوف",
+  "tavernLorebookMissingSubtitle": "لا يزال مرتبطًا وسيتم تخطيه عند الرد؛ عطّله لإلغاء الربط",
+  "tavernPresetOrder": "إعادة الترتيب",
+  "tavernPresetOrderNote": "اسحب المقبض الموجود على اليمين. تُرسل المطالبات إلى النموذج بهذا الترتيب؛ وتبقى العناصر المعطّلة في مواضعها.",
+  "tavernPresetPromptOff": "إيقاف",
+  "tavernPrefill": "التهيئة المسبقة",
+  "tavernPrefillOn": "ابدأ الرد بهذا النص",
+  "tavernPrefillOnSubtitle": "يواصل النموذج الكتابة انطلاقًا منه",
+  "tavernPrefillText": "النص الافتتاحي",
+  "tavernPrefillTextEmpty": "لم يُكتب بعد",
+  "tavernPrefillTarget": "يُضاف إلى",
+  "tavernPrefillContent": "الرد",
+  "tavernPrefillReasoning": "التفكير",
+  "tavernPrefillNote": "في وضع التفكير، يُطبّق فقط عند تفعيل التفكير؛ وإلا فسيُضاف إلى الرد. لا يُستخدم عند متابعة الرد.",
+  "tavernPresetPromptEmpty": "فارغ",
+  "tavernThinkingSeconds": "{seconds} ث",
+  "@tavernThinkingSeconds": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeletedCount": "{count, plural, =1{تم حذف رسالة واحدة} other{تم حذف {count} رسائل}}",
+  "@tavernDeletedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteFromUndoable": "من هذه الرسالة حتى الأحدث، مع بدائلها وفروعها. يمكنك التراجع خلال بضع ثوانٍ.",
+  "tavernUndoFailed": "تعذّر التراجع",
+  "tavernShowUsage": "إظهار الاستخدام والتكلفة أسفل كل رد",
+  "tavernShowUsageSubtitle": "رموز الإدخال والإخراج كما يُبلغ عنها النموذج؛ وبالنسبة إلى نماذج DeepSeek، تُعرض التكلفة وفق أسعارها المعلنة مع التمييز بين ساعات الذروة وخارجها",
+  "tavernUsageLine": "إدخال {input} · إخراج {output}",
+  "@tavernUsageLine": {
+    "placeholders": {
+      "input": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "output": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "tavernUsageLineCached": "إدخال {input} (المخبأ {cached}) · إخراج {output}",
+  "@tavernUsageLineCached": {
+    "placeholders": {
+      "input": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "cached": {
+        "type": "int",
+        "format": "decimalPattern"
+      },
+      "output": {
+        "type": "int",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "tavernUsageCost": "نحو {usd}",
+  "@tavernUsageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernUsageCostUnder": "أقل من {usd}",
+  "@tavernUsageCostUnder": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernCostAlert": "تذكير تكلفة كل دور",
+  "tavernCostAlertSubtitle": "عندما تتجاوز تكلفة الدور هذا الحد وفق أسعار DeepSeek المعلنة، يظهر تنبيه فوق حقل الكتابة؛ ولا تُقدّر تكلفة النماذج الأخرى",
+  "tavernCostAlertOff": "إيقاف",
+  "tavernCostAlertNotice": "بلغت تكلفة هذا الدور {cost}، متجاوزة حد التذكير البالغ {line}",
+  "@tavernCostAlertNotice": {
+    "placeholders": {
+      "cost": {
+        "type": "String"
+      },
+      "line": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSearchChat": "البحث في هذه المحادثة",
+  "tavernSearchChatHint": "سطر أو كلمة",
+  "tavernSearchChatIdle": "يبحث في كل فروع هذه المحادثة، بما فيها الرسائل المخفية، لكن ليس في التفكير. اضغط على نتيجة لقراءتها كاملة.",
+  "tavernSearchChatNone": "لم يُعثر على شيء يطابق «{query}»",
+  "@tavernSearchChatNone": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSearchChatFound": "{count, plural, =1{تم العثور على نتيجة واحدة} other{تم العثور على {count} نتائج، من الأحدث إلى الأقدم}}",
+  "@tavernSearchChatFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeleteOne": "حذف هذه الرسالة فقط",
+  "tavernDeleteOneTitle": "هل تريد حذف هذه الرسالة فقط؟",
+  "tavernDeleteOneMessage": "ستبقى الرسائل التي تليها، وستتصل بالرسالة السابقة لها. لا يمكن التراجع عن ذلك.",
+  "tavernLorebookAdd": "إضافة إدخال",
+  "tavernLorebookStart": "لا تملك هذه البطاقة كتاب معلومات خاصًا بها. أضف إدخالًا: عندما تذكر المحادثة أحد مفاتيحه، يُضاف نصه إلى المطالبة.",
+  "tavernLorebookEntryNew": "إدخال جديد",
+  "tavernLorebookEntryEdit": "تعديل الإدخال",
+  "tavernLorebookFieldName": "اسم الإدخال",
+  "tavernLorebookFieldNameHelp": "مخصص لك فقط للعثور عليه؛ ولا يُرسل إلى النموذج.",
+  "tavernLorebookFieldKeys": "المفاتيح",
+  "tavernLorebookFieldKeysHelp": "عندما تذكر المحادثة أيًا منها، يُضاف النص إلى المطالبة. افصل بينها بفواصل.",
+  "tavernLorebookFieldSecondary": "المفاتيح الثانوية",
+  "tavernLorebookFieldSecondaryHelp": "إذا أُضيفت، فسيُفحص الإدخال أيضًا بمطابقتها وفق الإعداد أدناه.",
+  "tavernLorebookFieldContent": "النص",
+  "tavernLorebookFieldConstantSubtitle": "يُضمّن دائمًا، سواء وُجدت المفاتيح أم لا",
+  "tavernLorebookFieldEnabled": "مفعّل",
+  "tavernLorebookFieldPosition": "موضع الإدراج",
+  "tavernLorebookBeforeChar": "قبل الشخصية",
+  "tavernLorebookAfterChar": "بعد الشخصية",
+  "tavernLorebookFieldOrder": "الترتيب",
+  "tavernLorebookFieldOrderHelp": "تأتي الأرقام الأعلى أولًا، وتُدرج أولًا.",
+  "tavernLorebookEntryDelete": "حذف هذا الإدخال",
+  "tavernLorebookEntryDeleteTitle": "هل تريد حذف الإدخال «{name}»؟",
+  "@tavernLorebookEntryDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLorebookEntryDeleteMessage": "سيُحذف نهائيًا من البطاقة.",
+  "tavernNarrator": "الراوي",
+  "tavernSendOptions": "طرق إرسال أخرى",
+  "tavernSendOnly": "إرسال دون رد",
+  "tavernNarrate": "الإرسال كسرد",
+  "tavernSendFailed": "تعذّر الإرسال",
+  "tavernStateVariables": "المتغيرات",
+  "tavernStateVariablesNote": "المتغيرات التي تحفظها وحدات الماكرو مثل {{setvar}}، وفقًا للرسالة الحالية. اضغط على متغير لعرضه أو تغييره.",
+  "tavernData": "البيانات",
+  "tavernBackup": "نسخ Tavern احتياطيًا بالكامل",
+  "tavernBackupSubtitle": "البطاقات والمحادثات والإعدادات المسبقة وكتب المعلومات والشخصيات والإعدادات في ملف ZIP واحد",
+  "tavernBackingUp": "جارٍ إنشاء النسخة الاحتياطية…",
+  "tavernBackedUp": "تم إنشاء النسخة الاحتياطية: {count} ملفات، {size}",
+  "@tavernBackedUp": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBackupFailed": "تعذّر إنشاء النسخة الاحتياطية: {error}",
+  "@tavernBackupFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRestore": "الاستعادة من نسخة احتياطية",
+  "tavernRestoreSubtitle": "استبدال Tavern الحالي بنسخة احتياطية",
+  "tavernRestoreTitle": "هل تريد استبدال Tavern الحالي بهذه النسخة الاحتياطية؟",
+  "tavernRestoreMessage": "ستُستبدل جميع البطاقات والمحادثات والإعدادات المسبقة والإعدادات هنا بمحتويات النسخة الاحتياطية. للاحتفاظ بالمحتوى الحالي، أنشئ نسخة احتياطية منه أولًا. لن تؤثر النسخة الاحتياطية الخاطئة أو التالفة في أي شيء.",
+  "tavernRestoreAction": "استعادة",
+  "tavernRestoring": "جارٍ الاستعادة…",
+  "tavernRestored": "تمت الاستعادة: {count} ملفات",
+  "@tavernRestored": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRestoreFailed": "تعذّرت الاستعادة؛ لم يتغير أي شيء هنا: {error}",
+  "@tavernRestoreFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreTest": "تجربة",
+  "tavernLoreTestTitle": "جرّب كتاب المعلومات",
+  "tavernLoreTestInput": "اكتب شيئًا",
+  "tavernLoreTestHint": "سطر تتوقع أن يؤدي إلى إظهار إدخال",
+  "tavernLoreTestNote": "هذا السطر وحده، بالإضافة إلى الإدخالات الدائمة؛ لا تُحتسب الرسائل السابقة أو التثبيت أو فترة التهدئة. لن يتم استدعاء أي نموذج.",
+  "tavernLoreTestHits": "يُضاف إلى المطالبة ({count})",
+  "@tavernLoreTestHits": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLoreTestNone": "لا يؤدي هذا السطر إلى إظهار أي إدخال.",
+  "tavernLoreTestOverflow": "تجاوز ميزانية كتاب المعلومات؛ تم استبعاد الإدخالات اللاحقة.",
+  "tavernLoreTestFailed": "تعذّرت التجربة: {error}",
+  "@tavernLoreTestFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreReasonKeys": "الكلمة المفتاحية {keys}",
+  "@tavernLoreReasonKeys": {
+    "placeholders": {
+      "keys": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLoreReasonSticky": "مثبّت، وما زال مفعّلًا",
+  "tavernLoreReasonDecorator": "مُزيّن",
+  "tavernLoreAtDepth": "عند العمق {depth}",
+  "@tavernLoreAtDepth": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLoreNearNote": "بجوار ملاحظة المؤلف",
+  "tavernLoreNearExamples": "بجوار الحوار النموذجي",
+  "tavernLoreOutlet": "المخرج",
+  "tavernLoreOrder": "الترتيب {order}",
+  "@tavernLoreOrder": {
+    "placeholders": {
+      "order": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranches": "الفروع",
+  "tavernBranchesNote": "يمثل كل صف مسارًا متصلًا بلا تفرع. والصف المزاح إلى الداخل يمثل مسارًا بديلًا من نهاية الصف الذي يعلوه. اضغط على صف للتبديل إليه أو تسميته؛ ويمكن أيضًا حذف الفروع التي لا تتبعها القصة حاليًا.",
+  "tavernBranchesEmpty": "لا توجد رسائل في هذه المحادثة بعد.",
+  "tavernBranchCount": "{count} رسائل",
+  "@tavernBranchCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernBranchUntil": "حتى «{text}»",
+  "@tavernBranchUntil": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranchCurrent": "الحالي",
+  "tavernBranchSwitch": "التبديل إلى هذا الفرع",
+  "tavernBranchSwitchSubtitle": "تستكمل القصة من حيث توقفت آخر مرة",
+  "tavernBranchName": "تسمية هذا الفرع",
+  "tavernBranchRename": "إعادة التسمية",
+  "tavernBranchNameHint": "مثال: مسار القبو",
+  "tavernBranchNameCaption": "مخصص لك للعثور عليه لاحقًا؛ اتركه فارغًا لإزالة الاسم.",
+  "tavernBranchSwitched": "تم التبديل إلى هذا الفرع",
+  "tavernBranchFailed": "تعذّر تنفيذ ذلك: {error}",
+  "@tavernBranchFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernCardTheme": "استخدام مظهر البطاقة الخاص",
+  "tavernCardThemeSubtitle": "لون التمييز وألوان الاسم والتخطيط والخلفية التي تحددها البطاقة؛ عند إيقافه، تتحكم هذه الصفحة في المظهر",
+  "tavernShelfSort": "ترتيب حسب",
+  "tavernShelfOrderRecent": "الأحدث استخدامًا",
+  "tavernShelfOrderName": "الاسم",
+  "tavernShelfOrderImported": "الأحدث استيرادًا",
+  "tavernFavorite": "إضافة إلى المفضلة",
+  "tavernUnfavorite": "إزالة من المفضلة",
+  "tavernFavorited": "مفضّلة",
+  "tavernChatSearchHint": "البحث في المحادثات: الشخص أو العنوان أو آخر سطر",
+  "tavernNoChatMatch": "لا توجد محادثات مطابقة",
+  "tavernCharacterTabChats": "المحادثات",
+  "tavernCharacterTabCard": "البطاقة",
+  "tavernCharacterTabSetup": "الإعداد",
+  "tavernCharacterNoDefinition": "لا تحتوي هذه البطاقة على تعريف أو ملاحظات.",
+  "tavernNovelIndent": "إزاحة فقرات 小说",
+  "tavernNovelIndentSubtitle": "تبدأ كل فقرة بمسافة تعادل محرفين، كما في الكتب",
+  "tavernShelfSelect": "تحديد",
+  "tavernShelfPicked": "تم تحديد {count}",
+  "@tavernShelfPicked": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernShelfExport": "تصدير البطاقات المحددة",
+  "tavernDeleteCharactersTitle": "هل تريد حذف هذه الشخصيات وعددها {count}؟",
+  "@tavernDeleteCharactersTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernQuickRepliesAll": "الكل",
+  "tavernQuickRepliesManage": "إدارة الردود السريعة",
+  "tavernSpeakNext": "دع {name} يتابع",
+  "@tavernSpeakNext": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSettingsConnection": "النموذج والاتصال",
+  "tavernDefaultPreset": "الإعداد المسبق الافتراضي",
+  "tavernDefaultPresetPick": "الإعداد المسبق الذي تستخدمه المحادثات الجديدة",
+  "tavernGenerationInPreset": "تغيير إعدادات {name}",
+  "@tavernGenerationInPreset": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGenerationPresetNote": "تستخدم المحادثات الجديدة {name}: غيّر السياق وطول الرد ودرجة الحرارة في ذلك الإعداد المسبق. أما المحادثة التي لها إعداد مسبق خاص بها فستحتفظ به.",
+  "@tavernGenerationPresetNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorage": "التخزين",
+  "tavernStorageCounting": "جارٍ الحساب…",
+  "tavernStorageCharacters": "بطاقات الشخصيات",
+  "tavernStorageChats": "المحادثات والإعدادات المسبقة والشخصيات التي تمثّلك",
+  "tavernStorageLive2d": "شخصيات Live2D",
+  "tavernStorageOther": "الخلفيات وكتب المعلومات والتعبيرات النمطية والإعدادات",
+  "tavernStorageNote": "كل ذلك محفوظ على هذا الجهاز فقط؛ قبل تغيير الهاتف أو إلغاء التثبيت، أنشئ نسخة احتياطية كاملة من Tavern.",
+  "tavernDefaultPresetEmpty": "استورد إعدادات مسبقة من المكتبة ← الإعدادات المسبقة لاختيار إعداد آخر.",
+  "tavernQuickRepliesAdded": "{count, plural, =1{تمت إضافة رد سريع واحد} other{تمت إضافة {count} ردود سريعة}}",
+  "@tavernQuickRepliesAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernQuickRepliesAddedSkipped": "تمت إضافة {count} ردود سريعة؛ واستُبعد {skipped} من أوامر ST ذات الشرطة المائلة",
+  "@tavernQuickRepliesAddedSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernImportChatNoName": "لا تحدد هذه المحادثة الشخصية التي تخصها؛ استوردها من صفحة الشخصية",
+  "tavernImportChatNoCharacter": "لا توجد شخصية واحدة باسم «{name}» على الرف؛ استورد هذه المحادثة من صفحة الشخصية",
+  "@tavernImportChatNoCharacter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportedChatsTo": "{count, plural, =1{تم استيراد محادثة واحدة إلى «{name}»} other{تم استيراد {count} محادثات إلى «{name}»}}",
+  "@tavernImportedChatsTo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportUnknown": "تعذّر تحديد نوع {name}",
+  "@tavernImportUnknown": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportFileFailed": "تعذّر استيراد {name}: {reason}",
+  "@tavernImportFileFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernIslands": "صفحات ويب داخل الرسائل",
+  "tavernIslandsSubtitle": "يُعرض HTML والتنسيقات التي تكتبها البطاقة في رسائلها (مثل أشرطة الحالة واللوحات) داخل صفحة ويب مستقلة؛ وعند إيقافه تُعرض كنص",
+  "tavernSettingsSafety": "الأمان",
+  "tavernIslandNoScripts": "عدم تشغيل سكربتات البطاقة في تلك الصفحات",
+  "tavernSPresetExternal": "تسمح للإعدادات المسبقة بتحميل SPreset الخاص بها",
+  "tavernSPresetExternalSubtitle": "يعمل SPreset المضمّن افتراضيًا ولا يُحمّل شيء من موقع مؤلف الإعداد المسبق؛ فعّل هذا للسماح للإعداد المسبق بتحميل نسخته الخاصة",
+  "tavernIslandNoScriptsSubtitle": "لا تعمل JavaScript الخاصة بالبطاقة؛ وتظل أشرطة الحالة التي تحتاج إليها ثابتة",
+  "tavernIslandOffline": "إبقاء تلك الصفحات دون اتصال",
+  "tavernIslandOfflineSubtitle": "تُستخدم الصور والخطوط الموجودة داخل البطاقة فقط؛ ولا يُحمّل شيء من الإنترنت",
+  "tavernSessionUsage": "استخدام هذه المحادثة",
+  "tavernSessionUsageNote": "{count, plural, =1{رد واحد في هذا الفرع} other{{count} ردود في هذا الفرع}}، بالمجموع؛ ولا تُحتسب البدائل المستبدلة",
+  "@tavernSessionUsageNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernSessionUsageNone": "لم يُبلغ النموذج عن أي استخدام بعد",
+  "tavernSessionUsageCost": "نحو {usd} وفق أسعار DeepSeek المعلنة، مع التمييز بين ساعات الذروة وخارجها؛ وتُعد العطلات الرسمية في الصين خارج الذروة طوال اليوم، لذا قد تكون القيمة هنا أعلى قليلًا",
+  "@tavernSessionUsageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStageCost": "نحو {usd} وفق أسعار DeepSeek المعلنة",
+  "@tavernStageCost": {
+    "placeholders": {
+      "usd": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSessionUsageUnpriced": "{count, plural, =1{استخدم رد واحد نموذجًا غير مدرج في قائمة الأسعار، لذلك لم تُحتسب تكلفته} other{استخدمت {count} ردود نماذج غير مدرجة في قائمة الأسعار، لذلك لم تُحتسب تكلفتها}}",
+  "@tavernSessionUsageUnpriced": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernComposerNoKey": "أضف مفتاحًا للبدء",
+  "tavernWriteOwn": "إنشاء شخصيتك الخاصة",
+  "tavernWriteOwnSubtitle": "ابدأ ببطاقة فارغة",
+  "tavernNewCharacterName": "شخصية جديدة",
+  "tavernSearchGoTo": "الانتقال إليها في المحادثة",
+  "tavernBookmarks": "الإشارات المرجعية",
+  "tavernBookmarkAdd": "إضافة إشارة مرجعية",
+  "tavernBookmarkRemove": "إزالة الإشارة المرجعية",
+  "tavernBookmarkAdded": "أُضيفت إشارة مرجعية؛ اعثر عليها في المشهد ← هذه المحادثة ← الإشارات المرجعية",
+  "tavernBookmarkRemoved": "تمت إزالة الإشارة المرجعية",
+  "tavernBookmarksEmpty": "لا توجد إشارات مرجعية بعد",
+  "tavernBookmarksEmptyMessage": "اضغط مطولًا على رسالة واختر «إضافة إشارة مرجعية»",
+  "tavernBookmarkGone": "لم يعد هذا السطر موجودًا؛ تمت إزالة إشارته المرجعية",
+  "tavernUsageStats": "الاستخدام",
+  "tavernUsageStatsSubtitle": "عدد الرموز التي استهلكتها كل محادثة والتكلفة التقريبية",
+  "tavernUsageAllNote": "مجموع الردود في السطر الحالي لكل المحادثات؛ ولا تُحتسب البدائل المستبدلة",
+  "tavernUsageChatReplies": "{count} ردود · إخراج {completion}",
+  "@tavernUsageChatReplies": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSlashNoReply": "لا يوجد رد يمكن تطبيق ذلك عليه بعد",
+  "tavernRegexTest": "تجربة",
+  "tavernRegexTestFind": "بحث عن",
+  "tavernRegexTestReplace": "استبدال بـ",
+  "tavernRegexTestInput": "نص",
+  "tavernRegexTestHint": "الصق ردًا لتجربة التعبير عليه",
+  "tavernRegexTestNote": "تُطبّق هذه القاعدة وحدها على هذا الجهاز دون استدعاء نموذج؛ وتُنفّذ هنا بغض النظر عما تطابقه أو ما إذا كانت مفعّلة.",
+  "tavernRegexTestMacros": "لا تُستبدل وحدات الماكرو مثل {{char}} هنا؛ بل تُعامل كما كُتبت.",
+  "tavernRegexTestNone": "لا يوجد تطابق؛ سيبقى النص كما هو",
+  "tavernRegexTestResult": "بعد الاستبدال ({count})",
+  "@tavernRegexTestResult": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernRegexTestFailed": "تعذّرت التجربة: {reason}",
+  "@tavernRegexTestFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStateNote": "وفقًا للرسالة الحالية. اضغط على متغير لعرضه أو تغييره؛ وتُسجّل التغييرات مع هذه الرسالة.",
+  "tavernStatePreview": "لم يُحفظ شيء بعد؛ هذه هي القيم الابتدائية.",
+  "tavernStateChanged": "تم التغيير",
+  "tavernStateHidden": "محتوى مخفي · اضغط للعرض",
+  "tavernStateWhole": "الكل",
+  "tavernStateEdit": "تغيير",
+  "tavernStateEditText": "يُحتفظ بالنص كما كُتب",
+  "tavernStateEditJson": "اكتب JSON: رقم أو true / false أو \"نص بين علامتي اقتباس\" أو […] أو {…}",
+  "tavernStateEditBad": "JSON غير صالح؛ لم يتغير شيء",
+  "tavernStateEditSaved": "تم التغيير",
+  "tavernStateEditSame": "كانت هذه هي القيمة بالفعل",
+  "tavernStateEditRefused": "لم يتغير: {reason}",
+  "@tavernStateEditRefused": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDirectorAuto": "يعمل المخرج تلقائيًا",
+  "tavernDirectorAutoNote": "لهذه المحادثة فقط. يُطلب من النموذج التفكير مرة إضافية كل بضعة أدوار، ما يستهلك قدرًا إضافيًا قليلًا.",
+  "tavernDirectorRun": "اطلب من المخرج الآن",
+  "tavernDirectorRunning": "المخرج يفكر…",
+  "tavernDirectorBeat": "الحدث التالي",
+  "tavernDirectorSuggestions": "يمكنك…",
+  "tavernDirectorSuggestionsNote": "اضغط على أحد الاقتراحات لوضعه في حقل الكتابة",
+  "tavernDirectorNotes": "ملاحظات المخرج",
+  "tavernDirectorStale": "تم التفكير فيها لمرحلة سابقة؛ احتُفظ بها للقراءة.",
+  "tavernDirectorFailed": "لم تنجح المحاولة الأخيرة: {reason}",
+  "@tavernDirectorFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDirectorRunFailed": "تعذّر تنفيذ ذلك: {reason}",
+  "@tavernDirectorRunFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernBranchHere": "إنشاء فرع من هنا",
+  "tavernBranchedHere": "تم الرجوع إلى هذه الرسالة؛ وما جاء بعدها محفوظ في الفروع",
+  "tavernBranchHereFailed": "تعذّر الرجوع إلى هذه الرسالة",
+  "tavernStateItems": "{count} عناصر",
+  "@tavernStateItems": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernStateSearch": "البحث في القيم",
+  "tavernStateNoMatch": "لا توجد نتائج مطابقة",
+  "tavernRuns": "سجل العمليات في الخلفية",
+  "tavernRunsNote": "كل تغيير في الحالة تجريه أنت أو النموذج أو قواعد البطاقة، وكل تشغيل للمخرج وأحداث البطاقة والقصة؛ مرتبة من الأحدث، حتى 100 سجل. اضغط على سجل لعرض بياناته الخام.",
+  "tavernRunsEmpty": "لا شيء بعد",
+  "tavernRunsEmptyMessage": "ستظهر هنا تغييرات الحالة وعمليات تشغيل المخرج.",
+  "tavernRunUser": "أنت",
+  "tavernRunModel": "النموذج",
+  "tavernRunRules": "قواعد البطاقة",
+  "tavernRunStopped": "تم قطع الدور",
+  "tavernRunDirector": "المخرج",
+  "tavernRunDirectorFailed": "فشل المخرج",
+  "tavernRunEvent": "حدث البطاقة",
+  "tavernRunStory": "القصة",
+  "tavernRunSecret": "سر",
+  "tavernRunNotKept": "لم يتم الاحتفاظ به",
+  "tavernRunGone": "لم تعد رسالته موجودة",
+  "tavernRunMore": "و{count} أخرى",
+  "@tavernRunMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCache": "ذاكرة التخزين المؤقت",
+  "tavernInspectCacheKept": "نقطة البداية نفسها كما في الدور السابق",
+  "tavernInspectCacheBroken": "تغيّر ابتداءً من الجزء {index}",
+  "@tavernInspectCacheBroken": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCacheMiss": "هذا الجزء ونحو {tokens} رمزًا بعده غير موجودة في ذاكرة التخزين المؤقت؛ أما الأجزاء السابقة فتطابق الدور الأخير. غالبًا ما يكون السبب تغيّر إدخال في كتاب المعلومات بالقرب من البداية في هذا الدور.",
+  "@tavernInspectCacheMiss": {
+    "placeholders": {
+      "tokens": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCacheBreak": "تنقطع ذاكرة التخزين المؤقت هنا",
+  "tavernPaletteSt": "ST",
+  "tavernStTheme": "مظهر ST: {name}",
+  "@tavernStTheme": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStThemeNote": "عند اختيار ألوان «ST»، تستخدم الاقتباسات و*الأفعال* ألوانه؛ وتُعدّل الألوان الخافتة جدًا حتى تصبح مقروءة هنا.",
+  "tavernStThemeImport": "استيراد مظهر ST",
+  "tavernStThemeImportNote": "يستورد ألوان الاقتباسات والمائل وCSS المخصص من ملف مظهر مُصدّر من SillyTavern.",
+  "tavernStThemeCss": "استخدام CSS المخصص الخاص به",
+  "tavernStThemeCssSubtitle": "عند اختيار ألوان «ST»، يُطبّق على مساحة القصة بأكملها ويتجاوز المظهر الافتراضي كما في ST. أوقفه إذا اختل تخطيط الصفحة؛ وستبقى الألوان.",
+  "tavernStThemeRemove": "إزالة",
+  "tavernStThemeImported": "يُستخدم الآن مظهر الألوان الخاص بـ ST «{name}»",
+  "@tavernStThemeImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStThemeNoColors": "لا يحتوي «{name}» على ألوان اقتباسات أو مائل أو CSS مخصص يمكن استخدامه",
+  "@tavernStThemeNoColors": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPromptContent": "المحتوى",
+  "tavernPromptRole": "يُرسل بصفة",
+  "tavernPromptRoleSystem": "النظام",
+  "tavernPromptRoleUser": "المستخدم",
+  "tavernPromptRoleAssistant": "المساعد",
+  "tavernPromptPosition": "الموضع",
+  "tavernPromptRelative": "حسب الترتيب",
+  "tavernPromptInChat": "داخل المحادثة",
+  "tavernPromptDepth": "العمق",
+  "tavernPromptDepthNote": "يُضاف إلى سجل المحادثة قبل النهاية بـ {depth} رسائل (0 تعني النهاية تمامًا)، مثل خيار In-Chat في ST.",
+  "@tavernPromptDepthNote": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPromptRelativeNote": "يُرسل في الموضع الذي يحدده ترتيب الإعداد المسبق، مثل خيار Relative في ST.",
+  "tavernPromptPlace": "داخل المحادثة · العمق {depth}",
+  "@tavernPromptPlace": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPromptOrder": "الترتيب عند هذا العمق",
+  "tavernPromptOrderNote": "عندما توجد عدة عناصر في عمق واحد، يأتي الرقم الأصغر أولًا (100 افتراضيًا).",
+  "tavernPromptForbid": "منع البطاقة من استبداله",
+  "tavernPromptForbidMain": "لن تستبدل مطالبة النظام الخاصة بالبطاقة هذه المطالبة.",
+  "tavernPromptForbidJailbreak": "لن تستبدل تعليمات ما بعد سجل المحادثة الخاصة بالبطاقة هذه المطالبة.",
+  "tavernLoreCommon": "عام",
+  "tavernLoreMore": "المزيد",
+  "tavernLorePosAnTop": "قبل ملاحظة المؤلف",
+  "tavernLorePosAnBottom": "بعد ملاحظة المؤلف",
+  "tavernLorePosExampleTop": "قبل الأمثلة",
+  "tavernLorePosExampleBottom": "بعد الأمثلة",
+  "tavernLorePosOutlet": "المخرج",
+  "tavernLoreLogic": "طريقة احتساب المفاتيح الثانوية",
+  "tavernLoreLogicAndAny": "أيّ منها",
+  "tavernLoreLogicAndAll": "كلّها",
+  "tavernLoreLogicNotAny": "لا شيء منها",
+  "tavernLoreLogicNotAll": "ليس كلها",
+  "tavernLoreProbability": "الاحتمالية",
+  "tavernLoreCase": "حسّاس لحالة الأحرف",
+  "tavernLoreWhole": "كلمات كاملة",
+  "tavernLoreDefault": "الافتراضي",
+  "tavernLoreYes": "نعم",
+  "tavernLoreNo": "لا",
+  "tavernLorePosDepth": "عند العمق",
+  "tavernLibraryBookOpen": "الإدخالات",
+  "tavernLibraryBookNote": "تُكتب التغييرات في هذا الكتاب؛ وستستخدمها جميع المواضع المرتبطة به ابتداءً من الدور التالي.",
+  "tavernBranchDelete": "حذف هذا الفرع",
+  "tavernBranchDeleteTitle": "هل تريد حذف هذا الفرع؟",
+  "tavernBranchDeleteMessage": "ستُحذف رسائله البالغ عددها {count} وكل فرع نشأ منه؛ ويمكنك التراجع لبضع ثوانٍ. لن يتأثر المسار الحالي للقصة.",
+  "@tavernBranchDeleteMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLetterFrom": "رسالة من {from}",
+  "@tavernLetterFrom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLetter": "رسالة",
+  "tavernComponentMore": "عرض الكل",
+  "tavernComponentLess": "عرض أقل",
+  "tavernItemTaken": "تم الحصول عليه",
+  "tavernClue": "دليل",
+  "tavernPhoneFrom": "رسالة من {from}",
+  "@tavernPhoneFrom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPhoneMessage": "رسالة",
+  "tavernRollCheck": "اختبار: {skill}",
+  "@tavernRollCheck": {
+    "placeholders": {
+      "skill": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRoll": "ارمِ",
+  "tavernRollSuccess": "نجاح",
+  "tavernRollFailure": "إخفاق",
+  "tavernGameHere": "توجد لعبة مصغّرة هنا؛ لكن لا يمكن لعبها هنا بعد",
+  "tavernCanvasReplied": "ردّ {name}",
+  "@tavernCanvasReplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernMvuIssues": "حدثت مشكلة في متغيرات هذه البطاقة",
+  "tavernMvuUnfinished": "لم يتم تحديث متغيرات هذه الرسالة بالكامل؛ وقد تم الاحتفاظ بنصها",
+  "tavernRegexEdit": "تعديل القاعدة",
+  "tavernRegexFieldName": "الاسم",
+  "tavernRegexFieldFindHelp": "تُكتب بالشكل /pattern/flags، مثال: /(hi|bye)/gi",
+  "tavernRegexFieldReplaceHelp": "يمثل $1 المجموعة الأولى؛ ويمثل {{match}} التطابق بالكامل",
+  "tavernRegexFieldTrim": "الاقتطاع أولًا",
+  "tavernRegexFieldTrimHelp": "عنصر واحد في كل سطر؛ يُحذف من التطابق قبل استبداله",
+  "tavernRegexPlacement": "يُطبّق على",
+  "tavernRegexPlaceUser": "رسائلك",
+  "tavernRegexPlaceAi": "الردود",
+  "tavernRegexPlaceSlash": "أوامر الشرطة المائلة",
+  "tavernRegexPlaceWorld": "معلومات العالم",
+  "tavernRegexPlaceReasoning": "التفكير",
+  "tavernRegexPhase": "التغييرات",
+  "tavernRegexPhaseWrite": "النص",
+  "tavernRegexPhaseDisplay": "العرض",
+  "tavernRegexPhasePrompt": "المطالبة",
+  "tavernRegexPhaseBoth": "كلاهما",
+  "tavernRegexPhaseNote": "النص: يعيد كتابة الرسالة المحفوظة. العرض: يغيّر ما تراه فقط. المطالبة: يغيّر ما يُرسل إلى النموذج فقط.",
+  "tavernRegexMinDepth": "من العمق",
+  "tavernRegexMaxDepth": "إلى العمق",
+  "tavernRegexDepthHelp": "اتركه فارغًا ليشمل الكل؛ 0 تعني أحدث رسالة",
+  "tavernRegexSubstitute": "وحدات الماكرو في النمط",
+  "tavernRegexSubstituteNone": "اتركها كما هي",
+  "tavernRegexSubstituteRaw": "توسيع",
+  "tavernRegexSubstituteEscaped": "توسيع مع الهروب",
+  "tavernRegexRunOnEdit": "التطبيق أيضًا عند تعديل رسالة",
+  "tavernRegexFieldEnabled": "استخدام هذه القاعدة",
+  "tavernRegexSavedIncompatible": "تم الحفظ. لا يمكن تشغيل هذه القاعدة هنا، لذا سيتم تخطيها",
+  "tavernRegexGone": "لم تعد هذه القاعدة موجودة؛ عُد إلى القائمة",
+  "tavernRegexDeferred": "تستخدم وحدات ماكرو؛ ولا يُعرف ما إذا كانت ستعمل إلا عند التنفيذ",
+  "tavernRegexTryDraft": "تجربتها بالقيم المدخلة",
+  "tavernRegexDepthAny": "أي عمق",
+  "tavernCanvas": "مساحة رسم للصفحة بأكملها (تجريبي)",
+  "tavernCardScriptsHint": "{count, plural, =1{يتطلب سكربت البطاقة الواحد مساحة الرسم للصفحة بأكملها} other{تتطلب سكربتات البطاقة وعددها {count} مساحة الرسم للصفحة بأكملها}}",
+  "@tavernCardScriptsHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernCardScriptsHintAction": "تفعيل",
+  "tavernRender": "طريقة العرض",
+  "tavernRenderSubtitle": "محادثات هذه الشخصية فقط. تحتاج أشرطة الحالة والتنسيقات إلى صفحات أو مساحة الرسم؛ ولا تعمل السكربتات إلا في مساحة الرسم",
+  "tavernRenderText": "نص",
+  "tavernRenderIslands": "صفحات",
+  "tavernRenderCanvas": "مساحة الرسم",
+  "tavernCanvasSubtitle": "تُعرض المحادثة كاملة في صفحة ويب واحدة بتخطيط SillyTavern، لتسري تنسيقات ST الخاصة بالبطاقة عبر الرسائل. تعمل سكربتات البطاقة هنا؛ فعّل «عدم تشغيل سكربتات البطاقة في تلك الصفحات» لإيقافها. لا يُستخدم مع الرواية المرئية.",
+  "tavernCanvasReloaded": "أُعيد تحميل الصفحة",
+  "tavernLowPower": "صفحات موفرة للطاقة",
+  "tavernLowPowerSubtitle": "لا تستخدم صفحات ويب البطاقات تأثيرات ضبابية أو رسومًا متحركة متكررة، ليعمل الهاتف بسلاسة أكبر",
+  "tavernGroupSpeaking": "يتحدث {name}",
+  "@tavernGroupSpeaking": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupThen": "ثم {names}",
+  "@tavernGroupThen": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupNoSpeakers": "لم يتحدث أحد في هذا الدور. اضغط على اسم أعلاه ليبدأ بالكلام.",
+  "tavernGroupSpeakNext": "دعهم يتابعون",
+  "tavernGroupNew": "محادثة جماعية جديدة",
+  "tavernGroupMembers": "المشاركون",
+  "tavernGroupMembersNote": "بحسب ترتيب الاختيار؛ ويكون الأول هو المضيف.",
+  "tavernGroupHost": "المضيف",
+  "tavernGroupTitle": "الاسم",
+  "tavernGroupActivation": "تناوب الأدوار",
+  "tavernGroupNatural": "طبيعي",
+  "tavernGroupListOrder": "حسب الترتيب",
+  "tavernGroupRandom": "عشوائي",
+  "tavernGroupManual": "يدوي",
+  "tavernGroupDirector": "المخرج",
+  "tavernGroupNaturalNote": "كما في SillyTavern: يتحدث أولًا من تتم الإشارة إليه، ثم البقية بحسب مدى ميل كل منهم للكلام.",
+  "tavernGroupListOrderNote": "ينتقل كل دور إلى الاسم التالي في القائمة من الأعلى (ويتم تخطي المكتومين).",
+  "tavernGroupRandomNote": "يُختار في كل دور مشارك لم يتحدث منذ آخر رسالة لك.",
+  "tavernGroupManualNote": "لا يتحدث أحد تلقائيًا؛ اضغط على اسم فوق حقل الكتابة ليبدأ بالكلام.",
+  "tavernGroupDirectorNote": "يختار المخرج المتحدث التالي وفقًا لسير القصة.",
+  "tavernGroupPickTwo": "اختر مشاركين اثنين على الأقل",
+  "tavernGroupCreate": "إنشاء ({count})",
+  "@tavernGroupCreate": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernGroupCreateFailed": "تعذّر إنشاء المجموعة: {reason}",
+  "@tavernGroupCreateFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupTag": "مجموعة",
+  "tavernGroupMemberCount": "{count} أعضاء",
+  "@tavernGroupMemberCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernGroupSettings": "إعدادات المجموعة",
+  "tavernGroupMaxSpeakers": "الحد الأقصى في كل دور",
+  "tavernGroupSelfResponses": "السماح بالرد على النفس",
+  "tavernGroupSelfResponsesNote": "يمكن لمن تحدث أخيرًا أن يتحدث مجددًا في هذا الدور.",
+  "tavernGroupHostNote": "المضيف هو {name}: وتُحفظ الحالة المشتركة للقصة في بطاقته.",
+  "@tavernGroupHostNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupMuted": "مكتوم",
+  "tavernGroupMutedNote": "لن يتحدث تلقائيًا؛ لكنه سيظل يتحدث عند ذكر اسمه.",
+  "tavernGroupTalkativeness": "مدى حب الكلام",
+  "tavernGroupTalkativenessNote": "في التناوب الطبيعي، كلما ارتفعت القيمة زاد احتمال التحدث.",
+  "tavernGroupHelperModel": "النموذج المساعد",
+  "tavernGroupHelperModelNote": "يتحدث باستخدام النموذج المساعد (تلقائي: Flash دون التفكير على DeepSeek، والنموذج الرئيسي في غير ذلك): للشخصيات الثانوية.",
+  "tavernGroupMoveUp": "نقل لأعلى",
+  "tavernGroupMoveDown": "نقل لأسفل",
+  "tavernGroupRemove": "إزالة من المجموعة",
+  "tavernGroupAdd": "إضافة شخصية",
+  "tavernGroupNoOthers": "جميع الشخصيات الموجودة على الرف ضمن المجموعة",
+  "tavernGroupUnavailable": "البطاقة غير موجودة",
+  "tavernGroupSaveFailed": "تعذّر الحفظ: {reason}",
+  "tavernGroupErrorNotGroup": "لم تعد هذه محادثة جماعية",
+  "tavernGroupErrorCharacterNotFound": "بطاقة هذه الشخصية لم تعد موجودة",
+  "tavernGroupErrorMemberExists": "هذه الشخصية موجودة بالفعل في المجموعة",
+  "tavernGroupErrorMemberNotFound": "لم تعد هذه الشخصية ضمن المجموعة",
+  "tavernGroupErrorInvalidMembers": "لا يمكن تكرار الأعضاء، ويجب أن تضم المجموعة شخصية واحدة على الأقل",
+  "tavernGroupErrorInvalidTalkativeness": "تتراوح قيمة حب الكلام بين 0 و1",
+  "tavernGroupErrorInvalidLimit": "يجب أن يتحدث عضو واحد على الأقل في كل جولة",
+  "tavernGroupErrorInvalidOrder": "لا يتطابق هذا الترتيب مع الأعضاء؛ افتح القائمة مجددًا وأعد الترتيب",
+  "tavernGroupErrorHostInUse": "تستضيف هذه الشخصية محادثة جماعية؛ احذف تلك المحادثة أولًا",
+  "tavernGroupErrorInvalidTitle": "لا يمكن أن يكون اسم المحادثة الجماعية فارغًا",
+  "tavernToolRollUnsettled": "🎲 {dice}: لم يتم تأكيد النتيجة بعد",
+  "@tavernToolRollUnsettled": {
+    "placeholders": {
+      "dice": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolRollNotDone": "🎲 {dice}: لم يتم الرمي",
+  "@tavernToolRollNotDone": {
+    "placeholders": {
+      "dice": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolRollPass": "الهدف {target}، نجاح",
+  "@tavernToolRollPass": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolRollFail": "الهدف {target}، إخفاق",
+  "@tavernToolRollFail": {
+    "placeholders": {
+      "target": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolMemory": "يريد تذكّر: «{text}»",
+  "@tavernToolMemory": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryAccept": "تذكّر",
+  "tavernToolMemoryReject": "لا",
+  "tavernToolMemoryStaged": "تم اتخاذ القرار؛ سيُكتب عند اكتمال هذا الدور",
+  "tavernToolMemoryIneligible": "لا يمكن اتخاذ القرار الآن: {reason}",
+  "@tavernToolMemoryIneligible": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryAccepted": "تم التذكّر",
+  "tavernToolMemoryAuto": "تم التذكّر وفق الإعداد التلقائي",
+  "tavernToolMemoryRejected": "لم يتم التذكّر",
+  "tavernToolMemoryInactive": "لم يكتمل هذا الدور بشكل طبيعي؛ لم يتم التذكّر",
+  "tavernToolMemoryWaiting": "لم يُنفّذ قرارك الأخير بعد",
+  "tavernToolMemoryNotApplied": "لم يتم التذكّر: {reason}",
+  "@tavernToolMemoryNotApplied": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolMemoryFailed": "لم ينجح التنفيذ: {detail}",
+  "@tavernToolMemoryFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernToolReasonRevision": "لقد تغيّر؛ حدّث الصفحة واتخذ القرار مجددًا",
+  "tavernToolReasonResolved": "تم اتخاذ القرار بالفعل",
+  "tavernToolReasonContext": "تغيّرت المحادثة",
+  "tavernToolReasonDeleted": "تم حذف ذلك الرد",
+  "tavernToolReasonChanged": "تم تعديل ذلك الرد",
+  "tavernToolReasonBranch": "ليس ضمن الفرع الحالي",
+  "tavernToolReasonInactive": "لم يعد نشطًا",
+  "tavernToolReasonUnknown": "السبب غير معروف",
+  "tavernToolPolicy": "الأدوات",
+  "tavernToolPolicyRoll": "السماح للشخصيات برمي النرد",
+  "tavernToolPolicyRollSubtitle": "عندما يحتاج الرد إلى رمية، يرميها Tavern ويحتفظ بالنتيجة",
+  "tavernToolPolicyRemember": "السماح للشخصيات بالاحتفاظ بالملاحظات",
+  "tavernToolPolicyRememberSubtitle": "ما تراه الشخصية جديرًا بالتذكّر يُضاف إلى الذاكرة وفق الإعداد أدناه",
+  "tavernToolPolicyMode": "الاحتفاظ بالملاحظات",
+  "tavernToolPolicyModeAsk": "اسألني أولًا",
+  "tavernToolPolicyModeAuto": "تلقائيًا",
+  "tavernToolPolicyDiagnostics": "تعذّرت قراءة جزء من هذا الإعداد؛ الأداة المرتبطة به متوقفة مؤقتًا",
+  "tavernToolPolicyNote": "تستخدم الردود هذه الأدوات مع DeepSeek فقط وعند إيقاف التفكير؛ ويسري التغيير ابتداءً من الدور التالي، ويمكن لبطاقة الشخصية تعطيلها",
+  "tavernToolPolicyFailed": "لم يتغير: {detail}",
+  "@tavernToolPolicyFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChatTools": "الأدوات في هذه المحادثة",
+  "tavernChatToolFollow": "كما هو محدد",
+  "tavernChatToolOn": "مفعّل",
+  "tavernChatToolOff": "متوقف",
+  "tavernChatToolNow": "في هذه المحادثة: النرد {roll}، والذكريات {remember}",
+  "@tavernChatToolNow": {
+    "placeholders": {
+      "roll": {
+        "type": "String"
+      },
+      "remember": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChatToolHeld": "ما أوقفته إعدادات Tavern يظل متوقفًا حتى لو فُعّل هنا",
+  "tavernInspectRequests": "{count} طلبات",
+  "@tavernInspectRequests": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectUsageTotals": "إدخال {prompt} (المخبأ {hit}) · إخراج {completion}",
+  "@tavernInspectUsageTotals": {
+    "placeholders": {
+      "prompt": {
+        "type": "String"
+      },
+      "hit": {
+        "type": "String"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsagePrompt": "إدخال",
+  "tavernReqUsageCache": "مخبأ",
+  "tavernReqUsageCompletion": "إخراج",
+  "tavernReqUsageLine": "{field}: {parts}",
+  "@tavernReqUsageLine": {
+    "placeholders": {
+      "field": {
+        "type": "String"
+      },
+      "parts": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsageJoin": "، ",
+  "tavernReqUsageKnown": "{known} معروف",
+  "@tavernReqUsageKnown": {
+    "placeholders": {
+      "known": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernReqUsageUnknown": "{count} غير معروف",
+  "@tavernReqUsageUnknown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernReqUsageMissing": "{count} لم يُبلّغ عنه",
+  "@tavernReqUsageMissing": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernReqUsageInvalid": "تم الإبلاغ عن {count} بشكل غير صحيح",
+  "@tavernReqUsageInvalid": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernToolFailBudget": "استهلك هذا الدور جميع طلبات الأدوات المتاحة، وسيتوقف هنا؛ وتظل رميات النرد التي تمت محسوبة",
+  "tavernToolFailBatch": "طلب النموذج عددًا كبيرًا جدًا من الأدوات دفعة واحدة؛ ولم تُنفّذ تلك الدفعة",
+  "tavernToolFailProtocol": "كان استدعاء الأداة من النموذج غير صالح، ولم يتم تنفيذه",
+  "tavernToolFailSnapshot": "لا يمكن متابعة رد هذا النموذج باستخدام الأدوات، لذا سيتوقف هنا",
+  "tavernToolFailReceipt": "تعذّر حفظ نتيجة إحدى الأدوات؛ تحقّق من هذا الدور مجددًا بعد قليل",
+  "tavernToolFailAnchor": "تغيّرت المحادثة أثناء هذا الدور، لذلك لم يتابع",
+  "tavernToolFail": "حدث خطأ ما في إحدى الأدوات",
+  "tavernToolFailDetail": "حدث خطأ ما في إحدى الأدوات: {detail}",
+  "@tavernToolFailDetail": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceUnsettled": "لم يتم تأكيد النتيجة بعد؛ تحقّق مجددًا",
+  "tavernDicePending": "لم يتم تأكيد رميتك الأخيرة بعد",
+  "tavernDiceRecheck": "التحقق مجددًا",
+  "tavernDiceForget": "تجاهلها",
+  "tavernDiceBusy": "مشغول حاليًا؛ ارمِ النرد بعد اكتمال كتابة هذا الدور",
+  "tavernDiceOff": "رمي النرد متوقف في إعدادات Tavern",
+  "tavernDiceFailed": "لم يتم الرمي: {detail}",
+  "@tavernDiceFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDiceNotSaved": "لم ينجح التنفيذ: {detail}",
+  "@tavernDiceNotSaved": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "@tavernGroupSaveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannel": "القناة",
+  "tavernChannelDeepSeek": "DeepSeek",
+  "tavernChannelDeepSeekNote": "يستخدم مفتاح DeepSeek الخاص بالتطبيق",
+  "tavernChannelAdd": "إضافة قناة",
+  "tavernChannelEdit": "تعديل القناة",
+  "tavernChannelsNote": "تعمل أي خدمة متوافقة مع OpenAI: وسيط أو OpenRouter أو نموذج يعمل على حاسوبك. تُحفظ المفاتيح في التخزين الآمن لهذا الهاتف. لا تعرف تقديرات التكلفة إلا أسعار DeepSeek؛ أما القنوات الأخرى فتُظهر أعداد الرموز.",
+  "tavernChannelName": "الاسم",
+  "tavernChannelNameHint": "اتركه فارغًا لاستخدام العنوان",
+  "tavernChannelBaseUrlInvalid": "يجب أن يبدأ بـ http:// أو https://",
+  "tavernChannelKeyOptional": "يمكن ترك هذا الحقل فارغًا لخادم محلي لا يتطلب مفتاحًا",
+  "tavernChannelKeyKept": "يوجد مفتاح محفوظ؛ اترك الحقل فارغًا للاحتفاظ به",
+  "tavernChannelFetchModels": "جلب القائمة",
+  "tavernChannelFetching": "جارٍ الجلب…",
+  "tavernChannelFetchFailed": "تعذّر جلب قائمة النماذج ({detail}). يمكنك كتابة اسم النموذج.",
+  "@tavernChannelFetchFailed": {
+    "placeholders": {
+      "detail": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannelNoModels": "لا تعرض هذه الخدمة أي نماذج. اكتب اسم النموذج.",
+  "tavernChannelModelHint": "اسم النموذج الذي يحدده مزود الخدمة",
+  "tavernChannelModelMissing": "أدخل اسم النموذج",
+  "tavernChannelPickModel": "اختيار نموذج",
+  "tavernChannelSearchModels": "البحث عن النماذج",
+  "tavernChannelDeepSeekApi": "الإرسال باستخدام API الخاص بـ DeepSeek",
+  "tavernChannelDeepSeekApiNote": "يستخدم آلية متابعة DeepSeek ومفتاح التفكير. فعّله فقط مع DeepSeek نفسه أو وسيط يمرره كما هو.",
+  "tavernChannelDelete": "حذف القناة",
+  "tavernChannelDeleteTitle": "هل تريد حذف «{name}»؟",
+  "@tavernChannelDeleteTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernChannelDeleteMessage": "سيُحذف مفتاحها أيضًا. وإذا كانت قيد الاستخدام، فسيحل DeepSeek محلها.",
+  "tavernChannelCopyFromApp": "النسخ من قنوات التطبيق",
+  "tavernModelName": "اسم النموذج",
+  "tavernNumberCustom": "مخصص",
+  "tavernNumberType": "أدخل رقمًا",
+  "tavernNumberRange": "أدخل رقمًا من {min} إلى {max}",
+  "@tavernNumberRange": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernNumberRangeWhole": "أدخل عددًا صحيحًا من {min} إلى {max}",
+  "@tavernNumberRangeWhole": {
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernTopP": "Top P",
+  "tavernPresencePenalty": "عقوبة التواجد",
+  "tavernFrequencyPenalty": "عقوبة التكرار",
+  "tavernPresetSampling": "أخذ العينات",
+  "tavernChannelHeaders": "ترويسات الطلب (اختياري)",
+  "tavernChannelHeadersNote": "سطر واحد لكل ترويسة، بالشكل «الاسم: القيمة». تُحفظ في التخزين الآمن لهذا الهاتف مثل المفتاح.",
+  "tavernChannelHeadersInvalid": "اكتب كل سطر بالشكل «الاسم: القيمة»",
+  "tavernAuxiliary": "النموذج المساعد",
+  "tavernAuxiliaryNote": "يُستخدم للمخرج واختيار المتحدث في المجموعة والأسرار",
+  "tavernAuxiliaryAuto": "تلقائي",
+  "tavernAuxiliaryAutoNote": "يتبع القناة الرئيسية: Flash على DeepSeek، والنموذج نفسه في غير ذلك",
+  "tavernAuxiliaryDeepSeek": "DeepSeek Flash",
+  "tavernChannelKeyClear": "مسح",
+  "tavernChannelKeyCleared": "سيُمسح المفتاح عند الحفظ",
+  "tavernDrafts": "المسودات",
+  "tavernDraftsSubtitle": "تبقى التغييرات في مسودة حتى تختار ما تريد تطبيقه على النسخة الفعلية",
+  "tavernDraftsForCard": "تغيير هذه البطاقة باستخدام الذكاء الاصطناعي",
+  "tavernDraftsEmpty": "لا توجد مسودات بعد",
+  "tavernDraftsEmptyOwn": "أنشئ مسودة وأخبر الذكاء الاصطناعي بكيفية تغيير هذه البطاقة.",
+  "tavernDraftsEmptyAll": "أنشئ واحدة من صفحة شخصية أو من ملف؛ ستبقى مسودة ولن يتم استيراد شيء.",
+  "tavernDraftNew": "مسودة جديدة",
+  "tavernDraftFromFile": "مسودة من ملف",
+  "tavernDraftSeedUnsupported": "{name} ليست بطاقة أو كتاب معلومات",
+  "@tavernDraftSeedUnsupported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraft": "مسودة",
+  "tavernDraftSubtitle": "لا يوجد شيء هنا ضمن النسخة الفعلية بعد",
+  "tavernDraftGone": "لم تعد هذه المسودة موجودة",
+  "tavernDraftKindCharacter": "بطاقة",
+  "tavernDraftKindPreset": "إعداد مسبق",
+  "tavernDraftNewSource": "{name} (لم تُحفظ بعد)",
+  "@tavernDraftNewSource": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftGreetings": "تحيات أخرى",
+  "tavernDraftEntry": "الإدخال {n}",
+  "@tavernDraftEntry": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftNoChanges": "لا توجد تغييرات بعد",
+  "tavernDraftNoChangesHint": "أخبر الذكاء الاصطناعي أدناه بما تريد تغييره",
+  "tavernDraftBefore": "قبل",
+  "tavernDraftAfter": "بعد",
+  "tavernDraftAbsent": "(لا شيء)",
+  "tavernDraftRemoved": "تمت الإزالة",
+  "tavernDraftAppliedChange": "تم التطبيق",
+  "tavernDraftDependsOn": "مرتبط بـ {n} تغييرات سابقة",
+  "@tavernDraftDependsOn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRemoveChange": "إزالة هذا التغيير من المسودة",
+  "tavernDraftApply": "تطبيق {n}",
+  "@tavernDraftApply": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftSaveNew": "حفظ كجديد",
+  "tavernDraftSavedNew": "تم الحفظ كجديد",
+  "tavernDraftChecked": "تم الفحص: لم يُعثر على شيء",
+  "tavernDraftCannotApply": "يمكن معاينة مسودات التعبيرات النمطية والإعدادات المسبقة، لكن لا يمكن تطبيقها بعد",
+  "tavernDraftApplied": "تم التطبيق على {name}",
+  "@tavernDraftApplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftNoChange": "مطابق للوضع الحالي: لا شيء لتغييره",
+  "tavernDraftNotApplied": "لم يتم التطبيق: {reason}",
+  "@tavernDraftNotApplied": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftUnconfirmed": "لم يتم تأكيد الحفظ بعد. لا تكرره؛ تحقّق من السجل بعد قليل.",
+  "tavernDraftApplyUnknown": "لا توجد إجابة ({reason})؛ الضغط مجددًا يواصل العملية نفسها",
+  "@tavernDraftApplyUnknown": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftBehind": "تغيّر {name} بعد بدء هذه المسودة (ربما للتو نتيجة التطبيق). تابع انطلاقًا منه وراجع التغييرات مجددًا.",
+  "@tavernDraftBehind": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftCatchUp": "المتابعة من الوضع الحالي",
+  "tavernDraftChangedMeanwhile": "تغيّرت المسودة في هذه الأثناء؛ تمت إعادة تحميلها",
+  "tavernDraftPending": "لم يتم تأكيد عملية الحفظ الأخيرة؛ ولا يمكن تطبيقها مجددًا بعد",
+  "tavernDraftDelete": "حذف المسودة",
+  "tavernDraftDeleteTitle": "هل تريد حذف هذه المسودة؟",
+  "tavernDraftDeleteBody": "سيتم حذف المسودة فقط؛ أما ما تم تطبيقه فسيبقى.",
+  "tavernDraftAskHint": "ما الذي تريد تغييره؟ مثال: تحية أكثر هدوءًا",
+  "tavernDraftAiSend": "اسأل الذكاء الاصطناعي",
+  "tavernDraftAiStop": "إيقاف",
+  "tavernDraftAiTitle": "الذكاء الاصطناعي",
+  "tavernDraftAiRunning": "جارٍ العمل…",
+  "tavernDraftAiDone": "اكتمل: التغييرات أعلاه؛ اختر ما تريد تطبيقه",
+  "tavernDraftAiStopped": "تم الإيقاف",
+  "tavernDraftAiConflict": "تغيّرت المسودة في هذه الأثناء؛ توقف الذكاء الاصطناعي",
+  "tavernDraftAiBudget": "تم استخدام أربعة طلبات؛ توقف هنا",
+  "tavernDraftAiFailed": "حدث خطأ ما",
+  "tavernDraftAiInterrupted": "تمت المقاطعة (أُغلق التطبيق)",
+  "tavernDraftEarlier": "طُلب سابقًا",
+  "tavernDraftRunReceipts": "{changes} تعديلات · {requests} طلبات",
+  "@tavernDraftRunReceipts": {
+    "placeholders": {
+      "changes": {
+        "type": "int"
+      },
+      "requests": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftHistory": "الإصدارات",
+  "tavernDraftHistoryEmpty": "لم يتم تسجيل أي إصدارات بعد",
+  "tavernDraftHistoryNote": "تؤدي العودة إلى حفظ نسخة جديدة؛ وتظل الإصدارات اللاحقة محفوظة. لا تتأثر الصور والمحادثات.",
+  "tavernDraftVersion": "الإصدار {n}",
+  "@tavernDraftVersion": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftVersionCurrent": "الحالي",
+  "tavernDraftRestore": "العودة إليه",
+  "tavernDraftRestoreTitle": "هل تريد العودة إلى الإصدار {n}؟",
+  "@tavernDraftRestoreTitle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRestoreBody": "سيُحفظ كإصدار جديد.",
+  "tavernDraftRestored": "العودة إلى الإصدار {n}",
+  "@tavernDraftRestored": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRestoreMoved": "تغيّر في هذه الأثناء؛ حاول مجددًا",
+  "tavernDraftPrompt": "المطالبة باستخدام المسودة",
+  "tavernDraftPromptSubtitle": "ما سيرسله الدور التالي مع التغييرات المحددة؛ لن يتم إرسال شيء",
+  "tavernDraftPromptFrom": "بعد أي محادثة",
+  "tavernDraftPromptFirst": "محادثة جديدة",
+  "tavernDraftPromptText": "السطر التالي (اختياري)",
+  "tavernDraftPromptTextHint": "ما الذي ستقوله",
+  "tavernDraftPromptShow": "عرض المطالبة",
+  "tavernDraftPromptComplete": "المطالبة",
+  "tavernDraftPromptUnsupported": "لا يمكن تركيب جزء من هذه البطاقة بأمانة في المعاينة",
+  "tavernDraftPromptNote": "لا تعمل سكربتات البطاقة في المعاينة.",
+  "tavernDraftUsagePartial": "المُبلّغ عنه: إدخال {prompt} · إخراج {completion} (لم تُبلغ بعض الطلبات عن شيء)",
+  "@tavernDraftUsagePartial": {
+    "placeholders": {
+      "prompt": {
+        "type": "String"
+      },
+      "completion": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftTrial": "تجربة",
+  "tavernDraftTrialSubtitle": "جرّب بضعة أسطر مع المسودة في محادثة مستقلة؛ لن تتأثر المحادثات الفعلية",
+  "tavernDraftTrialNote": "سيُرسل الطلب فعليًا إلى النموذج وستُحتسب تكلفته؛ بحد أقصى أربعة أسطر.",
+  "tavernDraftTrialLine": "السطر {n}",
+  "@tavernDraftTrialLine": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftTrialMore": "إضافة سطر",
+  "tavernDraftTrialPlay": "بدء",
+  "tavernDraftTrialRunning": "جارٍ التشغيل…",
+  "tavernDraftTrialDone": "اكتمل",
+  "tavernDraftTrialUnsupported": "لا يمكن تجربة هذه المسودة بعد",
+  "tavernImportFromDeepSeek": "نقل المحادثات من DeepSeek",
+  "tavernImportFromDeepSeekSubtitle": "اختر ملف ZIP الذي صدّرته من إعدادات DeepSeek",
+  "tavernDeepSeekTitle": "نقل المحادثات من DeepSeek",
+  "tavernDeepSeekFound": "تم العثور على {count} محادثات. حدّد المحادثات التي تريد متابعتها.",
+  "@tavernDeepSeekFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekMessages": "{count} رسائل",
+  "@tavernDeepSeekMessages": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekUntitled": "محادثة بلا عنوان",
+  "tavernDeepSeekAlready": "موجودة هنا بالفعل؛ اضغط لفتحها",
+  "tavernDeepSeekMore": "عرض المزيد (المتبقي {count})",
+  "@tavernDeepSeekMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekTake": "نقل ({count})",
+  "@tavernDeepSeekTake": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDeepSeekTaking": "جارٍ النقل…",
+  "tavernDeepSeekNotExport": "هذا ليس ملف تصدير محادثات DeepSeek",
+  "tavernDeepSeekNotExportMessage": "اختر ملف ZIP الذي يوفره DeepSeek عند تصدير جميع المحادثات",
+  "tavernDeepSeekFailed": "تعذّر نقلها؛ حاول مجددًا",
+  "tavernDeepSeekTaken": "تم نقل {count} محادثات؛ والبقية موجودة في قائمة المحادثات",
+  "@tavernDeepSeekTaken": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernIslandStoryWaiting": "جارٍ تحميل بيانات هذه الرسالة…",
+  "tavernIslandStoryFailed": "تعذّرت قراءة بيانات هذه الرسالة: {reason}",
+  "@tavernIslandStoryFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "stateWorkspaceFilesHint": "الملفات التي رُفعت إلى مساحة العمل الحالية:",
+  "stateRemoteUploadNameInvalid": "رفض المضيف اسم الملف. اختصره أو أزل الأحرف الخاصة ثم حاول مجدداً.",
+  "stateRemoteUploadWorkspaceUnavailable": "لا يحتوي هذا الحوار على مجلد عمل قابل للكتابة",
+  "stateRemoteUploadWorkspaceChanged": "تغيّر مجلد العمل. تحقّق منه قبل إعادة الرفع.",
+  "stateRemoteUploadLimit": "رفض المضيف عملية الرفع. تحقّق من حجم الملف أو حاول لاحقاً.",
+  "stateRemoteUploadUnsupported": "هذا المضيف لا يدعم رفع الملفات. حدّث إضافة Remote لديه ثم أعد الاتصال.",
+  "stateRemoteUploadTooLarge": "يتجاوز الملف الحد الأقصى للحجم المسموح به في بروتوكول الرفع عن بُعد"
+}

@@ -1,0 +1,59 @@
+{
+  "workshopInstalledEmptyTitle": "لا يوجد شيء من الورشة بعد",
+  "workshopInstalledEmptyMessage": "ستظهر هنا الحيوانات الأليفة والرفقاء الذين تحصل عليهم من «تصفّح».",
+  "workshopInstalledEmptyAction": "تصفّح",
+  "workshopInstalledLoadFailedTitle": "تعذّرت قراءة العناصر المثبّتة",
+  "workshopInstalledLoadStale": "تعذّرت إعادة القراءة من هذا الهاتف. نعرض آخر نتيجة.",
+  "workshopInstalledCatalogStale": "قد تكون معلومات التحديث والسحب غير محدّثة.",
+  "workshopInstalledCatalogUnknown": "معلومات التحديث والسحب غير متاحة حاليًا.",
+  "workshopInstalledStatusUpdate": "يتوفر تحديث",
+  "workshopInstalledStatusWithdrawn": "تم سحب هذا الإصدار",
+  "workshopInstalledStatusOtherOrigin": "من ورشة مختلفة",
+  "workshopInstalledStatusNotListed": "غير مدرج في الورشة حاليًا",
+  "workshopInstalledStatusCompanionOff": "عناصر الرفقاء متوقفة مؤقتًا",
+  "workshopInstalledStatusRewritten": "يختلف عن الإصدار نفسه في الورشة",
+  "workshopInstalledStatusRemoving": "جارٍ إلغاء التثبيت…",
+  "workshopInstalledStatusRemoveFailed": "تعذّر إلغاء التثبيت",
+  "workshopInstalledStatusRemoved": "تم إلغاء التثبيت",
+  "workshopInstalledIssueBroken": "هذه الحزمة تالفة",
+  "workshopInstalledIssueUnreadable": "تعذّرت قراءة هذه الحزمة",
+  "workshopInstalledIssueRecord": "سجل التثبيت غير متطابق",
+  "workshopInstalledIssueOther": "هناك مشكلة في هذا العنصر",
+  "workshopInstalledNoteBroken": "هذه الحزمة تالفة وقد لا تعمل.",
+  "workshopInstalledNoteUnreadable": "تعذّرت قراءة ملفات هذه الحزمة.",
+  "workshopInstalledNoteRecord": "سجل التثبيت الخاص بها غير متطابق.",
+  "workshopInstalledNoteOther": "هناك مشكلة في هذا العنصر، ولا يمكن قراءة المزيد.",
+  "workshopInstalledNoteUntrusted": "لا يمكن الوثوق بسجل التثبيت، لذا لا يمكن إلغاء تثبيته من هنا.",
+  "workshopInstalledNoteOtherOrigin": "هذا العنصر من ورشة مختلفة، لذا لا يمكن التحقق من تحديثاته هنا.",
+  "workshopInstalledNoteNotListed": "لا تعرضه الورشة حاليًا. النسخة الموجودة على هذا الهاتف لم تتأثر.",
+  "workshopInstalledNoteRewritten": "يحتوي الإصدار نفسه في الورشة على محتوى مختلف. لم تتغير النسخة الموجودة على هذا الهاتف.",
+  "workshopInstalledNoteMinApp": "يتطلب الإصدار الموجود الآن في الورشة تطبيقًا أحدث.",
+  "workshopInstalledNoteUnavailable": "لا يمكن تثبيت الإصدار الموجود الآن في الورشة حاليًا.",
+  "workshopInstalledNoteGone": "لم يعد هذا العنصر موجودًا على هذا الهاتف.",
+  "workshopInstalledNoteUnread": "يتعذّر قراءة سجلات التثبيت على هذا الهاتف حاليًا. هذه هي الحالة التي كانت عليها قبل لحظة.",
+  "workshopInstalledRemoveFailed": "تعذّر إلغاء التثبيت. {reason}",
+  "@workshopInstalledRemoveFailed": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledFactKind": "النوع",
+  "workshopInstalledFactId": "معرّف العنصر",
+  "workshopInstalledFactOrigin": "المصدر",
+  "workshopInstalledFactLocalId": "المعرّف المحلي",
+  "workshopInstalledRemoveTitle": "هل تريد إلغاء تثبيت «{title}»؟",
+  "@workshopInstalledRemoveTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "workshopInstalledRemoveMessage": "سيؤدي ذلك إلى حذف النسخة الموجودة على هذا الهاتف. لاستخدامها مجددًا، احصل عليها من الورشة مرة أخرى.",
+  "workshopInstalledRemoveNoReinstall": "لا تعرضها الورشة حاليًا، لذا قد لا تتمكن من استعادتها.",
+  "workshopInstalledRemovedRefreshIssue": "تم إلغاء التثبيت، لكن تعذّر تحديث القائمة. اسحب للأسفل لتحديثها.",
+  "workshopInstalledRemovedLocalIssue": "تم إلغاء التثبيت، لكن بعض المواضع لم تتحدّث. أعد فتح التطبيق لتحديثها.",
+  "workshopInstalledDismissFailure": "حسنًا"
+}

@@ -1,0 +1,16 @@
+{
+  "remoteWebTitle": "DSH Web",
+  "remoteWebOpening": "جارٍ فتح DSH Web…",
+  "remoteWebFailed": "تعذّر فتح DSH Web",
+  "remoteWebRefresh": "تحديث الصفحة الرئيسية",
+  "remoteWebBusy": "يستخدم عدد كبير جدًا من الأشخاص هذه الخدمة حاليًا. يُرجى المحاولة لاحقًا.",
+  "remoteWebPairingRequired": "انتهت صلاحية تفويض الاتصال. أعد الاتصال بالمضيف أو أعد إقرانه.",
+  "remoteWebHostNotReady": "صفحة الويب الخاصة بالمضيف غير جاهزة. شغّل DSH Web وحدّث إضافة Remote إلى الإصدار 0.6.6 أو أحدث.",
+  "remoteWebReconnect": "انقطع الاتصال. أعد الاتصال بالمضيف قبل إعادة الفتح.",
+  "remoteWebUnsafeUrl": "تعذّر التحقق من عنوان الويب. تم إيقاف الفتح. تحقّق من إعدادات المضيف.",
+  "remoteWebExchangeRejected": "فشل التحقق من الوصول. حاول مرة أخرى.",
+  "remoteWebSessionExpired": "انتهت صلاحية اتصال الويب. حاول مرة أخرى.",
+  "remoteWebPlatformUnavailable": "هذه المنصة لا تدعم مدخل الويب هذا بعد. استخدم واجهة التحكم عن بُعد الأصلية.",
+  "remoteWebTryAgain": "تعذّر فتح الصفحة مؤقتًا. تحقّق من اتصال المضيف وحاول مرة أخرى.",
+  "remoteWebUnavailable": "يتعذّر الفتح مؤقتًا. يُرجى المحاولة لاحقًا."
+}
