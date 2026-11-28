@@ -410,5 +410,48 @@
   "botsToolWorkingEdit": "جارٍ تعديل الملفات",
   "botsToolApprovalEdit": "يريد {name} تعديل الملفات",
   "botsToolWorkingSearch": "جارٍ البحث في الويب",
-  "botsToolApprovalSearch": "يريد {name} البحث في الويب"
+  "botsToolApprovalSearch": "يريد {name} البحث في الويب",
+  "botsToolWorkingBrowse": "جارٍ تصفح الويب",
+  "botsToolApprovalBrowse": "يريد {name} تصفح الويب",
+  "botsToolWorkingMessage": "جارٍ التواصل مع روبوتات أخرى",
+  "botsToolApprovalMessage": "يريد {name} التواصل مع روبوتات أخرى",
+  "botsToolWorkingGroup": "جارٍ الدردشة مع المجموعة",
+  "botsToolApprovalGroup": "يريد {name} الدردشة مع المجموعة",
+  "botsToolWorkingMemory": "جارٍ تنظيم الذكريات",
+  "botsToolApprovalMemory": "يريد {name} تنظيم الذكريات",
+  "botsToolWorkingRecall": "جارٍ مراجعة السجلات",
+  "botsToolApprovalRecall": "يريد {name} مراجعة السجلات",
+  "botsToolWorkingTeam": "جارٍ تنظيم الفريق",
+  "botsToolApprovalTeam": "يريد {name} تنظيم الفريق",
+  "botsToolWorkingAsk": "جارٍ التحضير لطرح سؤال عليك",
+  "botsToolApprovalAsk": "يريد {name} طرح سؤال عليك",
+  "botsToolWorkingWork": "جارٍ العمل",
+  "botsToolApprovalWork": "يريد {name} العمل",
+  "botsEveryone": "الجميع",
+  "botsActivelyRunning": "قيد التشغيل",
+  "botsListSeparator": "، ",
+  "botsNameSeparator": "، ",
+  "botsGlyphSubagent": "وكيل فرعي",
+  "botsGlyphWebSearch": "بحث في الويب",
+  "botsSenderPreview": "{name}: {preview}",
+  "botsAgentSemantics": "{title}، {state}",
+  "botsViewMetric": "{label}: {value}",
+  "botsEffortXhigh": "مرتفع جدًا",
+  "botsRelayLimit": "حد ترحيل الروبوتات",
+  "botsRelayLimitHint": "أوقف مؤقتًا بعد هذا العدد من استدعاءات Bot-to-Bot منذ رسالتك الأخيرة. أدخل عددًا صحيحًا من 1 إلى 200، أو اتركه فارغًا لاستخدام القيمة الافتراضية.",
+  "botsRelayLimitDefault": "الافتراضي: {count}",
+  "botsRelayLimitInvalid": "أدخل عددًا صحيحًا من 1 إلى 200.",
+  "botsRelayLimitRestore": "استعادة القيمة الافتراضية",
+  "botsRelayLimitConnectionChanged": "تغيّر الاتصال. أغلق هذه اللوحة وافتحها مجددًا.",
+  "@botsRelayLimitDefault": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "botsMobileUnsupportedTitle": "DS Bot غير متاح على الأجهزة المحمولة بعد",
+  "botsMobileApiRequired": "استخدمه في DSH Web حاليًا",
+  "botsMobileApiMissing": "غير متاح على الأجهزة المحمولة بعد. استخدمه في DSH Web حاليًا",
+  "botsCreationConnectionChanged": "تغيّر الاتصال. أعد فتح هذا النموذج لإنشاء الروبوت على المضيف الحالي."
 }
