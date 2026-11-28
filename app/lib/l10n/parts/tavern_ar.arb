@@ -1540,5 +1540,73 @@
   "tavernRegexPhaseWrite": "النص",
   "tavernRegexPhaseDisplay": "العرض",
   "tavernRegexPhasePrompt": "المطالبة",
-  "tavernRegexPhaseBoth": "كلاهما"
+  "tavernRegexPhaseBoth": "كلاهما",
+  "tavernRegexPhaseNote": "النص: يعيد كتابة الرسالة المحفوظة. العرض: يغيّر ما تراه فقط. المطالبة: يغيّر ما يُرسل إلى النموذج فقط.",
+  "tavernRegexMinDepth": "من العمق",
+  "tavernRegexMaxDepth": "إلى العمق",
+  "tavernRegexDepthHelp": "اتركه فارغًا ليشمل الكل؛ 0 تعني أحدث رسالة",
+  "tavernRegexSubstitute": "وحدات الماكرو في النمط",
+  "tavernRegexSubstituteNone": "اتركها كما هي",
+  "tavernRegexSubstituteRaw": "توسيع",
+  "tavernRegexSubstituteEscaped": "توسيع مع الهروب",
+  "tavernRegexRunOnEdit": "التطبيق أيضًا عند تعديل رسالة",
+  "tavernRegexFieldEnabled": "استخدام هذه القاعدة",
+  "tavernRegexSavedIncompatible": "تم الحفظ. لا يمكن تشغيل هذه القاعدة هنا، لذا سيتم تخطيها",
+  "tavernRegexGone": "لم تعد هذه القاعدة موجودة؛ عُد إلى القائمة",
+  "tavernRegexDeferred": "تستخدم وحدات ماكرو؛ ولا يُعرف ما إذا كانت ستعمل إلا عند التنفيذ",
+  "tavernRegexTryDraft": "تجربتها بالقيم المدخلة",
+  "tavernRegexDepthAny": "أي عمق",
+  "tavernCanvas": "مساحة رسم للصفحة بأكملها (تجريبي)",
+  "tavernCardScriptsHint": "{count, plural, =1{يتطلب سكربت البطاقة الواحد مساحة الرسم للصفحة بأكملها} other{تتطلب سكربتات البطاقة وعددها {count} مساحة الرسم للصفحة بأكملها}}",
+  "@tavernCardScriptsHint": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernCardScriptsHintAction": "تفعيل",
+  "tavernRender": "طريقة العرض",
+  "tavernRenderSubtitle": "محادثات هذه الشخصية فقط. تحتاج أشرطة الحالة والتنسيقات إلى صفحات أو مساحة الرسم؛ ولا تعمل السكربتات إلا في مساحة الرسم",
+  "tavernRenderText": "نص",
+  "tavernRenderIslands": "صفحات",
+  "tavernRenderCanvas": "مساحة الرسم",
+  "tavernCanvasSubtitle": "تُعرض المحادثة كاملة في صفحة ويب واحدة بتخطيط SillyTavern، لتسري تنسيقات ST الخاصة بالبطاقة عبر الرسائل. تعمل سكربتات البطاقة هنا؛ فعّل «عدم تشغيل سكربتات البطاقة في تلك الصفحات» لإيقافها. لا يُستخدم مع الرواية المرئية.",
+  "tavernCanvasReloaded": "أُعيد تحميل الصفحة",
+  "tavernLowPower": "صفحات موفرة للطاقة",
+  "tavernLowPowerSubtitle": "لا تستخدم صفحات ويب البطاقات تأثيرات ضبابية أو رسومًا متحركة متكررة، ليعمل الهاتف بسلاسة أكبر",
+  "tavernGroupSpeaking": "يتحدث {name}",
+  "@tavernGroupSpeaking": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupThen": "ثم {names}",
+  "@tavernGroupThen": {
+    "placeholders": {
+      "names": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGroupNoSpeakers": "لم يتحدث أحد في هذا الدور. اضغط على اسم أعلاه ليبدأ بالكلام.",
+  "tavernGroupSpeakNext": "دعهم يتابعون",
+  "tavernGroupNew": "محادثة جماعية جديدة",
+  "tavernGroupMembers": "المشاركون",
+  "tavernGroupMembersNote": "بحسب ترتيب الاختيار؛ ويكون الأول هو المضيف.",
+  "tavernGroupHost": "المضيف",
+  "tavernGroupTitle": "الاسم",
+  "tavernGroupActivation": "تناوب الأدوار",
+  "tavernGroupNatural": "طبيعي",
+  "tavernGroupListOrder": "حسب الترتيب",
+  "tavernGroupRandom": "عشوائي",
+  "tavernGroupManual": "يدوي",
+  "tavernGroupDirector": "المخرج",
+  "tavernGroupNaturalNote": "كما في SillyTavern: يتحدث أولًا من تتم الإشارة إليه، ثم البقية بحسب مدى ميل كل منهم للكلام.",
+  "tavernGroupListOrderNote": "ينتقل كل دور إلى الاسم التالي في القائمة من الأعلى (ويتم تخطي المكتومين).",
+  "tavernGroupRandomNote": "يُختار في كل دور مشارك لم يتحدث منذ آخر رسالة لك.",
+  "tavernGroupManualNote": "لا يتحدث أحد تلقائيًا؛ اضغط على اسم فوق حقل الكتابة ليبدأ بالكلام.",
+  "tavernGroupDirectorNote": "يختار المخرج المتحدث التالي وفقًا لسير القصة."
 }
