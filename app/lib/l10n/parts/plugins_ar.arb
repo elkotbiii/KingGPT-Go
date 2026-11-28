@@ -9,6 +9,13 @@
   "pluginsReloadRequested": "تم طلب إعادة تشغيل المحرك",
   "pluginsReloadChanged": "تغيّرت حالة المضيف أو الإضافة. حاول مجددًا.",
   "pluginsReloadFailed": "تعذرت إعادة تشغيل المحرك. تحقق من سجلاته.",
+  "@pluginsReloadConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
   "pluginsFile": "ملف",
   "pluginsChat": "محادثة",
   "pluginsImage": "صورة",
@@ -50,13 +57,6 @@
   "pluginsVersionMismatch": "الإصدار مختلف عن الإصدار المشترك",
   "pluginsCurrentVersion": "الإصدار الحالي",
   "pluginsNewVersion": "إصدار جديد",
-  "@pluginsReloadConfirm": {
-    "placeholders": {
-      "name": {
-        "type": "String"
-      }
-    }
-  },
   "pluginsAddedWith": "أُضيف مع «{title}»",
   "pluginsApplyAfterInstall": "يُطبّق بعد تثبيت الإضافات · {detail}",
   "pluginsSettingsReadFailed": "تعذرت قراءة إعدادات هذا المضيف",
@@ -362,5 +362,15 @@
   "pluginsLoadRunningCount": "{running} من أصل {total} مكونات قيد التشغيل",
   "pluginsLoadUnreported": "لم يتم الإبلاغ",
   "pluginsLoadNoRuntimeDetail": "لم يُرجع المضيف تفاصيل خطأ بيئة التشغيل. تحقق من سجلات المحرك لديه.",
-  "pluginsLoadRemoteLogs": "تحقق من سجلات المحرك على هذا المضيف."
+  "pluginsLoadRemoteLogs": "تحقق من سجلات المحرك على هذا المضيف.",
+  "@pluginsLoadRunningCount": {
+    "placeholders": {
+      "running": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  }
 }
