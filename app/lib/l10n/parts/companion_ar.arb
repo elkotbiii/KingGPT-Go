@@ -862,5 +862,133 @@
   },
   "companionCompareSuggestionsUnknown": "لم يتم تأكيد اقتراحات التدريب بعد. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
   "companionCompareSuggestionsMissing": "اقتراحات التدريب غير جاهزة. تم الاحتفاظ بالتغييرات النصية التي تم التحقق منها.",
-  "companionCompareParagraph": "الفقرة {range}"
+  "companionCompareParagraph": "الفقرة {range}",
+  "@companionCompareParagraph": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareBetween": "بين الفقرتين {before} و{after}",
+  "@companionCompareBetween": {
+    "placeholders": {
+      "before": {
+        "type": "String"
+      },
+      "after": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareAfter": "بعد الفقرة {number}",
+  "@companionCompareAfter": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareBefore": "قبل الفقرة {number}",
+  "@companionCompareBefore": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareLines": "بالقرب من السطر {range}",
+  "@companionCompareLines": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareCancel": "إيقاف المقارنة",
+  "companionCompareCancelSource": "إلغاء هذه المقارنة مع الاحتفاظ بأي نتيجة سبق إرجاعها.",
+  "companionCompareAmendSource": "تغيير هذه المقارنة: {deadline}؛ {exit}؛ {queue}؛ {inputs}. اترك الملفين الأصليين دون تغيير.",
+  "@companionCompareAmendSource": {
+    "placeholders": {
+      "deadline": {
+        "type": "String"
+      },
+      "exit": {
+        "type": "String"
+      },
+      "queue": {
+        "type": "String"
+      },
+      "inputs": {
+        "type": "String"
+      }
+    }
+  },
+  "companionCompareChooseAgain": "اختيار أ وب مجددًا",
+  "companionCompareKeepInputs": "الاحتفاظ بالملفين أ وب المحددين أصلًا",
+  "companionCompareNewDeadline": "يستخدم الموعد النهائي الجديد المنطقة الزمنية المحلية لهذا التغيير. اتركه فارغًا للاحتفاظ بالموعد الأصلي.",
+  "companionReceiptTitle": "جدول الإيصالات",
+  "companionReceiptSyntax": "يرجى تحديد أربعة إيصالات واسم جديد للمصنف، وما إذا كنت تريد المتابعة بعد مغادرتك. يمكنني إنشاء ملف جديد، وليس استبدال ملف موجود.",
+  "companionReceiptUnavailable": "لا يستطيع هذا الحاسوب إعداد جدول الإيصالات بعد.",
+  "companionReceiptConnect": "اتصل بالحاسوب الأصلي لاختيار الإيصالات الأربعة ومجلد الإخراج. لا يمكنني تخمين ملفات أصلية لم يسبق تحديدها.",
+  "companionReceiptWhich": "أي جدول تريد إيقافه؟ افتح تلك المهمة وألغها من هناك.",
+  "companionReceiptSaveFailed": "لم يتم تسليم هذا الطلب بنجاح. تم الاحتفاظ بكلماتك لمحاولة أخرى.",
+  "companionReceiptOriginalHost": "أعد الاتصال بالحاسوب الأصلي للمتابعة أو للتحقق من النتيجة.",
+  "companionReceiptNoInputs": "لم يتم اختيار الإيصالات الأربعة ومجلد الإخراج جميعها. لن يتم تسليم أي شيء بعد.",
+  "companionReceiptInput": "الإيصال {index}",
+  "@companionReceiptInput": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptSavedInput": "اختيار إيصال سبق تحديده للموضع {index}",
+  "@companionReceiptSavedInput": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptChooseDirectory": "أي مجلد يحتوي على الإيصال {index}؟",
+  "@companionReceiptChooseDirectory": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptFilename": "اسم ملف الإيصال {index}",
+  "@companionReceiptFilename": {
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptFormats": "يستطيع هذا الحاسوب قراءة {formats}، حتى 4 ميغابايت لكل ملف. أدخل اسم ملف داخل المجلد المحدد.",
+  "@companionReceiptFormats": {
+    "placeholders": {
+      "formats": {
+        "type": "String"
+      }
+    }
+  },
+  "companionReceiptSavedOutput": "أي مجلد محدد سابقًا تريد حفظ المصنف الجديد فيه؟",
+  "companionReceiptQueued": "تم الحفظ على الهاتف؛ ولم يُسلّم إلى الحاسوب بعد.",
+  "companionReceiptRunning": "قبل الحاسوب الطلب؛ ولا يوجد مصنف جاهز بعد.",
+  "companionReceiptDone": "أصبح المصنف الجديد جاهزًا، وتم التحقق من الحقول المطلوبة.",
+  "companionReceiptPartial": "أصبح المصنف الجديد جاهزًا، مع توضيح الحقول التي لم يتم التحقق منها داخله.",
+  "companionReceiptCancelled": "لن يتم تنفيذ أي عمل إضافي. وسيبقى أي مصنف كُتب بالفعل.",
+  "companionReceiptFailed": "تعذّر تسليم مصنف جديد. الملاحظات التي جُمعت بالفعل محفوظة أدناه.",
+  "companionReceiptWaiting": "تنتظر هذه المهمة ما يلزمها؛ المصنف غير جاهز.",
+  "companionReceiptUnknown": "لم يتضح بعد ما إذا كان المصنف قد كُتب. تحقق من المهمة الأصلية قبل إنشاء مهمة أخرى.",
+  "companionReceiptCancelUnknown": "تم حفظ طلب الإيقاف. لا يزال على الحاسوب الأصلي تأكيد ما إذا كان قد كُتب مصنف بالفعل.",
+  "companionReceiptNoFields": "لا تتوفر حاليًا حقول تم التحقق منها لهذه الإيصالات الأربعة لإدراجها في المصنف، لذا لم يتم إنشاء مصنف فارغ.",
+  "companionReceiptOutputExists": "يوجد ملف بهذا الاسم بالفعل. لم يتم استبداله؛ يمكنك اختيار اسم جديد.",
+  "companionReceiptDeadline": "انقضى الموعد النهائي المتفق عليه. لن يبدأ عمل جديد، ولا يزال بإمكانك التحقق من النتائج السابقة.",
+  "companionReceiptOriginalPending": "لم يتلقَّ الحاسوب الطلب الأصلي كاملًا، ولن يبدأ إعداد المصنف بعد.",
+  "companionReceiptReport": "حقول الإيصالات التي تم رصدها",
+  "companionReceiptPreviousReport": "ملاحظات الإيصالات السابقة"
 }
