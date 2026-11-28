@@ -1460,5 +1460,85 @@
   "tavernLoreLogicAndAny": "أيّ منها",
   "tavernLoreLogicAndAll": "كلّها",
   "tavernLoreLogicNotAny": "لا شيء منها",
-  "tavernLoreLogicNotAll": "ليس كلها"
+  "tavernLoreLogicNotAll": "ليس كلها",
+  "tavernLoreProbability": "الاحتمالية",
+  "tavernLoreCase": "حسّاس لحالة الأحرف",
+  "tavernLoreWhole": "كلمات كاملة",
+  "tavernLoreDefault": "الافتراضي",
+  "tavernLoreYes": "نعم",
+  "tavernLoreNo": "لا",
+  "tavernLorePosDepth": "عند العمق",
+  "tavernLibraryBookOpen": "الإدخالات",
+  "tavernLibraryBookNote": "تُكتب التغييرات في هذا الكتاب؛ وستستخدمها جميع المواضع المرتبطة به ابتداءً من الدور التالي.",
+  "tavernBranchDelete": "حذف هذا الفرع",
+  "tavernBranchDeleteTitle": "هل تريد حذف هذا الفرع؟",
+  "tavernBranchDeleteMessage": "ستُحذف رسائله البالغ عددها {count} وكل فرع نشأ منه؛ ويمكنك التراجع لبضع ثوانٍ. لن يتأثر المسار الحالي للقصة.",
+  "@tavernBranchDeleteMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernLetterFrom": "رسالة من {from}",
+  "@tavernLetterFrom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernLetter": "رسالة",
+  "tavernComponentMore": "عرض الكل",
+  "tavernComponentLess": "عرض أقل",
+  "tavernItemTaken": "تم الحصول عليه",
+  "tavernClue": "دليل",
+  "tavernPhoneFrom": "رسالة من {from}",
+  "@tavernPhoneFrom": {
+    "placeholders": {
+      "from": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPhoneMessage": "رسالة",
+  "tavernRollCheck": "اختبار: {skill}",
+  "@tavernRollCheck": {
+    "placeholders": {
+      "skill": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernRoll": "ارمِ",
+  "tavernRollSuccess": "نجاح",
+  "tavernRollFailure": "إخفاق",
+  "tavernGameHere": "توجد لعبة مصغّرة هنا؛ لكن لا يمكن لعبها هنا بعد",
+  "tavernCanvasReplied": "ردّ {name}",
+  "@tavernCanvasReplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernMvuIssues": "حدثت مشكلة في متغيرات هذه البطاقة",
+  "tavernMvuUnfinished": "لم يتم تحديث متغيرات هذه الرسالة بالكامل؛ وقد تم الاحتفاظ بنصها",
+  "tavernRegexEdit": "تعديل القاعدة",
+  "tavernRegexFieldName": "الاسم",
+  "tavernRegexFieldFindHelp": "تُكتب بالشكل /pattern/flags، مثال: /(hi|bye)/gi",
+  "tavernRegexFieldReplaceHelp": "يمثل $1 المجموعة الأولى؛ ويمثل {{match}} التطابق بالكامل",
+  "tavernRegexFieldTrim": "الاقتطاع أولًا",
+  "tavernRegexFieldTrimHelp": "عنصر واحد في كل سطر؛ يُحذف من التطابق قبل استبداله",
+  "tavernRegexPlacement": "يُطبّق على",
+  "tavernRegexPlaceUser": "رسائلك",
+  "tavernRegexPlaceAi": "الردود",
+  "tavernRegexPlaceSlash": "أوامر الشرطة المائلة",
+  "tavernRegexPlaceWorld": "معلومات العالم",
+  "tavernRegexPlaceReasoning": "التفكير",
+  "tavernRegexPhase": "التغييرات",
+  "tavernRegexPhaseWrite": "النص",
+  "tavernRegexPhaseDisplay": "العرض",
+  "tavernRegexPhasePrompt": "المطالبة",
+  "tavernRegexPhaseBoth": "كلاهما"
 }
