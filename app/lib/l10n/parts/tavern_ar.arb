@@ -1068,5 +1068,130 @@
   "tavernShelfSort": "ترتيب حسب",
   "tavernShelfOrderRecent": "الأحدث استخدامًا",
   "tavernShelfOrderName": "الاسم",
-  "tavernShelfOrderImported": "الأحدث استيرادًا"
+  "tavernShelfOrderImported": "الأحدث استيرادًا",
+  "tavernFavorite": "إضافة إلى المفضلة",
+  "tavernUnfavorite": "إزالة من المفضلة",
+  "tavernFavorited": "مفضّلة",
+  "tavernChatSearchHint": "البحث في المحادثات: الشخص أو العنوان أو آخر سطر",
+  "tavernNoChatMatch": "لا توجد محادثات مطابقة",
+  "tavernCharacterTabChats": "المحادثات",
+  "tavernCharacterTabCard": "البطاقة",
+  "tavernCharacterTabSetup": "الإعداد",
+  "tavernCharacterNoDefinition": "لا تحتوي هذه البطاقة على تعريف أو ملاحظات.",
+  "tavernNovelIndent": "إزاحة فقرات 小说",
+  "tavernNovelIndentSubtitle": "تبدأ كل فقرة بمسافة تعادل محرفين، كما في الكتب",
+  "tavernShelfSelect": "تحديد",
+  "tavernShelfPicked": "تم تحديد {count}",
+  "@tavernShelfPicked": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernShelfExport": "تصدير البطاقات المحددة",
+  "tavernDeleteCharactersTitle": "هل تريد حذف هذه الشخصيات وعددها {count}؟",
+  "@tavernDeleteCharactersTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernQuickRepliesAll": "الكل",
+  "tavernQuickRepliesManage": "إدارة الردود السريعة",
+  "tavernSpeakNext": "دع {name} يتابع",
+  "@tavernSpeakNext": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernSettingsConnection": "النموذج والاتصال",
+  "tavernDefaultPreset": "الإعداد المسبق الافتراضي",
+  "tavernDefaultPresetPick": "الإعداد المسبق الذي تستخدمه المحادثات الجديدة",
+  "tavernGenerationInPreset": "تغيير إعدادات {name}",
+  "@tavernGenerationInPreset": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernGenerationPresetNote": "تستخدم المحادثات الجديدة {name}: غيّر السياق وطول الرد ودرجة الحرارة في ذلك الإعداد المسبق. أما المحادثة التي لها إعداد مسبق خاص بها فستحتفظ به.",
+  "@tavernGenerationPresetNote": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStorage": "التخزين",
+  "tavernStorageCounting": "جارٍ الحساب…",
+  "tavernStorageCharacters": "بطاقات الشخصيات",
+  "tavernStorageChats": "المحادثات والإعدادات المسبقة والشخصيات التي تمثّلك",
+  "tavernStorageLive2d": "شخصيات Live2D",
+  "tavernStorageOther": "الخلفيات وكتب المعلومات والتعبيرات النمطية والإعدادات",
+  "tavernStorageNote": "كل ذلك محفوظ على هذا الجهاز فقط؛ قبل تغيير الهاتف أو إلغاء التثبيت، أنشئ نسخة احتياطية كاملة من Tavern.",
+  "tavernDefaultPresetEmpty": "استورد إعدادات مسبقة من المكتبة ← الإعدادات المسبقة لاختيار إعداد آخر.",
+  "tavernQuickRepliesAdded": "{count, plural, =1{تمت إضافة رد سريع واحد} other{تمت إضافة {count} ردود سريعة}}",
+  "@tavernQuickRepliesAdded": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernQuickRepliesAddedSkipped": "تمت إضافة {count} ردود سريعة؛ واستُبعد {skipped} من أوامر ST ذات الشرطة المائلة",
+  "@tavernQuickRepliesAddedSkipped": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "skipped": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernImportChatNoName": "لا تحدد هذه المحادثة الشخصية التي تخصها؛ استوردها من صفحة الشخصية",
+  "tavernImportChatNoCharacter": "لا توجد شخصية واحدة باسم «{name}» على الرف؛ استورد هذه المحادثة من صفحة الشخصية",
+  "@tavernImportChatNoCharacter": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportedChatsTo": "{count, plural, =1{تم استيراد محادثة واحدة إلى «{name}»} other{تم استيراد {count} محادثات إلى «{name}»}}",
+  "@tavernImportedChatsTo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportUnknown": "تعذّر تحديد نوع {name}",
+  "@tavernImportUnknown": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernImportFileFailed": "تعذّر استيراد {name}: {reason}",
+  "@tavernImportFileFailed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernIslands": "صفحات ويب داخل الرسائل"
 }
