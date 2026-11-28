@@ -1,0 +1,25 @@
+{
+  "voiceScribeReadFailed": "تعذّرت قراءة إعدادات الصوت. حاول مجددًا.",
+  "voiceScribeSavedReadFailed": "تم الحفظ. حدّث الصفحة لرؤية أحدث الإعدادات.",
+  "voiceScribeSaveUnconfirmed": "تعذّر تأكيد الحفظ. حدّث الصفحة أو حاول مجددًا.",
+  "voiceScribeTitle": "إعدادات الصوت",
+  "voiceScribePolishPrompt": "تحسين المطالبة",
+  "voiceScribeLanguage": "لغة التعرّف",
+  "voiceScribeRefresh": "تحديث",
+  "voiceScribeHostChanged": "تغيّر الاتصال. أعد الفتح للمتابعة.",
+  "voiceScribeUnsupported": "إعدادات الصوت غير متاحة عبر هذا الاتصال.",
+  "voiceScribePluginDefault": "الافتراضي",
+  "voiceScribeBuiltInPrompt": "المطالبة المضمّنة",
+  "voiceScribeProviders": "خدمات التعرّف",
+  "voiceScribeKeySet": "تم تعيين المفتاح",
+  "voiceScribeNoKey": "لا يوجد مفتاح",
+  "voiceScribeHotwords": "الكلمات المفتاحية",
+  "voiceScribeHotwordRules": "{count, plural, =1{قاعدة واحدة} other{{count} قواعد}}",
+  "@voiceScribeHotwordRules": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
