@@ -2018,5 +2018,112 @@
   "tavernDraftBefore": "قبل",
   "tavernDraftAfter": "بعد",
   "tavernDraftAbsent": "(لا شيء)",
-  "tavernDraftRemoved": "تمت الإزالة"
+  "tavernDraftRemoved": "تمت الإزالة",
+  "tavernDraftAppliedChange": "تم التطبيق",
+  "tavernDraftDependsOn": "مرتبط بـ {n} تغييرات سابقة",
+  "@tavernDraftDependsOn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRemoveChange": "إزالة هذا التغيير من المسودة",
+  "tavernDraftApply": "تطبيق {n}",
+  "@tavernDraftApply": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftSaveNew": "حفظ كجديد",
+  "tavernDraftSavedNew": "تم الحفظ كجديد",
+  "tavernDraftChecked": "تم الفحص: لم يُعثر على شيء",
+  "tavernDraftCannotApply": "يمكن معاينة مسودات التعبيرات النمطية والإعدادات المسبقة، لكن لا يمكن تطبيقها بعد",
+  "tavernDraftApplied": "تم التطبيق على {name}",
+  "@tavernDraftApplied": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftNoChange": "مطابق للوضع الحالي: لا شيء لتغييره",
+  "tavernDraftNotApplied": "لم يتم التطبيق: {reason}",
+  "@tavernDraftNotApplied": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftUnconfirmed": "لم يتم تأكيد الحفظ بعد. لا تكرره؛ تحقّق من السجل بعد قليل.",
+  "tavernDraftApplyUnknown": "لا توجد إجابة ({reason})؛ الضغط مجددًا يواصل العملية نفسها",
+  "@tavernDraftApplyUnknown": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftBehind": "تغيّر {name} بعد بدء هذه المسودة (ربما للتو نتيجة التطبيق). تابع انطلاقًا منه وراجع التغييرات مجددًا.",
+  "@tavernDraftBehind": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernDraftCatchUp": "المتابعة من الوضع الحالي",
+  "tavernDraftChangedMeanwhile": "تغيّرت المسودة في هذه الأثناء؛ تمت إعادة تحميلها",
+  "tavernDraftPending": "لم يتم تأكيد عملية الحفظ الأخيرة؛ ولا يمكن تطبيقها مجددًا بعد",
+  "tavernDraftDelete": "حذف المسودة",
+  "tavernDraftDeleteTitle": "هل تريد حذف هذه المسودة؟",
+  "tavernDraftDeleteBody": "سيتم حذف المسودة فقط؛ أما ما تم تطبيقه فسيبقى.",
+  "tavernDraftAskHint": "ما الذي تريد تغييره؟ مثال: تحية أكثر هدوءًا",
+  "tavernDraftAiSend": "اسأل الذكاء الاصطناعي",
+  "tavernDraftAiStop": "إيقاف",
+  "tavernDraftAiTitle": "الذكاء الاصطناعي",
+  "tavernDraftAiRunning": "جارٍ العمل…",
+  "tavernDraftAiDone": "اكتمل: التغييرات أعلاه؛ اختر ما تريد تطبيقه",
+  "tavernDraftAiStopped": "تم الإيقاف",
+  "tavernDraftAiConflict": "تغيّرت المسودة في هذه الأثناء؛ توقف الذكاء الاصطناعي",
+  "tavernDraftAiBudget": "تم استخدام أربعة طلبات؛ توقف هنا",
+  "tavernDraftAiFailed": "حدث خطأ ما",
+  "tavernDraftAiInterrupted": "تمت المقاطعة (أُغلق التطبيق)",
+  "tavernDraftEarlier": "طُلب سابقًا",
+  "tavernDraftRunReceipts": "{changes} تعديلات · {requests} طلبات",
+  "@tavernDraftRunReceipts": {
+    "placeholders": {
+      "changes": {
+        "type": "int"
+      },
+      "requests": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftHistory": "الإصدارات",
+  "tavernDraftHistoryEmpty": "لم يتم تسجيل أي إصدارات بعد",
+  "tavernDraftHistoryNote": "تؤدي العودة إلى حفظ نسخة جديدة؛ وتظل الإصدارات اللاحقة محفوظة. لا تتأثر الصور والمحادثات.",
+  "tavernDraftVersion": "الإصدار {n}",
+  "@tavernDraftVersion": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftVersionCurrent": "الحالي",
+  "tavernDraftRestore": "العودة إليه",
+  "tavernDraftRestoreTitle": "هل تريد العودة إلى الإصدار {n}؟",
+  "@tavernDraftRestoreTitle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernDraftRestoreBody": "سيُحفظ كإصدار جديد."
 }
