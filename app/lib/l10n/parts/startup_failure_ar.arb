@@ -1,0 +1,13 @@
+{
+  "phoneStartupFailureStopping": "فشل بدء التشغيل؛ جارٍ الإيقاف",
+  "phoneStartupFailureStoppingDetail": "فشل بدء التشغيل؛ جارٍ الإيقاف. {reason}",
+  "@phoneStartupFailureStoppingDetail": {
+    "placeholders": {
+      "reason": {
+        "type": "String"
+      }
+    }
+  },
+  "phoneStartupTokenTimeout": "انتهت مهلة بدء التشغيل: لم يصل رمز بدء التشغيل خلال 180 ثانية. تحقّق من السجلات.",
+  "phoneStartupPortNotReady": "وصل رمز بدء التشغيل، لكن منفذ الخدمة المحلية لم يصبح جاهزًا. تحقّق من السجلات."
+}
