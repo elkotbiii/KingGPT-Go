@@ -1368,5 +1368,97 @@
       }
     }
   },
-  "tavernInspectCache": "ذاكرة التخزين المؤقت"
+  "tavernInspectCache": "ذاكرة التخزين المؤقت",
+  "tavernInspectCacheKept": "نقطة البداية نفسها كما في الدور السابق",
+  "tavernInspectCacheBroken": "تغيّر ابتداءً من الجزء {index}",
+  "@tavernInspectCacheBroken": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCacheMiss": "هذا الجزء ونحو {tokens} رمزًا بعده غير موجودة في ذاكرة التخزين المؤقت؛ أما الأجزاء السابقة فتطابق الدور الأخير. غالبًا ما يكون السبب تغيّر إدخال في كتاب المعلومات بالقرب من البداية في هذا الدور.",
+  "@tavernInspectCacheMiss": {
+    "placeholders": {
+      "tokens": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernInspectCacheBreak": "تنقطع ذاكرة التخزين المؤقت هنا",
+  "tavernPaletteSt": "ST",
+  "tavernStTheme": "مظهر ST: {name}",
+  "@tavernStTheme": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStThemeNote": "عند اختيار ألوان «ST»، تستخدم الاقتباسات و*الأفعال* ألوانه؛ وتُعدّل الألوان الخافتة جدًا حتى تصبح مقروءة هنا.",
+  "tavernStThemeImport": "استيراد مظهر ST",
+  "tavernStThemeImportNote": "يستورد ألوان الاقتباسات والمائل وCSS المخصص من ملف مظهر مُصدّر من SillyTavern.",
+  "tavernStThemeCss": "استخدام CSS المخصص الخاص به",
+  "tavernStThemeCssSubtitle": "عند اختيار ألوان «ST»، يُطبّق على مساحة القصة بأكملها ويتجاوز المظهر الافتراضي كما في ST. أوقفه إذا اختل تخطيط الصفحة؛ وستبقى الألوان.",
+  "tavernStThemeRemove": "إزالة",
+  "tavernStThemeImported": "يُستخدم الآن مظهر الألوان الخاص بـ ST «{name}»",
+  "@tavernStThemeImported": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernStThemeNoColors": "لا يحتوي «{name}» على ألوان اقتباسات أو مائل أو CSS مخصص يمكن استخدامه",
+  "@tavernStThemeNoColors": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tavernPromptContent": "المحتوى",
+  "tavernPromptRole": "يُرسل بصفة",
+  "tavernPromptRoleSystem": "النظام",
+  "tavernPromptRoleUser": "المستخدم",
+  "tavernPromptRoleAssistant": "المساعد",
+  "tavernPromptPosition": "الموضع",
+  "tavernPromptRelative": "حسب الترتيب",
+  "tavernPromptInChat": "داخل المحادثة",
+  "tavernPromptDepth": "العمق",
+  "tavernPromptDepthNote": "يُضاف إلى سجل المحادثة قبل النهاية بـ {depth} رسائل (0 تعني النهاية تمامًا)، مثل خيار In-Chat في ST.",
+  "@tavernPromptDepthNote": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPromptRelativeNote": "يُرسل في الموضع الذي يحدده ترتيب الإعداد المسبق، مثل خيار Relative في ST.",
+  "tavernPromptPlace": "داخل المحادثة · العمق {depth}",
+  "@tavernPromptPlace": {
+    "placeholders": {
+      "depth": {
+        "type": "int"
+      }
+    }
+  },
+  "tavernPromptOrder": "الترتيب عند هذا العمق",
+  "tavernPromptOrderNote": "عندما توجد عدة عناصر في عمق واحد، يأتي الرقم الأصغر أولًا (100 افتراضيًا).",
+  "tavernPromptForbid": "منع البطاقة من استبداله",
+  "tavernPromptForbidMain": "لن تستبدل مطالبة النظام الخاصة بالبطاقة هذه المطالبة.",
+  "tavernPromptForbidJailbreak": "لن تستبدل تعليمات ما بعد سجل المحادثة الخاصة بالبطاقة هذه المطالبة.",
+  "tavernLoreCommon": "عام",
+  "tavernLoreMore": "المزيد",
+  "tavernLorePosAnTop": "قبل ملاحظة المؤلف",
+  "tavernLorePosAnBottom": "بعد ملاحظة المؤلف",
+  "tavernLorePosExampleTop": "قبل الأمثلة",
+  "tavernLorePosExampleBottom": "بعد الأمثلة",
+  "tavernLorePosOutlet": "المخرج",
+  "tavernLoreLogic": "طريقة احتساب المفاتيح الثانوية",
+  "tavernLoreLogicAndAny": "أيّ منها",
+  "tavernLoreLogicAndAll": "كلّها",
+  "tavernLoreLogicNotAny": "لا شيء منها",
+  "tavernLoreLogicNotAll": "ليس كلها"
 }
