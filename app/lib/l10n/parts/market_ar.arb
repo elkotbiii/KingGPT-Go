@@ -1,0 +1,107 @@
+{
+  "marketSectionOfficial": "رسمي",
+  "marketSectionAdapted": "مُعدّ لـ DSH Go",
+  "marketSectionAll": "الكل",
+  "marketSectionLoading": "جارٍ التحميل…",
+  "marketSectionFailed": "تعذّر تحميل الفهرس الرسمي",
+  "marketSectionEmpty": "لا شيء بعد",
+  "marketTierOfficial": "رسمي",
+  "marketTierAdapted": "مُعدّ لـ DSH Go",
+  "marketRiskMedium": "مخاطر متوسطة",
+  "marketRiskHigh": "مخاطر مرتفعة",
+  "marketFlagInstallScripts": "يشغّل نصوص التثبيت",
+  "marketFlagInstallScriptsBody": "يشغّل النصوص البرمجية الخاصة بالحزمة أثناء التثبيت (preinstall أو install أو postinstall)",
+  "marketFlagNativeCode": "تعليمة برمجية أصلية",
+  "marketFlagNativeCodeBody": "يتضمن تعليمات برمجية أصلية مُجمّعة (.node أو binding.gyp أو ملفات ثنائية) لا يمكن قراءتها كمصدر",
+  "marketFlagShell": "يشغّل أوامر",
+  "marketFlagShellBody": "تشغّل تعليماته البرمجية أوامر النظام (child_process)",
+  "marketFlagNetwork": "الوصول إلى الشبكة",
+  "marketFlagNetworkBody": "تُجري تعليماته البرمجية طلبات شبكية (fetch أو http أو WebSocket)",
+  "marketFlagFilesystem": "يكتب خارج مساحة العمل",
+  "marketFlagFilesystemBody": "يكتب إلى مسارات خارج مساحة العمل",
+  "marketFlagObfuscated": "يصعب مراجعته",
+  "marketFlagObfuscatedBody": "يحتوي على ملفات كبيرة ومصغّرة أو مبهمة، مما يصعّب معرفة ما تفعله",
+  "marketFlagNotAdapted": "غير مُعدّ لـ DSH Go",
+  "marketFlagNotAdaptedBody": "لا يعلن عن بروتوكول DSH Go أصلي، لذا لا تتوفر له شاشات أصلية داخل التطبيق",
+  "marketFlagOtherBody": "سمة أخرى رصدتها الفحوصات التلقائية",
+  "marketChecksTitle": "الفحوصات التلقائية",
+  "marketChecksClean": "لم يُعثر على سمات تنطوي على مخاطر",
+  "marketChecksNote": "السمات التي رصدتها الفحوصات التلقائية؛ لا تعني بالضرورة أن الإضافة ضارة",
+  "marketCheckedOn": "تم التحقق في {date}",
+  "@marketCheckedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "marketScreenshot": "لقطة شاشة {index}",
+  "@marketScreenshot": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "marketRiskConfirmTitle": "تتضمن {name} سمات تنطوي على مخاطر",
+  "@marketRiskConfirmTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "marketRiskConfirmAction": "التثبيت على أي حال",
+  "marketPinnedVersion": "الإصدار المثبّت",
+  "marketRequiresApp": "يتطلب DSH Go",
+  "marketNeedsApp": "يتطلب DSH Go بالإصدار {version} أو أحدث",
+  "@marketNeedsApp": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "marketUpdateAvailable": "يتوفر تحديث",
+  "marketBlockedTitle": "تم سحب هذا الإصدار",
+  "marketBlockedMessage": "تم سحب الإصدار المثبّت {version} من سوق الإضافات. يُوصى بإلغاء تثبيته.",
+  "@marketBlockedMessage": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "marketBlockedRow": "إصدار مسحوب: يُوصى بإلغاء التثبيت",
+  "marketBlockedBadge": "مسحوب",
+  "marketVerifying": "جارٍ التحقق من الإصدار…",
+  "marketMismatchTitle": "فشل التحقق من الإصدار",
+  "marketMismatchMessage": "الحزمة {version} على npm ليست الحزمة التي فحصها سوق الإضافات. لم يتم تثبيت أي شيء.",
+  "@marketMismatchMessage": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "marketSubmit": "إرسال إضافة",
+  "marketSubmitHint": "على GitHub؛ ستُدرج بعد اجتياز الفحوصات التلقائية",
+  "marketLinkNotFound": "لا توجد {name} في سوق الإضافات",
+  "@marketLinkNotFound": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "marketVerificationUnavailableTitle": "تعذّر التحقق من الإصدار",
+  "marketVerificationUnavailableBody": "لم يُرجع npm معلومات السلامة والنزاهة. لم يبدأ التثبيت. تحقق من اتصالك وحاول مجددًا.",
+  "marketCombinedCount": "{count} إضافة",
+  "@marketCombinedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  }
+}
