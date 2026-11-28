@@ -95,20 +95,6 @@
       }
     }
   },
-  "@workshopErrorWithCode": {
-    "placeholders": {
-      "code": {
-        "type": "String"
-      }
-    }
-  },
-  "@workshopErrorPackage": {
-    "placeholders": {
-      "code": {
-        "type": "String"
-      }
-    }
-  },
   "workshopReplaceConfirm": "استبدال",
   "workshopReport": "إبلاغ",
   "workshopErrorNetwork": "لا يوجد اتصال. حاول مجددًا لاحقًا.",
@@ -141,7 +127,21 @@
   "workshopErrorUnknownResult": "ليس واضحًا ما إذا كانت العملية قد تمت. حدّث الصفحة وتحقق قبل المحاولة مجددًا.",
   "workshopErrorGeneric": "لم تنجح العملية. حاول مجددًا لاحقًا.",
   "workshopErrorWithCode": "لم تنجح العملية. حاول مجددًا لاحقًا. ({code})",
+  "@workshopErrorWithCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
   "workshopErrorPackage": "أحد ملفات هذه الحزمة لا يستوفي المتطلبات، لذا لا يمكن تحميلها ({code}).",
+  "@workshopErrorPackage": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
   "workshopDisclosureTitle": "السماح للورشة بتأكيد هويتك عبر GitHub",
   "workshopDisclosureLead": "لإرسال مشاركاتك أو إدارتها أو الإبلاغ عن شيء، تحتاج الورشة إلى معرفة هويتك. لمعرفة ذلك، يُرسل اعتماد تسجيل دخولك إلى GitHub إلى خدمة الورشة أدناه، التي تسأل GitHub عن الحساب المرتبط به.",
   "workshopDisclosureWorker": "الورشة التي تستقبل بيانات الاعتماد",
