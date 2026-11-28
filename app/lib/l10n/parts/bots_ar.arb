@@ -148,5 +148,67 @@
   "botsMentionMember": "الإشارة إلى عضو",
   "botsRelayUnavailable": "الروبوتات غير متاحة عبر Relay",
   "botsUseSsh": "اتصل بهذا الحاسوب عبر SSH لاستخدام الروبوتات",
-  "botsTeamLoadFailed": "تعذّر تحميل فريق الروبوتات"
+  "botsTeamLoadFailed": "تعذّر تحميل فريق الروبوتات",
+  "botsBotCount": "{count, plural, =1{روبوت واحد} other{{count} روبوتات}}",
+  "botsRoomCount": "{count, plural, =1{محادثة جماعية واحدة} other{{count} محادثات جماعية}}",
+  "botsNewBot": "روبوت جديد",
+  "botsGroupChat": "محادثة جماعية",
+  "botsNewGroup": "مجموعة جديدة",
+  "botsDuplicateCreated": "تم النسخ. سيظهر في القائمة بعد قليل.",
+  "botsDuplicate": "استنساخ الروبوت",
+  "botsDuplicateHint": "الإعدادات نفسها، مع محادثة وذاكرة جديدتين",
+  "botsDuplicateNamed": "هل تريد استنساخ {name}؟",
+  "botsDuplicateBody": "يحتفظ الروبوت الجديد بمهمته وتعليماته وإعدادات النموذج، ويبدأ بمحادثة وذاكرة شخصية جديدتين، ويحصل على اسمه من المضيف. وعند توفر نموذج، يفتح بتحية.",
+  "@botsDuplicateNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "botsChooseModelStart": "اختر نموذجًا للبدء",
+  "botsNoChats": "لا توجد محادثات بعد",
+  "botsUnreadCount": "{count, plural, =1{غير مقروءة واحدة} other{{count} غير مقروءة}}",
+  "botsMainTag": "رئيسي",
+  "botsMemberNeedsApproval": "أحد الأعضاء يحتاج إلى موافقة",
+  "botsNamedWorking": "{name} يعمل",
+  "botsNamesWorking": "{names} يعملون",
+  "botsMemberCount": "{count, plural, =1{عضو واحد} other{{count} أعضاء}}",
+  "botsUpdateRequired": "يحتاج DS Bot إلى تحديث",
+  "botsInstall": "تثبيت DS Bot",
+  "botsUpdateForPhone": "حدّثه لاستخدامه على هاتفك",
+  "botsInstallDescription": "روبوتات تعمل دائمًا، لكل منها ذاكرتها ودورها الخاص",
+  "botsInstallOnHost": "ثبّته على {host} للبدء",
+  "botsRunsOnHost": "يعمل على {host}",
+  "botsInstalling": "جارٍ التثبيت",
+  "botsMemory": "الذاكرة",
+  "botsEditMemory": "تعديل الذاكرة",
+  "botsAddMemory": "إضافة ذاكرة",
+  "botsMemoryReplyExample": "مثال: اجعل الردود قصيرة",
+  "botsMemoryDraftExample": "مثال: المسودة الأولى بحلول يوم الجمعة",
+  "botsMemoryCount": "{count, plural, =1{الذاكرة · 1} other{الذاكرة · {count}}}",
+  "botsMemoryReadFailed": "تعذّر تحميل الذكريات",
+  "botsSummary": "الملخص",
+  "botsNoMemory": "لا توجد ذكريات بعد",
+  "botsTeam": "الفريق",
+  "botsSelf": "الذات",
+  "botsWrittenByYou": "كتبتها أنت",
+  "botsNameRequired": "أدخل اسمًا",
+  "botsRoleHint": "ما الذي يفعله، في جملة واحدة",
+  "botsNewInstructionsHint": "كيف ينبغي أن يعمل وما الذي يجب مراعاته",
+  "botsAppearance": "المظهر",
+  "botsCreating": "جارٍ الإنشاء",
+  "botsGroupNameOptional": "اسم المجموعة (اختياري)",
+  "botsMembersSelected": "{count, plural, =1{الأعضاء · تم اختيار عضو واحد} other{الأعضاء · تم اختيار {count}}}",
+  "botsPickTwoBots": "اختر روبوتين على الأقل",
+  "botsFullText": "النص الكامل",
+  "botsTextPartial": "عرض أول {count} حرفًا",
+  "@botsTextPartial": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "botsTextCompletenessUnknown": "تعذّر التأكد من أن هذا هو النص الكامل"
 }
