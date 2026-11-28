@@ -148,5 +148,39 @@
   "hubAboutAuthor": "المؤلف الأصلي لـ DSH Go",
   "hubAboutBilibili": "ملف Bilibili",
   "hubAboutX": "ملف X",
-  "hubAboutGithub": "ملف GitHub"
+  "hubAboutGithub": "ملف GitHub",
+  "hubAboutNewVersion": "يتوفر تحديث",
+  "hubValueSet": "مُعيّن",
+  "hubValueOff": "متوقف",
+  "hubValueOneStep": "خطوة واحدة متبقية",
+  "hubValueAllowed": "مسموح",
+  "hubValueNeedsSetup": "يتطلب الإعداد",
+  "hubValueHosts": "{count, plural, =1{مضيف واحد} other{{count} مضيفون}}",
+  "@hubValueHosts": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubValueNoHosts": "لا يوجد",
+  "hubValuePlugins": "{count, plural, =1{إضافة واحدة} other{{count} إضافات}}",
+  "@hubValuePlugins": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hubEngineStartup": "بدء التشغيل",
+  "hubThemeLightDark": "فاتح وداكن",
+  "hubPermissionPhone": "الهاتف",
+  "hubPermissionPhoneConfirm": "تأكيد التحكم بالهاتف",
+  "hubHardwareEnterSends": "الإرسال باستخدام مفتاح Enter الفعلي",
+  "hubHardwareEnterSendsHint": "عند التفعيل، يُدرج Shift+Enter سطرًا جديدًا. يحتفظُ بلوح المفاتيح على الشاشة بالأسطر الجديدة؛ أما Ctrl/⌘+Enter فيُرسل دائمًا.",
+  "hubQuickPanel": "اختصارات السحب إلى اليسار",
+  "hubQuickPanelSwipe": "الفتح بالسحب إلى اليسار",
+  "hubQuickPanelSwipeHint": "اسحب من اليمين إلى اليسار فوق المحادثة. لا يتأثر بذلك المحتوى الذي يُمرّر أفقيًا، مثل كتل الشيفرة والجداول وغيرها.",
+  "hubQuickPanelItems": "المحتويات المعروضة",
+  "hubQuickPanelItemsNone": "لم يتم اختيار أي شيء: لن تفتحها حركة السحب إلى اليسار"
 }
